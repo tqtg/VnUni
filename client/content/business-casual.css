@@ -84,6 +84,8 @@ hr {
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,255,0.9);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 .intro-text {
