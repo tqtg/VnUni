@@ -1,0 +1,126 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Welcome to VietNam University Website!</title>
+	<link rel="stylesheet" type="text/css" href="content/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="content/business-casual.css">
+</head>
+
+
+<body>
+	<div class="container-fluid">
+		<div class="row" id="SearchBox">
+			<div class="col-md-4 col-md-offset-4">
+				<form role="search" style="margin-top: 20px">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search">
+						<div class="input-group-btn">
+							<button type="submit" class="btn btn-default">
+								<span class="glyphicon glyphicon-search" style="height:20px;"></span>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div id="Map" class="col-md-6 col-md-offset-1" style="margin-top:px">
+				<div class="box">
+					<div class="row">
+						<img class="img-left" style="max-width: 40%"  src="content/Vietnam_Map.png">
+
+					</div>
+				</div>
+			</div>
+
+			<!--Filter Board-->
+			<div id="Filter" class="col-md-4">
+	            <div class="box">
+	                <hr>
+                    <h2 class="intro-text text-center">Hệ Thống Lọc</h2>
+                    <hr>
+					<form id="FilterForm" method="post" class="form-horizontal">
+						<div class="form-group">
+							<label class="col-md-4 control-label">Ngành</label>
+							<div class="col-md-6 selectContainer">
+								<select name="Nganh" class="form-control">
+									<option value="black">Black</option>
+									<option value="blue">Blue</option>
+									<option value="green">Green</option>
+									<option value="orange">Orange</option>
+									<option value="red">Red</option>
+									<option value="yellow">Yellow</option>
+									<option value="white">White</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-4 control-label">Khối thi</label>
+							<div class="col-md-6 selectContainer">
+								<select name="Khoi" class="form-control">
+									<option value="arabic">Arabic</option>
+									<option value="english">English</option>
+									<option value="french">French</option>
+									<option value="german">German</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-4 control-label">Điểm chuẩn</label>
+							<div class="col-md-6 selectContainer">
+								<select name="DiemChuan" class="form-control">
+									<option value="arabic">Arabic</option>
+									<option value="english">English</option>
+									<option value="french">French</option>
+									<option value="german">German</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-4 control-label">Vùng</label>
+							<div class="col-md-6 selectContainer">
+								<select name="Vung" class="form-control">
+									<option value="arabic">Arabic</option>
+									<option value="english">English</option>
+									<option value="french">French</option>
+									<option value="german">German</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-md-4 control-label">Thành phố</label>
+							<div class="col-md-6 selectContainer">
+								<select name="ThanhPho" class="form-control">
+									<option value="arabic">Arabic</option>
+									<option value="english">English</option>
+									<option value="french">French</option>
+									<option value="german">German</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-md-5 col-md-offset-7">
+								<button type="submit" class="btn btn-default">Filter!</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="content/js/jquery.min.js"></script>
+	<script src="content/js/bootstrap.js"></script>
+</body>
+</html>
+
