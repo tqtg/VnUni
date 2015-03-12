@@ -5,6 +5,8 @@
  */
 @font-face { font-family: UVNBaiSau_nh; src: url('fonts/UVNBaiSau_nh.TTF'); } 
 @font-face { font-family: UVNBaiSau_r; src: url('fonts/UVNBaiSau_r.TTF'); } 
+@font-face { font-family: "Open Sans"; src: url('fonts/OpenSans-Regular.ttf'); } 
+
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
