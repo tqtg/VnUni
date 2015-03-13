@@ -1,6 +1,6 @@
 # VnUni
 
-This is a website for student to get recruitment information of universities in Vietnam
+This is a website for students to get recruitment information of universities in Vietnam
 
 ## Installation
 1. Download the repository
