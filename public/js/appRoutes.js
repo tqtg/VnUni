@@ -13,13 +13,13 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'UniController'
 		})
 
-		.when('/uni/diemchuan', {
-			templateUrl: 'views/partials/uni_diemchuan.html',
+		.when('/uni/xemdiemchuan', {
+			templateUrl: 'views/partials/uni_xemdiemchuan.html',
 			controller: 'UniController'	
 		})
     
-        .when('/uni/khoa', {
-			templateUrl: 'views/partials/uni_khoa.html',
+        .when('/uni/khoadaotao', {
+			templateUrl: 'views/partials/uni_khoadaotao.html',
 			controller: 'UniController'	
 		})
     
