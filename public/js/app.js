@@ -1,0 +1,1 @@
+angular.module('vnUniApp', ['ngRoute', 'appRoutes', 'HomeCtrl', 'HomeService', 'UniCtrl', 'UniService']);
