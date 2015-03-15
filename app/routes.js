@@ -20,6 +20,10 @@ module.exports = function (app) {
     });
 
     app.get('/uni/:id', function (req, res) {
-        res.sendfile('./public/views/uni.html'); // load our public/views/index.html file
+        res.sendfile('./public/views/uni.html'); // load our public/views/uni.html file
+    });
+    
+    app.get('/dbpanel', function (req, res) {
+        res.sendfile('./public/views/db_panel.html'); // load our public/views/db_panel.html file
     });
 };
