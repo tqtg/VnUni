@@ -1,7 +1,7 @@
 // app/routes.js
 
 // grab the nerd model we just created
-var Nerd = require('./models/uni');
+var Uni = require('./models/uni');
 
 module.exports = function (app) {
 
@@ -15,15 +15,18 @@ module.exports = function (app) {
     // route to handle delete goes here (app.delete)
 
     // frontend routes =========================================================
-    app.get('/', function (req, res) {
-        res.sendfile('./public/views/index.html'); // load our public/views/index.html file
+    app.get('*', function (req, res) {
+        res.render('index') // load our public/views/index.html file
+        console.log('Request to home page!');
     });
 
-    app.get('/uni/:id', function (req, res) {
-        res.sendfile('./public/views/uni.html'); // load our public/views/uni.html file
-    });
-    
-    app.get('/dbpanel', function (req, res) {
-        res.sendfile('./public/views/db_panel.html'); // load our public/views/db_panel.html file
-    });
+//    app.get('/uni/:id', function (req, res) {
+//        res.render('uni'); // load our public/views/uni.html file
+//        console.log('Request to university page!');
+//    });
+//    
+//    app.get('/dbpanel', function (req, res) {
+//        res.render('db_panel'); // load our public/views/db_panel.html file
+//        console.log('Request to database panel!');
+//    });
 };

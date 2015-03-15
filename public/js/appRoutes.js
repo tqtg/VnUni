@@ -4,30 +4,44 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 		// home page
 		.when('/', {
-			templateUrl: 'views/partials/home.html',
+			templateUrl: 'views/home.html',
 			controller: 'HomeController'
 		})
 
-		.when('/uni/thongtin', {
-			templateUrl: 'views/partials/uni_thongtin.html',
+		.when('/uni/:id/thongtin', {
+			templateUrl: 'views/uni_thongtin.html',
 			controller: 'UniController'
 		})
 
-		.when('/uni/xemdiemchuan', {
-			templateUrl: 'views/partials/uni_xemdiemchuan.html',
+        .when('/uni/:id/khoadaotao', {
+			templateUrl: 'views/uni_khoadaotao.html',
+			controller: 'UniController'	
+		})    
+    
+		.when('/uni/:id/xemdiemchuan', {
+			templateUrl: 'views/uni_xemdiemchuan.html',
 			controller: 'UniController'	
 		})
     
-        .when('/uni/khoadaotao', {
-			templateUrl: 'views/partials/uni_khoadaotao.html',
+        .when('/uni/:id/tuyensinh', {
+			templateUrl: 'views/uni_tuyensinh.html',
+			controller: 'UniController'	
+		})
+        
+        .when('/uni/:id/lienhe', {
+			templateUrl: 'views/uni_lienhe.html',
 			controller: 'UniController'	
 		})
     
         .when('/uni/:id', {
-			templateUrl: 'views/partials/uni_thongtin.html',
+			templateUrl: 'views/uni_thongtin.html',
 			controller: 'UniController'	
 		})
     
+        .when('/dbpanel', {
+            templateUrl: 'views/db_panel.html',
+            controller: 'DBController'
+    })
         .otherwise({
             redirecTo: '/'
         });
