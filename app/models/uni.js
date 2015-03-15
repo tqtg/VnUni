@@ -13,7 +13,7 @@ module.exports = mongoose.model('Uni', {
     khoithi: [String],
     diemchuam: Number,
     vungmien: String,
-    thanhpho: String,
+    thanhpho: String
     
     // data for university infor page
 });
