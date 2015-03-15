@@ -1,1 +1,1 @@
-angular.module('vnUniApp', ['ngRoute', 'appRoutes', 'HomeCtrl', 'HomeService', 'UniCtrl', 'UniService']);
+angular.module('vnUniApp', ['ngRoute', 'appRoutes', 'HomeCtrl', 'HomeService', 'UniCtrl', 'UniService', 'DBCtrl', 'DBService']);
