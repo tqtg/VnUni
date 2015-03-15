@@ -6,7 +6,7 @@
                     <input type="text" class="form-control" placeholder="Search">
                     <div class="input-group-btn">
                         <button type="submit" class="btn btn-default">
-                            <span class="glyphicon glyphicon-search" style="height:20px;"></span>
+                            <span class="glyphicon glyphicon-search" style="height:18px;"></span>
                         </button>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
             <div class="box">
                 <div class="row">
                     <div class="map">
-                        <img class="img-left" style="max-width: 50%; margin-top:10px;" src="assets/images/Vietnam_Map.png">
+                        <img class="img-left" style="max-width: 50%; margin-top:10px; margin-left:20px" src="assets/images/Vietnam_Map.png">
                     </div>
                     <div class="col-md-5">
                         <div>
@@ -175,13 +175,14 @@
         <div id="Filter" class="col-md-4">
             <div class="box">
                 <hr>
-                <h2 class="intro-text text-center">Hệ Thống Lọc</h2>
+                <h2 class="intro-text text-center">Hãy chọn theo cách của bạn!</h2>
                 <hr>
                 <form id="FilterForm" method="post" class="form-horizontal">
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành</label>
-                        <div class="col-md-6 selectContainer">
+                        <div class="col-md-8 selectContainer">
                             <select name="Nganh" class="form-control">
+                                <option value="">---</option>
                                 <option value="">Điều tra trinh sát</option>
                                 <option value="">Quản lí nhà nước về An ninh-Trật tự</option>
                                 <option value="">Kĩ thuật phần mềm</option>
@@ -205,8 +206,9 @@
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Khối thi</label>
-                        <div class="col-md-6 selectContainer">
+                        <div class="col-md-8 selectContainer">
                             <select name="Khoi" class="form-control">
+                                <option value="">---</option>
                                 <option value="">Khối A</option>
                                 <option value="">Khối A1</option>
                                 <option value="">Khối B</option>
@@ -232,8 +234,9 @@
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Điểm chuẩn</label>
-                        <div class="col-md-6 selectContainer">
+                        <div class="col-md-8 selectContainer">
                             <select name="DiemChuan" class="form-control">
+                                <option value="">---</option>
                                 <option value="">Dưới 10</option>
                                 <option value="">Từ 10 - 15</option>
                                 <option value="">Từ 15 - 18</option>
@@ -247,8 +250,9 @@
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Vùng</label>
-                        <div class="col-md-6 selectContainer">
+                        <div class="col-md-8 selectContainer">
                             <select name="Vung" class="form-control">
+                                <option value="">---</option>
                                 <option value="">Miền Bắc</option>
                                 <option value="">Miền Trung</option>
                                 <option value="">Miền Nam</option>
@@ -258,8 +262,9 @@
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Thành phố</label>
-                        <div class="col-md-6 selectContainer">
+                        <div class="col-md-8 selectContainer">
                             <select name="ThanhPho" class="form-control">
+                                <option value="">---</option>
                                 <option value="">TP. Hồ Chí Minh</option>
                                 <option value="">Hà Nội</option>
                                 <option value="">Hải Phòng</option>
@@ -285,8 +290,9 @@
                     </div>
 
                     <div class="form-group">
-                        <div class="col-md-5 col-md-offset-7">
-                            <button type="submit" class="btn btn-default">Lọc!</button>
+                       <br>
+                        <div class="col-md-5 col-md-offset-4">
+                            <button type="submit" class="btn btn-default">Tìm kiếm</button>
                         </div>
                     </div>
                 </form>
