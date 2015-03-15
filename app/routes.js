@@ -8,25 +8,18 @@ module.exports = function (app) {
     // server routes ===========================================================
     // handle things like api calls
     // authentication routes
+    app.get('/uni/:id', function(req, res) {
+        console.log('Request to university page!');
+        // do something with database and response json
+    })
 
-    
-    
+
     // route to handle creating goes here (app.post)
     // route to handle delete goes here (app.delete)
 
     // frontend routes =========================================================
     app.get('*', function (req, res) {
-        res.render('index') // load our public/views/index.html file
         console.log('Request to home page!');
+        res.render('index'); // load our public/index.html file
     });
-
-//    app.get('/uni/:id', function (req, res) {
-//        res.render('uni'); // load our public/views/uni.html file
-//        console.log('Request to university page!');
-//    });
-//    
-//    app.get('/dbpanel', function (req, res) {
-//        res.render('db_panel'); // load our public/views/db_panel.html file
-//        console.log('Request to database panel!');
-//    });
 };

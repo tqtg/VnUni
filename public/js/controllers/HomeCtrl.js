@@ -4,4 +4,5 @@ angular.module('HomeCtrl', []).controller('HomeController', ['$scope', '$http', 
             console.log(data);
         })
     }
+    
 }]);
