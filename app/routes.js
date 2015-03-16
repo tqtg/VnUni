@@ -10,7 +10,7 @@ module.exports = function (app) {
     // authentication routes
     app.get('/uni/:id', function(req, res) {
         console.log('Request to university page!');
-        res.render('index');
+        res.render('views/uni');
         // do something with database and response json
     })
 
