@@ -8,9 +8,9 @@ module.exports = function (app) {
     // server routes ===========================================================
     // handle things like api calls
     // authentication routes
-    app.get('/uni/:id', function(req, res) {
+    app.get('/uni/:id', function(req, res, next) {
         console.log('Request to university page!');
-        res.render('index');
+        next();
         // do something with database and response json
     })
 
