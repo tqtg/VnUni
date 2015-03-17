@@ -14,6 +14,5 @@ module.exports = mongoose.model('Uni', {
     diemchuam: Number,
     vungmien: String,
     thanhpho: String
-    
     // data for university infor page
 });
