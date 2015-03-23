@@ -353,4 +353,11 @@ angular.module('HomeCtrl', []).controller('HomeController', ['$scope', '$http', 
 		{ 'id': 'VTT',
 			'name': 'Trường Đại học Võ Trường Toản ' },
     ];
+
+    // Loai truong
+    $scope.lt = [
+    	{ 'name': 'Đại học' },
+    	{ 'name': 'Cao đẳng'},
+    	{ 'name': 'Trung cấp'}
+    ];
 }]);

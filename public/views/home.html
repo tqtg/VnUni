@@ -44,7 +44,7 @@
                         </div>
                         <div>
                             <h6 href="#" class="list-group-item disabled text-center">
-                              Miền Nam
+                                Miền Nam
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
                                 <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in mienNam">
@@ -111,6 +111,16 @@
                             <select name="ThanhPho" class="form-control" ng-model="thanhPho">
                                 <option value="">---</option>
                                 <option value="" ng-repeat="t in tp"> {{ t.name }}</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-4 control-label">Loại trường</label>
+                        <div class="col-md-8 selectContainer">
+                            <select name="ThanhPho" class="form-control" ng-model="thanhPho">
+                                <option value="">---</option>
+                                <option value="" ng-repeat="l in lt"> {{ l.name }}</option>
                             </select>
                         </div>
                     </div>
