@@ -1,101 +1,23 @@
-angular.module('HomeCtrl', []).controller('HomeController', ['$scope', '$http', function($scope, $http) {
+angular.module('HomeCtrl', [])
+.controller('HomeController', ['$scope', 'loadFiltersService', function($scope, loadFiltersService) {
     $scope.getUni = function() {
         $http.get('/uni/QHI').success(function(data) {
             console.log(data);
         });
     };
-    
-    $scope.filter = function() {
 
-    };
+    $scope.search = function() {
+    	// Search university
+    }
+
+    $scope.filters = loadFiltersService.get(function() {
+    	console.log($scope.filters);
+    });
 
 
     //	Temp data
-    //	Nganh hoc
-    $scope.nganh = [
-	    { 'name': 'Điều tra trinh sát' },
-	    { 'name': 'Quản lí nhà nước về An ninh-Trật tự' },
-	    { 'name': 'Kĩ thuật phần mềm' },
-	    { 'name': 'Truyền thông và mạng máy tính' },
-	    { 'name': 'Quản trị kinh doanh' },
-	    { 'name': 'Tài chính - Ngân hàng' },
-	    { 'name': 'Kế toán' },
-	    { 'name': 'Công nghệ Thông tin' },
-	    { 'name': 'Quản trị Kinh doanh' },
-	    { 'name': 'Công nghệ kĩ thuật điện-điện tử' },
-	    { 'name': 'Công nghệ kĩ thuật cơ khí' },
-	    { 'name': 'Công nghệ kĩ thuật hóa học' },
-	    { 'name': 'Công nghệ thực phẩm' },
-	    { 'name': 'Công nghệ sinh học' },
-	    { 'name': 'Công nghệ chế tạo máy' },
-	    { 'name': 'Công nghệ may' },
-	    { 'name': 'Quan hệ quốc tế' }
-    ];
 
-    //	Khoi thi
-    $scope.khoi = [
-	    { 'name': 'Khối A' },
-	    { 'name': 'Khối A1' },
-	    { 'name': 'Khối B' },
-	    { 'name': 'Khối C' },
-	    { 'name': 'Khối D1' },
-	    { 'name': 'Khối D2' },
-	    { 'name': 'Khối D3' },
-	    { 'name': 'Khối D4' },
-	    { 'name': 'Khối D5' },
-	    { 'name': 'Khối D6' },
-	    { 'name': 'Khối V' },
-	    { 'name': 'Khối V' },    
-	    { 'name': 'Khối M' },
-	    { 'name': 'Khối N' },
-	    { 'name': 'Khối H' },
-	    { 'name': 'Khối H1' },
-	    { 'name': 'Khối R' },
-	    { 'name': 'Khối S' },
-	    { 'name': 'Khối K' }
-    ];
 
-    // Diem chuan
-    $scope.diem = [
-	    { 'range': 'Dưới 10' },                          
-	    { 'range': 'Từ 10 - 15' },
-	    { 'range': 'Từ 15 - 18' },
-	    { 'range': 'Từ 18 - 21' },
-	    { 'range': 'Từ 21 - 24' },
-	    { 'range': 'Từ 24 - 26' },
-	    { 'range': 'Từ 26 - 28' }
-    ];
-
-    // Vung mien
-    $scope.mien = [
-	    { 'region': 'Miền Bắc' },
-	    { 'region': 'Miền Trung' },
-	    { 'region': 'Miền Nam' }
-    ];
-
-    // Thanh pho
-    $scope.tp = [
-	    { 'name': 'TP. Hồ Chí Minh' },
-	    { 'name': 'Hà Nội' },
-	    { 'name': 'Hải Phòng' },
-	    { 'name': 'Cần Thơ' },
-	    { 'name': 'Đà Nẵng' },
-	    { 'name': 'Biên Hòa' },
-	    { 'name': 'Nha Trang' },
-	    { 'name': 'Huế' },
-	    { 'name': 'Buôn Ma Thuột' },
-	    { 'name': 'Vinh' },
-	    { 'name': 'Vũng Tàu' },
-	    { 'name': 'Quy Nhơn' },
-	    { 'name': 'Long Xuyên' },
-	    { 'name': 'Thái Nguyên' },
-	    { 'name': 'Nam Định' },
-	    { 'name': 'Rạch Giá' },
-	    { 'name': 'Thủ Dầu Một' },
-	    { 'name': 'Hạ Long' },
-	    { 'name': 'Phan Thiết' },
-	    { 'name': 'Cà Mau' }
-    ];
 
     //	Dai hoc mien Bac
     $scope.mienBac = [
@@ -354,10 +276,4 @@ angular.module('HomeCtrl', []).controller('HomeController', ['$scope', '$http', 
 			'name': 'Trường Đại học Võ Trường Toản ' },
     ];
 
-    // Loai truong
-    $scope.lt = [
-    	{ 'name': 'Đại học' },
-    	{ 'name': 'Cao đẳng'},
-    	{ 'name': 'Trung cấp'}
-    ];
 }]);
