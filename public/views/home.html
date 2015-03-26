@@ -69,7 +69,7 @@
                         <div class="col-md-8 selectContainer">
                             <select name="Nganh" class="form-control" ng-model="nganhHoc">
                                 <option value="">---</option>
-                                <option value="" ng-repeat="n in nganh">{{ n.name }}</option>
+                                <option value="" ng-repeat="n in filters.nganhhoc">{{ n.name }}</option>
                             </select>
                         </div>
                     </div>
@@ -79,18 +79,17 @@
                         <div class="col-md-8 selectContainer">
                             <select name="Khoi" class="form-control" ng-model="khoiThi">
                                 <option value="">---</option>
-                                <option value="" ng-repeat="k in khoi">{{ k.name }}</option>
+                                <option value="" ng-repeat="k in filters.khoithi">{{ k.name }}</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Điểm chuẩn</label>
+                        <label class="col-md-4 control-label">Mức điểm</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="DiemChuan" class="form-control" ng-model="diemChuan">
+                            <select name="DiemChuan" class="form-control" ng-model="mucDiem">
                                 <option value="">---</option>
-                                <option value="" ng-repeat="d in diem">{{ d.range }}</option>
-
+                                <option value="" ng-repeat="m in filters.mucdiem">{{ m.name }}</option>
                             </select>
                         </div>
                     </div>
@@ -100,7 +99,7 @@
                         <div class="col-md-8 selectContainer">
                             <select name="Vung" class="form-control" ng-model="vungMien">
                                 <option value="">---</option>
-                                <option value="" ng-repeat="m in mien">{{ m.region }}</option>
+                                <option value="" ng-repeat="v in filters.vungmien">{{ v.name }}</option>
                             </select>
                         </div>
                     </div>
@@ -110,7 +109,7 @@
                         <div class="col-md-8 selectContainer">
                             <select name="ThanhPho" class="form-control" ng-model="thanhPho">
                                 <option value="">---</option>
-                                <option value="" ng-repeat="t in tp"> {{ t.name }}</option>
+                                <option value="" ng-repeat="t in filters.thanhpho"> {{ t.name }}</option>
                             </select>
                         </div>
                     </div>
@@ -118,9 +117,9 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Loại trường</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="ThanhPho" class="form-control" ng-model="thanhPho">
+                            <select name="LoaiTruong" class="form-control" ng-model="loaiTruong">
                                 <option value="">---</option>
-                                <option value="" ng-repeat="l in lt"> {{ l.name }}</option>
+                                <option value="" ng-repeat="l in filters.loaitruong"> {{ l.name }}</option>
                             </select>
                         </div>
                     </div>
@@ -128,7 +127,7 @@
                     <div class="form-group">
                         <br>
                         <div class="col-md-5 col-md-offset-4">
-                            <button type="submit" class="btn btn-default" ng-click="filter()">Tìm kiếm</button>
+                            <button type="submit" class="btn btn-default" ng-click="search()">Tìm kiếm</button>
                         </div>
                     </div>
                 </form>
