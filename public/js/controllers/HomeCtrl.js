@@ -1,22 +1,47 @@
-angular.module('HomeCtrl', [])
-.controller('HomeController', ['$scope', 'loadFiltersService', function($scope, loadFiltersService) {
+angular.module('HomeCtrl', ['HomeService'])
+.controller('HomeController', function($scope, loadFilterService, searchService) {
     $scope.getUni = function() {
         $http.get('/uni/QHI').success(function(data) {
             console.log(data);
         });
     };
 
-    $scope.search = function() {
-    	// Search university
-    }
-
-    $scope.filters = loadFiltersService.get(function() {
-    	console.log($scope.filters);
+    // Load filter data from server
+    $scope.filter = loadFilterService.loadAll(function() {
+    	console.log($scope.filter);
     });
 
-
-    //	Temp data
-
+    //	Search university
+    //	Set default value of filter
+    var defaultValue = {
+    	"id": "0"
+    }
+    $scope.nganhhoc = defaultValue;
+    $scope.khoithi = defaultValue;
+    $scope.mucdiem = defaultValue;
+    $scope.vungmien = defaultValue;
+    $scope.thanhpho = defaultValue;
+    $scope.loaitruong = defaultValue;
+    //	Invoke searchService
+    $scope.search = function() {
+    	searchService.search( {
+    		//	Parameters are taken from filter
+    		nganhhoc: $scope.nganhhoc.id,
+    		khoithi: $scope.khoithi.id,
+    		mucdiem: $scope.mucdiem.id,
+    		vungmien: $scope.vungmien.id,
+    		thanhpho: $scope.thanhpho.id,
+    		loaitruong: $scope.loaitruong.id
+    	}, function() {
+    		console.log('Searching ...');
+    		console.log($scope.nganhhoc);
+    		console.log($scope.khoithi);
+    		console.log($scope.mucdiem);
+    		console.log($scope.vungmien);
+    		console.log($scope.thanhpho);
+    		console.log($scope.loaitruong);
+    	});
+    };
 
 
     //	Dai hoc mien Bac
@@ -276,4 +301,4 @@ angular.module('HomeCtrl', [])
 			'name': 'Trường Đại học Võ Trường Toản ' },
     ];
 
-}]);
+});

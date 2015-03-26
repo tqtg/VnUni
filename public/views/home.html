@@ -67,60 +67,42 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="Nganh" class="form-control" ng-model="nganhHoc">
-                                <option value="">---</option>
-                                <option value="" ng-repeat="n in filters.nganhhoc">{{ n.name }}</option>
-                            </select>
+                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Khối thi</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="Khoi" class="form-control" ng-model="khoiThi">
-                                <option value="">---</option>
-                                <option value="" ng-repeat="k in filters.khoithi">{{ k.name }}</option>
-                            </select>
+                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Mức điểm</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="DiemChuan" class="form-control" ng-model="mucDiem">
-                                <option value="">---</option>
-                                <option value="" ng-repeat="m in filters.mucdiem">{{ m.name }}</option>
-                            </select>
+                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Vùng miền</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="Vung" class="form-control" ng-model="vungMien">
-                                <option value="">---</option>
-                                <option value="" ng-repeat="v in filters.vungmien">{{ v.name }}</option>
-                            </select>
+                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Thành phố</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="ThanhPho" class="form-control" ng-model="thanhPho">
-                                <option value="">---</option>
-                                <option value="" ng-repeat="t in filters.thanhpho"> {{ t.name }}</option>
-                            </select>
+                            <select name="ThanhPho" class="form-control" ng-model="thanhpho" ng-options="t.name for t in filter.thanhpho"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Loại trường</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="LoaiTruong" class="form-control" ng-model="loaiTruong">
-                                <option value="">---</option>
-                                <option value="" ng-repeat="l in filters.loaitruong"> {{ l.name }}</option>
-                            </select>
+                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong"></select>
                         </div>
                     </div>
 
