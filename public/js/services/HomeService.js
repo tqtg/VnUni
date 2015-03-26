@@ -1,4 +1,4 @@
-angular.module('HomeService', []).factory('Home', ['$http', function($http) {
-    
-    
+angular.module('HomeService', [])
+.factory('loadFiltersService', ['$resource', function($resource) {
+    return $resource('/data/filter.json');
 }]);
