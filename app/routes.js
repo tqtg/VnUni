@@ -14,6 +14,17 @@ module.exports = function (app) {
         // do something with database and response json
     })
 
+    app.get('/search', function(req, res, next) {
+        console.log("Searching request with parameters:");
+        console.log(req.query.nganhhoc);
+        console.log(req.query.khoithi);
+        console.log(req.query.mucdiem);
+        console.log(req.query.vungmien);
+        console.log(req.query.thanhpho);
+        console.log(req.query.loaitruong);
+        next();
+    })
+
 
     // route to handle creating goes here (app.post)
     // route to handle delete goes here (app.delete)
