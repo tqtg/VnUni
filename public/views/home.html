@@ -27,7 +27,7 @@
                                 Miền Bắc
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in mienBac">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'miền Bắc'}">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -37,7 +37,7 @@
                                 Miền Trung
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in mienTrung">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'miền Trung'}">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -47,7 +47,7 @@
                                 Miền Nam
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in mienNam">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'miền Nam'}">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -67,42 +67,54 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc"></select>
+                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc">
+                                <option value="">---</option>
+                            </select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Khối thi</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi"></select>
+                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi">
+                                <option value="">---</option>
+                            </select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Mức điểm</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem"></select>
+                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem">
+                                <option value="">---</option>
+                            </select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Vùng miền</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien"></select>
+                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien">
+                                <option value="">---</option>
+                            </select>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Thành phố</label>
+                        <label class="col-md-4 control-label">Tỉnh/T.Phố</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="ThanhPho" class="form-control" ng-model="thanhpho" ng-options="t.name for t in filter.thanhpho"></select>
+                            <select name="ThanhPho" class="form-control" ng-model="thanhpho" ng-options="t.name for t in filter.thanhpho | filter: {region: vungmien.id}">
+                                <option value="">---</option>
+                            </select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Loại trường</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong"></select>
+                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong">
+                                <option value="">---</option>
+                            </select>
                         </div>
                     </div>
 
