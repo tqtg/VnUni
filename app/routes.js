@@ -1,7 +1,16 @@
 // app/routes.js
+// connect to database
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/VnUni');
 
 // grab the nerd model we just created
 var Uni = require('./models/uni');
+var Nganhhoc = require('./models/nganhhoc');
+var Khoithi = require('./models/khoithi');
+var Mucdiem = require('./models/mucdiem');
+var Vungmien = require('./models/vungmien');
+var Thanhpho = require('./models/thanhpho');
+var Loaitruong = require('./models/loaitruong');
 
 module.exports = function (app) {
 
@@ -25,9 +34,25 @@ module.exports = function (app) {
         next();
     })
 
-
-    // route to handle creating goes here (app.post)
-    // route to handle delete goes here (app.delete)
+    //  handle query from loadFilterService
+    app.get('/filter/nganhhoc', function(req, res) {
+        Nganhhoc.getAll(function(err, data) { res.send(data) });
+    })
+    app.get('/filter/khoithi', function(req, res) {
+        Khoithi.getAll(function(err, data) { res.send(data) });
+    })
+    app.get('/filter/mucdiem', function(req, res) {
+        Mucdiem.getAll(function(err, data) { res.send(data) });
+    })
+    app.get('/filter/vungmien', function(req, res) {
+        Vungmien.getAll(function(err, data) { res.send(data) });
+    })
+    app.get('/filter/thanhpho', function(req, res) {
+        Thanhpho.getAll(function(err, data) { res.send(data) });
+    })
+    app.get('/filter/loaitruong', function(req, res) {
+        Loaitruong.getAll(function(err, data) { res.send(data) });
+    })
 
     // frontend routes =========================================================
     app.get('*', function (req, res) {
