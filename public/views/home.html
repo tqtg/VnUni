@@ -67,7 +67,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
-                            <input type="text" class="form-control" placeholder="Tìm bằng cách nhập tên ngành" ng-model="tennganh">
+                            <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
                             <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | filter: tennganh | orderBy: 'name'">
                                 <option value="">---</option>
                             </select>

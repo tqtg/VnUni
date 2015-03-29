@@ -1,7 +1,7 @@
 // app/routes.js
 // connect to database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/VnUni');
+mongoose.connect('mongodb://tuantq:quoctuan@ds035557.mongolab.com:35557/vnuni');
 
 // grab the nerd model we just created
 var Uni = require('./models/uni');
@@ -35,23 +35,30 @@ module.exports = function (app) {
     })
 
     //  handle query from loadFilterService
-    app.get('/filter/nganhhoc', function(req, res) {
-        Nganhhoc.getAll(function(err, data) { res.send(data) });
-    })
-    app.get('/filter/khoithi', function(req, res) {
-        Khoithi.getAll(function(err, data) { res.send(data) });
-    })
-    app.get('/filter/mucdiem', function(req, res) {
-        Mucdiem.getAll(function(err, data) { res.send(data) });
-    })
-    app.get('/filter/vungmien', function(req, res) {
-        Vungmien.getAll(function(err, data) { res.send(data) });
-    })
-    app.get('/filter/thanhpho', function(req, res) {
-        Thanhpho.getAll(function(err, data) { res.send(data) });
-    })
-    app.get('/filter/loaitruong', function(req, res) {
-        Loaitruong.getAll(function(err, data) { res.send(data) });
+    app.get('/filter/:name', function(req, res) {
+        switch(req.params.name) {
+            case 'nganhhoc':
+                Nganhhoc.getAll(function(err, data) { res.json(data) });
+                break;
+            case 'khoithi':
+                Khoithi.getAll(function(err, data) { res.json(data) });
+                break;
+            case 'mucdiem':
+                Mucdiem.getAll(function(err, data) { res.json(data) });
+                break;
+            case 'vungmien':
+                Vungmien.getAll(function(err, data) { res.json(data) });
+                break;
+            case 'thanhpho':
+                Thanhpho.getAll(function(err, data) { res.json(data) });
+                break;
+            case 'loaitruong':
+                Loaitruong.getAll(function(err, data) { res.json(data) });
+                break;
+            default:
+                res.send('Please give the right filter name!');
+        };
+        
     })
 
     // frontend routes =========================================================
