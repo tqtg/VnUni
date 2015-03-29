@@ -3,247 +3,247 @@
 	{ 
 		"id": "QHI",
 		"name": "Đại học Công nghệ - ĐH QGHN",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "GTA",
 		"name": "Đại học Công nghệ Giao thông Vận tải",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CM1",
 		"name": "Cao Đẳng Sư Phạm Trung Ương",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "C01",
 		"name": "Cao đẳng sư phạm Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CYZ",
 		"name": "Cao đẳng Y tế Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CCK",
 		"name": "Cao Đẳng Kinh Tế Công Nghiệp Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "SKD",
 		"name": "Đại học Sân khấu Điện ảnh",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "ZNH",
 		"name": "ĐH Văn hóa - Nghệ thuật quân đội (Hệ...)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "HCH",
 		"name": "Học viện Hành chính Quốc gia (KV Phía Bắc...)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DNV",
 		"name": "Đại học Nội Vụ",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "LPH",
 		"name": "Đại học Luật Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "VHD",
 		"name": "Đại học Công Nghiệp Việt - Hung",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "YQH",
 		"name": "Học Viện Quân Y - Bác sỹ Quân Y (Khu Vực...)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "PKH",
 		"name": "HV Phòng Không - Không Quân - Chỉ Huy Tham Mưu...",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "PBH",
 		"name": "Sỹ quan pháo binh ( phía Bắc)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "NQH",
 		"name": "Học viện khoa học quân sự - Hệ quân đội...",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "LAH",
-		"name": "Sỹ quan lục quân I - KV Miền Bắc",
-		"region": "miền Bắc"
+		"name": "Sỹ quan lục quân I - KV B",
+		"region": "B"
 	},
 	{ 
 		"id": "KQH",
 		"name": "Học viện kỹ thuật quân sự - Hệ quân...",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "KGH",
 		"name": "Sỹ Quan Không Quân ( thi ở phía Bắc)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "HQH",
 		"name": "Học viện Hải Quân - KV Phía Bắc",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "HFH",
 		"name": "Học viện Hậu Cần - Hệ dân sự (Phía Bắc)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "HEH",
 		"name": "Học viện Hậu Cần - Hệ quân sự (Phía...)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DYH",
 		"name": "Học viện Quân Y - Hệ Dân Sự (KV Phía Bắc)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DNH",
 		"name": "Học viện khoa học quân sự - Hệ Dân Sự...",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "BPH",
 		"name": "Học Viện Biên Phòng (KV Phía Bắc)",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CHK",
 		"name": "Cao Đẳng Công Nghệ và Kinh Tế Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CBT",
 		"name": "Cao đẳng Công nghệ và Thương mại Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "TMA",
 		"name": "Đại học Thương Mại",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DDL",
 		"name": "Đại học Điện Lực",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "HYD",
 		"name": "Học viện Y dược học cổ truyền Việt...",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CCI",
 		"name": "Cao đẳng Công nghiệp In",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CLH",
 		"name": "Cao đẳng Điện tử - Điện lạnh Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "SPH",
 		"name": "Đại học Sư Phạm Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CNP",
 		"name": "Cao đẳng NN và PT NT Bắc Bộ",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "YTC",
 		"name": "Đại học Y tế Công Cộng",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "LDA",
 		"name": "Đại học Công Đoàn",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "D20",
 		"name": "Cao Đẳng Cộng Đồng Hà Tây",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DCN",
 		"name": "Đại học Công nghiệp HN",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DMT",
 		"name": "Đại học Tài nguyên và Môi trường Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CHN",
 		"name": "Cao Đẳng Cộng Đồng Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "YHB",
 		"name": "Đại học Y Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "NHF",
 		"name": "Đại học Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "HVQ",
 		"name": "Học viện Quản lý Giáo dục",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DDN",
 		"name": "Đại Học Đại Nam",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "MTH",
 		"name": "Đại Học Mỹ Thuật Việt Nam",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CMS",
 		"name": "Cao Đẳng Thương Mại",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "CDT",
 		"name": "Cao đẳng Xây dựng công trình đô thị",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "VHH",
 		"name": "Đại học Văn hóa HN",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "DKS",
 		"name": "Đại học Kiểm sát Hà Nội",
-		"region": "miền Bắc"
+		"region": "B"
 	},
 	{ 
 		"id": "MHN",
@@ -253,368 +253,368 @@
 	{ 
 		"id": "SKV",
 		"name": "Trường Đại học Sư phạm Kỹ thuật Vinh",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "TDV",
 		"name": "Trường Đại học Vinh",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "YKV",
 		"name": "Trường Đại học Y khoa Vinh",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "CEA",
 		"name": "Trường Đại học Kinh tế Nghệ An",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "HHT",
 		"name": "Trường Đại học Hà Tĩnh",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DQB",
 		"name": "Trường Đại học Quảng Bình Đại học HUẾ",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHC",
 		"name": "Khoa Giáo dục Thể chất - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHD",
 		"name": "Khoa Du lịch - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHF",
 		"name": "Trường Đại học Ngoại ngữ - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHK",
 		"name": "Trường Đại học Kinh tế - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHL",
 		"name": "Trường Đại học Nông Lâm - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHN",
 		"name": "Trường Đại học Nghệ thuật - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHS",
 		"name": "Trường Đại học Sư phạm - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHT",
 		"name": "Trường Đại học Khoa học - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHY",
 		"name": "Trường Đại học Y Dược - ĐH Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHQ",
 		"name": "Phân hiệu ĐH Huế tại quảng Trị",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DHA",
 		"name": "Trường Đại học Luật - ĐH Huế Đại học ĐÀ NẴNG",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDS",
 		"name": "Trường Đại học Sư phạm - ĐH Đà nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDK",
 		"name": "Trường Đại học Bách Khoa - ĐH Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDQ",
 		"name": "Trường Đại học Kinh tế - ĐH Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDF",
 		"name": "Trường Đại học Ngoại ngữ - ĐH Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDP",
 		"name": "Phân hiệu Đại học Đà Nẵng tại Kon Tum",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDY",
 		"name": "Khoa Y Dược – ĐH Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "HVA",
 		"name": "Học viện Âm nhạc Huế",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "TDL",
 		"name": "Trường Đại học Đà Lạt",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "YDN",
 		"name": "Trường Đại học Kỹ thuật Y Dược Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "TSN",
 		"name": "Trường Đại học Nha Trang",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DPY",
 		"name": "Trường Đại học Phú Yên",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DPQ",
 		"name": "Trường Đại học Phạm Văn Đồng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DQU",
 		"name": "Trường Đại học Quảng Nam",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DQN",
 		"name": "Trường Đại học Quy Nhơn",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DKQ",
 		"name": "Trường Đại học Tài chính Kế toán",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "TTN",
 		"name": "Trường Đại học Tây Nguyên",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "TTD",
 		"name": "Trường Đại học Thể dục Thể thao Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "XDT",
-		"name": "Trường Đại học Xây dựng Miền Trung",
-		"region": "miền Trung"
+		"name": "Trường Đại học Xây dựng T",
+		"region": "T"
 	},
 	{ 
 		"id": "BMT",
 		"name": " Trường Đại học Buôn Ma Thuột",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DCV",
 		"name": "Trường Đại học Công nghiệp Vinh",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DDT",
 		"name": "Trường Đại học Dân lập Duy Tân",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DAD",
 		"name": "Trường Đại học Đông Á",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DPX",
 		"name": "Trường Đại học Dân lập Phú Xuân",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DYD",
 		"name": "Trường Đại học Dân lập Yersin Đà Lạt",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "KTD",
 		"name": "Trường Đại học Kiến trúc Đà Nẵng",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DPC",
 		"name": "Trường Đại học Phan Châu Trinh",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DPT",
 		"name": "Trường Đại học Phan Thiết",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DQT",
 		"name": "Trường Đại học Quang Trung",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "TBD",
 		"name": "Trường Đại học Thái Bình Dương",
-		"region": "miền Trung"
+		"region": "T"
 	},
 	{ 
 		"id": "DVX",
 		"name": "Trường Đại học Công nghệ Vạn Xuân",
-		"region": "miền Trung"
+		"region": "T"
 	},
 
 
     { 
     	"id": "TAG",
     	"name": "Trường Đại học An Giang",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DBL",
     	"name": "Trường Đại học Bạc Liêu",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "TCT",
     	"name": "Trường Đại học Cần Thơ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "PVU",
     	"name": "Trường Đại học Dầu khí Việt Nam",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DNU",
     	"name": "Trường Đại học Đồng Nai",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "SPD",
     	"name": "Trường Đại học Đồng Tháp",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "KCC",
     	"name": "Trường Đại học Kỹ thuật Công nghệ Cần Thơ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "VLU",
     	"name": "Trường Đại học Sư phạm Kỹ thuật Vĩnh Long",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "TDM",
     	"name": "Trường Đại học Thủ Dầu Một",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "TTG",
     	"name": "Trường Đại học Tiền Giang",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DVT",
     	"name": "Trường Đại học Trà Vinh",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "MTU",
     	"name": "Trường Đại học Xây dựng Miền Tây",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "YCT",
     	"name": "Trường Đại học Y Dược Cần Thơ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DBV",
     	"name": "Trường Đại học Bà Rịa - Vũng Tàu ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DBD",
     	"name": "Trường Đại học Bình Dương ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DCD",
     	"name": "Trường Đại học Công nghệ Đồng Nai",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DMD",
     	"name": "Trường Đại học Công nghệ Miền Đông ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DCL",
     	"name": "Trường Đại học Dân lập Cửu Long ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DLH",
     	"name": "Trường Đại học Dân lập Lạc Hồng ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DLA",
     	"name": "Trường Đại học Kinh tế Công nghiệp Long An ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DKB",
     	"name": "Trường Đại học Kinh tế Kỹ thuật Bình Dương ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DNC",
     	"name": "Trường Đại học Nam Cần Thơ ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "EIU",
     	"name": "Trường Đại học Quốc tế Miền Đông ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "TTU",
     	"name": "Trường Đại học Tân Tạo ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "DTD",
     	"name": "Trường Đại học Tây Đô ",
-    	"region": "miền Nam"
+    	"region": "N"
     },
     { 
     	"id": "VTT",
     	"name": "Trường Đại học Võ Trường Toản ",
-    	"region": "miền Nam"
+    	"region": "N"
     }
 ]

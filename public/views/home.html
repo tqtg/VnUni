@@ -27,7 +27,7 @@
                                 Miền Bắc
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'miền Bắc'}">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'B'}">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -37,7 +37,7 @@
                                 Miền Trung
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'miền Trung'}">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'T'}">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -47,7 +47,7 @@
                                 Miền Nam
                             </h6>
                             <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'miền Nam'}">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'N'}">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -67,7 +67,8 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc">
+                            <input type="text" class="form-control" placeholder="Tên ngành" ng-model="tennganh">
+                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | filter: tennganh | orderBy: 'name'">
                                 <option value="">---</option>
                             </select>
                         </div>
@@ -76,7 +77,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Khối thi</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi">
+                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi | orderBy: 'name'">
                                 <option value="">---</option>
                             </select>
                         </div>
@@ -85,7 +86,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Mức điểm</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem">
+                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem | orderBy: 'id'">
                                 <option value="">---</option>
                             </select>
                         </div>
@@ -94,7 +95,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Vùng miền</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien">
+                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien | orderBy: 'id'">
                                 <option value="">---</option>
                             </select>
                         </div>
@@ -112,7 +113,7 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Loại trường</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong">
+                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong | orderBy: 'id'">
                                 <option value="">---</option>
                             </select>
                         </div>

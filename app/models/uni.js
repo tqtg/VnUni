@@ -10,23 +10,20 @@ module.exports = mongoose.model('Uni', {
     id: String,
     name: String,
     type: String,   // University/college
-    khoithi: {      // JSON object stores many "khoi thi" id
-        id: String
-    },
 
-    // JSON array store objects(region id and city id)
-    location: [     
-        {
-            region: String,
-            city: String
-        }
-    ],
+    //  Location
+    region: String,
+    city: Number,
 
     // JSON array stores majors' infor 
     majors: [       
         {
             id: String,
             name: String,
+            khoithi: {
+                id: String
+            },
+            
             //  JSON array stores admission mark object (each year)
             admissionMarks: [
                 {
