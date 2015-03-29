@@ -2,12 +2,12 @@ angular.module('HomeCtrl', ['HomeService'])
 .controller('HomeController', function($scope, $filter, loadFilterService, searchService) {
     //  Load data for filter
     $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.nganhhoc.query();
-    $scope.filter.khoithi = loadFilterService.khoithi.query();
-    $scope.filter.mucdiem = loadFilterService.mucdiem.query();
-    $scope.filter.vungmien = loadFilterService.vungmien.query();
-    $scope.filter.thanhpho = loadFilterService.thanhpho.query();
-    $scope.filter.loaitruong = loadFilterService.loaitruong.query();
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'});
+    $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'});
+    $scope.filter.mucdiem = loadFilterService.query({name: 'mucdiem'});
+    $scope.filter.vungmien = loadFilterService.query({name: 'vungmien'});
+    $scope.filter.thanhpho = loadFilterService.query({name: 'thanhpho'});
+    $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'});
 
     //  Search university
     $scope.search = function() {
