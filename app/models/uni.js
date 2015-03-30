@@ -8,11 +8,31 @@ module.exports = mongoose.model('Uni', {
     // university schema
     // basic data for filters
     id: String,
-    tentruong: String,
-    nganhhoc: [String],
-    khoithi: [String],
-    diemchuam: Number,
-    vungmien: String,
-    thanhpho: String
+    name: String,
+    type: String,   // University/college
+
+    //  Location
+    region: String,
+    city: Number,
+
+    // JSON array stores majors' infor 
+    majors: [       
+        {
+            id: String,
+            name: String,
+            khoithi: {
+                id: String
+            },
+            
+            //  JSON array stores admission mark object (each year)
+            admissionMarks: [
+                {
+                    year: Number,
+                    mark: Number
+                }
+            ]
+        }   
+    ]
+
     // data for university infor page
 });

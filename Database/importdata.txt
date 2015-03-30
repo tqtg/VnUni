@@ -1,0 +1,27 @@
+=======================
+//	Connect to database
+//	To connect using the shell:
+mongo ds035557.mongolab.com:35557/vnuni -u tuantq -p quoctuan
+
+//	To connect using a driver via the standard URI (what's this?):
+ mongodb://tuantq:quoctuan@ds035557.mongolab.com:35557/vnuni
+
+=======================
+//	Import database
+//	Nganh hoc
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection nganhhocs --db vnuni --type csv --file nganhhoc.csv --headerline
+
+//	Khoi thi
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection khoithis --db vnuni --type csv --file khoithi.csv --headerline
+
+//	Muc diem
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection mucdiems --db vnuni --type csv --file mucdiem.csv --headerline
+
+//	Vung mien
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection vungmiens --db vnuni --type csv --file vungmien.csv --headerline
+
+//	Thanh pho
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection thanhphos --db vnuni --type csv --file thanhpho.csv --headerline
+
+//	Loai truong
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection loaitruongs --db vnuni --type csv --file loaitruong.csv --headerline

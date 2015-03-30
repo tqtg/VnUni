@@ -1,279 +1,58 @@
-angular.module('HomeCtrl', [])
-.controller('HomeController', ['$scope', 'loadFiltersService', function($scope, loadFiltersService) {
+angular.module('HomeCtrl', ['HomeService'])
+.controller('HomeController', function($scope, $filter, loadFilterService, searchService) {
+    //  Load data for filter
+    $scope.filter = {};
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'});
+    $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'});
+    $scope.filter.mucdiem = loadFilterService.query({name: 'mucdiem'});
+    $scope.filter.vungmien = loadFilterService.query({name: 'vungmien'});
+    $scope.filter.thanhpho = loadFilterService.query({name: 'thanhpho'});
+    $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'});
+
+    //  Search university
+    $scope.search = function() {
+        console.log("Searching ...");
+        searchService.search(function(data) {
+            $scope.universities = data;
+        });
+    }
+
+    //	Search university
+    //	Set default value of filter
+    // var defaultValue = {
+    // 	"id": "0"
+    // }
+    // $scope.nganhhoc = defaultValue;
+    // $scope.khoithi = defaultValue;
+    // $scope.mucdiem = defaultValue;
+    // $scope.vungmien = defaultValue;
+    // $scope.thanhpho = defaultValue;
+    // $scope.loaitruong = defaultValue;
+    // //	Invoke searchService
+    // $scope.search = function() {
+    // 	searchService.search( {
+    // 		//	Parameters are taken from filter
+    // 		nganhhoc: $scope.nganhhoc.id,
+    // 		khoithi: $scope.khoithi.id,
+    // 		mucdiem: $scope.mucdiem.id,
+    // 		vungmien: $scope.vungmien.id,
+    // 		thanhpho: $scope.thanhpho.id,
+    // 		loaitruong: $scope.loaitruong.id
+    // 	}, function() {
+    // 		console.log('Searching ...');
+    // 		console.log($scope.nganhhoc);
+    // 		console.log($scope.khoithi);
+    // 		console.log($scope.mucdiem);
+    // 		console.log($scope.vungmien);
+    // 		console.log($scope.thanhpho);
+    // 		console.log($scope.loaitruong);
+    // 	});
+    // };
+
+
     $scope.getUni = function() {
         $http.get('/uni/QHI').success(function(data) {
             console.log(data);
         });
-    };
-
-    $scope.search = function() {
-    	// Search university
     }
-
-    $scope.filters = loadFiltersService.get(function() {
-    	console.log($scope.filters);
-    });
-
-
-    //	Temp data
-
-
-
-    //	Dai hoc mien Bac
-    $scope.mienBac = [
-	    { 'id': 'QHI',
-	    	'name': 'Đại học Công nghệ - ĐH QGHN' },
-	    { 'id': 'GTA',
-	    	'name': 'Đại học Công nghệ Giao thông Vận tải' },
-	    { 'id': 'CM1',
-	    	'name': 'Cao Đẳng Sư Phạm Trung Ương' },
-	    { 'id': 'C01',
-	    	'name': 'Cao đẳng sư phạm Hà Nội' },
-	    { 'id': 'CYZ',
-	    	'name': 'Cao đẳng Y tế Hà Nội' },
-	    { 'id': 'CCK',
-	    	'name': 'Cao Đẳng Kinh Tế Công Nghiệp Hà Nội' },
-	    { 'id': 'SKD',
-	    	'name': 'Đại học Sân khấu Điện ảnh' },
-	    { 'id': 'ZNH',
-	    	'name': 'ĐH Văn hóa - Nghệ thuật quân đội (Hệ...' },
-	    { 'id': 'HCH',
-	    	'name': 'Học viện Hành chính Quốc gia (KV Phía Bắc...' },
-	    { 'id': 'DNV',
-	    	'name': 'Đại học Nội Vụ' },
-	    { 'id': 'LPH',
-	    	'name': 'Đại học Luật Hà Nội' },
-	    { 'id': 'VHD',
-	    	'name': 'Đại học Công Nghiệp Việt - Hung' },
-	    { 'id': 'YQH',
-	    	'name': 'Học Viện Quân Y - Bác sỹ Quân Y (Khu Vực...' },
-	    { 'id': 'PKH',
-	    	'name': 'HV Phòng Không - Không Quân - Chỉ Huy Tham Mưu...' },
-	    { 'id': 'PBH',
-	    	'name': 'Sỹ quan pháo binh ( phía Bắc)' },
-	    { 'id': 'NQH',
-	    	'name': 'Học viện khoa học quân sự - Hệ quân đội...' },
-	    { 'id': 'LAH',
-	    	'name': 'Sỹ quan lục quân I - KV Miền Bắc' },
-	    { 'id': 'KQH',
-	    	'name': 'Học viện kỹ thuật quân sự - Hệ quân...' },
-	    { 'id': 'KGH',
-	    	'name': 'Sỹ Quan Không Quân ( thi ở phía Bắc)' },
-	    { 'id': 'HQH',
-	    	'name': 'Học viện Hải Quân - KV Phía Bắc' },
-	    { 'id': 'HFH',
-	    	'name': 'Học viện Hậu Cần - Hệ dân sự (Phía Bắc)' },
-	    { 'id': 'HEH',
-	    	'name': 'Học viện Hậu Cần - Hệ quân sự (Phía...' },
-	    { 'id': 'DYH',
-	    	'name': 'Học viện Quân Y - Hệ Dân Sự (KV Phía Bắc)' },
-	    { 'id': 'DNH',
-	    	'name': 'Học viện khoa học quân sự - Hệ Dân Sự...' },
-	    { 'id': 'BPH',
-	    	'name': 'Học Viện Biên Phòng (KV Phía Bắc)' },
-	    { 'id': 'CHK',
-	    	'name': 'Cao Đẳng Công Nghệ và Kinh Tế Hà Nội' },
-	    { 'id': 'CBT',
-	    	'name': 'Cao đẳng Công nghệ và Thương mại Hà Nội' },
-	    { 'id': 'TMA',
-	    	'name': 'Đại học Thương Mại' },
-	    { 'id': 'DDL',
-	    	'name': 'Đại học Điện Lực' },
-	    { 'id': 'HYD',
-	    	'name': 'Học viện Y dược học cổ truyền Việt...' },
-	    { 'id': 'CCI',
-	    	'name': 'Cao đẳng Công nghiệp In' },
-	    { 'id': 'CLH',
-	    	'name': 'Cao đẳng Điện tử - Điện lạnh Hà Nội' },
-	    { 'id': 'SPH',
-	    	'name': 'Đại học Sư Phạm Hà Nội' },
-	    { 'id': 'CNP',
-	    	'name': 'Cao đẳng NN và PT NT Bắc Bộ' },
-	    { 'id': 'YTC',
-	    	'name': 'Đại học Y tế Công Cộng' },
-	    { 'id': 'LDA',
-	    	'name': 'Đại học Công Đoàn' },
-	    { 'id': 'D20',
-	    	'name': 'Cao Đẳng Cộng Đồng Hà Tây' },
-	    { 'id': 'DCN',
-	    	'name': 'Đại học Công nghiệp HN' },
-	    { 'id': 'DMT',
-	    	'name': 'Đại học Tài nguyên và Môi trường Hà Nội' },
-	    { 'id': 'CHN',
-	    	'name': 'Cao Đẳng Cộng Đồng Hà Nội' },
-	    { 'id': 'YHB',
-	    	'name': 'Đại học Y Hà Nội' },
-	    { 'id': 'NHF',
-	    	'name': 'Đại học Hà Nội' },
-	    { 'id': 'HVQ',
-	    	'name': 'Học viện Quản lý Giáo dục' },
-	    { 'id': 'DDN',
-	    	'name': 'Đại Học Đại Nam' },
-	    { 'id': 'MTH',
-	    	'name': 'Đại Học Mỹ Thuật Việt Nam' },
-	    { 'id': 'CMS',
-	    	'name': 'Cao Đẳng Thương Mại' },
-	    { 'id': 'CDT',
-	    	'name': 'Cao đẳng Xây dựng công trình đô thị' },
-	    { 'id': 'VHH',
-	    	'name': 'Đại học Văn hóa HN' },
-	    { 'id': 'DKS',
-	    	'name': 'Đại học Kiểm sát Hà Nội' },
-	    { 'id': 'MHN',
-	    	'name': 'Viện Đại học Mở HN' }
-    ];
-
-    //	Dai hoc mien Trung
-    $scope.mienTrung = [
-	    { 'id': 'SKV',
-	    	'name': 'Trường Đại học Sư phạm Kỹ thuật Vinh' },
-	    { 'id': 'TDV',
-	    	'name': 'Trường Đại học Vinh' },
-	    { 'id': 'YKV',
-	    	'name': 'Trường Đại học Y khoa Vinh' },
-	    { 'id': 'CEA',
-	    	'name': 'Trường Đại học Kinh tế Nghệ An' },
-	    { 'id': 'HHT',
-	    	'name': 'Trường Đại học Hà Tĩnh' },
-	    { 'id': 'DQB',
-	    	'name': 'Trường Đại học Quảng Bình Đại học HUẾ' },
-	    { 'id': 'DHC',
-	    	'name': 'Khoa Giáo dục Thể chất - ĐH Huế' },
-	    { 'id': 'DHD',
-	    	'name': 'Khoa Du lịch - ĐH Huế' },
-	    { 'id': 'DHF',
-	    	'name': 'Trường Đại học Ngoại ngữ - ĐH Huế' },
-	    { 'id': 'DHK',
-	    	'name': 'Trường Đại học Kinh tế - ĐH Huế' },
-	    { 'id': 'DHL',
-	    	'name': 'Trường Đại học Nông Lâm - ĐH Huế' },
-	    { 'id': 'DHN',
-	    	'name': 'Trường Đại học Nghệ thuật - ĐH Huế' },
-	    { 'id': 'DHS',
-	    	'name': 'Trường Đại học Sư phạm - ĐH Huế' },
-	    { 'id': 'DHT',
-	    	'name': 'Trường Đại học Khoa học - ĐH Huế' },
-	    { 'id': 'DHY',
-	    	'name': 'Trường Đại học Y Dược - ĐH Huế' },
-	    { 'id': 'DHQ',
-	    	'name': 'Phân hiệu ĐH Huế tại quảng Trị' },
-	    { 'id': 'DHA',
-	    	'name': 'Trường Đại học Luật - ĐH Huế Đại học ĐÀ NẴNG' },
-	    { 'id': 'DDS',
-	    	'name': 'Trường Đại học Sư phạm - ĐH Đà nẵng' },
-	    { 'id': 'DDK',
-	    	'name': 'Trường Đại học Bách Khoa - ĐH Đà Nẵng' },
-	    { 'id': 'DDQ',
-	    	'name': 'Trường Đại học Kinh tế - ĐH Đà Nẵng' },
-	    { 'id': 'DDF',
-	    	'name': 'Trường Đại học Ngoại ngữ - ĐH Đà Nẵng' },
-	    { 'id': 'DDP',
-	    	'name': 'Phân hiệu Đại học Đà Nẵng tại Kon Tum' },
-	    { 'id': 'DDY',
-	    	'name': 'Khoa Y Dược – ĐH Đà Nẵng' },
-	    { 'id': 'HVA',
-	    	'name': 'Học viện Âm nhạc Huế' },
-	    { 'id': 'TDL',
-	    	'name': 'Trường Đại học Đà Lạt' },
-	    { 'id': 'YDN',
-	    	'name': 'Trường Đại học Kỹ thuật Y Dược Đà Nẵng' },
-	    { 'id': 'TSN',
-	    	'name': 'Trường Đại học Nha Trang' },
-	    { 'id': 'DPY',
-	    	'name': 'Trường Đại học Phú Yên' },
-	    { 'id': 'DPQ',
-	    	'name': 'Trường Đại học Phạm Văn Đồng' },
-	    { 'id': 'DQU',
-	    	'name': 'Trường Đại học Quảng Nam' },
-	    { 'id': 'DQN',
-	    	'name': 'Trường Đại học Quy Nhơn' },
-	    { 'id': 'DKQ',
-	    	'name': 'Trường Đại học Tài chính Kế toán' },
-	    { 'id': 'TTN',
-	    	'name': 'Trường Đại học Tây Nguyên' },
-	    { 'id': 'TTD',
-	    	'name': 'Trường Đại học Thể dục Thể thao Đà Nẵng' },
-	    { 'id': 'XDT',
-	    	'name': 'Trường Đại học Xây dựng Miền Trung' },
-	    { 'id': 'BMT',
-	    	'name': ' Trường Đại học Buôn Ma Thuột' },
-	    { 'id': 'DCV',
-	    	'name': 'Trường Đại học Công nghiệp Vinh' },
-	    { 'id': 'DDT',
-	    	'name': 'Trường Đại học Dân lập Duy Tân' },
-	    { 'id': 'DAD',
-	    	'name': 'Trường Đại học Đông Á' },
-	    { 'id': 'DPX',
-	    	'name': 'Trường Đại học Dân lập Phú Xuân' },
-	    { 'id': 'DYD',
-	    	'name': 'Trường Đại học Dân lập Yersin Đà Lạt' },
-	    { 'id': 'KTD',
-	    	'name': 'Trường Đại học Kiến trúc Đà Nẵng' },
-	   	{ 'id': 'DPC',
-	    	'name': 'Trường Đại học Phan Châu Trinh' },
-	   	{ 'id': 'DPT',
-	    	'name': 'Trường Đại học Phan Thiết' },
-	   	{ 'id': 'DQT',
-	    	'name': 'Trường Đại học Quang Trung' },
-	   	{ 'id': 'TBD',
-	    	'name': 'Trường Đại học Thái Bình Dương' },
-	    { 'id': 'DVX',
-	    	'name': 'Trường Đại học Công nghệ Vạn Xuân' }
-    ];
-
-    $scope.mienNam = [
-		{ 'id': 'TAG',
-			'name': 'Trường Đại học An Giang' },
-		{ 'id': 'DBL',
-			'name': 'Trường Đại học Bạc Liêu' },
-		{ 'id': 'TCT',
-			'name': 'Trường Đại học Cần Thơ' },
-		{ 'id': 'PVU',
-			'name': 'Trường Đại học Dầu khí Việt Nam' },
-		{ 'id': 'DNU',
-			'name': 'Trường Đại học Đồng Nai' },
-		{ 'id': 'SPD',
-			'name': 'Trường Đại học Đồng Tháp' },
-		{ 'id': 'KCC',
-			'name': 'Trường Đại học Kỹ thuật Công nghệ Cần Thơ' },
-		{ 'id': 'VLU',
-			'name': 'Trường Đại học Sư phạm Kỹ thuật Vĩnh Long' },
-		{ 'id': 'TDM',
-			'name': 'Trường Đại học Thủ Dầu Một' },
-		{ 'id': 'TTG',
-			'name': 'Trường Đại học Tiền Giang' },
-		{ 'id': 'DVT',
-			'name': 'Trường Đại học Trà Vinh' },
-		{ 'id': 'MTU',
-			'name': 'Trường Đại học Xây dựng Miền Tây' },
-		{ 'id': 'YCT',
-			'name': 'Trường Đại học Y Dược Cần Thơ' },
-		{ 'id': 'DBV',
-			'name': 'Trường Đại học Bà Rịa - Vũng Tàu ' },
-		{ 'id': 'DBD',
-			'name': 'Trường Đại học Bình Dương ' },
-		{ 'id': 'DCD',
-			'name': 'Trường Đại học Công nghệ Đồng Nai' },
-		{ 'id': 'DMD',
-			'name': 'Trường Đại học Công nghệ Miền Đông ' },
-		{ 'id': 'DCL',
-			'name': 'Trường Đại học Dân lập Cửu Long ' },
-		{ 'id': 'DLH',
-			'name': 'Trường Đại học Dân lập Lạc Hồng ' },
-		{ 'id': 'DLA',
-			'name': 'Trường Đại học Kinh tế Công nghiệp Long An ' },
-		{ 'id': 'DKB',
-			'name': 'Trường Đại học Kinh tế Kỹ thuật Bình Dương ' },
-		{ 'id': 'DNC',
-			'name': 'Trường Đại học Nam Cần Thơ ' },
-		{ 'id': 'EIU',
-			'name': 'Trường Đại học Quốc tế Miền Đông ' },
-		{ 'id': 'TTU',
-			'name': 'Trường Đại học Tân Tạo ' },
-		{ 'id': 'DTD',
-			'name': 'Trường Đại học Tây Đô ' },
-		{ 'id': 'VTT',
-			'name': 'Trường Đại học Võ Trường Toản ' },
-    ];
-
-}]);
+});
