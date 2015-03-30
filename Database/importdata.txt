@@ -1,10 +1,10 @@
 =======================
 //	Connect to database
 //	To connect using the shell:
-mongo ds035557.mongolab.com:35557/vnuni -u <dbuser> -p <dbpassword>
+mongo ds035557.mongolab.com:35557/vnuni -u tuantq -p quoctuan
 
 //	To connect using a driver via the standard URI (what's this?):
- mongodb://<dbuser>:<dbpassword>@ds035557.mongolab.com:35557/vnuni
+ mongodb://tuantq:quoctuan@ds035557.mongolab.com:35557/vnuni
 
 =======================
 //	Import database
