@@ -2,7 +2,8 @@ var mongoose = require('mongoose');
 
 var thanhphoSchema = mongoose.Schema({
     id: Number,
-    name: String
+    name: String,
+    region: Number
 })
 
 thanhphoSchema.statics.getAll = function getAll(cb) {
