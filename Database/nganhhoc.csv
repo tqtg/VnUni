@@ -1,9 +1,6 @@
 id,name
-5214,Khoa học giáo dục và đào tạo giáo viên
-521401,Khoa học giáo dục
 52140101,Giáo dục học
 52140114,Quản lý giáo dục
-521402,Đào tạo giáo viên
 52140201,Giáo dục Mầm non
 52140202,Giáo dục Tiểu học
 52140203,Giáo dục Đặc biệt
@@ -34,14 +31,11 @@ id,name
 52140234,Sư phạm Tiếng Trung Quốc
 52140235,Sư phạm Tiếng Đức
 52140236,Sư phạm Tiếng Nhật
-5221,Nghệ thuật
-522101,Mỹ thuật
 52210101,"Lý luận, lịch sử và phê bình mỹ thuật"
 52210103,Hội hoạ
 52210104,Đồ hoạ
 52210105,Điêu khắc
 52210107,Gốm
-522102,Nghệ thuật trình diễn
 52210201,Âm nhạc học
 52210203,Sáng tác âm nhạc
 52210204,Chỉ huy âm nhạc
@@ -63,18 +57,14 @@ id,name
 52210242,Diễn viên múa
 52210243,Biên đạo múa
 52210244,Huấn luyện múa
-522103,Nghệ thuật nghe nhìn
 52210301,Nhiếp ảnh
 52210302,Công nghệ điện ảnh - truyền hình
 52210303,Thiết kế âm thanh - ánh sáng
-522104,Mỹ thuật ứng dụng
 52210402,Thiết kế công nghiệp
 52210403,Thiết kế đồ họa
 52210404,Thiết kế thời trang
 52210405,Thiết kế nội thất
 52210406,Thiết kế mỹ thuật sân khấu - điện ảnh
-5222,Nhân văn
-522201,Ngôn ngữ và văn hoá Việt Nam
 52220101,Tiếng Việt và văn hoá Việt Nam
 52220104,Hán Nôm
 52220105,Ngôn ngữ Jrai
@@ -84,7 +74,6 @@ id,name
 52220110,Sáng tác văn học
 52220112,Văn hoá các dân tộc thiểu số Việt Nam
 52220113,Việt Nam học
-522202,Ngôn ngữ và văn hoá nước ngoài
 52220201,Ngôn ngữ Anh
 52220202,Ngôn ngữ Nga
 52220203,Ngôn ngữ Pháp
@@ -103,7 +92,6 @@ id,name
 52220216,Nhật Bản học
 52220217,Hàn Quốc học
 52220218,Khu vực Thái Bình Dương học
-522203,Nhân văn khác
 52220301,Triết học
 52220310,Lịch sử
 52220320,Ngôn ngữ học
@@ -111,41 +99,28 @@ id,name
 52220340,Văn hoá học
 52220342,Quản lý văn hoá
 52220343,Quản lý thể dục thể thao*
-5231,Khoa học xã hội và hành vi
-523101,Kinh tế học
 52310101,Kinh tế
 52310106,Kinh tế quốc tế
-523102,Khoa học chính trị
 52310201,Chính trị học
 52310202,Xây dựng Đảng và chính quyền nhà nước
 52310205,Quản lý nhà nước
 52310206,Quan hệ quốc tế
-523103,Xã hội học và Nhân học
 52310301,Xã hội học
 52310302,Nhân học
-523104,Tâm lý học
 52310401,Tâm lý học
 52310403,Tâm lý học giáo dục
-523105,Địa lý học
 52310501,Địa lý học
 52310502,Bản đồ học
-5232,Báo chí và thông tin
-523201,Báo chí và truyền thông
 52320101,Báo chí
 52320104,Truyền thông đa phương tiện
 52340406,Công nghệ truyền thông
 52360708,Quan hệ công chúng
-523202,Thông tin - Thư viện
 52320201,Thông tin học
 52320202,Khoa học thư viện
-523203,Văn thư - Lưu trữ - Bảo tàng
 52320303,Lưu trữ học
 52320305,Bảo tàng học
-523204,Xuất bản - Phát hành
 52320401,Xuất bản
 52320402,Kinh doanh xuất bản phẩm
-5234,Kinh doanh và quản lý
-523401,Kinh doanh
 52340101,Quản trị kinh doanh
 52340103,Quản trị dịch vụ du lịch và lữ hành
 52340107,Quản trị khách sạn
@@ -154,146 +129,105 @@ id,name
 52340116,Bất động sản
 52340120,Kinh doanh quốc tế
 52340121,Kinh doanh thương mại
-523402,Tài chính – Ngân hàng – Bảo hiểm
 52340201,Tài chính – Ngân hàng
 52340202,Bảo hiểm
-523403,Kế toán – Kiểm toán
 52340301,Kế toán
 52340302,Kiểm toán
-523404,Quản trị – Quản lý
 52340401,Khoa học quản lý
 52340404,Quản trị nhân lực
 52340405,Hệ thống thông tin quản lý
 52340406,Quản trị văn phòng
-5238,Pháp luật
-523801,Luật
 52380101,Luật
 52380107,Luật kinh tế
 52380108,Luật quốc tế
-5242,Khoa học sự sống
-524201,Sinh học
 52420101,Sinh học
-524202,Sinh học ứng dụng
 52420201,Công nghệ sinh học
 52420202,Kỹ thuật sinh học*
 52420203,Sinh học ứng dụng
-5244,Khoa học tự nhiên
-524401,Khoa học vật chất
 52440101,Thiên văn học
 52440102,Vật lý học
 52440112,Hoá học
 52430122,Khoa học vật liệu
-524402,Khoa học trái đất
 52440201,Địa chất học
 52440217,Địa lý tự nhiên
 52440221,Khí tượng học
 52440224,Thuỷ văn
 52440228,Hải dương học
-524403,Khoa học môi trường
 52440301,Khoa học môi trường
 52440306,Khoa học đất
-5246,Toán và thống kê
-524601,Toán học
 52460101,Toán học
 52460112,Toán ứng dụng
 52460115,Toán cơ
-524602,Thống kê
 52460201,Thống kê
-5248,Máy tính và công nghệ thông tin
-524801,Máy tính
 52480101,Khoa học máy tính
 52480102,Truyền thông và mạng máy tính
 52480103,Kỹ thuật phần mềm
 52480104,Hệ thống thông tin
-524802,Công nghệ thông tin
 52480201,Công nghệ thông tin
-5251,Công nghệ kỹ thuật
-525101,Công nghệ kỹ thuật kiến trúc và công trình xây dựng
 52510102,Công nghệ kỹ thuật công trình xây dựng
 52510103,Công nghệ kỹ thuật xây dựng
 52510104,Công nghệ kỹ thuật giao thông
 52510105,Công nghệ kỹ thuật vật liệu xây dựng
-525102,Công nghệ kỹ thuật cơ khí
 52510201,Công nghệ kỹ thuật cơ khí
 52510202,Công nghệ chế tạo máy
 52510203,Công nghệ kỹ thuật cơ điện tử
 52510205,Công nghệ kỹ thuật ô tô
 52510206,Công nghệ kỹ thuật nhiệt
 52510210,Công thôn
-525103,"Công nghệ kỹ thuật điện, điện tử và viễn thông"
 52510301,"Công nghệ kỹ thuật điện, điện tử"
 52510302,"Công nghệ kỹ thuật điện tử, truyền thông"
 52510303,Công nghệ kỹ thuật điều khiển và tự động hóa
 52510304,Công nghệ kỹ thuật máy tính
-525104,"Công nghệ hoá học, vật liệu, luyện kim và môi trường"
 52510401,Công nghệ kỹ thuật hoá học
 52510402,Công nghệ vật liệu
 52510406,Công nghệ kỹ thuật môi trường
-525106,Quản lý công nghiệp
 52510601,Quản lý công nghiệp
 52510602,Kỹ thuật hệ thống công nghiệp
 52510603,Kỹ thuật công nghiệp
 52510604,Kinh tế công nghiệp
-5252,Kỹ thuật
-525201,Kỹ thuật cơ khí và cơ kỹ thuật
 52520101,Cơ kỹ thuật
 52520103,Kỹ thuật cơ khí
 52520114,Kỹ thuật cơ - điện tử
 52520115,Kỹ thuật nhiệt
 52520120,Kỹ thuật hàng không
 52520122,Kỹ thuật tàu thuỷ
-525202,"Kỹ thuật điện, điện tử và viễn thông"
 52520201,"Kỹ thuật điện, điện tử"
 52520207,"Kỹ thuật điện tử, truyền thông"
 52520212,Kỹ thuật y sinh*
 52520214,Kỹ thuật máy tính
 52520216,Kỹ thuật điều khiển và tự động hoá
-525203,"Kỹ thuật hoá học, vật liệu, luyện kim và môi trường"
 52520301,Kỹ thuật hoá học
 52520309,Kỹ thuật vật liệu
 52520310,Kỹ thuật vật liệu kim loại
 52520320,Kỹ thuật môi trường
-525204,Vật lý kỹ thuật
 52520401,Vật lý kỹ thuật
 52520402,Kỹ thuật hạt nhân
-525205,"Kỹ thuật địa chất, địa vật lý và trắc địa"
 52520501,Kỹ thuật địa chất
 52520502,Kỹ thuật địa vật lý
 52520503,Kỹ thuật trắc địa - bản đồ
 52520504,Kỹ thuật biển
-525206,Kỹ thuật mỏ
 52520601,Kỹ thuật mỏ
 52520604,Kỹ thuật dầu khí
 52520607,Kỹ thuật tuyển khoáng
-5254,Sản xuất và chế biến
-525401,"Chế biến lương thực, thực phẩm và đồ uống"
 52540101,Công nghệ thực phẩm
 52540104,Công nghệ sau thu hoạch
 52540105,Công nghệ chế biến thuỷ sản
-525402,"Sản xuất, chế biến sợi, vải, giày, da"
 52540201,Kỹ thuật dệt
 52540202,"Công nghệ sợi, dệt"
 52540204,Công nghệ may
 52540206,Công nghệ da giày
-525403,"Sản xuất, chế biến khác"
 52540301,Công nghệ chế biến lâm sản
-5258,Kiến trúc và xây dựng
-525801,Kiến trúc và quy hoạch
 52580102,Kiến trúc
 52580105,Quy hoạch vùng và đô thị
 52580110,Kiến trúc cảnh quan
-525802,Xây dựng
 52580201,Kỹ thuật công trình xây dựng
 52580203,Kỹ thuật công trình biển
 52580205,Kỹ thuật xây dựng công trình giao thông
 52580208,Kỹ thuật xây dựng
 52580210,Địa kỹ thuật xây dựng
 52580212,Kỹ thuật tài nguyên nước
-525803,Quản lý xây dựng
 52580301,Kinh tế xây dựng
 52580302,Quản lý xây dựng
-5262,"Nông, lâm nghiệp và thuỷ sản"
-526201,Nông nghiệp
 52620101,Nông nghiệp
 52620102,Khuyến nông
 52620105,Chăn nuôi
@@ -304,61 +238,37 @@ id,name
 52620114,Kinh doanh nông nghiệp
 52620115,Kinh tế nông nghiệp
 52620116,Phát triển nông thôn
-526202,Lâm nghiệp
 52620201,Lâm nghiệp
 52620202,Lâm nghiệp đô thị
 52620205,Lâm sinh
 52620211,Quản lý tài nguyên rừng
-526203,Thuỷ sản
 52620301,Nuôi trồng thuỷ sản
 52620302,Bệnh học thủy sản
 52620304,Kỹ thuật khai thác thủy sản
 52620305,Quản lý nguồn lợi thủy sản
-5264,Thú y
-526401,Thú y
 52640101,Thú y
-5272,Sức khoẻ
-527201,Y học
 52720101,Y đa khoa
-527202,Y học cổ truyền
 52720201,Y học cổ truyền
-527203,Dịch vụ y tế
 52720301,Y tế công cộng
 52720305,Y sinh học thể dục thể thao
 52720330,Kỹ thuật y học
 52720332,Xét nghiệm y học
 52720333,"Vật lý trị liệu, phục hồi chức năng"
-527204,Dược học
 52720401,Dược học
-527205,"Điều dưỡng, hộ sinh"
 52720501,Điều dưỡng
-527206,Răng - Hàm - Mặt
 52720601,Răng - Hàm - Mặt
 52720602,Kỹ thuật phục hình răng
-527207,Quản lý bệnh viện
 52720701,Quản lý bệnh viện
-5276,Dịch vụ xã hội
-527601,Công tác xã hội
 52760101,Công tác xã hội
 52760102,Công tác thanh thiếu niên
-5281,"Khách sạn, du lịch, thể thao và dịch vụ cá nhân"
-528102,"Khách sạn, nhà hàng"
-528105,Kinh tế gia đình
 52810501,Kinh tế gia đình
-5284,Dịch vụ vận tải
-528401,Khai thác vận tải
 52840101,Khai thác vận tải
 52840104,Kinh tế vận tải
 52840106,Khoa học hàng hải
-5285,Môi trường và bảo vệ môi trường
-528501,Kiểm soát và bảo vệ môi trường
 52850101,Quản lý tài nguyên và môi trường
 52850102,Kinh tế tài nguyên thiên nhiên
 52850103,Quản lý đất đai
-528502,Dịch vụ an toàn lao động và vệ sinh công nghiệp
 52850201,Bảo hộ lao động
-5286,"An ninh, Quốc phòng"
-528601,An ninh và trật tự xã hội
 52860102,Điều tra trinh sát
 52860104,Điều tra hình sự
 52860108,Kỹ thuật hình sự
@@ -368,7 +278,6 @@ id,name
 52860113,Phòng cháy chữa cháy và cứu hộ cứu nạn
 52860116,Hậu cần công an nhân dân
 52860117,Tình báo an ninh
-528602,Quân sự
 52860206,Biên phòng
 52860210,Chỉ huy tham mưu
 52860214,Chỉ huy kỹ thuật
