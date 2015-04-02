@@ -68,54 +68,42 @@
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
                             <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
-                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | filter: tennganh | orderBy: 'name'">
-                                <option value="">---</option>
-                            </select>
+                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Khối thi</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi | orderBy: 'name'">
-                                <option value="">---</option>
-                            </select>
+                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi | orderBy: 'name'"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Mức điểm</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem | orderBy: 'id'">
-                                <option value="">---</option>
-                            </select>
+                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem | orderBy: 'id'"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Vùng miền</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien | orderBy: 'id'">
-                                <option value="">---</option>
-                            </select>
+                            <select name="VungMien" class="form-control" ng-model="vungmien" ng-options="v.name for v in filter.vungmien | orderBy: 'id'"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Tỉnh/T.Phố</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="ThanhPho" class="form-control" ng-model="thanhpho" ng-options="t.name for t in filter.thanhpho | filter: {region: vungmien.id}">
-                                <option value="">---</option>
-                            </select>
+                            <select name="ThanhPho" class="form-control" ng-model="thanhpho" ng-options="t.name for t in filter.thanhpho | thanhphoFilter:vungmien | orderBy: 'id'"></select>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Loại trường</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong | orderBy: 'id'">
-                                <option value="">---</option>
-                            </select>
+                            <select name="LoaiTruong" class="form-control" ng-model="loaitruong" ng-options="l.name for l in filter.loaitruong | orderBy: 'id'"></select>
                         </div>
                     </div>
 
