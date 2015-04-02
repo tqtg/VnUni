@@ -6,7 +6,7 @@ var nganhhocSchema = mongoose.Schema({
 })
 
 nganhhocSchema.statics.getAll = function getAll(cb) {
-	return this.find({}).exec(cb);
+	return this.find({ $query: {}, $orderby: { id : 1 }}, cb);
 }
 
 module.exports = mongoose.model('Nganhhoc', nganhhocSchema);

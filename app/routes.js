@@ -25,12 +25,18 @@ module.exports = function (app) {
 
     app.get('/search', function(req, res, next) {
         console.log("Searching request with parameters:");
-        console.log(req.query.nganhhoc);
-        console.log(req.query.khoithi);
-        console.log(req.query.mucdiem);
-        console.log(req.query.vungmien);
-        console.log(req.query.thanhpho);
-        console.log(req.query.loaitruong);
+        // console.log(req.query);
+        for (var property in req.query) {
+            if (req.query[property] != 0) {
+                console.log(property);
+            }
+        }
+        // console.log(req.query.nganhhoc);
+        // console.log(req.query.khoithi);
+        // console.log(req.query.mucdiem);
+        // console.log(req.query.vungmien);
+        // console.log(req.query.thanhpho);
+        // console.log(req.query.loaitruong);
         next();
     })
 

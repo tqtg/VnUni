@@ -15,7 +15,7 @@ module.exports = mongoose.model('Uni', {
     location: {
         region: String,
         city: Number
-    }
+    },
 
     // JSON array stores majors' infor 
     majors: [       
