@@ -2,9 +2,7 @@ angular.module('HomeCtrl', ['HomeService'])
 .controller('HomeController', function($scope, $filter, loadFilterService, searchService) {
     //  Load data for filter
     $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
-        $scope.nganhhoc = $scope.filter.nganhhoc[0];
-    });
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'});
     $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
         $scope.khoithi = $scope.filter.khoithi[0];
     });
@@ -67,7 +65,7 @@ angular.module('HomeCtrl', ['HomeService'])
             if (vungmien.id == 0) return thanhphos;
             else {
                 var filtered = [];
-                filtered.push(nganhhocs[0]);
+                filtered.push(thanhphos[0]);
                 for (var i = 0; i < thanhphos.length; i++) {
                     if (thanhphos[i].region == vungmien.id) {
                         filtered.push(thanhphos[i]);
@@ -83,7 +81,6 @@ angular.module('HomeCtrl', ['HomeService'])
         if (typeof tennganh === 'undefined') return nganhhocs;
         else {
             var filtered = [];
-            filtered.push(nganhhocs[0]);
             for (var i = 0; i < nganhhocs.length; i++) {
                 if (nganhhocs[i].name.toLowerCase().includes(tennganh.toLowerCase())) {
                     filtered.push(nganhhocs[i]);
