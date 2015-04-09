@@ -1,4 +1,3 @@
-id,name,region,city,type
 QHI,Trường Đại học Công nghệ - Đại học Quốc Gia Hà Nội,1,1,1
 QHT,Trường Đại học Khoa học Tự nhiên - Đại học Quốc Gia Hà Nội,1,1,1
 QHX,Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc Gia Hà Nội,1,1,1
@@ -238,7 +237,6 @@ QSQ,Trường Đại học Quốc Tế - Đại học Quốc gia TP.Hồ Chí Mi
 QST,Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.Hồ Chí Minh,3,2,1
 QSX,Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc gia TP.Hồ Chí Minh,3,2,1
 QSY,Khoa Y - Đại học Quốc gia TP.Hồ Chí Minh,3,2,1
-,Viện Đào tạo quốc tế (IEI) - Đại học Quốc gia TP.Hồ Chí Minh,3,2,1
 QSF,Trung tâm Đại học Pháp tại TP HCM - Đại học Quốc gia TP.Hồ Chí Minh,3,2,1
 DHA,Khoa Luật - Đại học Huế,2,32,1
 DHC,Khoa giáo dục thể chất - Đại học Huế,2,32,1
@@ -448,7 +446,6 @@ CVS,Trường Cao đẳng Văn hoá Nghệ Thuật và Du lịch Sài Gòn,3,2,2
 CDV,Trường Cao đẳng Viễn Đông,3,2,2
 RMI,Trường Đại học quốc tế Rmit Việt Nam,3,2,1
 VGU,Trường Đại học Việt Đức,3,2,1
-,Trường Đại học Anh quốc Việt Nam,1,1,1
 KQH,Học viện Kỹ thuật Quân sự,1,1,1
 YQH,Học viện Quân y,1,1,1
 NQH,Học viện Khoa học Quân sự,1,1,1

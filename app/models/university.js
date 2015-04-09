@@ -5,7 +5,24 @@ var uniSchema = mongoose.Schema({
     name: String,
     region: Number,
     city: Number,
-    type: Number
+    type: Number,
+
+    //	Major
+    majors: [
+    	{
+    		id: Number,		//	major id
+    		name: String, 	//	major name
+    		divisions: {
+    			division: String	// division id
+    		},
+    		admissionMarks: [
+    			{
+    				year: Number,
+    				mark: Number
+    			}
+    		]
+    	}
+    ]
 })
 
 uniSchema.statics.getAll = function getAll(queryParams, cb) {
