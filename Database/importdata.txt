@@ -25,3 +25,6 @@ mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --passwo
 
 //	Loai truong
 mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection loaitruongs --db vnuni --type csv --file loaitruong.csv --headerline
+
+//	University
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection universities --db vnuni --type csv --file university.csv --headerline
