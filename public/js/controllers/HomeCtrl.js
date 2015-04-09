@@ -1,8 +1,10 @@
 angular.module('HomeCtrl', ['HomeService'])
-.controller('HomeController', function($scope, $filter, loadFilterService, searchService) {
+.controller('HomeController', function($rootScope, $scope, $filter, loadFilterService, searchService) {
     //  Load data for filter
     $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'});
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
+        $scope.nganhhoc = $scope.filter.nganhhoc[0];
+    });
     $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
         $scope.khoithi = $scope.filter.khoithi[0];
     });
@@ -21,18 +23,24 @@ angular.module('HomeCtrl', ['HomeService'])
 
 
     console.log($scope.filter);
-    //  Search university
+    // Search university
     // $scope.search = function() {
     //     console.log("Searching ...");
-    //     searchService.search(function(data) {
-    //         $scope.universities = data;
-    //     });
+    //     console.log($scope.nganhhoc.id);
+    //     console.log($scope.khoithi.id);
+    //     console.log($scope.mucdiem.id);
+    //     console.log($scope.vungmien.id);
+    //     console.log($scope.thanhpho.id);
+    //     console.log($scope.loaitruong.id);
+    //     // searchService.search(function(data) {
+    //     //     $scope.universities = data;
+    //     // });
     // }
 
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
-    	searchService.search( {
+    	$rootScope.universities = searchService.search({
     		//	Parameters are taken from filter
     		nganhhoc: $scope.nganhhoc.id,
     		khoithi: $scope.khoithi.id,
@@ -40,15 +48,9 @@ angular.module('HomeCtrl', ['HomeService'])
     		vungmien: $scope.vungmien.id,
     		thanhpho: $scope.thanhpho.id,
     		loaitruong: $scope.loaitruong.id
-    	}, function() {
-    		console.log('Searching ...');
-    		console.log($scope.nganhhoc);
-    		console.log($scope.khoithi);
-    		console.log($scope.mucdiem);
-    		console.log($scope.vungmien);
-    		console.log($scope.thanhpho);
-    		console.log($scope.loaitruong);
     	});
+
+        console.log($rootScope.universities);
     };
 
 
@@ -81,12 +83,13 @@ angular.module('HomeCtrl', ['HomeService'])
         if (typeof tennganh === 'undefined') return nganhhocs;
         else {
             var filtered = [];
+            filtered.push(nganhhocs[0]);
             for (var i = 0; i < nganhhocs.length; i++) {
                 if (nganhhocs[i].name.toLowerCase().includes(tennganh.toLowerCase())) {
                     filtered.push(nganhhocs[i]);
                 }
             }
             return filtered;
-        }        
+        } 
     }
 });
