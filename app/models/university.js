@@ -10,8 +10,7 @@ var uniSchema = mongoose.Schema({
     //	Major
     majors: [
     	{
-    		id: Number,		//	major id
-    		name: String, 	//	major name
+    		major: Number,		//	major id
     		divisions: {
     			division: String	// division id
     		},

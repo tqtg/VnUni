@@ -4,3282 +4,9848 @@
 		"name": "Trường Đại học Công nghệ - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHT",
 		"name": "Trường Đại học Khoa học Tự nhiên - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHX",
 		"name": "Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHF",
 		"name": "Trường Đại học Ngoại ngữ - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHE",
 		"name": "Trường Đại học Kinh tế - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHS",
 		"name": "Trường Đại học Giáo dục - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHL",
 		"name": "Khoa Luật - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHY",
 		"name": "Khoa Y Dược - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QHQ",
 		"name": "Khoa Quốc tế - Đại học Quốc Gia Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTE",
 		"name": "Trường Đại học Kinh tế và Quản trị kinh doanh - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTK",
 		"name": "Trường Đại học Kỹ thuật công nghiệp - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTN",
 		"name": "Trường Đại học Nông Lâm - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTS",
 		"name": "Trường Đại học Sư phạm - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTY",
 		"name": "Trường Đại học Y Dược - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTZ",
 		"name": "Trường Đại học Khoa học - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTC",
 		"name": "Trường Đại học Công nghệ thông tin và Truyền thông - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTF",
 		"name": "Khoa Ngoại ngữ - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTQ",
 		"name": "Khoa Quốc tế - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTU",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật - Đại học Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "ANH",
 		"name": "Học viện An ninh nhân dân",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NVH",
 		"name": "Học viện Âm nhạc Quốc gia Việt Nam",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TGC",
 		"name": "Học viện Báo chí - Tuyên truyền",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CSH",
 		"name": "Học viện Cảnh sát nhân dân",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HCP",
 		"name": "Học viện Chính sách và Phát triển",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "BVH",
 		"name": "Học viện Công nghệ Bưu chính viễn thông",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HCH",
 		"name": "Học viện Hành chính",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KMA",
 		"name": "Học viện Kỹ thuật Mật mã",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NHH",
 		"name": "Học viện Ngân hàng",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HQT",
 		"name": "Học viện Ngoại giao",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HPN",
 		"name": "Học viện Phụ nữ Việt Nam",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HVQ",
 		"name": "Học viện Quản lý giáo dục",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HTC",
 		"name": "Học viện Tài chính",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HTN",
 		"name": "Học viện Thanh thiếu niên",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HYD",
 		"name": "Học viện Y dược học cổ truyền Việt Nam",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "BKA",
 		"name": "Trường Đại học Bách khoa Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LDA",
 		"name": "Trường Đại học Công đoàn",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "GTA",
 		"name": "Trường Đại học Công nghệ Giao thông Vận tải",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCN",
 		"name": "Trường Đại học Công nghiệp Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDM",
 		"name": "Trường Đại học Công nghiệp Quảng Ninh",
 		"region": 1,
 		"city": 17,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VHD",
 		"name": "Trường Đại học Công nghiệp Việt - Hung",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VUI",
 		"name": "Trường Đại học Công nghiệp Việt Trì",
 		"region": 1,
 		"city": 15,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKH",
 		"name": "Trường Đại học Dược Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDL",
 		"name": "Trường Đại học Điện lực",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YDD",
 		"name": "Trường Đại học Điều dưỡng Nam Định",
 		"region": 1,
 		"city": 24,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "GHA",
 		"name": "Trường Đại học Giao thông Vận tải (cơ sở 1)",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NHF",
 		"name": "Trường Đại học Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HHT",
 		"name": "Trường Đại học Hà Tĩnh",
 		"region": 2,
 		"city": 29,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKT",
 		"name": "Trường Đại học Hải Dương",
 		"region": 1,
 		"city": 20,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HHA",
 		"name": "Trường Đại học Hàng Hải",
 		"region": 1,
 		"city": 3,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "THP",
 		"name": "Trường Đại học Hải Phòng",
 		"region": 1,
 		"city": 3,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DNB",
 		"name": "Trường Đại học Hoa Lư Ninh Bình",
 		"region": 1,
 		"city": 26,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HDT",
 		"name": "Trường Đại học Hồng Đức",
 		"region": 2,
 		"city": 27,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "THV",
 		"name": "Trường Đại học Hùng Vương",
 		"region": 1,
 		"city": 15,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KTA",
 		"name": "Trường Đại học Kiến Trúc Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKS",
 		"name": "Trường Đại học Kiểm sát",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKK",
 		"name": "Trường Đại học Kinh tế Kỹ thuật Công nghiệp",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KHA",
 		"name": "Trường Đại học Kinh tế Quốc dân",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HCB",
 		"name": "Trường Đại học Kỹ thuật - Hậu cần Công an Nhân dân",
 		"region": 1,
 		"city": 19,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKY",
 		"name": "Trường Đại học Kỹ thuật Y tế Hải Dương",
 		"region": 1,
 		"city": 20,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DLX",
 		"name": "Trường Đại học Lao động - Xã hội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LNH",
 		"name": "Trường Đại học Lâm nghiệp",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LPH",
 		"name": "Trường Đại học Luật Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MDA",
 		"name": "Trường Đại học Mỏ Địa chất",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MHN",
 		"name": "Viện Đại học Mở Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MTC",
 		"name": "Trường Đại học Mỹ thuật Công nghiệp",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MTH",
 		"name": "Trường Đại học Mỹ thuật Việt Nam",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NTH",
 		"name": "Trường Đại học Ngoại thương",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DNV",
 		"name": "Trường Đại học Nội vụ Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DBG",
 		"name": "Trường Đại học Nông lâm Bắc Giang",
 		"region": 1,
 		"city": 18,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NNH",
 		"name": "Trường Đại học Nông nghiệp Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "PCH",
 		"name": "Trường Đại học Phòng cháy Chữa cháy",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SDU",
 		"name": "Trường Đại học Sao Đỏ",
 		"region": 1,
 		"city": 20,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SKD",
 		"name": "Trường Đại học Sân khấu Điện ảnh",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SPH",
 		"name": "Trường Đại học Sư phạm Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SPH",
 		"name": "Trường Đại học Sư phạm Hà Nội 2",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SKH",
 		"name": "Trường Đại học Sư phạm Kỹ thuật Hưng Yên",
 		"region": 1,
 		"city": 21,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SKN",
 		"name": "Trường Đại học Sư phạm Kỹ thuật Nam Định",
 		"region": 1,
 		"city": 24,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SKV",
 		"name": "Trường Đại học Sư phạm Kỹ thuật Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "GNT",
 		"name": "Trường Đại học Sư phạm Nghệ thuật Trung ương",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDH",
 		"name": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DFA",
 		"name": "Trường Đại học Tài chính – Quản trị kinh doanh",
 		"region": 1,
 		"city": 21,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DMT",
 		"name": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TQU",
 		"name": "Trường Đại học Tân Trào",
 		"region": 1,
 		"city": 9,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TTB",
 		"name": "Trường Đại học Tây Bắc",
 		"region": 1,
 		"city": 14,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTB",
 		"name": "Trường Đại học Thái Bình",
 		"region": 1,
 		"city": 25,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDB",
 		"name": "Trường Đại học Thể dục Thể thao Bắc Ninh",
 		"region": 1,
 		"city": 19,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TLA",
 		"name": "Trường Đại học Thuỷ lợi",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TMA",
 		"name": "Trường Đại học Thương mại",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VHH",
 		"name": "Trường Đại học Văn hoá Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVD",
 		"name": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hoá",
 		"region": 2,
 		"city": 27,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDV",
 		"name": "Trường Đại học Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "XDA",
 		"name": "Trường Đại học Xây dựng Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YHB",
 		"name": "Trường Đại học Y Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YPB",
 		"name": "Trường Đại học Y Hải Phòng",
 		"region": 1,
 		"city": 3,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YKV",
 		"name": "Trường Đại học Y khoa Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YTB",
 		"name": "Trường Đại học Y Thái Bình",
 		"region": 1,
 		"city": 25,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YTC",
 		"name": "Trường Đại học Y tế Công cộng",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCA",
 		"name": "Trường Đại học Chu Văn An",
 		"region": 1,
 		"city": 21,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDA",
 		"name": "Trường Đại học Công nghệ Đông Á",
 		"region": 1,
 		"city": 19,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVX",
 		"name": "Trường Đại học Công nghệ Vạn Xuân",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCQ",
 		"name": "Trường Đại học Công nghệ và Quản lý Hữu nghị",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCV",
 		"name": "Trường Đại học Công nghiệp Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDN",
 		"name": "Trường Đại học Đại Nam",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDD",
 		"name": "Trường Đại học Dân lập Đông Đô",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHP",
 		"name": "Trường Đại học Dân lập Hải Phòng",
 		"region": 1,
 		"city": 3,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTV",
 		"name": "Trường Đại học Dân lập Lương Thế Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DPD",
 		"name": "Trường Đại học Dân lập Phương Đông",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "FPT",
 		"name": "Trường Đại học FPT",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHH",
 		"name": "Trường Đại học Hà Hoa Tiên",
 		"region": 1,
 		"city": 23,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HBU",
 		"name": "Trường Đại học Hoà Bình",
 		"region": 1,
 		"city": 22,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DQK",
 		"name": "Trường Đại học Kinh doanh và Công nghệ Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "UKB",
 		"name": "Trường Đại học Kinh Bắc",
 		"region": 1,
 		"city": 19,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NTU",
 		"name": "Trường Đại học Nguyễn Trãi",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MTC",
 		"name": "Trường Đại học Mỹ thuật Công nghiệp Á Châu",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DBH",
 		"name": "Trường Đại học Quốc tế Bắc Hà",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "FBU",
 		"name": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDD",
 		"name": "Trường Đại học Thành Đô",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDD",
 		"name": "Trường Đại học Thành Đông",
 		"region": 1,
 		"city": 20,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTA",
 		"name": "Trường Đại học Thành Tây",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTL",
 		"name": "Trường Đại học Thăng Long",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVP",
 		"name": "Trường Đại học Trưng Vương",
 		"region": 1,
 		"city": 16,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVB",
 		"name": "Trường Đại học Việt Bắc",
 		"region": 1,
 		"city": 12,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "AD1",
 		"name": "Trường Cao đẳng An ninh nhân dân I",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CD1",
 		"name": "Trường Cao đẳng Cảnh sát nhân dân I",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCM",
 		"name": "Trường Cao đẳng Công nghệ Dệt may Thời trang Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVT",
 		"name": "Trường Cao đẳng Công nghệ Viettronics",
 		"region": 1,
 		"city": 3,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CXD",
 		"name": "Trường Cao đẳng Công nghệ và Kinh tế Công nghiệp",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CHK",
 		"name": "Trường Cao đẳng Công nghệ và Kinh tế Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCC",
 		"name": "Trường Cao đẳng Công nghiệp Cẩm Phả",
 		"region": 1,
 		"city": 17,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCY",
 		"name": "Trường Cao đẳng Công nghiệp Hưng Yên",
 		"region": 1,
 		"city": 21,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCI",
 		"name": "Trường Cao đẳng Công nghiệp In",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CND",
 		"name": "Trường Cao đẳng Công nghiệp Nam Định",
 		"region": 1,
 		"city": 24,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPY",
 		"name": "Trường Cao đẳng Công nghiệp Phúc Yên",
 		"region": 1,
 		"city": 16,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCA",
 		"name": "Trường Cao đẳng Công nghiệp Hoá chất",
 		"region": 1,
 		"city": 15,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCB",
 		"name": "Trường Cao đẳng Công nghiệp Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTP",
 		"name": "Trường Cao đẳng Công nghiệp Thực phẩm",
 		"region": 1,
 		"city": 15,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCX",
 		"name": "Trường Cao đẳng Công nghiệp và Xây dựng",
 		"region": 1,
 		"city": 17,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCV",
 		"name": "Trường Cao đẳng Công nghiệp Việt Đức",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKL",
 		"name": "Trường Cao đẳng Cơ khí luyện kim",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C11",
 		"name": "Trường Cao đẳng Cộng đồng Bắc Kạn",
 		"region": 1,
 		"city": 11,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CHN",
 		"name": "Trường Cao đẳng Cộng đồng Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D20",
 		"name": "Trường Cao đẳng Cộng đồng Hà Tây",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D03",
 		"name": "Trường Cao đẳng Cộng đồng Hải Phòng",
 		"region": 1,
 		"city": 3,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLC",
 		"name": "Trường Cao đẳng Cộng đồng Lai Châu",
 		"region": 1,
 		"city": 7,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLA",
 		"name": "Trường Cao đẳng Cộng đồng Lào Cai",
 		"region": 1,
 		"city": 8,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDH",
 		"name": "Trường Cao đẳng Du lịch Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYS",
 		"name": "Trường Cao đẳng Dược Trung ương",
 		"region": 1,
 		"city": 20,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLH",
 		"name": "Trường Cao đẳng Điện tử - Điện lạnh Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CGN",
 		"name": "Trường Cao đẳng Giao thông vận tải Miền Trung",
 		"region": 2,
 		"city": 28,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C21",
 		"name": "Trường Cao đẳng Hải Dương",
 		"region": 1,
 		"city": 20,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CHH",
 		"name": "Trường Cao đẳng Hàng Hải 1",
 		"region": 1,
 		"city": 3,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCK",
 		"name": "Trường Cao đẳng Kinh tế Công nghiệp Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDB",
 		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Điện Biên",
 		"region": 3,
 		"city": 61,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CEA",
 		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Nghệ An",
 		"region": 2,
 		"city": 28,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPP",
 		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Phú Thọ",
 		"region": 1,
 		"city": 15,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTH",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật thương mại",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LM01",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Trung ương",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKA",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Vĩnh Phúc",
 		"region": 1,
 		"city": 16,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKT",
 		"name": "Trường Cao đẳng Kinh tế - Tài chính Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCE",
 		"name": "Trường Cao đẳng Kỹ thuật Công nghiệp (Bắc Giang)",
 		"region": 1,
 		"city": 18,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CT31",
 		"name": "Trường Cao đẳng Du lịch và Thương mại",
 		"region": 1,
 		"city": 20,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CMH",
 		"name": "Trường Cao đẳng Múa Việt Nam",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNT",
 		"name": "Trường Cao đẳng Nghệ thuật Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C18",
 		"name": "Trường Cao đẳng Ngô Gia Tự",
 		"region": 1,
 		"city": 18,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDP",
 		"name": "Trường Cao đẳng Nông Lâm Đông Bắc",
 		"region": 1,
 		"city": 17,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNP",
 		"name": "Trường Cao đẳng Nông nghiệp và Phát triển Nông thôn Bắc Bộ",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPT",
 		"name": "Trường Cao đẳng Phát thanh Truyền hình I",
 		"region": 1,
 		"city": 23,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C14",
 		"name": "Trường Cao đẳng Sơn La",
 		"region": 1,
 		"city": 14,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C19",
 		"name": "Trường Cao đẳng Sư phạm Bắc Ninh",
 		"region": 1,
 		"city": 19,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C06",
 		"name": "Trường Cao đẳng Sư phạm Cao Bằng",
 		"region": 1,
 		"city": 6,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C62",
 		"name": "Trường Cao đẳng Sư phạm Điện Biên",
 		"region": 3,
 		"city": 61,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C05",
 		"name": "Trường Cao đẳng Sư phạm Hà Giang",
 		"region": 1,
 		"city": 5,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C24",
 		"name": "Trường Cao đẳng Sư phạm Hà Nam",
 		"region": 1,
 		"city": 23,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C01",
 		"name": "Trường Cao đẳng Sư phạm Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C20",
 		"name": "Trường Cao đẳng Sư phạm Hà Tây",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C22",
 		"name": "Trường Cao đẳng Sư phạm Hưng Yên",
 		"region": 1,
 		"city": 21,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C23",
 		"name": "Trường Cao đẳng Sư phạm Hoà Bình",
 		"region": 1,
 		"city": 22,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C08",
 		"name": "Trường Cao đẳng Sư phạm Lào Cai",
 		"region": 1,
 		"city": 8,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C10",
 		"name": "Trường Cao đẳng Sư phạm Lạng Sơn",
 		"region": 1,
 		"city": 10,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C25",
 		"name": "Trường Cao đẳng Sư phạm Nam Định",
 		"region": 1,
 		"city": 24,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C29",
 		"name": "Trường Cao đẳng Sư phạm Nghệ An",
 		"region": 2,
 		"city": 28,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C17",
 		"name": "Trường Cao đẳng Sư phạm Quảng Ninh",
 		"region": 1,
 		"city": 17,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C26",
 		"name": "Trường Cao đẳng Sư phạm Thái Bình",
 		"region": 1,
 		"city": 25,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C12",
 		"name": "Trường Cao đẳng Sư phạm Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CM1",
 		"name": "Trường Cao đẳng Sư phạm Trung ương",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C13",
 		"name": "Trường Cao đẳng Sư phạm Yên Bái",
 		"region": 1,
 		"city": 13,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CMM",
 		"name": "Trường Cao đẳng Tài nguyên và Môi trường Miền trung",
 		"region": 2,
 		"city": 27,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTO",
 		"name": "Trường Cao đẳng Thể dục thể thao Thanh Hoá",
 		"region": 2,
 		"city": 27,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTE",
 		"name": "Trường Cao đẳng Thống kê",
 		"region": 1,
 		"city": 19,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTL",
 		"name": "Trường Cao đẳng Thuỷ lợi Bắc bộ",
 		"region": 1,
 		"city": 23,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CSB",
 		"name": "Trường Cao đẳng Thuỷ sản",
 		"region": 1,
 		"city": 19,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTM",
 		"name": "Trường Cao đẳng Thương mại và Du lịch",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTM",
 		"name": "Trường Cao đẳng Thương Mại và Du lịch Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTV",
 		"name": "Trường Cao đẳng Truyền hình",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDT",
 		"name": "Trường Cao đẳng Xây dựng Công trình đô thị",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CXN",
 		"name": "Trường Cao đẳng Xây dựng Nam Định",
 		"region": 1,
 		"city": 24,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CXH",
 		"name": "Trường Cao đẳng Xây dựng Số 1",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVV",
 		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Nghệ An",
 		"region": 2,
 		"city": 28,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVB",
 		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Tây Bắc",
 		"region": 1,
 		"city": 22,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNB",
 		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Thái Bình",
 		"region": 1,
 		"city": 25,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVH",
 		"name": "Trường Cao đẳng Văn hóa, thể thao và Du lịch Nguyễn Du",
 		"region": 2,
 		"city": 29,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVD",
 		"name": "Trường Cao đẳng Văn hoá Nghệ thuật và Du lịch Hạ Long",
 		"region": 1,
 		"city": 17,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNV",
 		"name": "Trường Cao đẳng Văn hoá nghệ thuật Việt Bắc",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVY",
 		"name": "Trường Cao đẳng Văn Hoá Nghệ thuật Du lịch Yên Bái",
 		"region": 1,
 		"city": 13,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C16",
 		"name": "Trường Cao đẳng Vĩnh Phúc",
 		"region": 1,
 		"city": 16,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBM",
 		"name": "Trường Cao đẳng Y tế Bạch Mai",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDY",
 		"name": "Trường Cao đẳng Y tế Điện Biên",
 		"region": 3,
 		"city": 61,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYH",
 		"name": "Trường Cao đẳng Y tế Hà Nam",
 		"region": 1,
 		"city": 23,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYZ",
 		"name": "Trường Cao đẳng Y tế Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYF",
 		"name": "Trường Cao đẳng Y tế Hải Phòng",
 		"region": 1,
 		"city": 3,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYM",
 		"name": "Trường Cao đẳng Y tế Hà Đông",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYN",
 		"name": "Trường Cao đẳng Y tế Hà Tĩnh",
 		"region": 2,
 		"city": 29,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CHY",
 		"name": "Trường Cao đẳng Y tế Hưng Yên",
 		"region": 1,
 		"city": 21,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYL",
 		"name": "Trường Cao đẳng Y tế Lạng Sơn",
 		"region": 1,
 		"city": 10,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNY",
 		"name": "Trường Cao đẳng Y tế Ninh Bình",
 		"region": 1,
 		"city": 26,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYP",
 		"name": "Trường Cao đẳng Y tế Phú Thọ",
 		"region": 1,
 		"city": 15,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYQ",
 		"name": "Trường Cao đẳng Y tế Quảng Ninh",
 		"region": 1,
 		"city": 17,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YSL",
 		"name": "Trường Cao đẳng Y tế Sơn La",
 		"region": 1,
 		"city": 14,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYE",
 		"name": "Trường Cao đẳng Y tế Thái Bình",
 		"region": 1,
 		"city": 25,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYT",
 		"name": "Trường Cao đẳng Y tế Thanh Hoá",
 		"region": 2,
 		"city": 27,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYI",
 		"name": "Trường Cao đẳng Y tế Thái Nguyên",
 		"region": 1,
 		"city": 12,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YYB",
 		"name": "Trường Cao đẳng Y tế Yên Bái",
 		"region": 1,
 		"city": 13,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CSA",
 		"name": "Trường Cao đẳng ASEAN",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBK",
 		"name": "Trường Cao đẳng Bách Khoa Hưng Yên",
 		"region": 1,
 		"city": 21,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBT",
 		"name": "Trường Cao đẳng Công nghệ và Thương mại Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBH",
 		"name": "Trường Cao đẳng Công nghệ Bắc Hà",
 		"region": 1,
 		"city": 19,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNH",
 		"name": "Trường Cao đẳng Công nghệ Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDU",
 		"name": "Trường Cao đẳng Dược Phú Thọ",
 		"region": 1,
 		"city": 15,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CEO",
 		"name": "Trường Cao đẳng Đại Việt",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNA",
 		"name": "Trường Cao đẳng Hoan Châu",
 		"region": 2,
 		"city": 28,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKN",
 		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Hà Nội",
 		"region": 1,
 		"city": 1,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNC",
 		"name": "Trường Cao đẳng Ngoại ngữ - Công nghệ Việt Nhật",
 		"region": 1,
 		"city": 19,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSB",
 		"name": "Trường Đại học Bách khoa Tp.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSC",
 		"name": "Trường Đại học Công nghệ thông tin - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSK",
 		"name": "Trường Đại học Kinh tế - Luật - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSQ",
 		"name": "Trường Đại học Quốc Tế - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QST",
 		"name": "Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSX",
 		"name": "Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSY",
 		"name": "Khoa Y - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QSF",
 		"name": "Trung tâm Đại học Pháp tại TP HCM - Đại học Quốc gia TP.Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHA",
 		"name": "Khoa Luật - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHC",
 		"name": "Khoa giáo dục thể chất - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHD",
 		"name": "Khoa Du lịch - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHF",
 		"name": "Trường Đại học Ngoại ngữ - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHK",
 		"name": "Trường Đại học Kinh tế - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHL",
 		"name": "Trường Đại học Nông Lâm - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHN",
 		"name": "Trường Đại học Nghệ thuật - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHQ",
 		"name": "Phân hiệu Đại học Huế tại Quảng Trị",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHS",
 		"name": "Trường Đại học Sư Phạm - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHT",
 		"name": "Trường Đại học Khoa học - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHY",
 		"name": "Trường Đại học Y Dược - Đại học Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDK",
 		"name": "Trường Đại học Bách khoa - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDQ",
 		"name": "Trường Đại học Kinh tế - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDF",
 		"name": "Trường Đại học Ngoại ngữ - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDS",
 		"name": "Trường Đại học Sư phạm - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDP",
 		"name": "Phân hiệu Đại học Đà Nẵng tại KomTum",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDY",
 		"name": "Khoa Y dược - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDC",
 		"name": "Trường Cao đẳng Công nghệ - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDI",
 		"name": "Trường Cao đẳng Công nghệ thông tin - Đại học Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HHK",
 		"name": "Học viện Hàng Không Việt Nam",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HVA",
 		"name": "Học viện Âm nhạc Huế",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NVS",
 		"name": "Nhạc viện Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TAG",
 		"name": "Trường Đại học An Giang",
 		"region": 3,
 		"city": 50,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "ANS",
 		"name": "Trường Đại học An Ninh nhân dân",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DBL",
 		"name": "Trường Đại học Bạc Liêu",
 		"region": 3,
 		"city": 59,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TCT",
 		"name": "Trường Đại học Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CSS",
 		"name": "Trường Đại học Cảnh sát nhân dân",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HUI",
 		"name": "Trường Đại học Công nghiệp Tp. HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCT",
 		"name": "Trường Đại học Công nghiệp thực phẩm Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "PVU",
 		"name": "Trường Đại học Dầu khí Việt Nam",
 		"region": 3,
 		"city": 51,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDL",
 		"name": "Trường Đại học Đà Lạt",
 		"region": 3,
 		"city": 41,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DNU",
 		"name": "Trường Đại học Đồng Nai",
 		"region": 3,
 		"city": 47,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SPD",
 		"name": "Trường Đại học Đồng Tháp",
 		"region": 3,
 		"city": 49,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "GHA",
 		"name": "Trường Đại học Giao thông Vận tải (Cơ sở 2 phía Nam)",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "GHA",
 		"name": "Trường Đại học Giao thông Vận tải Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KTS",
 		"name": "Trường Đại học Kiến trúc Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KSA",
 		"name": "Trường Đại học Kinh tế Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KCC",
 		"name": "Trường Đại học Kỹ thuật – Công nghệ Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YDN",
 		"name": "Trường Đại học Kỹ thuật Y – Dược Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LPS",
 		"name": "Trường Đại học Luật Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MTS",
 		"name": "Trường Đại học Mỹ thuật Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NHS",
 		"name": "Trường Đại học Ngân hàng Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TSN",
 		"name": "Trường Đại học Nha Trang",
 		"region": 2,
 		"city": 40,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NLS",
 		"name": "Trường Đại học Nông Lâm Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DPY",
 		"name": "Trường Đại học Phú Yên",
 		"region": 2,
 		"city": 38,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DPQ",
 		"name": "Trường Đại học Phạm Văn Đồng",
 		"region": 2,
 		"city": 34,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DQB",
 		"name": "Trường Đại học Quảng Bình",
 		"region": 2,
 		"city": 30,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DQU",
 		"name": "Trường Đại học Quảng Nam",
 		"region": 2,
 		"city": 33,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DQN",
 		"name": "Trường Đại học Quy Nhơn",
 		"region": 2,
 		"city": 36,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SGD",
 		"name": "Trường Đại học Sài Gòn",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DSD",
 		"name": "Trường Đại học Sân khấu, Điện ảnh Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SPK",
 		"name": "Trường Đại học Sư phạm Kỹ thuật Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VLU",
 		"name": "Trường Đại học Sư phạm Kỹ thuật Vĩnh Long",
 		"region": 3,
 		"city": 56,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SPS",
 		"name": "Trường Đại học Sư phạm Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "STS",
 		"name": "Trường Đại học Sư phạm Thể dục Thể thao Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTQ",
 		"name": "Trường Đại học Tài chính Kế toán",
 		"region": 2,
 		"city": 34,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DMS",
 		"name": "Trường Đại học Tài chính Marketing",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTM",
 		"name": "Trường Đại học Tài nguyên và Môi trường Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TTN",
 		"name": "Trường Đại học Tây Nguyên",
 		"region": 2,
 		"city": 39,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TTG",
 		"name": "Trường Đại học Tiền Giang",
 		"region": 3,
 		"city": 52,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDS",
 		"name": "Trường Đại học Thể dục thể thao thành phố Hồ Chí Minh",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TTD",
 		"name": "Trường Đại học Thể dục Thể thao Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TDM",
 		"name": "Trường Đại học Thủ Dầu Một",
 		"region": 3,
 		"city": 43,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTT",
 		"name": "Trường Đại học Tôn Đức Thắng",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVT",
 		"name": "Trường Đại học Trà Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VHS",
 		"name": "Trường Đại học Văn hoá Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MTU",
 		"name": "Trường Đại học Xây dựng Miền Tây",
 		"region": 3,
 		"city": 56,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "XDT",
 		"name": "Trường Đại học Xây dựng Miền Trung",
 		"region": 2,
 		"city": 38,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YCT",
 		"name": "Trường Đại học Y dược Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YDS",
 		"name": "Trường Đại học Y Dược Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TYS",
 		"name": "Trường Đại học Y khoa Phạm Ngọc Thạch",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "MBS",
 		"name": "Trường Đại học Mở Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DBV",
 		"name": "Trường Đại học Bà Rịa - Vũng Tàu",
 		"region": 3,
 		"city": 51,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DBD",
 		"name": "Trường Đại học Bình Dương",
 		"region": 3,
 		"city": 43,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCD",
 		"name": "Trường Đại học Công nghệ Đồng Nai",
 		"region": 3,
 		"city": 47,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DMD",
 		"name": "Trường Đại học Công nghệ Miền Đông",
 		"region": 3,
 		"city": 47,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DSG",
 		"name": "Trường Đại học Công nghệ Sài Gòn",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCG",
 		"name": "Trường Đại học Công nghệ Thông tin Gia Định",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCL",
 		"name": "Trường Đại học Dân lập Cửu Long",
 		"region": 3,
 		"city": 56,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DDT",
 		"name": "Trường Đại học Dân lập Duy Tân",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DLH",
 		"name": "Trường Đại học Dân lập Lạc Hồng",
 		"region": 3,
 		"city": 47,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DPX",
 		"name": "Trường Đại học Dân lập Phú Xuân",
 		"region": 2,
 		"city": 32,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVL",
 		"name": "Trường Đại học Dân lập Văn Lang",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DAD",
 		"name": "Trường Đại học Đông Á",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTH",
 		"name": "Trường Đại học Hoa Sen",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KTD",
 		"name": "Trường Đại học Kiến trúc Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DLA",
 		"name": "Trường Đại học Kinh tế Công nghiệp Long An",
 		"region": 3,
 		"city": 48,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKB",
 		"name": "Trường Đại học Kinh tế Kỹ thuật Bình Dương",
 		"region": 3,
 		"city": 43,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KTC",
 		"name": "Trường Đại học Kinh tế - Tài chính Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DKC",
 		"name": "Trường Đại học Kỹ thuật-Công nghệ Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DNC",
 		"name": "Trường Đại học Nam Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NTT",
 		"name": "Trường Đại học Nguyễn Tất Thành",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DNT",
 		"name": "Trường Đại học Ngoại ngữ - Tin học Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DPC",
 		"name": "Trường Đại học Phan Châu Trinh",
 		"region": 2,
 		"city": 33,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DPT",
 		"name": "Trường Đại học Phan Thiết",
 		"region": 3,
 		"city": 46,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DQT",
 		"name": "Trường Đại học Quang Trung",
 		"region": 2,
 		"city": 36,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DHB",
 		"name": "Trường Đại học Quốc tế Hồng Bàng",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "EIU",
 		"name": "Trường Đại học Quốc tế Miền Đông",
 		"region": 3,
 		"city": 43,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TTQ",
 		"name": "Trường Đại học Tư thục Quốc tế Sài Gòn",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TTU",
 		"name": "Trường Đại học Tân tạo",
 		"region": 3,
 		"city": 48,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTD",
 		"name": "Trường Đại học Tây Đô",
 		"region": 3,
 		"city": 54,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DTB",
 		"name": "Trường Đại học Thái Bình Dương",
 		"region": 3,
 		"city": 43,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DVH",
 		"name": "Trường Đại học Văn hiến",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VTT",
 		"name": "Trường Đại học Võ Trường Toản",
 		"region": 3,
 		"city": 63,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DYD",
 		"name": "Trường Đại học Yersin Đà Lạt",
 		"region": 3,
 		"city": 41,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "AD2",
 		"name": "Trường Cao đẳng An ninh nhân dân II",
 		"region": 3,
 		"city": 47,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBC",
 		"name": "Trường Cao đẳng Bán công Công nghệ và Quản trị doanh nghiệp",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C56",
 		"name": "Trường Cao đẳng Bến Tre",
 		"region": 3,
 		"city": 55,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CD2",
 		"name": "Trường Cao đẳng Cảnh sát nhân dân II",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C55",
 		"name": "Trường Cao đẳng Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CEN",
 		"name": "Trường Cao đẳng Cơ điện và Nông nghiệp Nam Bộ",
 		"region": 3,
 		"city": 54,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CSC",
 		"name": "Trường Cao đẳng Công nghiệp Cao su",
 		"region": 3,
 		"city": 42,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCO",
 		"name": "Trường Cao đẳng công nghệ Thủ Đức",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDS",
 		"name": "Trường Cao đẳng Công nghệ và Quản trị Sonadezi",
 		"region": 3,
 		"city": 47,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CHV",
 		"name": "Trường Cao đẳng Công nghệ Thông tin Hữu Nghị Việt Hàn",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCH",
 		"name": "Trường Cao đẳng Công nghiệp Huế",
 		"region": 2,
 		"city": 32,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCP",
 		"name": "Trường Cao đẳng Công nghiệp Tuy Hoà",
 		"region": 2,
 		"city": 38,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CEM",
 		"name": "Trường Cao đẳng Công nghệ Kinh tế và Thuỷ lợi Miền trung",
 		"region": 2,
 		"city": 33,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBL",
 		"name": "Trường Cao đẳng Công nghệ và Kinh tế Bảo Lộc",
 		"region": 3,
 		"city": 41,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CES",
 		"name": "Trường Cao đẳng Công thương Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D52",
 		"name": "Trường Cao đẳng Cộng đồng Bà Rịa - Vũng Tàu",
 		"region": 3,
 		"city": 51,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C47",
 		"name": "Trường Cao đẳng Cộng đồng Bình Thuận",
 		"region": 3,
 		"city": 46,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D61",
 		"name": "Trường Cao đẳng Cộng đồng Cà Mau",
 		"region": 3,
 		"city": 60,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D50",
 		"name": "Trường Cao đẳng Cộng đồng Đồng Tháp",
 		"region": 3,
 		"city": 49,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D64",
 		"name": "Trường Cao đẳng Cộng đồng Hậu Giang",
 		"region": 3,
 		"city": 63,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D54",
 		"name": "Trường Cao đẳng Cộng đồng Kiên Giang",
 		"region": 3,
 		"city": 53,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CST",
 		"name": "Trường Cao đẳng Cộng đồng Sóc Trăng",
 		"region": 3,
 		"city": 58,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "D57",
 		"name": "Trường Cao đẳng Cộng đồng Vĩnh Long",
 		"region": 3,
 		"city": 56,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLD",
 		"name": "Trường Cao đẳng Điện lực Miền trung",
 		"region": 2,
 		"city": 33,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDE",
 		"name": "Trường Cao đẳng Điện lực Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CGD",
 		"name": "Trường Cao đẳng Giao thông Vận tải II",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CGD",
 		"name": "Trường Cao đẳng Giao thông Vận tải III",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CGT",
 		"name": "Trường Cao đẳng Giao thông Vận tải Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CEP",
 		"name": "Trường Cao đẳng Kinh tế Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKD",
 		"name": "Trường Cao đẳng Kinh tế Đối ngoại",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKK",
 		"name": "Trường Cao đẳng Kinh tế - Kế hoạch Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CEC",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPL",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Phú Lâm",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKG",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Kiên Giang",
 		"region": 3,
 		"city": 53,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKO",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Kon Tum",
 		"region": 2,
 		"city": 35,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKQ",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Quảng Nam",
 		"region": 2,
 		"city": 33,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKZ",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Lâm Đồng",
 		"region": 3,
 		"city": 41,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCS",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Vinatex TP.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKV",
 		"name": "Trường Cao đẳng Kinh tế - Tài chính Vĩnh Long",
 		"region": 3,
 		"city": 56,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKC",
 		"name": "Trường Cao đẳng Kỹ thuật Cao Thắng",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKP",
 		"name": "Trường Cao đẳng Kỹ thuật Lý Tự Trọng Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLT",
 		"name": "Trường Cao đẳng Lương thực Thực phẩm",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDN",
 		"name": "Trường Cao đẳng Mỹ thuật Trang trí Đồng Nai",
 		"region": 3,
 		"city": 47,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CNN",
 		"name": "Trường Cao đẳng Nông nghiệp Nam Bộ",
 		"region": 3,
 		"city": 52,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPS",
 		"name": "Trường Cao đẳng Phát thanh Truyền hình II",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C61",
 		"name": "Trường Cao đẳng Sư phạm Cà Mau",
 		"region": 3,
 		"city": 60,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C37",
 		"name": "Trường Cao đẳng Bình Định",
 		"region": 2,
 		"city": 36,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C43",
 		"name": "Trường Cao đẳng Sư phạm Bình Phước",
 		"region": 3,
 		"city": 42,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C52",
 		"name": "Trường Cao đẳng Sư phạm Bà Rịa-Vũng Tàu",
 		"region": 3,
 		"city": 51,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C42",
 		"name": "Trường Cao đẳng Sư phạm Đà Lạt",
 		"region": 3,
 		"city": 41,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C40",
 		"name": "Trường Cao đẳng Sư phạm Đăk Lăk",
 		"region": 2,
 		"city": 39,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C38",
 		"name": "Trường Cao đẳng Sư phạm Gia lai",
 		"region": 2,
 		"city": 37,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C54",
 		"name": "Trường Cao đẳng Sư phạm Kiên Giang",
 		"region": 3,
 		"city": 53,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C36",
 		"name": "Trường Cao đẳng Sư phạm Kon Tum",
 		"region": 2,
 		"city": 35,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C49",
 		"name": "Trường Cao đẳng Sư phạm Long An",
 		"region": 3,
 		"city": 48,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C41",
 		"name": "Trường Cao đẳng Sư phạm Nha Trang",
 		"region": 2,
 		"city": 40,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C45",
 		"name": "Trường Cao đẳng Sư phạm Ninh Thuận",
 		"region": 3,
 		"city": 44,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C32",
 		"name": "Trường Cao đẳng Sư phạm Quảng Trị",
 		"region": 2,
 		"city": 31,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C59",
 		"name": "Trường Cao đẳng Sư phạm Sóc Trăng",
 		"region": 3,
 		"city": 58,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C46",
 		"name": "Trường Cao đẳng Sư phạm Tây Ninh",
 		"region": 3,
 		"city": 45,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C33",
 		"name": "Trường Cao đẳng Sư phạm Thừa Thiên Huế",
 		"region": 2,
 		"city": 32,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CM1",
 		"name": "Trường Cao đẳng Sư phạm Trung ương Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CM1",
 		"name": "Trường Cao đẳng Sư phạm Trung ương Nha Trang",
 		"region": 2,
 		"city": 40,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "C57",
 		"name": "Trường Cao đẳng Sư phạm Vĩnh Long",
 		"region": 3,
 		"city": 56,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CTS",
 		"name": "Trường Cao đẳng Tài chính Hải quan",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CMS",
 		"name": "Trường Cao đẳng Thương Mại",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CXS",
 		"name": "Trường Cao đẳng Xây dựng số 2",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVN",
 		"name": "Trường Cao đẳng Văn hoá nghệ thuật Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVL",
 		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Đăk Lăk",
 		"region": 2,
 		"city": 39,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDK",
 		"name": "Trường Cao đẳng Văn hoá Nghệ thuật và Du lịch Nha Trang",
 		"region": 2,
 		"city": 40,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CMY",
 		"name": "Trường Cao đẳng Y tế Cà Mau",
 		"region": 3,
 		"city": 60,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CRY",
 		"name": "Trường Cao đẳng Y tế Bình Định",
 		"region": 2,
 		"city": 36,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBY",
 		"name": "Trường Cao đẳng Y tế Bình Dương",
 		"region": 3,
 		"city": 43,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYX",
 		"name": "Trường Cao đẳng Y tế Bình Thuận",
 		"region": 3,
 		"city": 46,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYB",
 		"name": "Trường Cao đẳng Y tế Bạc Liêu",
 		"region": 3,
 		"city": 59,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYC",
 		"name": "Trường Cao đẳng Y tế Cần Thơ",
 		"region": 3,
 		"city": 54,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYD",
 		"name": "Trường Cao đẳng Y tế Đồng Nai",
 		"region": 3,
 		"city": 47,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYA",
 		"name": "Trường Cao đẳng Y tế Đồng Tháp",
 		"region": 3,
 		"city": 49,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYY",
 		"name": "Trường Cao đẳng Y tế Huế",
 		"region": 2,
 		"city": 32,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYK",
 		"name": "Trường Cao đẳng Y tế Khánh Hoà",
 		"region": 2,
 		"city": 40,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYG",
 		"name": "Trường Cao đẳng Y tế Kiên Giang",
 		"region": 3,
 		"city": 53,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLY",
 		"name": "Trường Cao đẳng Y tế Lâm đồng",
 		"region": 3,
 		"city": 41,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYU",
 		"name": "Trường Cao đẳng Y tế Quảng Nam",
 		"region": 2,
 		"city": 33,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CYV",
 		"name": "Trường Cao đẳng Y tế Tiền Giang",
 		"region": 3,
 		"city": 52,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YTV",
 		"name": "Trường Cao đẳng Y tế Trà Vinh",
 		"region": 2,
 		"city": 28,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKB",
 		"name": "Trường Cao đẳng Bách khoa Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CBV",
 		"name": "Trường Cao đẳng Bách Việt TP. HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDQ",
 		"name": "Trường Cao đẳng Công Kỹ nghệ Đông Á",
 		"region": 2,
 		"city": 33,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDC",
 		"name": "Trường Cao đẳng Công nghệ thông tin TP.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDD",
 		"name": "Trường Cao đẳng Dân lập Kinh tế kỹ thuật Đông du Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKM",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Miền Nam",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CKE",
 		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Sài Gòn",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CET",
 		"name": "Trường Cao đẳng Kinh tế - Công nghệ Tp.HCM",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CCQ",
 		"name": "Trường Cao đẳng Kỹ thuật Công nghiệp Quảng Ngãi",
 		"region": 2,
 		"city": 34,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVX",
 		"name": "Trường Cao đẳng Kỹ thuật - Công nghệ Vạn Xuân",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CLV",
 		"name": "Trường Cao đẳng Lạc Việt",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPN",
 		"name": "Trường Cao đẳng Phương Đông - Đà Nẵng",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CPD",
 		"name": "Trường Cao đẳng Phương Đông - Quảng Nam",
 		"region": 2,
 		"city": 33,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDA",
 		"name": "Trường Cao đẳng Tư thục Đức Trí",
 		"region": 2,
 		"city": 4,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CVS",
 		"name": "Trường Cao đẳng Văn hoá Nghệ Thuật và Du lịch Sài Gòn",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "CDV",
 		"name": "Trường Cao đẳng Viễn Đông",
 		"region": 3,
 		"city": 2,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "RMI",
 		"name": "Trường Đại học quốc tế Rmit Việt Nam",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "VGU",
 		"name": "Trường Đại học Việt Đức",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KQH",
 		"name": "Học viện Kỹ thuật Quân sự",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "YQH",
 		"name": "Học viện Quân y",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "NQH",
 		"name": "Học viện Khoa học Quân sự",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "BPH",
 		"name": "Học viện Biên phòng",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HEH",
 		"name": "Học viện Hậu cần",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "PKH",
 		"name": "Học viện Phòng không - Không quân",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HQH",
 		"name": "Học viện Hải quân",
 		"region": 2,
 		"city": 40,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LCH",
 		"name": "Trường Đại học Chính trị",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LAH",
 		"name": "Trường Đại học Trần Quốc Tuấn",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "LBH",
 		"name": "Trường Đại học Nguyễn Huệ",
 		"region": 3,
 		"city": 47,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "PBH",
 		"name": "Trường Sĩ quan Pháo binh",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "SNH",
 		"name": "Trường Sĩ quan Công binh",
 		"region": 3,
 		"city": 43,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "ZTH",
 		"name": "Trường Sĩ quan Thông tin",
 		"region": 2,
 		"city": 40,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "KGH",
 		"name": "Trường Sĩ quan Không quân",
 		"region": 2,
 		"city": 40,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "ZNH",
 		"name": "Trường Đại học Văn hoá - Nghệ thuật quân đội",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "ZPH",
 		"name": "Trường Đại học Trần Đại Nghĩa",
 		"region": 3,
 		"city": 2,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "TGH",
 		"name": "Trường Sĩ quan Tăng-Thiết giáp",
 		"region": 1,
 		"city": 16,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "DCH",
 		"name": "Trường Sĩ quan Đặc công",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "HGH",
 		"name": "Trường Sĩ quan Phòng hoá",
 		"region": 1,
 		"city": 1,
-		"type": 1
+		"type": 1,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "QPH",
 		"name": "Trường CĐ Công nghiệp Quốc phòng",
 		"region": 1,
 		"city": 15,
-		"type": 2
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
 	},
 	{
 		"id": "COT",
 		"name": "Trường CĐ Công nghệ và kỹ thuật ô tô",
 		"region": 1,
 		"city": 1,
-		"type": 2
-	}
+		"type": 2,
+		"majors": [
+			{
+				"major": ,
+				"divisions": {
+					"division": 
+				},
+				"admissionMarks": [
+					{
+						"year": ,
+						"mark": 
+					}
+				]
+			}
+		]
+	},
 ]
