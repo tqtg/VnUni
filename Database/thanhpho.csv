@@ -1,65 +1,65 @@
 id,name,region
-0, ---,0
-1, Hà Nội,1
-2, Hồ Chí Minh,3
-3, Hải Phòng,1
-4, Đà Nẵng,2
-5, Hà Giang,1
-6, Cao Bằng,1
-7, Lai Châu,1
-8, Lào Cai,1
-9, Tuyên Quang,1
-10, Lạng Sơn,1
-11, Bắc Kạn,1
-12, Thái Nguyên,1
-13, Yên Bái,1
-14, Sơn La,1
-15, Phú Thọ,1
-16, Vĩnh Phúc,1
-17, Quảng Ninh,1
-18, Bắc Giang,1
-19, Bắc Ninh,1
-20, Hải Dương,1
-21, Hưng Yên,1
-22, Hoà Bình,1
-23, Hà Nam,1
-24, Nam Định,1
-25, Thái Bình,1
-26, Ninh Bình,1
-27, Thanh Hoá,2
-28, Nghệ An,2
-29, Hà Tĩnh,2
-30, Quảng Bình,2
-31, Quảng Trị,2
-32, Thừa Thiên-Huế,2
-33, Quảng Nam,2
-34, Quảng Ngãi,2
-35, Kontum,2
-36, Bình Định,2
-37, Gia Lai,2
-38, Phú Yên,2
-39, Đắc Lắc,2
-40, Khánh Hoà,2
-41, Lâm Đồng,3
-42, Bình Phước,3
-43, Bình Dương,3
-44, Ninh Thuận,3
-45, Tây Ninh,3
-46, Bình Thuận,3
-47, Đồng Nai,3
-48, Long An,3
-49, Đồng Tháp,3
-50, An Giang,3
-51, Bà Rịa-Vũng Tàu,3
-52, Tiền Giang,3
-53, Kiên Giang,3
-54, Cần Thơ,3
-55, Bến Tre,3
-56, Vĩnh Long,3
-57, Trà Vinh,3
-58, Sóc Trăng,3
-59, Bạc Liêu,3
-60, Cà Mau,3
-61, Điện Biên,3
-62, Đắk Nông,3
-63, Hậu Giang,3
+0,---,0
+1,Hà Nội,1
+2,Hồ Chí Minh,3
+3,Hải Phòng,1
+4,Đà Nẵng,2
+5,Hà Giang,1
+6,Cao Bằng,1
+7,Lai Châu,1
+8,Lào Cai,1
+9,Tuyên Quang,1
+10,Lạng Sơn,1
+11,Bắc Kạn,1
+12,Thái Nguyên,1
+13,Yên Bái,1
+14,Sơn La,1
+15,Phú Thọ,1
+16,Vĩnh Phúc,1
+17,Quảng Ninh,1
+18,Bắc Giang,1
+19,Bắc Ninh,1
+20,Hải Dương,1
+21,Hưng Yên,1
+22,Hòa Bình,1
+23,Hà Nam,1
+24,Nam Định,1
+25,Thái Bình,1
+26,Ninh Bình,1
+27,Thanh Hoá,2
+28,Nghệ An,2
+29,Hà Tĩnh,2
+30,Quảng Bình,2
+31,Quảng Trị,2
+32,Thừa Thiên-Huế,2
+33,Quảng Nam,2
+34,Quảng Ngãi,2
+35,Kon Tum,2
+36,Bình Định,2
+37,Gia Lai,2
+38,Phú Yên,2
+39,Đắc Lắc,2
+40,Khánh Hòa,2
+41,Lâm Đồng,3
+42,Bình Phước,3
+43,Bình Dương,3
+44,Ninh Thuận,3
+45,Tây Ninh,3
+46,Bình Thuận,3
+47,Đồng Nai,3
+48,Long An,3
+49,Đồng Tháp,3
+50,An Giang,3
+51,Bà Rịa - Vũng Tàu,3
+52,Tiền Giang,3
+53,Kiên Giang,3
+54,Cần Thơ,3
+55,Bến Tre,3
+56,Vĩnh Long,3
+57,Trà Vinh,3
+58,Sóc Trăng,3
+59,Bạc Liêu,3
+60,Cà Mau,3
+61,Điện Biên,3
+62,Đắk Nông,3
+63,Hậu Giang,3

@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 mongoose.connect('mongodb://tuantq:quoctuan@ds035557.mongolab.com:35557/vnuni');
 
 // grab the nerd model we just created
-var Uni = require('./models/uni');
+var Uni = require('./models/university');
 var Nganhhoc = require('./models/nganhhoc');
 var Khoithi = require('./models/khoithi');
 var Mucdiem = require('./models/mucdiem');
@@ -26,18 +26,20 @@ module.exports = function (app) {
     app.get('/search', function(req, res, next) {
         console.log("Searching request with parameters:");
         // console.log(req.query);
-        for (var property in req.query) {
-            if (req.query[property] != 0) {
-                console.log(property);
-            }
+        var queryParams = {
+            // nganhhoc: req.query.nganhhoc,
+            // khoithi: req.query.khoithi,
+            // mucdiem: req.query.mucdiem,
+            region: Number(req.query.vungmien),
+            city: Number(req.query.thanhpho),
+            type: Number(req.query.loaitruong)
         }
-        // console.log(req.query.nganhhoc);
-        // console.log(req.query.khoithi);
-        // console.log(req.query.mucdiem);
-        // console.log(req.query.vungmien);
-        // console.log(req.query.thanhpho);
-        // console.log(req.query.loaitruong);
-        next();
+        console.log(queryParams);
+
+        Uni.getAll(queryParams, function(err, data) {
+            console.log(data.length);
+            res.json(data);
+        });
     })
 
     //  handle query from loadFilterService
