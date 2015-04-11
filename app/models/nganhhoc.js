@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var nganhhocSchema = mongoose.Schema({
-	id: Number,
+	id: String,
     name: String
 })
 

@@ -27,18 +27,29 @@ module.exports = function (app) {
         console.log("Searching request with parameters:");
         // console.log(req.query);
         var queryParams = {
-            // nganhhoc: req.query.nganhhoc,
-            // khoithi: req.query.khoithi,
-            // mucdiem: req.query.mucdiem,
             region: Number(req.query.vungmien),
             city: Number(req.query.thanhpho),
-            type: Number(req.query.loaitruong)
+            type: Number(req.query.loaitruong),
+
+            majors: {
+                $elemMatch: {
+                    id: String(req.query.nganhhoc)
+                }
+            }
         }
         console.log(queryParams);
 
         Uni.getAll(queryParams, function(err, data) {
             console.log(data.length);
-            res.json(data);
+            var response = []
+            for (var i = 0; i < data.length; i++) {
+                var uni = {
+                    id: data[i].id,
+                    name: data[i].name
+                }
+                response.push(uni)
+            }
+            res.json(response);
         });
     })
 
