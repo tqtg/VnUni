@@ -24,30 +24,10 @@
                     <div class="col-md-5">
                         <div>
                             <h6 href="#" class="list-group-item disabled text-center">
-                                Miền Bắc
+                                Danh sách kết quả
                             </h6>
-                            <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'B'}">
-                                    <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h6 href="#" class="list-group-item disabled text-center">
-                                Miền Trung
-                            </h6>
-                            <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'T'}">
-                                    <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h6 href="#" class="list-group-item disabled text-center">
-                                Miền Nam
-                            </h6>
-                            <ul class="list-group" style="height:120px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
-                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities | filter: {region: 'N'}">
+                            <ul class="list-group" style="height:500px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
+                                <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities">
                                     <a ng-href="/uni/thongtin" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
@@ -68,9 +48,7 @@
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
                             <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
-                            <select name="NganhHoc" class="form-control" >
-                                <option value="" ng-model="nganhhoc" ng-repeat="n in filter.nganhhoc | nganhhocFilter:tennganh">{{n.name}}</option>
-                            </select>
+                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select>
                         </div>
                     </div>
 

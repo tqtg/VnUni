@@ -1,8 +1,10 @@
 angular.module('HomeCtrl', ['HomeService'])
-.controller('HomeController', function($scope, $filter, loadFilterService, searchService) {
+.controller('HomeController', function($rootScope, $scope, $filter, loadFilterService, searchService) {
     //  Load data for filter
     $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'});
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
+        $scope.nganhhoc = $scope.filter.nganhhoc[0];
+    });
     $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
         $scope.khoithi = $scope.filter.khoithi[0];
     });
@@ -19,38 +21,25 @@ angular.module('HomeCtrl', ['HomeService'])
         $scope.loaitruong = $scope.filter.loaitruong[0];
     });
 
-
-    console.log($scope.filter);
-    //  Search university
-    // $scope.search = function() {
-    //     console.log("Searching ...");
-    //     searchService.search(function(data) {
-    //         $scope.universities = data;
-    //     });
-    // }
-
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
-    	searchService.search( {
+    	$rootScope.universities = searchService.search({
     		//	Parameters are taken from filter
-    		nganhhoc: $scope.nganhhoc.id,
-    		khoithi: $scope.khoithi.id,
-    		mucdiem: $scope.mucdiem.id,
-    		vungmien: $scope.vungmien.id,
-    		thanhpho: $scope.thanhpho.id,
-    		loaitruong: $scope.loaitruong.id
+            nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
+            khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
+            mucdiem: (typeof $scope.mucdiem === 'undefined') ? 0 : $scope.mucdiem.id,
+            vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
+            thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
+            loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id
     	}, function() {
-    		console.log('Searching ...');
-    		console.log($scope.nganhhoc);
-    		console.log($scope.khoithi);
-    		console.log($scope.mucdiem);
-    		console.log($scope.vungmien);
-    		console.log($scope.thanhpho);
-    		console.log($scope.loaitruong);
-    	});
+            var nUni = $rootScope.universities.length;
+            console.log(nUni + " universities found")
+            if (nUni == 0) {
+                alert("Not found!!!");
+            }
+        });
     };
-
 
     $scope.getUni = function() {
         $http.get('/uni/QHI').success(function(data) {
@@ -81,12 +70,13 @@ angular.module('HomeCtrl', ['HomeService'])
         if (typeof tennganh === 'undefined') return nganhhocs;
         else {
             var filtered = [];
+            filtered.push(nganhhocs[0]);
             for (var i = 0; i < nganhhocs.length; i++) {
                 if (nganhhocs[i].name.toLowerCase().includes(tennganh.toLowerCase())) {
                     filtered.push(nganhhocs[i]);
                 }
             }
             return filtered;
-        }        
+        } 
     }
 });
