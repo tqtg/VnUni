@@ -5,7 +5,7 @@ angular.module('HomeService', ['ngResource'])
 	})
 })
 .factory('searchService', function($resource) {
-    return $resource('/search', {}, { 
-        search: { method: "GET", isArray: true}
+    return $resource('/search', {}, {
+        search: { method: 'GET', isArray: true}
     });
 });
