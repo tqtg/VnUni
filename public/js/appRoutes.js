@@ -42,7 +42,12 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             templateUrl: 'views/db_panel.html',
             controller: 'DBController'
         })
-    
+    	
+    	.when('/diemchuan', {
+            templateUrl: 'views/uni_diemchuan.html',
+            controller: 'HomeController'
+        })
+
         .otherwise({
             redirecTo: '/'
         });
