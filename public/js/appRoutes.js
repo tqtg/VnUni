@@ -42,6 +42,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             templateUrl: 'views/db_panel.html',
             controller: 'DBController'
         })
+        .when('/login', {
+            templateUrl: 'views/login.html',
+            controller: 'DBController'
+        })        
     
         .otherwise({
             redirecTo: '/'
