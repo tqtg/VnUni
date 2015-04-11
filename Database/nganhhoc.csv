@@ -1,286 +1,315 @@
 id,name
 0,---
-52140101,Giáo dục học
-52140114,Quản lý giáo dục
-52140201,Giáo dục Mầm non
-52140202,Giáo dục Tiểu học
-52140203,Giáo dục Đặc biệt
-52140204,Giáo dục Công dân
-52140205,Giáo dục Chính trị
-52140206,Giáo dục Thể chất
-52140207,Huấn luyện thể thao*
-52140208,Giáo dục Quốc phòng - An ninh
-52140209,Sư phạm Toán học
-52140210,Sư phạm Tin học
-52140211,Sư phạm Vật lý
-52140212,Sư phạm Hoá học
-52140213,Sư phạm Sinh học
-52140214,Sư phạm Kỹ thuật công nghiệp
-52140215,Sư phạm Kỹ thuật nông nghiệp
-52140217,Sư phạm Ngữ văn
-52140218,Sư phạm Lịch sử
-52140219,Sư phạm Địa lý
-52140221,Sư phạm Âm nhạc
-52140222,Sư phạm Mỹ thuật
-52140225,Sư phạm Tiếng Jrai
-52140226,Sư phạm Tiếng Khme
-52140227,Sư phạm Tiếng H'mong
-52140228,Sư phạm Tiếng Chăm
-52140231,Sư phạm Tiếng Anh
-52140232,Sư phạm Tiếng Nga
-52140233,Sư phạm Tiếng Pháp
-52140234,Sư phạm Tiếng Trung Quốc
-52140235,Sư phạm Tiếng Đức
-52140236,Sư phạm Tiếng Nhật
-52210101,"Lý luận, lịch sử và phê bình mỹ thuật"
-52210103,Hội hoạ
-52210104,Đồ hoạ
-52210105,Điêu khắc
-52210107,Gốm
-52210201,Âm nhạc học
-52210203,Sáng tác âm nhạc
-52210204,Chỉ huy âm nhạc
-52210205,Thanh nhạc
-52210207,Biểu diễn nhạc cụ phương tây
-52210208,Piano
-52210209,Nhạc Jazz
-52210210,Biểu diễn nhạc cụ truyền thống
-52210221,Lý luận và phê bình sân khấu
-52210225,Biên kịch sân khấu
-52210226,Diễn viên sân khấu kịch hát
-52210227,Đạo diễn sân khấu
-52210231,Lý luận và phê bình điện ảnh - truyền hình
-52210233,Biên kịch điện ảnh - truyền hình
-52210234,Diễn viên kịch - điện ảnh
-52210235,Đạo diễn điện ảnh - truyền hình
-52210236,Quay phim
-52210241,"Lý luận, phê bình múa"
-52210242,Diễn viên múa
-52210243,Biên đạo múa
-52210244,Huấn luyện múa
-52210301,Nhiếp ảnh
-52210302,Công nghệ điện ảnh - truyền hình
-52210303,Thiết kế âm thanh - ánh sáng
-52210402,Thiết kế công nghiệp
-52210403,Thiết kế đồ họa
-52210404,Thiết kế thời trang
-52210405,Thiết kế nội thất
-52210406,Thiết kế mỹ thuật sân khấu - điện ảnh
-52220101,Tiếng Việt và văn hoá Việt Nam
-52220104,Hán Nôm
-52220105,Ngôn ngữ Jrai
-52220106,Ngôn ngữ Khme
-52220107,Ngôn ngữ H'mong
-52220108,Ngôn ngữ Chăm
-52220110,Sáng tác văn học
-52220112,Văn hoá các dân tộc thiểu số Việt Nam
-52220113,Việt Nam học
-52220201,Ngôn ngữ Anh
-52220202,Ngôn ngữ Nga
-52220203,Ngôn ngữ Pháp
-52220204,Ngôn ngữ Trung Quốc
-52220205,Ngôn ngữ Đức
-52220206,Ngôn ngữ Tây Ban Nha
-52220207,Ngôn ngữ Bồ Đào Nha
-52220208,Ngôn ngữ Italia
-52220209,Ngôn ngữ Nhật
-52220210,Ngôn ngữ Hàn Quốc
-52220211,Ngôn ngữ Ảrập
-52220212,Quốc tế học
-52220213,Đông phương học
-52220214,Đông Nam Á học
-52220215,Trung Quốc học
-52220216,Nhật Bản học
-52220217,Hàn Quốc học
-52220218,Khu vực Thái Bình Dương học
-52220301,Triết học
-52220310,Lịch sử
-52220320,Ngôn ngữ học
-52220330,Văn học
-52220340,Văn hoá học
-52220342,Quản lý văn hoá
-52220343,Quản lý thể dục thể thao*
-52310101,Kinh tế
-52310106,Kinh tế quốc tế
-52310201,Chính trị học
-52310202,Xây dựng Đảng và chính quyền nhà nước
-52310205,Quản lý nhà nước
-52310206,Quan hệ quốc tế
-52310301,Xã hội học
-52310302,Nhân học
-52310401,Tâm lý học
-52310403,Tâm lý học giáo dục
-52310501,Địa lý học
-52310502,Bản đồ học
-52320101,Báo chí
-52320104,Truyền thông đa phương tiện
-52340406,Công nghệ truyền thông
-52360708,Quan hệ công chúng
-52320201,Thông tin học
-52320202,Khoa học thư viện
-52320303,Lưu trữ học
-52320305,Bảo tàng học
-52320401,Xuất bản
-52320402,Kinh doanh xuất bản phẩm
-52340101,Quản trị kinh doanh
-52340103,Quản trị dịch vụ du lịch và lữ hành
-52340107,Quản trị khách sạn
-52340109,Quản trị nhà hàng và dịch vụ ăn uống
-52340115,Marketing
-52340116,Bất động sản
-52340120,Kinh doanh quốc tế
-52340121,Kinh doanh thương mại
-52340201,Tài chính – Ngân hàng
-52340202,Bảo hiểm
-52340301,Kế toán
-52340302,Kiểm toán
-52340401,Khoa học quản lý
-52340404,Quản trị nhân lực
-52340405,Hệ thống thông tin quản lý
-52340406,Quản trị văn phòng
-52380101,Luật
-52380107,Luật kinh tế
-52380108,Luật quốc tế
-52420101,Sinh học
-52420201,Công nghệ sinh học
-52420202,Kỹ thuật sinh học*
-52420203,Sinh học ứng dụng
-52440101,Thiên văn học
-52440102,Vật lý học
-52440112,Hoá học
-52430122,Khoa học vật liệu
-52440201,Địa chất học
-52440217,Địa lý tự nhiên
-52440221,Khí tượng học
-52440224,Thuỷ văn
-52440228,Hải dương học
-52440301,Khoa học môi trường
-52440306,Khoa học đất
-52460101,Toán học
-52460112,Toán ứng dụng
-52460115,Toán cơ
-52460201,Thống kê
-52480101,Khoa học máy tính
-52480102,Truyền thông và mạng máy tính
-52480103,Kỹ thuật phần mềm
-52480104,Hệ thống thông tin
-52480201,Công nghệ thông tin
-52510102,Công nghệ kỹ thuật công trình xây dựng
-52510103,Công nghệ kỹ thuật xây dựng
-52510104,Công nghệ kỹ thuật giao thông
-52510105,Công nghệ kỹ thuật vật liệu xây dựng
-52510201,Công nghệ kỹ thuật cơ khí
-52510202,Công nghệ chế tạo máy
-52510203,Công nghệ kỹ thuật cơ điện tử
-52510205,Công nghệ kỹ thuật ô tô
-52510206,Công nghệ kỹ thuật nhiệt
-52510210,Công thôn
-52510301,"Công nghệ kỹ thuật điện, điện tử"
-52510302,"Công nghệ kỹ thuật điện tử, truyền thông"
-52510303,Công nghệ kỹ thuật điều khiển và tự động hóa
-52510304,Công nghệ kỹ thuật máy tính
-52510401,Công nghệ kỹ thuật hoá học
-52510402,Công nghệ vật liệu
-52510406,Công nghệ kỹ thuật môi trường
-52510601,Quản lý công nghiệp
-52510602,Kỹ thuật hệ thống công nghiệp
-52510603,Kỹ thuật công nghiệp
-52510604,Kinh tế công nghiệp
-52520101,Cơ kỹ thuật
-52520103,Kỹ thuật cơ khí
-52520114,Kỹ thuật cơ - điện tử
-52520115,Kỹ thuật nhiệt
-52520120,Kỹ thuật hàng không
-52520122,Kỹ thuật tàu thuỷ
-52520201,"Kỹ thuật điện, điện tử"
-52520207,"Kỹ thuật điện tử, truyền thông"
-52520212,Kỹ thuật y sinh*
-52520214,Kỹ thuật máy tính
-52520216,Kỹ thuật điều khiển và tự động hoá
-52520301,Kỹ thuật hoá học
-52520309,Kỹ thuật vật liệu
-52520310,Kỹ thuật vật liệu kim loại
-52520320,Kỹ thuật môi trường
-52520401,Vật lý kỹ thuật
-52520402,Kỹ thuật hạt nhân
-52520501,Kỹ thuật địa chất
-52520502,Kỹ thuật địa vật lý
-52520503,Kỹ thuật trắc địa - bản đồ
-52520504,Kỹ thuật biển
-52520601,Kỹ thuật mỏ
-52520604,Kỹ thuật dầu khí
-52520607,Kỹ thuật tuyển khoáng
-52540101,Công nghệ thực phẩm
-52540104,Công nghệ sau thu hoạch
-52540105,Công nghệ chế biến thuỷ sản
-52540201,Kỹ thuật dệt
-52540202,"Công nghệ sợi, dệt"
-52540204,Công nghệ may
-52540206,Công nghệ da giày
-52540301,Công nghệ chế biến lâm sản
-52580102,Kiến trúc
-52580105,Quy hoạch vùng và đô thị
-52580110,Kiến trúc cảnh quan
-52580201,Kỹ thuật công trình xây dựng
-52580203,Kỹ thuật công trình biển
-52580205,Kỹ thuật xây dựng công trình giao thông
-52580208,Kỹ thuật xây dựng
-52580210,Địa kỹ thuật xây dựng
-52580212,Kỹ thuật tài nguyên nước
-52580301,Kinh tế xây dựng
-52580302,Quản lý xây dựng
-52620101,Nông nghiệp
-52620102,Khuyến nông
-52620105,Chăn nuôi
-52620109,Nông học
-52620110,Khoa học cây trồng
-52620112,Bảo vệ thực vật
-52620113,Công nghệ rau hoa quả và cảnh quan
-52620114,Kinh doanh nông nghiệp
-52620115,Kinh tế nông nghiệp
-52620116,Phát triển nông thôn
-52620201,Lâm nghiệp
-52620202,Lâm nghiệp đô thị
-52620205,Lâm sinh
-52620211,Quản lý tài nguyên rừng
-52620301,Nuôi trồng thuỷ sản
-52620302,Bệnh học thủy sản
-52620304,Kỹ thuật khai thác thủy sản
-52620305,Quản lý nguồn lợi thủy sản
-52640101,Thú y
-52720101,Y đa khoa
-52720201,Y học cổ truyền
-52720301,Y tế công cộng
-52720305,Y sinh học thể dục thể thao
-52720330,Kỹ thuật y học
-52720332,Xét nghiệm y học
-52720333,"Vật lý trị liệu, phục hồi chức năng"
-52720401,Dược học
-52720501,Điều dưỡng
-52720601,Răng - Hàm - Mặt
-52720602,Kỹ thuật phục hình răng
-52720701,Quản lý bệnh viện
-52760101,Công tác xã hội
-52760102,Công tác thanh thiếu niên
-52810501,Kinh tế gia đình
-52840101,Khai thác vận tải
-52840104,Kinh tế vận tải
-52840106,Khoa học hàng hải
-52850101,Quản lý tài nguyên và môi trường
-52850102,Kinh tế tài nguyên thiên nhiên
-52850103,Quản lý đất đai
-52850201,Bảo hộ lao động
-52860102,Điều tra trinh sát
-52860104,Điều tra hình sự
-52860108,Kỹ thuật hình sự
-52860109,Quản lý nhà nước về an ninh trật tự
-52860111,"Quản lý, giáo dục và cải tạo phạm nhân"
-52860112,"Tham mưu, chỉ huy vũ trang bảo vệ an ninh trật tự"
-52860113,Phòng cháy chữa cháy và cứu hộ cứu nạn
-52860116,Hậu cần công an nhân dân
-52860117,Tình báo an ninh
-52860206,Biên phòng
-52860210,Chỉ huy tham mưu
-52860214,Chỉ huy kỹ thuật
-52860220,Tình báo quân sự
-52860226,Hậu cần quân sự
+D210201,Âm nhạc học
+D480202,An toàn thông tin
+D720201,Bác sĩ Y học cổ truyền
+D720601,Bác sỹ Răng Hàm Mặt
+D720302,Bác sỹ Y học Dự phòng
+D320101,Báo chí
+D340202,Bảo hiểm
+D850201,Bảo hộ lao động
+D320305,Bảo tàng học
+D620112,Bảo vệ thực vật
+D340116,Bất động sản
+D620302,Bệnh học thủy sản
+D210243,Biên đạo múa
+D440298,Biến đổi khí hậu và phát triển bền vững
+D210233,Biên kịch điện ảnh – truyền hình
+D210225,Biên kịch sân khấu
+D860206,Biên phòng
+D210207,Biểu diễn nhạc cụ phương Tây
+D210210,Biểu diễn nhạc cụ truyền thống
+D110110,Các chương trình định hướng ứng dụng
+D110104,Cấp thoát nước
+D620105,Chăn nuôi
+D860207,Chỉ  huy tham mưu Đặc công
+D210204,Chỉ huy âm nhạc
+D860218,Chỉ huy Kỹ thuật hóa học
+D860219,Chỉ huy kỹ thuật thông tin
+D860217,Chỉ huy tham mưu Công binh
+D860201,Chỉ huy tham mưu Hải quân
+D860204,Chỉ huy tham mưu Pháo binh
+D860203,Chỉ huy Tham mưu Phòng không
+D860205,Chỉ huy tham mưu Tăng Thiết giáp
+D310201,Chính trị học
+D510201,Công nghệ chế tạo máy
+D510303,Công nghệ kỹ thuật điều khiển và tự động hóa
+D510102,Công nghệ kỹ thuật Công trình xây dựng
+D520101,Cơ kĩ thuật
+D540301,Công nghệ chế biến lâm sản
+D510202,Công nghệ chế tạo máy 
+D540206,Công nghệ da giầy
+D480203,Công nghệ đa phương tiện
+D210302,Công nghệ Điện ảnh – truyền hình
+D520403,Công nghệ Hạt nhân
+D510501,Công nghệ In
+D510203,Công nghệ kĩ thuật cơ điện tử
+D510301,Công nghệ kỹ thuật điện - điện tử
+D510104,Công nghệ kỹ thuật giao thông
+D510401,Công nghệ kỹ thuật Hoá học
+D510304,Công nghệ kỹ thuật máy tính
+D510406,Công nghệ kỹ thuật Môi trường
+D510206,Công nghệ kỹ thuật Nhiệt
+D510205,Công nghệ kỹ thuật ô tô
+D510105,Công nghệ kỹ thuật vật liệu xây dựng
+D510103,Công nghệ kỹ thuật xây dựng 
+D540204,Công nghệ may
+D620113,Công nghệ rau – hoa quả và cảnh quan
+D540104,Công nghệ sau thu hoạch
+D420201,Công nghệ Sinh học
+D540202,Công nghệ sợi - dệt
+D480201,Công nghệ thông tin
+D540101,Công nghệ thực phẩm
+D320106,Công nghệ Truyền thông
+D515402,Công nghệ vật liệu
+D760102,Công tác Thanh thiếu niên
+D760101,Công tác xã hội
+D510210,Công thôn
+D720501,Cử nhân Điều dưỡng
+D720303,Cử nhân Dinh Dưỡng
+D720199,Cử nhân khúc xạ nhãn khoa
+D720332,Cử nhân Kỹ thuật Y học
+D720301,Cử nhân Y tế Công cộng
+D540110,Đảm bảo chất lượng và an toàn thực phẩm 
+D210235,Đạo diễn điện ảnh – truyền hình
+D210227,Đạo diễn sân khấu
+D860210,Đào tạo kỹ sư quân sự
+D440201,Địa chất học
+D310501,Địa lý học
+D440217,Địa lý tự nhiên
+D510302,Điện tử - Viễn Thông
+D210234,Diễn viên kịch - điện ảnh
+D210226,Diễn viên sân khấu kịch hát
+D210104,Điêu khắc
+D860104,Điều tra hình sự
+D860102,Điều tra trinh sát
+D220214,Đông Nam Á học
+D220213,Đông phương học
+D528102,Du lịch học
+D720401,Dược học
+D140205,Giáo dục chính trị
+D140204,Giáo dục công dân
+D140203,Giáo dục Đặc biệt
+D140101,Giáo dục học
+D140201,Giáo dục Mầm non
+D140208,Giáo dục Quốc phòng – An ninh
+D140206,Giáo dục Thể chất
+D140202,Giáo dục Tiểu học
+D210107,Gốm
+D440228,Hải dương học
+D220104,Hán Nôm
+D220217,Hàn Quốc học
+D860226,Hậu cần quân sự
+D480104,Hệ thống thông tin
+D340405,Hệ thống thông tin quản lí
+D440113,Hoá dược
+D440112,Hoá học
+D210103,Hội hoạ
+D210244,Huấn luyện múa
+D140207,Huấn luyện thể thao
+D220341,Hướng dẫn viên du lịch
+D340301,Kế toán
+D840101,Khai thác vận tải
+D440221,Khí tượng học
+D440299,Khí tượng thủy văn biển
+D620110,Khoa học cây trồng
+D440306,Khoa học đất
+D840106,Khoa học hàng hải
+D480101,Khoa học máy tính
+D440301,Khoa học Môi trường
+D340401,Khoa học quản lý
+D320202,Khoa học thư viện
+D904429,Khoa học và quản lý môi trường
+D430122,Khoa học vật liệu
+D620102,Khuyến nông
+D720330,Kĩ thuật hình ảnh y học
+D720602,Kĩ thuật Phục hình răng
+D340302,Kiểm toán
+D580102,Kiến trúc
+D580110,Kiến trúc cảnh quan
+D620114,Kinh doanh nông nghiệp
+D340120,Kinh doanh Quốc tế
+D220343,Kinh doanh thể thao & sự kiện
+D340121,Kinh doanh thương mại
+D320402,Kinh doanh xuất bản phẩm
+D310101,Kinh tế
+D810501,Kinh tế gia đình 
+D310199,Kinh tế giáo dục
+D620115,Kinh tế nông nghiệp
+D310104,Kinh tế phát triển
+D310106,Kinh tế quốc tế
+D110107,Kinh tế tài nguyên
+D850102,Kinh tế Tài nguyên thiên nhiên
+D840104,Kinh tế vận tải
+D580301,Kinh tế xây dựng
+D540105,Kỹ thuật chế biến thủy sản
+D520114,Kỹ thuật cơ điện tử
+D520103,Kỹ thuật cơ khí
+D510603,Kỹ thuật công nghiệp
+D520203,Kỹ thuật công trình biển
+D580202,Kỹ thuật công trình thủy
+D580501,Kỹ thuật công trình xây dựng
+D520604,Kỹ thuật dầu khí
+D540201,Kỹ thuật dệt
+D520501,Kỹ thuật địa chất
+D520502,Kỹ thuật địa vật lý
+D905228,Kỹ thuật Điện
+D520201,Kỹ thuật điện - điện tử
+D520207,Kỹ thuật điện tử - truyền thông
+D520209,Kỹ thuật điện tử và viễn thông
+D520216,Kỹ thuật Điều khiển và Tự động hóa
+D580211,Kỹ thuật hạ tầng đô thị
+D520120,Kỹ thuật hàng không
+D520402,Kỹ thuật hạt nhân
+D510602,Kỹ thuật hệ thống công nghiệp
+D860108,Kỹ thuật hình sự
+D520301,Kỹ thuật hóa học
+D620304,Kỹ thuật khai thác thủy sản
+D520214,Kỹ thuật máy tính
+D520601,Kỹ thuật mỏ
+D520320,Kỹ thuật môi trường
+D520115,Kỹ thuật nhiệt
+D480103,Kỹ thuật phần mềm
+D420202,Kỹ thuật sinh học
+D580212,Kỹ thuật tài nguyên nước
+D520122,Kỹ thuật tàu thủy
+D520503,Kỹ thuật trắc địa – bản đồ
+D520607,Kỹ thuật tuyển khoáng
+D520309,Kỹ thuật vật liệu
+D520310,Kỹ thuật vật liệu kim loại
+D580208,Kỹ thuật xây dựng
+D580205,Kỹ thuật xây dựng công trình giao thông
+D520212,Kỹ thuật y sinh
+D620201,Lâm nghiệp
+D620202,Lâm nghiệp đô thị
+D620205,Lâm sinh
+D220310,Lịch sử
+D510605,Logistics & Quản lý chuỗi cung ứng
+D380101,Luật học
+D380109,Luật kinh doanh
+D380107,Luật kinh tế
+D380108,Luật quốc tế
+D101101,Luật thương mại quốc tế
+D320303,Lưu trữ học
+D210101,Lý luận - lịch sử và phê bình mỹ thuật 
+D210231,Lý luận và phê bình điện ảnh – truyền hình
+D210221,Lý luận và phê bình sân khấu
+D340115,Marketing
+D480105,Máy tính và khoa học thông tin
+D220201,Ngôn ngữ Anh
+D220207,Ngôn ngữ Bồ Đào Nha
+D220205,Ngôn ngữ Đức
+D220210,Ngôn ngữ Hàn Quốc
+D220320,Ngôn ngữ học
+D220208,Ngôn ngữ Italia
+D220106,Ngôn ngữ Khmer
+D220202,Ngôn ngữ Nga
+D220209,Ngôn ngữ Nhật
+D220203,Ngôn ngữ Pháp
+D220206,Ngôn ngữ Tây Ban Nha
+D220204,Ngôn ngữ Trung Quốc
+D210209,Nhạc Jazz
+D310302,Nhân học
+D220216,Nhật Bản học
+D210301,Nhiếp ảnh
+D620109,Nông học
+D620101,Nông nghiệp
+D620301,Nuôi trồng thuỷ sản
+D620116,Phát triển nông thôn
+D860113,Phòng cháy chữa cháy và cứu hộ - cứu nạn
+D720333,Phục hồi chức năng
+D210208,Piano
+D360708,Quan hệ công chúng
+D340408,Quan hệ lao động
+D310206,Quan hệ quốc tế
+D720701,Quản lí bệnh viện
+D140114,Quản lí giáo dục
+D310205,Quản lí nhà nước
+D860111,Quản lý - giáo dục cải tạo phạm nhân
+D850199,Quản lý biển
+D510601,Quản lý công nghiệp
+D850103,Quản lý đất đai
+D510606,Quản lý hoạt động bay
+D620305,Quản lý nguồn lợi thủy sản
+D860109,Quản lý Nhà nước về an ninh trật tự
+D620211,Quản lý tài nguyên rừng
+D850101,Quản lý tài nguyên và môi trường
+D000000,Quản lý thủy sản 
+D220342,Quản lý văn hóa DNV
+D580302,Quản lý xây dựng
+D860230,Quân sự cơ sở
+D340102,Quản trị - Luật 
+D340409,Quản trị công nghệ truyền thông
+D340103,Quản trị dịch vụ du lịch và lữ hành
+D340107,Quản trị khách sạn
+D340101,Quản trị kinh doanh
+D340109,Quản trị nhà hàng và dịch vụ ăn uống
+D340404,Quản trị nhân lực
+D340406,Quản trị văn phòng
+D320110,Quảng cáo
+D210236,Quay phim điện ảnh
+D220212,Quốc tế học
+D580105,Quy hoạch vùng và đô thị
+D210203,Sáng tác âm nhạc
+D220110,Sáng tác văn học
+D420101,Sinh học
+D420203,Sinh học ứng dụng 
+D140221,Sư phạm Âm nhạc
+D140219,Sư phạm Địa lý
+D140210,Sư phạm Tin học
+D140212,Sư phạm Hoá học
+D140215,Sư phạm kĩ thuật nông nghiệp
+D140214,Sư phạm kỹ thuật công nghiệp
+D140218,Sư phạm Lịch sử
+D140222,Sư phạm mỹ thuật 
+D140217,Sư phạm Ngữ văn
+D140213,Sư phạm Sinh học
+D140231,Sư phạm Tiếng Anh
+D140232,Sư phạm Tiếng Nga
+D140236,Sư phạm Tiếng Nhật
+D140233,Sư phạm Tiếng Pháp
+D140234,Sư phạm Tiếng Trung Quốc
+D140209,Sư phạm Toán
+D140211,Sư phạm Vật lý
+D340201,Tài chính – Ngân hàng
+D340203,Tài chính Doanh nghiệp
+D310403,Tâm lí học giáo dục
+D310401,Tâm lý học
+D860112,Tham mưu - chỉ huy vũ trang
+D210205,Thanh nhạc
+D210402,Thiết kế công nghiệp
+D210406,Thiết kế mỹ thuật sân khấu - điện ảnh
+D210405,Thiết kế nội thất
+D210404,Thiết kế thời trang
+D210403,Thiết kế đồ hoạ
+D460201,Thống kê
+D110105,Thống kê kinh tế
+D320201,Thông tin học
+D640101,Thú y
+D340122,Thương mại Điện tử
+D440224,Thủy văn học
+D220101,Tiếng Việt và văn hoá Việt Nam
+D460115,Toán cơ
+D460101,Toán học
+D110106,Toán ứng dụng trong kinh tế
+D460112,Toán - Tin
+D220301,Triết học
+D860202,Trinh sát kỹ thuật
+D220215,Trung Quốc học 
+D320104,Truyền thông đa phư­ơng tiện 
+D110109,Truyền thông quốc tế
+D480102,Truyền thông và mạng máy tính
+D220112,Văn hoá các dân tộc thiểu số Việt Nam
+D220340,Văn hoá học
+D220330,Văn học
+D520401,Vật lí kĩ thuật
+D440102,Vật lý học
+D220113,Việt Nam học
+D310301,Xã hội học
+D580201,Xây dựng dân dụng và công nghiệp
+D310202,Xây dựng Đảng và Chính quyền nhà nước
+D720399,Xét nghiệm Y học dự phòng 
+D320401,Xuất bản
+D720101,Y đa khoa
+D720103,Y học dự phòng
+D720305,Y sinh học thể dục thể thao

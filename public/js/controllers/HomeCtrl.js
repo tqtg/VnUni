@@ -20,7 +20,6 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'}, function() {
         $scope.loaitruong = $scope.filter.loaitruong[0];
     });
-    console.log($scope.filter);
 
     //	Search university
     //	Invoke searchService
@@ -33,11 +32,14 @@ angular.module('HomeCtrl', ['HomeService'])
             vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
             thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
             loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id
-    	});
-
-        console.log($rootScope.universities);
+    	}, function() {
+            var nUni = $rootScope.universities.length;
+            console.log(nUni + " universities found")
+            if (nUni == 0) {
+                alert("Not found!!!");
+            }
+        });
     };
-
 
     $scope.getUni = function() {
         $http.get('/uni/QHI').success(function(data) {
