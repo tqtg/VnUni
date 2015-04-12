@@ -1,48 +1,48 @@
-<div class="header">
-    <div class="brand">Hệ Thống Nhập Dữ Liệu Trường Học</div>    
-</div>
-<div class="container" ng-controller="DBController">		
+<div class="container" ng-controller="EditUniController">		
+    <div class="header">
+        <div class="brand"><h1>{{school.name}}</h1></div>    
+    </div>
 	<div class="box">
         <div class="col-lg-12">
             <hr>
-                <h2 class="intro-text text-center"> Trường Đại Học Công Nghệ - Thông Tin Chung              
+                <h2 class="intro-text text-center"> {{school.name}} - Thông Tin Chung              
                 </h2>                
             <hr>                              
             <form role="form">
             	<div class="row">
             		<div class="form-group col-lg-4">
             			<label>Địa chỉ chi tiết: </label>
-            			<input type="text" class="form-control"/>
+            			<input ng-model ="school.address" type="text" class="form-control"/>
             		</div>
             		<div class="form-group col-lg-3">
             			<label> Vùng: ( Bắc, Trung , Nam) </label>
-            			<input type="text" class="form-control"/>
+            			<input  ng-model = "school.region" type="text" class="form-control"/>
             		</div>            		
             		<div class="form-group col-lg-2">
             			<label> Loại Trường </label>
-            			<select class="form-control">
+            			<select ng-model="school.type" class="form-control">
   							<option>Đại Học</option>
   							<option>Cao Đẳng</option>
   							<option>Trung Cấp</option>  							
 						</select>
             		</div>            		            		            		
-            		<div class="form-group col-lg-3">
+            		<div ng-model="school.city" class="form-group col-lg-3">
             			<label>Tỉnh- Thành Phố: </label>
             			<input type="text" class="form-control"/>
             		</div>      
-            		<div class="form-group col-lg-4">
+            		<div ng-model="school.website" class="form-group col-lg-4">
             			<label>Website: </label>
             			<input type="text" class="form-control"/>
             		</div>
-            		<div class="form-group col-lg-4">
+            		<div ng-model="school.email" class="form-group col-lg-4">
             			<label> Email: </label>
             			<input type="text" class="form-control"/>
             		</div>            		
-            		<div class="form-group col-lg-4">
+            		<div ng-model="school.phone" class="form-group col-lg-4">
             			<label>Số điện thoại: </label>
             			<input type="text" class="form-control"/>
             		</div>              
-            		<div class="form-group col-lg-12">
+            		<div ng-model="school.description" class="form-group col-lg-12">
             			<label>Giới thiệu về trường:</label>
             			<textarea class="form-control" rows="6"></textarea>
             		</div>    		      		               		

@@ -17,10 +17,15 @@ module.exports = function (app) {
     // server routes ===========================================================
     // handle things like api calls
     // authentication routes
-    app.get('/uni/:id', function(req, res, next) {
-        console.log('Request to university page!');
-        next();
-        // do something with database and response json
+    app.get('/uni/:id', function(req, res, next) {        
+        Uni.find({"id": String(req.params.id)}, function(err, unis){            
+            res.send(unis);
+        });                        
+    })
+    app.get('/ds_truong', function(req, res, next){
+        Uni.find({},'id name', function(err, unis){
+            res.send(unis);
+        });        
     })
 
     app.get('/search', function(req, res, next) {
@@ -79,9 +84,12 @@ module.exports = function (app) {
         };
         
     })
+    app.get('/edit_db/:id', function (req, res) {        
+        res.render('index'); // load our public/index.html file
+    });
 
     // frontend routes =========================================================
-    app.get('*', function (req, res) {
+    app.get('/dbpanel', function (req, res) {
         console.log('Request to home page!');
         res.render('index'); // load our public/index.html file
     });
