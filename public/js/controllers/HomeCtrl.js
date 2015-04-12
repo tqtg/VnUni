@@ -1,5 +1,5 @@
 angular.module('HomeCtrl', ['HomeService'])
-.controller('HomeController', function($rootScope, $scope, $filter, loadFilterService, searchService) {
+.controller('HomeController', function($rootScope, $scope, $filter, usSpinnerService, loadFilterService, searchService) {
     //  Load data for filter
     $scope.filter = {};
     $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
@@ -24,6 +24,7 @@ angular.module('HomeCtrl', ['HomeService'])
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
+        usSpinnerService.spin('spinner-1');
     	$rootScope.universities = searchService.query({
     		//	Parameters are taken from filter
             nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
@@ -38,7 +39,8 @@ angular.module('HomeCtrl', ['HomeService'])
             if (nUni == 0) {
                 alert("Not found!!!");
             }
-            console.log($rootScope.universities)
+            usSpinnerService.stop('spinner-1');
+            // console.log($rootScope.universities)
         });
     };
 
@@ -80,4 +82,7 @@ angular.module('HomeCtrl', ['HomeService'])
             return filtered;
         } 
     }
-});
+})
+.config(['usSpinnerConfigProvider', function (usSpinnerConfigProvider) {
+    usSpinnerConfigProvider.setDefaults({color: 'green'});
+}]);
