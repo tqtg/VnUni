@@ -39,9 +39,13 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 		})
     
         .when('/dbpanel', {
-            templateUrl: 'views/db_panel.html',
-            controller: 'DBController'
+            templateUrl: 'views/ds_truong.html',
+            controller: 'ListUniController'
         })
+        .when('/edit_db/:school_id', {
+            templateUrl: 'views/db_panel.html',
+            controller: 'EditUniController'
+        })        
         .when('/login', {
             templateUrl: 'views/login.html',
             controller: 'DBController'

@@ -1,0 +1,29 @@
+<div class="header">
+    <div class="brand">Hệ Thống Nhập Dữ Liệu Trường Học</div>    
+</div>
+<div class="container" ng-controller="ListUniController">	
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <form role="search" style="margin-top: 20px; margin-bottom: 20px">
+                <div class="input-group">
+                    <input ng-model="searchText" type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                            <span class="glyphicon glyphicon-filter" style="height:18px;"></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-bordered text-center bg-warning">
+        <thead >
+            <th>Mã trường</th>
+            <th>Tên trường</th>            
+        </thead>
+        <tbody ng-repeat="truong in ds_truong | filter:searchText" >
+            <th>{{truong.id}}</th>
+            <th><a href="/edit_db/{{truong.id}}">{{truong.name}}</a></th>
+        </tbody>
+    <table>    
+</div>

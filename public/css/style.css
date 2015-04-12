@@ -27,14 +27,14 @@
 	opacity: 0.7;
 }
 
-.header{
+.header-login{
 	position: absolute;
 	top: calc(50% - 35px);
 	left: calc(50% - 255px);
 	z-index: 2;
 }
 
-.header div{
+.header-login div{
 	float: left;
 	color: #fff;
 	font-family: 'Exo', sans-serif;
@@ -42,7 +42,7 @@
 	font-weight: 200;
 }
 
-.header div span{
+.header-login div span{
 	color: #5379fa !important;
 }
 
