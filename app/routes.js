@@ -89,15 +89,26 @@ module.exports = function (app) {
             default:
                 res.send('Please give the right filter name!');
         };
-        
     })
-    app.get('/edit_db/:id', function (req, res) {        
-        res.render('index'); // load our public/index.html file
+
+    app.get('/edit_db/:id', function (req, res, next) {        
+        next();
     });
 
     // frontend routes =========================================================
-    app.get('/dbpanel', function (req, res) {
-        console.log('Request to home page!');
-        res.render('index'); // load our public/index.html file
+    app.get('/dbpanel', function (req, res, next) {
+        next();
     });
+
+    //  View admission marks
+    app.get('/diemchuan', function (req, res, next) {
+        next();
+    })
+
+    //  DON'T DELETE !!!
+    //  This code handle all request from client
+    app.use('/', function (req, res) {
+        console.log('Request to home page!');
+        res.render('index');    // load our public/index.html file
+    })
 };
