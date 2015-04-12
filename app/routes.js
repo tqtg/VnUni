@@ -25,22 +25,37 @@ module.exports = function (app) {
 
     app.get('/search', function(req, res, next) {
         console.log("Searching request with parameters:");
-        // console.log(req.query);
         var queryParams = {
-            region: Number(req.query.vungmien),
-            city: Number(req.query.thanhpho),
-            type: Number(req.query.loaitruong),
-
-            majors: {
-                $elemMatch: {
-                    id: String(req.query.nganhhoc)
+            $and: [
+                {
+                    region: Number(req.query.vungmien),
+                    city: Number(req.query.thanhpho),
+                    type: Number(req.query.loaitruong)
+                },
+                {
+                    $or: [
+                        {
+                            majors: {
+                                $elemMatch: {
+                                    id: String("D" + String(req.query.nganhhoc))
+                                }
+                            }
+                        },
+                        {
+                            majors: {
+                                $elemMatch: {
+                                    id: String("C" + String(req.query.nganhhoc))
+                                }
+                            }
+                        }
+                    ]
                 }
-            }
+            ]
         }
         console.log(queryParams);
 
         Uni.getAll(queryParams, function(err, data) {
-            console.log(data.length);
+            // console.log(data.length + " Found!");
             res.json(data);
         });
     })

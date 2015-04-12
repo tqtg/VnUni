@@ -1,0 +1,1138 @@
+[
+	{
+		"id": 0,
+		"name": "---"
+	},
+	{
+		"id": 140101,
+		"name": "Giáo dục học"
+	},
+	{
+		"id": 140114,
+		"name": "Quản lý giáo dục"
+	},
+	{
+		"id": 140201,
+		"name": "Giáo dục Mầm non"
+	},
+	{
+		"id": 140202,
+		"name": "Giáo dục Tiểu học"
+	},
+	{
+		"id": 140203,
+		"name": "Giáo dục Đặc biệt"
+	},
+	{
+		"id": 140204,
+		"name": "Giáo dục Công dân"
+	},
+	{
+		"id": 140205,
+		"name": "Giáo dục Chính trị"
+	},
+	{
+		"id": 140206,
+		"name": "Giáo dục Thể chất"
+	},
+	{
+		"id": 140207,
+		"name": "Huấn luyện thể thao"
+	},
+	{
+		"id": 140208,
+		"name": "Giáo dục Quốc phòng - An ninh"
+	},
+	{
+		"id": 140209,
+		"name": "Sư phạm Toán học"
+	},
+	{
+		"id": 140210,
+		"name": "Sư phạm Tin học"
+	},
+	{
+		"id": 140211,
+		"name": "Sư phạm Vật lý"
+	},
+	{
+		"id": 140212,
+		"name": "Sư phạm Hoá học"
+	},
+	{
+		"id": 140213,
+		"name": "Sư phạm Sinh học"
+	},
+	{
+		"id": 140214,
+		"name": "Sư phạm Kỹ thuật công nghiệp"
+	},
+	{
+		"id": 140215,
+		"name": "Sư phạm Kỹ thuật nông nghiệp"
+	},
+	{
+		"id": 140217,
+		"name": "Sư phạm Ngữ văn"
+	},
+	{
+		"id": 140218,
+		"name": "Sư phạm Lịch sử"
+	},
+	{
+		"id": 140219,
+		"name": "Sư phạm Địa lý"
+	},
+	{
+		"id": 140221,
+		"name": "Sư phạm Âm nhạc"
+	},
+	{
+		"id": 140222,
+		"name": "Sư phạm Mỹ thuật"
+	},
+	{
+		"id": 140225,
+		"name": "Sư phạm Tiếng Jrai"
+	},
+	{
+		"id": 140226,
+		"name": "Sư phạm Tiếng Khme"
+	},
+	{
+		"id": 140227,
+		"name": "Sư phạm Tiếng H'mong"
+	},
+	{
+		"id": 140228,
+		"name": "Sư phạm Tiếng Chăm"
+	},
+	{
+		"id": 140231,
+		"name": "Sư phạm Tiếng Anh"
+	},
+	{
+		"id": 140232,
+		"name": "Sư phạm Tiếng Nga"
+	},
+	{
+		"id": 140233,
+		"name": "Sư phạm Tiếng Pháp"
+	},
+	{
+		"id": 140234,
+		"name": "Sư phạm Tiếng Trung Quốc"
+	},
+	{
+		"id": 140235,
+		"name": "Sư phạm Tiếng Đức"
+	},
+	{
+		"id": 140236,
+		"name": "Sư phạm Tiếng Nhật"
+	},
+	{
+		"id": 210101,
+		"name": "Lý luận, lịch sử và phê bình mỹ thuật"
+	},
+	{
+		"id": 210103,
+		"name": "Hội hoạ"
+	},
+	{
+		"id": 210104,
+		"name": "Đồ hoạ"
+	},
+	{
+		"id": 210105,
+		"name": "Điêu khắc"
+	},
+	{
+		"id": 210107,
+		"name": "Gốm"
+	},
+	{
+		"id": 210201,
+		"name": "Âm nhạc học"
+	},
+	{
+		"id": 210203,
+		"name": "Sáng tác âm nhạc"
+	},
+	{
+		"id": 210204,
+		"name": "Chỉ huy âm nhạc"
+	},
+	{
+		"id": 210205,
+		"name": "Thanh nhạc"
+	},
+	{
+		"id": 210207,
+		"name": "Biểu diễn nhạc cụ phương tây"
+	},
+	{
+		"id": 210208,
+		"name": "Piano"
+	},
+	{
+		"id": 210209,
+		"name": "Nhạc Jazz"
+	},
+	{
+		"id": 210210,
+		"name": "Biểu diễn nhạc cụ truyền thống"
+	},
+	{
+		"id": 210221,
+		"name": "Lý luận và phê bình sân khấu"
+	},
+	{
+		"id": 210225,
+		"name": "Biên kịch sân khấu"
+	},
+	{
+		"id": 210226,
+		"name": "Diễn viên sân khấu kịch hát"
+	},
+	{
+		"id": 210227,
+		"name": "Đạo diễn sân khấu"
+	},
+	{
+		"id": 210231,
+		"name": "Lý luận và phê bình điện ảnh - truyền hình"
+	},
+	{
+		"id": 210233,
+		"name": "Biên kịch điện ảnh - truyền hình"
+	},
+	{
+		"id": 210234,
+		"name": "Diễn viên kịch - điện ảnh"
+	},
+	{
+		"id": 210235,
+		"name": "Đạo diễn điện ảnh - truyền hình"
+	},
+	{
+		"id": 210236,
+		"name": "Quay phim"
+	},
+	{
+		"id": 210241,
+		"name": "Lý luận, phê bình múa"
+	},
+	{
+		"id": 210242,
+		"name": "Diễn viên múa"
+	},
+	{
+		"id": 210243,
+		"name": "Biên đạo múa"
+	},
+	{
+		"id": 210244,
+		"name": "Huấn luyện múa"
+	},
+	{
+		"id": 210301,
+		"name": "Nhiếp ảnh"
+	},
+	{
+		"id": 210302,
+		"name": "Công nghệ điện ảnh - truyền hình"
+	},
+	{
+		"id": 210303,
+		"name": "Thiết kế âm thanh - ánh sáng"
+	},
+	{
+		"id": 210402,
+		"name": "Thiết kế công nghiệp"
+	},
+	{
+		"id": 210403,
+		"name": "Thiết kế đồ họa"
+	},
+	{
+		"id": 210404,
+		"name": "Thiết kế thời trang"
+	},
+	{
+		"id": 210405,
+		"name": "Thiết kế nội thất"
+	},
+	{
+		"id": 210406,
+		"name": "Thiết kế mỹ thuật sân khấu - điện ảnh"
+	},
+	{
+		"id": 220101,
+		"name": "Tiếng Việt và văn hoá Việt Nam"
+	},
+	{
+		"id": 220104,
+		"name": "Hán Nôm"
+	},
+	{
+		"id": 220105,
+		"name": "Ngôn ngữ Jrai"
+	},
+	{
+		"id": 220106,
+		"name": "Ngôn ngữ Khme"
+	},
+	{
+		"id": 220107,
+		"name": "Ngôn ngữ H'mong"
+	},
+	{
+		"id": 220108,
+		"name": "Ngôn ngữ Chăm"
+	},
+	{
+		"id": 220110,
+		"name": "Sáng tác văn học"
+	},
+	{
+		"id": 220112,
+		"name": "Văn hoá các dân tộc thiểu số Việt Nam"
+	},
+	{
+		"id": 220113,
+		"name": "Việt Nam học"
+	},
+	{
+		"id": 220201,
+		"name": "Ngôn ngữ Anh"
+	},
+	{
+		"id": 220202,
+		"name": "Ngôn ngữ Nga"
+	},
+	{
+		"id": 220203,
+		"name": "Ngôn ngữ Pháp"
+	},
+	{
+		"id": 220204,
+		"name": "Ngôn ngữ Trung Quốc"
+	},
+	{
+		"id": 220205,
+		"name": "Ngôn ngữ Đức"
+	},
+	{
+		"id": 220206,
+		"name": "Ngôn ngữ Tây Ban Nha"
+	},
+	{
+		"id": 220207,
+		"name": "Ngôn ngữ Bồ Đào Nha"
+	},
+	{
+		"id": 220208,
+		"name": "Ngôn ngữ Italia"
+	},
+	{
+		"id": 220209,
+		"name": "Ngôn ngữ Nhật"
+	},
+	{
+		"id": 220210,
+		"name": "Ngôn ngữ Hàn Quốc"
+	},
+	{
+		"id": 220211,
+		"name": "Ngôn ngữ Ảrập"
+	},
+	{
+		"id": 220212,
+		"name": "Quốc tế học"
+	},
+	{
+		"id": 220213,
+		"name": "Đông phương học"
+	},
+	{
+		"id": 220214,
+		"name": "Đông Nam Á học"
+	},
+	{
+		"id": 220215,
+		"name": "Trung Quốc học"
+	},
+	{
+		"id": 220216,
+		"name": "Nhật Bản học"
+	},
+	{
+		"id": 220217,
+		"name": "Hàn Quốc học"
+	},
+	{
+		"id": 220218,
+		"name": "Khu vực Thái Bình Dương học"
+	},
+	{
+		"id": 220301,
+		"name": "Triết học"
+	},
+	{
+		"id": 220310,
+		"name": "Lịch sử"
+	},
+	{
+		"id": 220320,
+		"name": "Ngôn ngữ học"
+	},
+	{
+		"id": 220330,
+		"name": "Văn học"
+	},
+	{
+		"id": 220340,
+		"name": "Văn hoá học"
+	},
+	{
+		"id": 220342,
+		"name": "Quản lý văn hoá"
+	},
+	{
+		"id": 220343,
+		"name": "Quản lý thể dục thể thao"
+	},
+	{
+		"id": 310101,
+		"name": "Kinh tế"
+	},
+	{
+		"id": 310106,
+		"name": "Kinh tế quốc tế"
+	},
+	{
+		"id": 310201,
+		"name": "Chính trị học"
+	},
+	{
+		"id": 310202,
+		"name": "Xây dựng Đảng và chính quyền nhà nước"
+	},
+	{
+		"id": 310205,
+		"name": "Quản lý nhà nước"
+	},
+	{
+		"id": 310206,
+		"name": "Quan hệ quốc tế"
+	},
+	{
+		"id": 310301,
+		"name": "Xã hội học"
+	},
+	{
+		"id": 310302,
+		"name": "Nhân học"
+	},
+	{
+		"id": 310401,
+		"name": "Tâm lý học"
+	},
+	{
+		"id": 310403,
+		"name": "Tâm lý học giáo dục"
+	},
+	{
+		"id": 310501,
+		"name": "Địa lý học"
+	},
+	{
+		"id": 310502,
+		"name": "Bản đồ học"
+	},
+	{
+		"id": 320101,
+		"name": "Báo chí"
+	},
+	{
+		"id": 320104,
+		"name": "Truyền thông đa phương tiện"
+	},
+	{
+		"id": 340406,
+		"name": "Công nghệ truyền thông"
+	},
+	{
+		"id": 360708,
+		"name": "Quan hệ công chúng"
+	},
+	{
+		"id": 320201,
+		"name": "Thông tin học"
+	},
+	{
+		"id": 320202,
+		"name": "Khoa học thư viện"
+	},
+	{
+		"id": 320303,
+		"name": "Lưu trữ học"
+	},
+	{
+		"id": 320305,
+		"name": "Bảo tàng học"
+	},
+	{
+		"id": 320401,
+		"name": "Xuất bản"
+	},
+	{
+		"id": 320402,
+		"name": "Kinh doanh xuất bản phẩm"
+	},
+	{
+		"id": 340101,
+		"name": "Quản trị kinh doanh"
+	},
+	{
+		"id": 340103,
+		"name": "Quản trị dịch vụ du lịch và lữ hành"
+	},
+	{
+		"id": 340107,
+		"name": "Quản trị khách sạn"
+	},
+	{
+		"id": 340109,
+		"name": "Quản trị nhà hàng và dịch vụ ăn uống"
+	},
+	{
+		"id": 340115,
+		"name": "Marketing"
+	},
+	{
+		"id": 340116,
+		"name": "Bất động sản"
+	},
+	{
+		"id": 340120,
+		"name": "Kinh doanh quốc tế"
+	},
+	{
+		"id": 340121,
+		"name": "Kinh doanh thương mại"
+	},
+	{
+		"id": 340201,
+		"name": "Tài chính – Ngân hàng"
+	},
+	{
+		"id": 340202,
+		"name": "Bảo hiểm"
+	},
+	{
+		"id": 340301,
+		"name": "Kế toán"
+	},
+	{
+		"id": 340302,
+		"name": "Kiểm toán"
+	},
+	{
+		"id": 340401,
+		"name": "Khoa học quản lý"
+	},
+	{
+		"id": 340404,
+		"name": "Quản trị nhân lực"
+	},
+	{
+		"id": 340405,
+		"name": "Hệ thống thông tin quản lý"
+	},
+	{
+		"id": 380101,
+		"name": "Luật"
+	},
+	{
+		"id": 380107,
+		"name": "Luật kinh tế"
+	},
+	{
+		"id": 380108,
+		"name": "Luật quốc tế"
+	},
+	{
+		"id": 420101,
+		"name": "Sinh học"
+	},
+	{
+		"id": 420201,
+		"name": "Công nghệ sinh học"
+	},
+	{
+		"id": 420202,
+		"name": "Kỹ thuật sinh học"
+	},
+	{
+		"id": 420203,
+		"name": "Sinh học ứng dụng"
+	},
+	{
+		"id": 440101,
+		"name": "Thiên văn học"
+	},
+	{
+		"id": 440102,
+		"name": "Vật lý học"
+	},
+	{
+		"id": 440112,
+		"name": "Hoá học"
+	},
+	{
+		"id": 430122,
+		"name": "Khoa học vật liệu"
+	},
+	{
+		"id": 440201,
+		"name": "Địa chất học"
+	},
+	{
+		"id": 440217,
+		"name": "Địa lý tự nhiên"
+	},
+	{
+		"id": 440221,
+		"name": "Khí tượng học"
+	},
+	{
+		"id": 440224,
+		"name": "Thuỷ văn"
+	},
+	{
+		"id": 440228,
+		"name": "Hải dương học"
+	},
+	{
+		"id": 440301,
+		"name": "Khoa học môi trường"
+	},
+	{
+		"id": 440306,
+		"name": "Khoa học đất"
+	},
+	{
+		"id": 460101,
+		"name": "Toán học"
+	},
+	{
+		"id": 460112,
+		"name": "Toán ứng dụng"
+	},
+	{
+		"id": 460115,
+		"name": "Toán cơ"
+	},
+	{
+		"id": 460201,
+		"name": "Thống kê"
+	},
+	{
+		"id": 480101,
+		"name": "Khoa học máy tính"
+	},
+	{
+		"id": 480102,
+		"name": "Truyền thông và mạng máy tính"
+	},
+	{
+		"id": 480103,
+		"name": "Kỹ thuật phần mềm"
+	},
+	{
+		"id": 480104,
+		"name": "Hệ thống thông tin"
+	},
+	{
+		"id": 480201,
+		"name": "Công nghệ thông tin"
+	},
+	{
+		"id": 510102,
+		"name": "Công nghệ kỹ thuật công trình xây dựng"
+	},
+	{
+		"id": 510103,
+		"name": "Công nghệ kỹ thuật xây dựng"
+	},
+	{
+		"id": 510104,
+		"name": "Công nghệ kỹ thuật giao thông"
+	},
+	{
+		"id": 510105,
+		"name": "Công nghệ kỹ thuật vật liệu xây dựng"
+	},
+	{
+		"id": 510201,
+		"name": "Công nghệ kỹ thuật cơ khí"
+	},
+	{
+		"id": 510202,
+		"name": "Công nghệ chế tạo máy"
+	},
+	{
+		"id": 510203,
+		"name": "Công nghệ kỹ thuật cơ điện tử"
+	},
+	{
+		"id": 510205,
+		"name": "Công nghệ kỹ thuật ô tô"
+	},
+	{
+		"id": 510206,
+		"name": "Công nghệ kỹ thuật nhiệt"
+	},
+	{
+		"id": 510210,
+		"name": "Công thôn"
+	},
+	{
+		"id": 510301,
+		"name": "Công nghệ kỹ thuật điện, điện tử"
+	},
+	{
+		"id": 510302,
+		"name": "Công nghệ kỹ thuật điện tử, truyền thông"
+	},
+	{
+		"id": 510303,
+		"name": "Công nghệ kỹ thuật điều khiển và tự động hóa"
+	},
+	{
+		"id": 510304,
+		"name": "Công nghệ kỹ thuật máy tính"
+	},
+	{
+		"id": 510401,
+		"name": "Công nghệ kỹ thuật hoá học"
+	},
+	{
+		"id": 510402,
+		"name": "Công nghệ vật liệu"
+	},
+	{
+		"id": 510406,
+		"name": "Công nghệ kỹ thuật môi trường"
+	},
+	{
+		"id": 510601,
+		"name": "Quản lý công nghiệp"
+	},
+	{
+		"id": 510602,
+		"name": "Kỹ thuật hệ thống công nghiệp"
+	},
+	{
+		"id": 510603,
+		"name": "Kỹ thuật công nghiệp"
+	},
+	{
+		"id": 510604,
+		"name": "Kinh tế công nghiệp"
+	},
+	{
+		"id": 520101,
+		"name": "Cơ kỹ thuật"
+	},
+	{
+		"id": 520103,
+		"name": "Kỹ thuật cơ khí"
+	},
+	{
+		"id": 520114,
+		"name": "Kỹ thuật cơ - điện tử"
+	},
+	{
+		"id": 520115,
+		"name": "Kỹ thuật nhiệt"
+	},
+	{
+		"id": 520120,
+		"name": "Kỹ thuật hàng không"
+	},
+	{
+		"id": 520122,
+		"name": "Kỹ thuật tàu thuỷ"
+	},
+	{
+		"id": 520201,
+		"name": "Kỹ thuật điện, điện tử"
+	},
+	{
+		"id": 520207,
+		"name": "Kỹ thuật điện tử, truyền thông"
+	},
+	{
+		"id": 520212,
+		"name": "Kỹ thuật y sinh"
+	},
+	{
+		"id": 520214,
+		"name": "Kỹ thuật máy tính"
+	},
+	{
+		"id": 520216,
+		"name": "Kỹ thuật điều khiển và tự động hoá"
+	},
+	{
+		"id": 520301,
+		"name": "Kỹ thuật hoá học"
+	},
+	{
+		"id": 520309,
+		"name": "Kỹ thuật vật liệu"
+	},
+	{
+		"id": 520310,
+		"name": "Kỹ thuật vật liệu kim loại"
+	},
+	{
+		"id": 520320,
+		"name": "Kỹ thuật môi trường"
+	},
+	{
+		"id": 520401,
+		"name": "Vật lý kỹ thuật"
+	},
+	{
+		"id": 520402,
+		"name": "Kỹ thuật hạt nhân"
+	},
+	{
+		"id": 520501,
+		"name": "Kỹ thuật địa chất"
+	},
+	{
+		"id": 520502,
+		"name": "Kỹ thuật địa vật lý"
+	},
+	{
+		"id": 520503,
+		"name": "Kỹ thuật trắc địa - bản đồ"
+	},
+	{
+		"id": 520504,
+		"name": "Kỹ thuật biển"
+	},
+	{
+		"id": 520601,
+		"name": "Kỹ thuật mỏ"
+	},
+	{
+		"id": 520604,
+		"name": "Kỹ thuật dầu khí"
+	},
+	{
+		"id": 520607,
+		"name": "Kỹ thuật tuyển khoáng"
+	},
+	{
+		"id": 540101,
+		"name": "Công nghệ thực phẩm"
+	},
+	{
+		"id": 540104,
+		"name": "Công nghệ sau thu hoạch"
+	},
+	{
+		"id": 540105,
+		"name": "Công nghệ chế biến thuỷ sản"
+	},
+	{
+		"id": 540201,
+		"name": "Kỹ thuật dệt"
+	},
+	{
+		"id": 540202,
+		"name": "Công nghệ sợi, dệt"
+	},
+	{
+		"id": 540204,
+		"name": "Công nghệ may"
+	},
+	{
+		"id": 540206,
+		"name": "Công nghệ da giày"
+	},
+	{
+		"id": 540301,
+		"name": "Công nghệ chế biến lâm sản"
+	},
+	{
+		"id": 580102,
+		"name": "Kiến trúc"
+	},
+	{
+		"id": 580105,
+		"name": "Quy hoạch vùng và đô thị"
+	},
+	{
+		"id": 580110,
+		"name": "Kiến trúc cảnh quan"
+	},
+	{
+		"id": 580201,
+		"name": "Kỹ thuật công trình xây dựng"
+	},
+	{
+		"id": 580203,
+		"name": "Kỹ thuật công trình biển"
+	},
+	{
+		"id": 580205,
+		"name": "Kỹ thuật xây dựng công trình giao thông"
+	},
+	{
+		"id": 580208,
+		"name": "Kỹ thuật xây dựng"
+	},
+	{
+		"id": 580210,
+		"name": "Địa kỹ thuật xây dựng"
+	},
+	{
+		"id": 580212,
+		"name": "Kỹ thuật tài nguyên nước"
+	},
+	{
+		"id": 580301,
+		"name": "Kinh tế xây dựng"
+	},
+	{
+		"id": 580302,
+		"name": "Quản lý xây dựng"
+	},
+	{
+		"id": 620101,
+		"name": "Nông nghiệp"
+	},
+	{
+		"id": 620102,
+		"name": "Khuyến nông"
+	},
+	{
+		"id": 620105,
+		"name": "Chăn nuôi"
+	},
+	{
+		"id": 620109,
+		"name": "Nông học"
+	},
+	{
+		"id": 620110,
+		"name": "Khoa học cây trồng"
+	},
+	{
+		"id": 620112,
+		"name": "Bảo vệ thực vật"
+	},
+	{
+		"id": 620113,
+		"name": "Công nghệ rau hoa quả và cảnh quan"
+	},
+	{
+		"id": 620114,
+		"name": "Kinh doanh nông nghiệp"
+	},
+	{
+		"id": 620115,
+		"name": "Kinh tế nông nghiệp"
+	},
+	{
+		"id": 620116,
+		"name": "Phát triển nông thôn"
+	},
+	{
+		"id": 620201,
+		"name": "Lâm nghiệp"
+	},
+	{
+		"id": 620202,
+		"name": "Lâm nghiệp đô thị"
+	},
+	{
+		"id": 620205,
+		"name": "Lâm sinh"
+	},
+	{
+		"id": 620211,
+		"name": "Quản lý tài nguyên rừng"
+	},
+	{
+		"id": 620301,
+		"name": "Nuôi trồng thuỷ sản"
+	},
+	{
+		"id": 620302,
+		"name": "Bệnh học thủy sản"
+	},
+	{
+		"id": 620304,
+		"name": "Kỹ thuật khai thác thủy sản"
+	},
+	{
+		"id": 620305,
+		"name": "Quản lý nguồn lợi thủy sản"
+	},
+	{
+		"id": 640101,
+		"name": "Thú y"
+	},
+	{
+		"id": 720101,
+		"name": "Y đa khoa"
+	},
+	{
+		"id": 720201,
+		"name": "Y học cổ truyền"
+	},
+	{
+		"id": 720301,
+		"name": "Y tế công cộng"
+	},
+	{
+		"id": 720305,
+		"name": "Y sinh học thể dục thể thao"
+	},
+	{
+		"id": 720330,
+		"name": "Kỹ thuật y học"
+	},
+	{
+		"id": 720332,
+		"name": "Xét nghiệm y học"
+	},
+	{
+		"id": 720333,
+		"name": "Vật lý trị liệu, phục hồi chức năng"
+	},
+	{
+		"id": 720401,
+		"name": "Dược học"
+	},
+	{
+		"id": 720501,
+		"name": "Điều dưỡng"
+	},
+	{
+		"id": 720601,
+		"name": "Răng - Hàm - Mặt"
+	},
+	{
+		"id": 720602,
+		"name": "Kỹ thuật phục hình răng"
+	},
+	{
+		"id": 720701,
+		"name": "Quản lý bệnh viện"
+	},
+	{
+		"id": 760101,
+		"name": "Công tác xã hội"
+	},
+	{
+		"id": 760102,
+		"name": "Công tác thanh thiếu niên"
+	},
+	{
+		"id": 810501,
+		"name": "Kinh tế gia đình"
+	},
+	{
+		"id": 840101,
+		"name": "Khai thác vận tải"
+	},
+	{
+		"id": 840104,
+		"name": "Kinh tế vận tải"
+	},
+	{
+		"id": 840106,
+		"name": "Khoa học hàng hải"
+	},
+	{
+		"id": 850101,
+		"name": "Quản lý tài nguyên và môi trường"
+	},
+	{
+		"id": 850102,
+		"name": "Kinh tế tài nguyên thiên nhiên"
+	},
+	{
+		"id": 850103,
+		"name": "Quản lý đất đai"
+	},
+	{
+		"id": 850201,
+		"name": "Bảo hộ lao động"
+	},
+	{
+		"id": 860102,
+		"name": "Điều tra trinh sát"
+	},
+	{
+		"id": 860104,
+		"name": "Điều tra hình sự"
+	},
+	{
+		"id": 860108,
+		"name": "Kỹ thuật hình sự"
+	},
+	{
+		"id": 860109,
+		"name": "Quản lý nhà nước về an ninh trật tự"
+	},
+	{
+		"id": 860111,
+		"name": "Quản lý, giáo dục và cải tạo phạm nhân"
+	},
+	{
+		"id": 860112,
+		"name": "Tham mưu, chỉ huy vũ trang bảo vệ an ninh trật tự"
+	},
+	{
+		"id": 860113,
+		"name": "Phòng cháy chữa cháy và cứu hộ cứu nạn"
+	},
+	{
+		"id": 860116,
+		"name": "Hậu cần công an nhân dân"
+	},
+	{
+		"id": 860117,
+		"name": "Tình báo an ninh"
+	},
+	{
+		"id": 860206,
+		"name": "Biên phòng"
+	},
+	{
+		"id": 860210,
+		"name": "Chỉ huy tham mưu"
+	},
+	{
+		"id": 860214,
+		"name": "Chỉ huy kỹ thuật"
+	},
+	{
+		"id": 860220,
+		"name": "Tình báo quân sự"
+	},
+	{
+		"id": 860226,
+		"name": "Hậu cần quân sự"
+	}
+]

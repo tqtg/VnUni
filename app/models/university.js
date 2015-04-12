@@ -26,19 +26,15 @@ var uniSchema = mongoose.Schema({
 })
 
 uniSchema.statics.getAll = function getAll(queryParams, cb) {
-	for (var key in queryParams) {
-		if (queryParams[key] == 0 || queryParams[key] == "0") {
-			delete queryParams[key];
-			// console.log(key);
-		} else if (key == "majors") {
-            // console.log("here is major query")
-            if (queryParams[key]["$elemMatch"]["id"] == "0") {
-                // console.log("major id is 0")
-                delete queryParams[key];
-            }
+    for (var key in queryParams['$and'][0]) {
+        if (queryParams['$and'][0][key] == 0) {
+            delete queryParams['$and'][0][key];
         }
-	}
-	// console.log(queryParams);
+    }
+    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch'].id == "D0") {
+        delete queryParams['$and'][1]['$or'];
+    }
+	console.log(queryParams);
     return this.find({$query: queryParams, $orderby: { region : 1 }}, {'id': 1, 'name': 1, '_id': 0}, cb);
 }
 

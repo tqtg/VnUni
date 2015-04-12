@@ -12,8 +12,12 @@ majorFile = open('major.txt', 'r')
 for line in majorFile:
 	key = line.split('---')[0]
 	value = line.split('---')[1][0:len(line.split('---')[1])-1]
+	if (key in majors.keys()):
+		print key
 	majors[key] = value
 	# print key, majors[key]
+
+# print len(majors)
 
 # for major in majors:
 # 	print major, majors[major]
@@ -25,13 +29,27 @@ for line in uniMajorFile:
 	if len(line) == 4:
 		uniId = line[0:3]
 		# print uniId
+		if (uniId in uniMajors.keys()):
+			print uniId
+	else:
+		majorId = line[0:7]
+		# print majorId
+		uniMajors[uniId].append(majorId)
+
+colMajorFile = open('colMajor.txt', 'r')
+for line in colMajorFile:
+	if (len(line) == 4):
+		uniId = line[0:3]
+		# print uniId
+		if (uniId in uniMajors.keys()):
+			continue
 	else:
 		majorId = line[0:7]
 		# print majorId
 		uniMajors[uniId].append(majorId)
 
 # for uni in uniMajors:
-# 	print uni, uniMajors[uni]
+# 	print uni, uniMajors[uni][0][1:7]
 
 fieldnames = ("id", "name", "region", "city", "type")
 reader = csv.DictReader(csvfile, fieldnames)
@@ -71,6 +89,7 @@ for row in reader:
 		majorId = '\t\t\t\t"id": "' + major + '",\n'
 		jsonfile.write(majorId)
 		majorName = '\t\t\t\t"name": "",\n'
+		major = major[1:7]
 		if (major in majors):
 			majorName = '\t\t\t\t"name": "' + majors[major] + '",\n'
 		jsonfile.write(majorName)
