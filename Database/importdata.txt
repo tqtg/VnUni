@@ -11,6 +11,8 @@ mongo ds035557.mongolab.com:35557/vnuni -u tuantq -p quoctuan
 //	Nganh hoc
 mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection nganhhocs --db vnuni --type csv --file nganhhoc.csv --headerline
 
+mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection nganhhocs --db vnuni --type json --file nganhhoc.json --jsonArray
+
 //	Khoi thi
 mongoimport --host ds035557.mongolab.com --port 35557 --username tuantq --password quoctuan --collection khoithis --db vnuni --type csv --file khoithi.csv --headerline
 
