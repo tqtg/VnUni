@@ -24,7 +24,7 @@ angular.module('HomeCtrl', ['HomeService'])
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
-    	$rootScope.universities = searchService.search({
+    	$rootScope.universities = searchService.query({
     		//	Parameters are taken from filter
             nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
             khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
@@ -38,6 +38,7 @@ angular.module('HomeCtrl', ['HomeService'])
             if (nUni == 0) {
                 alert("Not found!!!");
             }
+            console.log($rootScope.universities)
         });
     };
 
