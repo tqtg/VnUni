@@ -46,15 +46,7 @@ module.exports = function (app) {
 
         Uni.getAll(queryParams, function(err, data) {
             console.log(data.length);
-            var response = []
-            for (var i = 0; i < data.length; i++) {
-                var uni = {
-                    id: data[i].id,
-                    name: data[i].name
-                }
-                response.push(uni)
-            }
-            res.json(response);
+            res.json(data);
         });
     })
 
