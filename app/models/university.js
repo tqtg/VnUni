@@ -39,7 +39,7 @@ uniSchema.statics.getAll = function getAll(queryParams, cb) {
         }
 	}
 	// console.log(queryParams);
-    return this.find({$query: queryParams, $orderby: { region : 1 }}, cb);
+    return this.find({$query: queryParams, $orderby: { region : 1 }}, {'id': 1, 'name': 1, '_id': 0}, cb);
 }
 
 module.exports = mongoose.model('University', uniSchema);
