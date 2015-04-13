@@ -35,31 +35,36 @@ angular.module('HomeCtrl', ['HomeService'])
         var min = 0;
         var max = 30;
         if (typeof $scope.mucdiemThap !== 'undefined' && typeof $scope.mucdiemCao !== 'undefined') {
-            if ($scope.mucdiemThap !== null) min = $scope.mucdiemThap;
-            if ($scope.mucdiemCao !== null) max = $scope.mucdiemCao;
-            $scope.showResult = false;
-            usSpinnerService.spin('spinner-1');
+            if ($scope.mucdiemThap !== null && $scope.mucdiemCao !== null
+                && $scope.mucdiemThap > $scope.mucdiemCao) {
+                alert("Mức điểm bạn đã nhập chưa hợp lý!")
+            } else {
+                if ($scope.mucdiemThap !== null) min = $scope.mucdiemThap;
+                if ($scope.mucdiemCao !== null) max = $scope.mucdiemCao;
+                $scope.showResult = false;
+                usSpinnerService.spin('spinner-1');
 
-            $rootScope.universities = searchService.query({
-                //  Parameters are taken from filter
-                nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
-                khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
-                vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
-                thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
-                loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id,
-                mucdiemThap: min,
-                mucdiemCao: max
-            }, function() {
-                var nUni = $rootScope.universities.length;
-                console.log(nUni + " universities found")
-                if (nUni == 0) {
-                    alert("Not found!!!");
-                    $scope.showResult = false;
-                } else {
-                    $scope.showResult = true;
-                }
-                usSpinnerService.stop('spinner-1');
-            });
+                $rootScope.universities = searchService.query({
+                    //  Parameters are taken from filter
+                    nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
+                    khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
+                    vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
+                    thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
+                    loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id,
+                    mucdiemThap: min,
+                    mucdiemCao: max
+                }, function() {
+                    var nUni = $rootScope.universities.length;
+                    console.log(nUni + " universities found")
+                    if (nUni == 0) {
+                        alert("Không tìm được trường nào phù hợp!");
+                        $scope.showResult = false;
+                    } else {
+                        $scope.showResult = true;
+                    }
+                    usSpinnerService.stop('spinner-1');
+                });
+            }
         }
     };
 
