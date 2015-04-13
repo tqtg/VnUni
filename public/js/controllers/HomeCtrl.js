@@ -1,6 +1,8 @@
 angular.module('HomeCtrl', ['HomeService'])
 .controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService) {
     $scope.showResult = false;
+    $scope.mucdiemThap = null;
+    $scope.mucdiemCao = null;
     $scope.nganhhocSelected = function(selected) {
         if (typeof selected === 'undefined') {
             $scope.nganhhoc = {id: 0, name: ""};
@@ -15,9 +17,6 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
         $scope.khoithi = $scope.filter.khoithi[0];
     });
-    $scope.filter.mucdiem = loadFilterService.query({name: 'mucdiem'}, function() {
-        $scope.mucdiem = $scope.filter.mucdiem[0];
-    });
     $scope.filter.vungmien = loadFilterService.query({name: 'vungmien'}, function() {
         $scope.vungmien = $scope.filter.vungmien[0];
     });
@@ -27,33 +26,41 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'}, function() {
         $scope.loaitruong = $scope.filter.loaitruong[0];
     });
-    console.log($scope.filter);
+    // console.log($scope.filter);
 
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
-        $scope.showResult = false;
-        usSpinnerService.spin('spinner-1');
-    	$rootScope.universities = searchService.query({
-    		//	Parameters are taken from filter
-            nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
-            khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
-            mucdiem: (typeof $scope.mucdiem === 'undefined') ? 0 : $scope.mucdiem.id,
-            vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
-            thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
-            loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id
-    	}, function() {
-            var nUni = $rootScope.universities.length;
-            console.log(nUni + " universities found")
-            if (nUni == 0) {
-                alert("Not found!!!");
-                $scope.showResult = false;
-            } else {
-                $scope.showResult = true;
-            }
-            usSpinnerService.stop('spinner-1');
-            // console.log($rootScope.universities)
-        });
+        // console.log($scope.mucdiemThap)
+        var min = 0;
+        var max = 30;
+        if (typeof $scope.mucdiemThap !== 'undefined' && typeof $scope.mucdiemCao !== 'undefined') {
+            if ($scope.mucdiemThap !== null) min = $scope.mucdiemThap;
+            if ($scope.mucdiemCao !== null) max = $scope.mucdiemCao;
+            $scope.showResult = false;
+            usSpinnerService.spin('spinner-1');
+
+            $rootScope.universities = searchService.query({
+                //  Parameters are taken from filter
+                nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
+                khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
+                vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
+                thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
+                loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id,
+                mucdiemThap: min,
+                mucdiemCao: max
+            }, function() {
+                var nUni = $rootScope.universities.length;
+                console.log(nUni + " universities found")
+                if (nUni == 0) {
+                    alert("Not found!!!");
+                    $scope.showResult = false;
+                } else {
+                    $scope.showResult = true;
+                }
+                usSpinnerService.stop('spinner-1');
+            });
+        }
     };
 
     $scope.getUni = function() {

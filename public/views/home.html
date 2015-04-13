@@ -66,16 +66,20 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Khối thi</label>
-                        <div class="col-md-8 selectContainer">
-                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi | orderBy: 'name'"></select>
-                        </div>
+                        <label class="col-md-4 control-label">Mức điểm</label>
+                        <div class="col-md-8">
+                            <!-- <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem | orderBy: 'id'"></select> -->
+                             <div class="input-group col-lg-4">
+                                <input type="number" min="0" max="30" class="form-control" ng-model="mucdiemThap" placeholder="Thấp nhất">
+                                <input type="number" min="0" max="30" class="form-control" ng-model="mucdiemCao" placeholder="Cao nhất">
+                            </div>   
+                        </div> 
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Mức điểm</label>
+                        <label class="col-md-4 control-label">Khối thi</label>
                         <div class="col-md-8 selectContainer">
-                            <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem | orderBy: 'id'"></select>
+                            <select name="KhoiThi" class="form-control" ng-model="khoithi" ng-options="k.name for k in filter.khoithi | orderBy: 'name'"></select>
                         </div>
                     </div>
 
