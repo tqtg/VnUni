@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     nodemon = require('gulp-nodemon'),
     livereload = require('gulp-livereload'),
-    _paths = ['app/*.js', 'public/js/*.js'];
+    _paths = ['app/*.js', 'public/js/*.js','public/js/controllers/*.js'];
 
 //register nodemon task
 gulp.task('nodemon', function () {

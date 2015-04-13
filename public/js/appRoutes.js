@@ -48,7 +48,7 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         })        
         .when('/login', {
             templateUrl: 'views/login.html',
-            controller: 'DBController'
+            controller: 'LoginController'
         })                
     	.when('/diemchuan', {
             templateUrl: 'views/uni_diemchuan.html',

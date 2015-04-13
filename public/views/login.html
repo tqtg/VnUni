@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" ng-controller="LoginController">
     <div class="body"></div>
     <div class="grad"></div>
         <div class="header-login">
@@ -6,8 +6,8 @@
         </div>
         <br>
         <div class="login">
-                <input type="text" placeholder="username" name="user"><br>
-                <input type="password" placeholder="password" name="password"><br>
-                <input type="button" value="Login">
+                <input type="text" placeholder="username" name="user" ng-model="username"><br>
+                <input type="password" placeholder="password" name="password" ng-model="password"><br>
+                <input ng-click="login(username, password)"type="button" value="Login">
         </div> 
 </div>
