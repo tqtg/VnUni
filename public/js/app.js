@@ -1,1 +1,1 @@
-angular.module('vnUniApp', ['angularSpinner', 'ngRoute', 'ngResource', 'appRoutes', 'HomeCtrl' ,'HomeService', 'UniCtrl', 'UniService','DBCtrl', 'DBService']);
+angular.module('vnUniApp', ['ngDialog', 'angularSpinner', 'ngRoute', 'ngResource', 'appRoutes', 'HomeCtrl' ,'HomeService', 'UniCtrl', 'UniService','DBCtrl', 'DBService']);

@@ -60,7 +60,7 @@ module.exports = function (app) {
         console.log(queryParams);
 
         Uni.getAll(queryParams, function(err, data) {
-            // console.log(data.length + " Found!");
+            console.log(data.length + " Found!");
             res.json(data);
         });
     })
