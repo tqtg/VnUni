@@ -52,11 +52,10 @@
                         <div class="col-md-8 selectContainer">
                             <!-- <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
                             <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select> -->
-                                <angucomplete-alt id="nganhhoc"
+                                <angucomplete-alt id="nganhhocInput"
                                     placeholder="Nhập tên ngành cần tìm"
                                     pause="100"
-                                    selected-object="nganhhoc"
-                                    ng-model="nganhhoc"
+                                    selected-object="nganhhocSelected"
                                     local-data="filter.nganhhoc"
                                     search-fields="name"
                                     title-field="name"

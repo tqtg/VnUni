@@ -1,12 +1,17 @@
 angular.module('HomeCtrl', ['HomeService'])
 .controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService) {
     $scope.showResult = false;
+    $scope.nganhhocSelected = function(selected) {
+        if (typeof selected === 'undefined') {
+            $scope.nganhhoc = {id: 0, name: ""};
+        } else {
+            $scope.nganhhoc = selected.originalObject;
+        }
+    }
 
     //  Load data for filter
     $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
-        $scope.nganhhoc = $scope.filter.nganhhoc[0];
-    });
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {});
     $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
         $scope.khoithi = $scope.filter.khoithi[0];
     });
