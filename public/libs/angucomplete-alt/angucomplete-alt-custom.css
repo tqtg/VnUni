@@ -1,0 +1,7 @@
+.angucomplete-dropdown {
+    overflow-y: auto;
+    max-height: 400px; // your preference
+}
+.highlight {
+	color: #ff0000;
+}

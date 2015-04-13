@@ -8,6 +8,7 @@
 		"angular-resource": "latest",
 		"spin.js": "~2.0.0",
 		"angular-spinner": "latest",
-		"ngDialog": "latest"
+		"ngDialog": "latest",
+		"angucomplete-alt": "latest"
 	}
 }
