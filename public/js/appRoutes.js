@@ -52,14 +52,17 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             templateUrl: 'views/db_panel.html',
             controller: 'EditUniController'
         })        
-
+        .when('/login', {
+            templateUrl: 'views/login.html',
+            controller: 'LoginController'
+        })                
         .when('/diemchuan', {
             templateUrl: 'views/diemchuan.html',
             controller: 'HomeController'
         })
 
         .when('/test', {
-            templateUrl: 'views/test.html',
+            templateUrl: 'views/test.html',			 
             controller: 'HomeController'
         })
 

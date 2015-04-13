@@ -3,24 +3,37 @@ var mongoose = require('mongoose');
 var uniSchema = mongoose.Schema({
     id: String,
     name: String,
+    address: String,
+    phone : String,
+    email: String,
+    website: String,
     region: Number,
     city: Number,
     type: Number,
 
-    //	Major
-    majors: [
-    	{
-    		id: String,		//	major id
-            name: String,
-    		divisions: [String],
-    		admissionMarks: [
-    			{
-    				year: Number,
-    				mark: Number
-    			}
-    		]
-    	}
-    ]
+    faculties:[
+        {
+            id: String,
+            name : String,
+            description: String,
+            majors: [
+                {
+                    id: String,     //  major id
+                    name: String,
+                    divisions: {
+                        division: String    // division id
+                    },
+                    admissionMarks: [
+                        {
+                            year: Number,
+                            mark: Number
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ]    
 })
 
 uniSchema.statics.getAll = function getAll(queryParams, cb) {
