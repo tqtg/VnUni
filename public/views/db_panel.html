@@ -16,31 +16,27 @@
             		</div>
             		<div class="form-group col-lg-3">
             			<label> Vùng: ( Bắc, Trung , Nam) </label>
-            			<input  ng-model = "school.region" type="text" class="form-control"/>
+            			<select ng-model="school.region" ng-options="region.id as region.name for region in list_region"class="form-control"> </select>
             		</div>            		
             		<div class="form-group col-lg-2">
             			<label> Loại Trường </label>
-            			<select ng-model="school.type" class="form-control">
-  							<option>Đại Học</option>
-  							<option>Cao Đẳng</option>
-  							<option>Trung Cấp</option>  							
-						</select>
+            			<select ng-model="school.type" ng-options="type.id as type.name for type in list_type"class="form-control"> </select>
             		</div>            		            		            		
             		<div ng-model="school.city" class="form-group col-lg-3">
             			<label>Tỉnh- Thành Phố: </label>
-            			<input type="text" class="form-control"/>
+            			<select ng-model="school.city" ng-options="city.id as city.name for city in list_city"class="form-control"> </select>
             		</div>      
             		<div ng-model="school.website" class="form-group col-lg-4">
             			<label>Website: </label>
-            			<input type="text" class="form-control"/>
+            			<input ng-model="school.website" type="text" class="form-control"/>
             		</div>
             		<div ng-model="school.email" class="form-group col-lg-4">
             			<label> Email: </label>
-            			<input type="text" class="form-control"/>
+            			<input ng-model="school.email" type="text" class="form-control"/>
             		</div>            		
             		<div ng-model="school.phone" class="form-group col-lg-4">
             			<label>Số điện thoại: </label>
-            			<input type="text" class="form-control"/>
+            			<input ng-model="school.phone" type="text" class="form-control"/>
             		</div>              
             		<div ng-model="school.description" class="form-group col-lg-12">
             			<label>Giới thiệu về trường:</label>
@@ -53,67 +49,62 @@
 	<div class="box">
         <div class="col-lg-12">
             <hr>
-                <h2 class="intro-text text-center"> Trường Đại Học Công Nghệ - Ngành - Khoa</h2>                
+                <h2 class="intro-text text-center"> {{school.name}} - Ngành - Khoa</h2>                
             <hr>                              
             <form role="form">
             	<div class="row">            		
             		<div class="form-group col-lg-12">
-            			<p>Số lượng khoa:   {{so_khoa}} </p>            					            			
-            			<button type="button" ng-click="them_khoa()" class="btn btn-default">
+            			<p>Số lượng khoa:   {{school.faculties.length}} </p>            					            			
+            			<button type="button" ng-click="add_faculty()" class="btn btn-default">
   								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> thêm
 						</button>
-            			<button type="button" ng-click="xoa_khoa()"class="btn btn-default">
+            			<button type="button" ng-click="rm_faculty()"class="btn btn-default">
   								<span class="glyphicon glyphicon-minus" aria-hidden="true"></span> bớt
 						</button>												
             		</div>      
-            		<div ng-repeat ="khoa in ds_khoa">         	            		
+            		<div ng-repeat ="faculty in school.faculties ">         	            		
             			<div class="col-lg-12">
             				<hr>            				   
-            					<h2 class="text-center intro-text"> Khoa Số {{khoa.id}}</h2>
+            					<h2 class="text-center intro-text"> Khoa Số {{faculty.id}}</h2>
             				<hr>
             			</div>            			
-            			<div class="form-group col-lg-4">
+            			<div class="form-group col-lg-6">
             				<label>Tên khoa: </label>
-            				<input  ng-model="khoa.ten_khoa" type="text" class="form-control"/>
+            				<input  ng-model="faculty.name" type="text" class="form-control"/>
             			</div>
-            			<div class="form-group col-lg-4">
+            			<div class="form-group col-lg-6">
             				<label>Số ngành: </label>
-            				<input ng-model ="khoa.so_nganh" type="number" class="form-control"/>            				
-            			</div>            		
-            			<div class="form-group col-lg-4">
-            				<label>Điểm chuẩn: </label>
-            				<input ng-model="khoa.diem_chuan" type="number" class="form-control"/>
-            			</div>            				
+            				<input ng-model ="faculty.majors.length" type="number" class="form-control"/>            				
+            			</div>            		            		     			
             			<div class="form-group col-lg-12">
             				<label>Mô tả : </label>
-            				<textarea ng-model="khoa.mo_ta" class="form-control" rows="6"></textarea>
+            				<textarea ng-model="faculty.description" class="form-control" rows="6"></textarea>
             			</div>    
             			<div class="col-lg-12">
-            				<button type="button" ng-click="tang_nganh(khoa.id)" class="btn btn-default">
+            				<button type="button" ng-click="add_major(faculty.id)" class="btn btn-default">
   								<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> thêm ngành
 							</button>
-            				<button type="button" ng-click="giam_nganh(khoa.id)"class="btn btn-default">
+            				<button type="button" ng-click="rm_major(faculty.id)" class="btn btn-default">
   								<span class="glyphicon glyphicon-minus" aria-hidden="true"></span> bớt ngành
 							</button>	
             			</div>                			
-            			<div ng-repeat="nganh in khoa.ds_nganh">
+            			<div ng-repeat="major in school.faculties[0].majors">                            
             				<div class="form-group col-lg-4">
             					<label>Mã ngành: </label>
-            					<input  ng-model="nganh.ma_nganh" type="text" class="form-control"/>
+            					<input  ng-model="major.id" type="text" class="form-control"/>
             				</div>
             				<div class="form-group col-lg-4">
             					<label>Tên ngành: </label>
-            					<input ng-model ="nganh.ten_nganh" type="text" class="form-control"/>
-            				</div>            		
-            				<div class="form-group col-lg-4">
-            					<label>Điểm chuẩn: </label>
-            					<input ng-model="nganh.diem_chuan" type="number" class="form-control"/>
-            				</div>            				            				
+            					<input ng-model ="major.name" type="text" class="form-control"/>
+            				</div>            		                            		            			
             			</div>            			
             		</div>
             	</div>
-            </form>
+            </form>            
         </div>        
     </div>	    
+    <div class="form-group col-lg-12">
+         <input type="hidden" name="save" value="contact">
+         <button type="submit" class="btn btn-lg">Submit</button>
+    </div>                    
 </div>
-<div ng-controller="UniController" ng-include src="'views/uni_footer.html'"></div>
