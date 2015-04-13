@@ -11,6 +11,7 @@ var Mucdiem = require('./models/mucdiem');
 var Vungmien = require('./models/vungmien');
 var Thanhpho = require('./models/thanhpho');
 var Loaitruong = require('./models/loaitruong');
+var User = require('./models/user');
 
 module.exports = function (app) {
 
@@ -18,14 +19,37 @@ module.exports = function (app) {
     // handle things like api calls
     // authentication routes
     app.get('/uni/:id', function(req, res, next) {        
-        Uni.find({"id": String(req.params.id)}, function(err, unis){            
-            res.send(unis);
+        Uni.find({"id": String(req.params.id)}, function(err, unis){                        
+            res.send(unis);            
         });                        
     })
+    app.get("/school_type", function(req, res, next){
+        Loaitruong.find({},"id name",function(err, loaitruong){
+            res.send(loaitruong);
+        });
+    });
+    app.get("/region", function(req, res, next){
+        Vungmien.find({},"id name",function(err, region){
+            res.send(region);
+        });
+    });    
+    app.get("/city", function(req, res, next){
+        Thanhpho.find({},"id name",function(err, city){
+            res.send(city);
+        });
+    });        
     app.get('/ds_truong', function(req, res, next){
         Uni.find({},'id name', function(err, unis){
             res.send(unis);
         });        
+    })
+    app.post('/authenticate',function(req, res, next){                        
+        User.find({'username': req.body.username, 'password': req.body.password},'type school', function(err, users){                        
+            if ( !users || users.lenght ==0 )
+            res.send({'status' : 'NO'});
+                 else res.send({'status': 'YES', 'user_type': users[0].type, 'school': users[0].school});
+    }        
+    ); 
     })
 
     app.get('/search', function(req, res, next) {
@@ -79,6 +103,9 @@ module.exports = function (app) {
     app.get('/edit_db/:id', function (req, res) {        
         res.render('index'); // load our public/index.html file
     });
+    app.get('/login', function (req, res) {        
+        res.render('index'); // load our public/index.html file
+    });    
 
     // frontend routes =========================================================
     app.get('/dbpanel', function (req, res) {
