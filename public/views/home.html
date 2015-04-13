@@ -19,10 +19,10 @@
             <div class="box">
                 <div class="row">
                     <div class="col-md-7">
-                        <img class="img-responsive" style="margin-top:10px; margin-left:20px" src="assets/images/Vietnam_Map.png">
+                        <img class="img-responsive" style="margin-top: 0px; margin-left:20px" src="assets/images/Vietnam_Map.png">
                     </div>
                     <div class="col-md-5">
-                        <div ng-show="!showResult" style="padding-top:250px">
+                        <div ng-show="!showResult" style="padding-top:400px">
                             <span us-spinner="{radius:20, width:8, length: 30}" spinner-key="spinner-1"></span>
                         </div>
                         <div ng-show="showResult">
@@ -31,7 +31,7 @@
                             </h6>
                             <ul class="list-group" style="height:500px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
                                 <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities">
-                                    <a ng-href="" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
+                                    <a href="" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,8 +50,19 @@
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
                         <div class="col-md-8 selectContainer">
-                            <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
-                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select>
+                            <!-- <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
+                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select> -->
+                                <angucomplete-alt id="nganhhoc"
+                                    placeholder="Nhập tên ngành cần tìm"
+                                    pause="100"
+                                    selected-object="nganhhoc"
+                                    ng-model="nganhhoc"
+                                    local-data="filter.nganhhoc"
+                                    search-fields="name"
+                                    title-field="name"
+                                    minlength="0"
+                                    match-class="highlight" 
+                                    input-class="form-control form-control-small"/>
                         </div>
                     </div>
 
