@@ -30,6 +30,7 @@ module.exports = function (app) {
 
     app.get('/search', function(req, res, next) {
         console.log("Searching request with parameters:");
+        console.log(req.query.khoithi);
         var queryParams = {
             $and: [
                 {
@@ -42,14 +43,16 @@ module.exports = function (app) {
                         {
                             majors: {
                                 $elemMatch: {
-                                    id: String("D" + String(req.query.nganhhoc))
+                                    id: String("D" + String(req.query.nganhhoc)),
+                                    divisions: String(req.query.khoithi)
                                 }
                             }
                         },
                         {
                             majors: {
                                 $elemMatch: {
-                                    id: String("C" + String(req.query.nganhhoc))
+                                    id: String("C" + String(req.query.nganhhoc)),
+                                    divisions: String(req.query.khoithi)
                                 }
                             }
                         }
