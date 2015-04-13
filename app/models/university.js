@@ -31,7 +31,6 @@ var uniSchema = mongoose.Schema({
                     ]
                 }
             ]
-
         }
     ]    
 })
