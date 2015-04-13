@@ -1,10 +1,17 @@
 angular.module('HomeCtrl', ['HomeService'])
-.controller('HomeController', function($rootScope, $scope, $filter, loadFilterService, searchService) {
+.controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService) {
+    $scope.showResult = false;
+    $scope.nganhhocSelected = function(selected) {
+        if (typeof selected === 'undefined') {
+            $scope.nganhhoc = {id: 0, name: ""};
+        } else {
+            $scope.nganhhoc = selected.originalObject;
+        }
+    }
+
     //  Load data for filter
     $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
-        $scope.nganhhoc = $scope.filter.nganhhoc[0];
-    });
+    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {});
     $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
         $scope.khoithi = $scope.filter.khoithi[0];
     });
@@ -20,10 +27,13 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'}, function() {
         $scope.loaitruong = $scope.filter.loaitruong[0];
     });
+    console.log($scope.filter);
 
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
+        $scope.showResult = false;
+        usSpinnerService.spin('spinner-1');
     	$rootScope.universities = searchService.query({
     		//	Parameters are taken from filter
             nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
@@ -37,15 +47,23 @@ angular.module('HomeCtrl', ['HomeService'])
             console.log(nUni + " universities found")
             if (nUni == 0) {
                 alert("Not found!!!");
+                $scope.showResult = false;
+            } else {
+                $scope.showResult = true;
             }
-            console.log($rootScope.universities)
+            usSpinnerService.stop('spinner-1');
+            // console.log($rootScope.universities)
         });
     };
 
     $scope.getUni = function() {
-        $http.get('/uni/QHI').success(function(data) {
-            console.log(data);
+        ngDialog.open({
+            template: 'views/dialog.html',
+            className: 'ngdialog-theme-default custom-width'
         });
+        // $http.get('/uni/QHI').success(function(data) {
+        //     console.log(data);
+        // });
     }
 })
 .filter('thanhphoFilter', function() {
@@ -80,4 +98,7 @@ angular.module('HomeCtrl', ['HomeService'])
             return filtered;
         } 
     }
-});
+})
+.config(['usSpinnerConfigProvider', function (usSpinnerConfigProvider) {
+    usSpinnerConfigProvider.setDefaults({color: 'green'});
+}]);

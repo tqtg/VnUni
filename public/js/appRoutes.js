@@ -37,11 +37,17 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			templateUrl: 'views/uni_thongtin.html',
 			controller: 'UniController'	
 		})
-    
+
+        .when('/login', {
+            templateUrl: 'views/login.html',
+            controller: 'DBController'
+        })
+
         .when('/dbpanel', {
             templateUrl: 'views/ds_truong.html',
             controller: 'ListUniController'
         })
+
         .when('/edit_db/:school_id', {
             templateUrl: 'views/db_panel.html',
             controller: 'EditUniController'
@@ -50,8 +56,13 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             templateUrl: 'views/login.html',
             controller: 'LoginController'
         })                
-    	.when('/diemchuan', {
-            templateUrl: 'views/uni_diemchuan.html',
+        .when('/diemchuan', {
+            templateUrl: 'views/diemchuan.html',
+            controller: 'HomeController'
+        })
+
+        .when('/test', {
+            templateUrl: 'views/test.html',			 
             controller: 'HomeController'
         })
 

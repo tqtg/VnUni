@@ -5,6 +5,10 @@
 		"bootstrap": "latest",
 		"angular": "latest",
 		"angular-route": "latest",
-		"angular-resource": "latest"
+		"angular-resource": "latest",
+		"spin.js": "~2.0.0",
+		"angular-spinner": "latest",
+		"ngDialog": "latest",
+		"angucomplete-alt": "latest"
 	}
 }

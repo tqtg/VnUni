@@ -12,8 +12,12 @@ majorFile = open('major.txt', 'r')
 for line in majorFile:
 	key = line.split('---')[0]
 	value = line.split('---')[1][0:len(line.split('---')[1])-1]
+	if (key in majors.keys()):
+		print key
 	majors[key] = value
 	# print key, majors[key]
+
+# print len(majors)
 
 # for major in majors:
 # 	print major, majors[major]
@@ -25,13 +29,77 @@ for line in uniMajorFile:
 	if len(line) == 4:
 		uniId = line[0:3]
 		# print uniId
+		if (uniId in uniMajors.keys()):
+			print uniId
+	else:
+		majorId = line[0:7]
+		# print majorId
+		uniMajors[uniId].append(majorId)
+
+colMajorFile = open('colMajor.txt', 'r')
+for line in colMajorFile:
+	if (len(line) == 4):
+		uniId = line[0:3]
+		# print uniId
+		if (uniId in uniMajors.keys()):
+			continue
 	else:
 		majorId = line[0:7]
 		# print majorId
 		uniMajors[uniId].append(majorId)
 
 # for uni in uniMajors:
-# 	print uni, uniMajors[uni]
+# 	print uni, uniMajors[uni][0][1:7]
+
+uniMarks = {}
+markFile = open('diemchuan.txt', 'r')
+majorId = ""
+for line in markFile:
+	if line.find("uniId") > -1:
+		uniId = line.split("---")[1][0:3]
+		# print uniId
+		if (uniId in uniMarks.keys()):
+			continue
+		else:
+			uniMarks[uniId] = {}
+	elif line.find("majorId") > -1:
+		majorId = line.split("---")[1][0:len(line.split("---")[1])-1]
+		# print majorId
+		if majorId not in uniMarks[uniId].keys():
+			uniMarks[uniId][majorId] = {}
+	elif line.find("divisions") > -1:
+		divisions = line.split("---")[1][0:len(line.split("---")[1])-1]
+		uniMarks[uniId][majorId]["divisions"] = []
+		if divisions.find(",") > -1:
+			divisions = divisions.split(",")
+			for division in divisions:
+				uniMarks[uniId][majorId]["divisions"].append(division)
+		elif divisions == "none":
+			uniMarks[uniId][majorId]["divisions"].append("")
+		else:
+			uniMarks[uniId][majorId]["divisions"].append(divisions)
+	elif line.find("mark") > -1:
+		mark = line.split("---")[1][0:len(line.split("---")[1])-1]
+		uniMarks[uniId][majorId]["mark"] = mark
+
+for uni in uniMarks:
+	if "DiemChung" in uniMarks[uni].keys() and len(uniMarks[uni].keys()) > 1:
+		del uniMarks[uni]["DiemChung"]
+		# print uniMarks[uni]
+	# for major in uniMarks[uni]:
+	# 	# print major
+	# 	if (float(uniMarks[uni][major]["mark"]) == 0):
+	# 		del uniMarks[uni][major]
+			# break
+			# print uniMarks[uni][major]
+
+tempFile = open('temp.txt', 'w')
+for uni in uniMarks:
+	tempFile.write(uni + "\n")
+	for major in uniMarks[uni]:
+		tempFile.write(major + "\n")
+		tempFile.write(str(uniMarks[uni][major]["divisions"]) + " - " + str(uniMarks[uni][major]["mark"]) + "\n")
+
 
 fieldnames = ("id", "name", "region", "city", "type")
 reader = csv.DictReader(csvfile, fieldnames)
@@ -71,15 +139,39 @@ for row in reader:
 		majorId = '\t\t\t\t"id": "' + major + '",\n'
 		jsonfile.write(majorId)
 		majorName = '\t\t\t\t"name": "",\n'
-		if (major in majors):
-			majorName = '\t\t\t\t"name": "' + majors[major] + '",\n'
+		majorId = major[1:7]
+		if (majorId in majors):
+			majorName = '\t\t\t\t"name": "' + majors[majorId] + '",\n'
 		jsonfile.write(majorName)
 		# divisions
-		jsonfile.write('\t\t\t\t"divisions": {\n')
+		jsonfile.write('\t\t\t\t"divisions": [ ')
 		# division id
-		division = '\t\t\t\t\t"division": ""\n'
-		jsonfile.write(division)
-		jsonfile.write('\t\t\t\t},\n')
+		if uni in uniMarks.keys():
+			if major in uniMarks[uni]:
+				if len(uniMarks[uni][major]["divisions"]) != 0:
+					for i in range(0, len(uniMarks[uni][major]["divisions"])):
+					# print uniMarks[uni][major]["divisions"][i]
+						if i != (len(uniMarks[uni][major]["divisions"])-1):
+							# division = '\t\t\t\t\t"division": "' + uniMarks[uni][major]["divisions"][i] + '",\n'
+							division = '"' + uniMarks[uni][major]["divisions"][i] + '", '
+						else:
+							# division = '\t\t\t\t\t"division": "' + uniMarks[uni][major]["divisions"][i] + '"\n'
+							division = '"' + uniMarks[uni][major]["divisions"][i] + '"'
+						jsonfile.write(division)
+				# jsonfile.write('\t\t\t\t},\n')
+
+		# 		else:
+		# 			division = '\t\t\t\t\t"division": ""\n'
+		# 			jsonfile.write(division)
+		# 	else:
+		# 		division = '\t\t\t\t\t"division": ""\n'
+		# 		jsonfile.write(division)
+		# else:
+		# 	division = '\t\t\t\t\t"division": ""\n'
+		# 	jsonfile.write(division)
+		
+		jsonfile.write(' ],\n')
+		
 		# admission marks
 		jsonfile.write('\t\t\t\t"admissionMarks": [\n')
 		jsonfile.write('\t\t\t\t\t{\n')
