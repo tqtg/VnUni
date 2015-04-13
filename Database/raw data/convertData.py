@@ -152,35 +152,28 @@ for row in reader:
 					for i in range(0, len(uniMarks[uni][major]["divisions"])):
 					# print uniMarks[uni][major]["divisions"][i]
 						if i != (len(uniMarks[uni][major]["divisions"])-1):
-							# division = '\t\t\t\t\t"division": "' + uniMarks[uni][major]["divisions"][i] + '",\n'
 							division = '"' + uniMarks[uni][major]["divisions"][i] + '", '
 						else:
-							# division = '\t\t\t\t\t"division": "' + uniMarks[uni][major]["divisions"][i] + '"\n'
-							division = '"' + uniMarks[uni][major]["divisions"][i] + '"'
-						jsonfile.write(division)
-				# jsonfile.write('\t\t\t\t},\n')
-
-		# 		else:
-		# 			division = '\t\t\t\t\t"division": ""\n'
-		# 			jsonfile.write(division)
-		# 	else:
-		# 		division = '\t\t\t\t\t"division": ""\n'
-		# 		jsonfile.write(division)
-		# else:
-		# 	division = '\t\t\t\t\t"division": ""\n'
-		# 	jsonfile.write(division)
-		
-		jsonfile.write(' ],\n')
+							division = '"' + uniMarks[uni][major]["divisions"][i] + '" '
+						jsonfile.write(division)		
+		jsonfile.write('],\n')
 		
 		# admission marks
-		jsonfile.write('\t\t\t\t"admissionMarks": [\n')
-		jsonfile.write('\t\t\t\t\t{\n')
-		year = '\t\t\t\t\t\t"year": %d,\n' % 2015
-		jsonfile.write(year)
-		mark = '\t\t\t\t\t\t"mark": %d\n' % 0
-		jsonfile.write(mark)
-		jsonfile.write('\t\t\t\t\t}\n')
-		jsonfile.write('\t\t\t\t]\n')
+		jsonfile.write('\t\t\t\t"admissionMarks": [')
+		if uni in uniMarks.keys():
+			if major in uniMarks[uni]:
+				jsonfile.write('\n\t\t\t\t\t{\n')
+				year = '\t\t\t\t\t\t"year": %d,\n' % 2014
+				jsonfile.write(year)
+				mark = '\t\t\t\t\t\t"mark": %d\n' % float(uniMarks[uni][major]["mark"])
+				jsonfile.write(mark)
+				jsonfile.write('\t\t\t\t\t}\n')
+				jsonfile.write('\t\t\t\t]\n')
+			else:
+				jsonfile.write(' ]\n')
+		else:
+				jsonfile.write(' ]\n')
+		
 		if nMajors != len(uniMajors[uni]):
 			jsonfile.write('\t\t\t},\n')
 		else:

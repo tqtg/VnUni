@@ -30,7 +30,8 @@ module.exports = function (app) {
 
     app.get('/search', function(req, res, next) {
         console.log("Searching request with parameters:");
-        console.log(req.query.khoithi);
+        console.log(Number(req.query.mucdiemThap));
+        console.log(Number(req.query.mucdiemCao));
         var queryParams = {
             $and: [
                 {
@@ -44,7 +45,16 @@ module.exports = function (app) {
                             majors: {
                                 $elemMatch: {
                                     id: String("D" + String(req.query.nganhhoc)),
-                                    divisions: String(req.query.khoithi)
+                                    divisions: String(req.query.khoithi),
+                                    admissionMarks: {
+                                        $elemMatch: {
+                                            year: 2014,
+                                            mark: {
+                                                $gt: Number(req.query.mucdiemThap),
+                                                $lt: Number(req.query.mucdiemCao)
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         },
@@ -52,7 +62,16 @@ module.exports = function (app) {
                             majors: {
                                 $elemMatch: {
                                     id: String("C" + String(req.query.nganhhoc)),
-                                    divisions: String(req.query.khoithi)
+                                    divisions: String(req.query.khoithi),
+                                    admissionMarks: {
+                                        $elemMatch: {
+                                            year: 2014,
+                                            mark: {
+                                                $gt: Number(req.query.mucdiemThap),
+                                                $lt: Number(req.query.mucdiemCao)
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }

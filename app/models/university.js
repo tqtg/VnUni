@@ -40,7 +40,12 @@ uniSchema.statics.getAll = function getAll(queryParams, cb) {
         delete queryParams['$and'][1]['$or'][1]['majors']['$elemMatch']['divisions'];
         count++;
     }
-    if (count == 2) {
+    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']["admissionMarks"]["$elemMatch"]["mark"]["$gt"] == 0
+        &&  queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']["admissionMarks"]["$elemMatch"]["mark"]["$lt"] == 30) {
+        console.log("here");
+        count++;
+    }
+    if (count == 3) {
         delete queryParams['$and'][1]['$or'];
     }
 
