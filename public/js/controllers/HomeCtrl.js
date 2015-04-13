@@ -1,5 +1,7 @@
 angular.module('HomeCtrl', ['HomeService'])
-.controller('HomeController', function($rootScope, $scope, $filter, usSpinnerService, loadFilterService, searchService) {
+.controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService) {
+    $scope.showResult = false;
+
     //  Load data for filter
     $scope.filter = {};
     $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {
@@ -20,10 +22,12 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'}, function() {
         $scope.loaitruong = $scope.filter.loaitruong[0];
     });
+    console.log($scope.filter);
 
     //	Search university
     //	Invoke searchService
     $scope.search = function() {
+        $scope.showResult = false;
         usSpinnerService.spin('spinner-1');
     	$rootScope.universities = searchService.query({
     		//	Parameters are taken from filter
@@ -38,6 +42,9 @@ angular.module('HomeCtrl', ['HomeService'])
             console.log(nUni + " universities found")
             if (nUni == 0) {
                 alert("Not found!!!");
+                $scope.showResult = false;
+            } else {
+                $scope.showResult = true;
             }
             usSpinnerService.stop('spinner-1');
             // console.log($rootScope.universities)
@@ -45,9 +52,13 @@ angular.module('HomeCtrl', ['HomeService'])
     };
 
     $scope.getUni = function() {
-        $http.get('/uni/QHI').success(function(data) {
-            console.log(data);
+        ngDialog.open({
+            template: 'views/dialog.html',
+            className: 'ngdialog-theme-default custom-width'
         });
+        // $http.get('/uni/QHI').success(function(data) {
+        //     console.log(data);
+        // });
     }
 })
 .filter('thanhphoFilter', function() {
