@@ -54,22 +54,40 @@ module.exports = function (app) {
 
     app.get('/search', function(req, res, next) {
         console.log("Searching request with parameters:");
-        // console.log(req.query);
+        console.log(req.query.khoithi);
         var queryParams = {
-            region: Number(req.query.vungmien),
-            city: Number(req.query.thanhpho),
-            type: Number(req.query.loaitruong),
-
-            majors: {
-                $elemMatch: {
-                    id: String(req.query.nganhhoc)
+            $and: [
+                {
+                    region: Number(req.query.vungmien),
+                    city: Number(req.query.thanhpho),
+                    type: Number(req.query.loaitruong)
+                },
+                {
+                    $or: [
+                        {
+                            majors: {
+                                $elemMatch: {
+                                    id: String("D" + String(req.query.nganhhoc)),
+                                    divisions: String(req.query.khoithi)
+                                }
+                            }
+                        },
+                        {
+                            majors: {
+                                $elemMatch: {
+                                    id: String("C" + String(req.query.nganhhoc)),
+                                    divisions: String(req.query.khoithi)
+                                }
+                            }
+                        }
+                    ]
                 }
-            }
+            ]
         }
         console.log(queryParams);
 
         Uni.getAll(queryParams, function(err, data) {
-            console.log(data.length);
+            console.log(data.length + " Found!");
             res.json(data);
         });
     })
@@ -98,18 +116,26 @@ module.exports = function (app) {
             default:
                 res.send('Please give the right filter name!');
         };
-        
     })
-    app.get('/edit_db/:id', function (req, res) {        
-        res.render('index'); // load our public/index.html file
-    });
-    app.get('/login', function (req, res) {        
-        res.render('index'); // load our public/index.html file
-    });    
 
-    // frontend routes =========================================================
-    app.get('/dbpanel', function (req, res) {
-        console.log('Request to home page!');
-        res.render('index'); // load our public/index.html file
+    app.get('/edit_db/:id', function (req, res, next) {        
+        next();
     });
+ 
+    // frontend routes =========================================================
+    app.get('/dbpanel', function (req, res, next) {
+        next();
+    });
+
+    //  View admission marks
+    app.get('/diemchuan', function (req, res, next) {
+        next();
+    })
+
+    //  DON'T DELETE !!!
+    //  This code handle all request from client
+    app.use('/', function (req, res) {
+        console.log('Request to home page!');
+        res.render('index');    // load our public/index.html file
+    })
 };
