@@ -121,8 +121,10 @@ module.exports = function (app) {
         }
 
         var params = {
-            region: (regionArr.length != 0) ? {$in: regionArr} : 0,
-            city: (cityArr.length != 0) ? {$in: cityArr} : 0,
+            $or: [
+                { region: (regionArr.length != 0) ? {$in: regionArr} : 0 },
+                { city: (cityArr.length != 0) ? {$in: cityArr} : 0 }
+            ],
             type: (typeArr.length != 0) ? {$in: typeArr} : 0,
             majors: {
                 $elemMatch: {
