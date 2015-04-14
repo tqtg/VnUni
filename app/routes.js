@@ -57,51 +57,27 @@ module.exports = function (app) {
         console.log(Number(req.query.mucdiemThap));
         console.log(Number(req.query.mucdiemCao));
         var queryParams = {
-            $and: [
-                {
-                    region: Number(req.query.vungmien),
-                    city: Number(req.query.thanhpho),
-                    type: Number(req.query.loaitruong)
-                },
-                {
-                    $or: [
-                        {
-                            majors: {
-                                $elemMatch: {
-                                    id: String("D" + String(req.query.nganhhoc)),
-                                    divisions: String(req.query.khoithi),
-                                    admissionMarks: {
-                                        $elemMatch: {
-                                            year: 2014,
-                                            mark: {
-                                                $gt: Number(req.query.mucdiemThap),
-                                                $lt: Number(req.query.mucdiemCao)
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            majors: {
-                                $elemMatch: {
-                                    id: String("C" + String(req.query.nganhhoc)),
-                                    divisions: String(req.query.khoithi),
-                                    admissionMarks: {
-                                        $elemMatch: {
-                                            year: 2014,
-                                            mark: {
-                                                $gt: Number(req.query.mucdiemThap),
-                                                $lt: Number(req.query.mucdiemCao)
-                                            }
-                                        }
-                                    }
-                                }
+            region: Number(req.query.vungmien),
+            city: Number(req.query.thanhpho),
+            type: Number(req.query.loaitruong),
+            majors: {
+                $elemMatch: {
+                    id: (String(req.query.nganhhoc) == "0") ? 0 : {$in: [
+                        String("D" + String(req.query.nganhhoc)),
+                        String("C" + String(req.query.nganhhoc))
+                    ]},
+                    divisions: String(req.query.khoithi),
+                    admissionMarks: {
+                        $elemMatch: {
+                            year: 2014,
+                            mark: {
+                                $gt: Number(req.query.mucdiemThap),
+                                $lt: Number(req.query.mucdiemCao)
                             }
                         }
-                    ]
+                    }
                 }
-            ]
+            }
         }
         console.log(queryParams);
 
