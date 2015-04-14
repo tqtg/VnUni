@@ -44,16 +44,16 @@ module.exports = function (app) {
         });        
     })
     app.post('/authenticate',function(req, res, next){                        
-        User.find({'username': req.body.username, 'password': req.body.password},'type school', function(err, users){                        
+        User.find({'username': req.body.username, 'password': req.body.password},'type school -_id', function(err, users){                        
             if ( !users || users.lenght ==0 )
             res.send({'status' : 'NO'});
-                 else res.send({'status': 'YES', 'user_type': users[0].type, 'school': users[0].school});
-    }        
-    ); 
+                 else res.send({'status': 'YES', 'user_type': users[0].type, 'school -_id': users[0].school});
+        }); 
     })
 
+    //  Search with filter system
     app.get('/search', function(req, res, next) {
-        console.log("Searching request with parameters:");
+        console.log("Searching request from filter system");
         console.log(Number(req.query.mucdiemThap));
         console.log(Number(req.query.mucdiemCao));
         var queryParams = {
@@ -105,8 +105,64 @@ module.exports = function (app) {
         }
         console.log(queryParams);
 
-        Uni.getAll(queryParams, function(err, data) {
+        Uni.findWithFilter(queryParams, function(err, data) {
             console.log(data.length + " Found!");
+            res.json(data);
+        });
+    })
+
+    //  Search with tags in search bar
+    app.get('/searchwithtags', function(req, res) {
+        console.log("Searching request with tags from search bar");
+        console.log(req.query.tags);
+        var reqTags = JSON.parse(req.query.tags);
+        var regionArr = [];
+        var cityArr = [];
+        var typeArr = [];
+        var majorArr = [];
+        var divisionArr = [];
+        for (var i = 0; i < reqTags.length; i++) {
+            console.log(reqTags[i]["field"]);
+            switch(String(reqTags[i].field)) {
+                case 'R':
+                    regionArr.push(Number(reqTags[i].id));
+                    break;
+                case 'C':
+                    cityArr.push(Number(reqTags[i].id));
+                    break;
+                case 'T':
+                    typeArr.push(Number(reqTags[i].id));
+                    break;
+                case 'M':
+                    majorArr.push(Number(reqTags[i].id));
+                    break;
+                case 'D':
+                    divisionArr.push(Number(reqTags[i].id));
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        console.log(regionArr);
+        var params = {
+            $and: [
+                {
+                    region: (regionArr.length != 0) ? {$in: regionArr} : 0,
+                    city: (cityArr.length != 0) ? {$in: cityArr} : 0,
+                    type: (typeArr.length != 0) ? {$in: typeArr} : 0
+                },
+                {
+                    // $or: [
+
+                    // ]
+                }
+            ]
+        }
+        console.log(params);
+
+        Uni.findWithTags(params, function(err, data) {
+            // console.log(data.length + " Found!");
             res.json(data);
         });
     })

@@ -5,17 +5,16 @@
                 <div class="input-group">
                     <!-- <input type="text" class="form-control" placeholder="Search"> -->
                     <tags-input ng-model="tags" 
-                            display-property="name" 
-                            placeholder="Add a country" 
+                            display-property="name"
                             replace-spaces-with-dashes="false">
                         <auto-complete source="loadTags($query)"
                              min-length="0"
                              load-on-focus="true"
                              load-on-empty="true"
                              max-results-to-show="32"></auto-complete>
-                    </tags-input>
+                        </tags-input>
                     <div class="input-group-btn">
-                        <button type="submit" class="btn btn-default">
+                        <button type="submit" ng-click="searchWithTags()" class="btn btn-default">
                             <span class="glyphicon glyphicon-search" style="height:18px;"></span>
                         </button>
                     </div>
