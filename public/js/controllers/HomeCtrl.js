@@ -1,5 +1,5 @@
 angular.module('HomeCtrl', ['HomeService'])
-.controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService) {
+.controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService, searchWithTagsService) {
     $scope.showResult = false;
     $scope.mucdiemThap = null;
     $scope.mucdiemCao = null;
@@ -31,11 +31,41 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.loadTags = function($query) {
         var tags = [];
         for (var i = 0; i < $scope.filter.nganhhoc.length; i++) {
-            tags.push($scope.filter.nganhhoc[i]);
+            var tag = $scope.filter.nganhhoc[i];
+            tag.field = "M";
+            tags.push(tag);
         }
         for (var i = 0; i < $scope.filter.khoithi.length; i++) {
-            tags.push($scope.filter.khoithi[i]);
+            var tag = $scope.filter.khoithi[i];
+            if (tag.id != 0) {
+                tag.field = "D";
+                tags.push(tag);
+            }
         }
+        for (var i = 0; i < $scope.filter.vungmien.length; i++) {
+            var tag = $scope.filter.vungmien[i];
+            if (tag.id != 0) {
+                tag.field = "R";
+                tags.push(tag);
+            }
+        }
+        for (var i = 0; i < $scope.filter.thanhpho.length; i++) {
+            var tag = $scope.filter.thanhpho[i];
+            if (tag.id != 0) {
+                tag.field = "C";
+                tags.push(tag);
+            }
+        }
+        for (var i = 0; i < $scope.filter.loaitruong.length; i++) {
+            var tag = $scope.filter.loaitruong[i];
+            if (tag.id != 0) {
+                tag.field = "T";
+                tags.push(tag);
+            }
+        }
+
+        //  Shuffle tags
+        for(var j, x, i = tags.length; i; j = Math.floor(Math.random() * i), x = tags[--i], tags[i] = tags[j], tags[j] = x);
         return tags.filter(function(tag) {
             return tag.name.toLowerCase().indexOf($query.toLowerCase()) != -1;
         });
@@ -43,6 +73,22 @@ angular.module('HomeCtrl', ['HomeService'])
 
     //	Search university
     //	Invoke searchService
+    function searchComplete() {
+        var nUni = $rootScope.universities.length;
+        console.log(nUni + " universities found")
+        if (nUni == 0) {
+            ngDialog.open({
+                template: '<h3>Không tìm được trường nào phù hợp!</h3>',
+                plain: 'true',
+                className: 'ngdialog-theme-default custom-width'
+            });
+            $scope.showResult = false;
+        } else {
+            $scope.showResult = true;
+        }
+        usSpinnerService.stop('spinner-1');
+    }
+
     $scope.search = function() {
         // console.log($scope.mucdiemThap)
         var min = 0;
@@ -70,24 +116,26 @@ angular.module('HomeCtrl', ['HomeService'])
                     loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id,
                     mucdiemThap: min,
                     mucdiemCao: max
-                }, function() {
-                    var nUni = $rootScope.universities.length;
-                    console.log(nUni + " universities found")
-                    if (nUni == 0) {
-                        ngDialog.open({
-                            template: '<h3>Không tìm được trường nào phù hợp!</h3>',
-                            plain: 'true',
-                            className: 'ngdialog-theme-default custom-width'
-                        });
-                        $scope.showResult = false;
-                    } else {
-                        $scope.showResult = true;
-                    }
-                    usSpinnerService.stop('spinner-1');
-                });
+                }, searchComplete);
             }
         }
     };
+
+    $scope.searchWithTags = function() {
+        console.log($scope.tags);
+
+        $scope.showResult = false;
+        usSpinnerService.spin('spinner-1');
+        var tagsParam = [];
+        for (var i = 0; i < $scope.tags.length; i++) {
+            tagsParam[i] = {};
+            tagsParam[i].id = $scope.tags[i].id;
+            tagsParam[i].field = $scope.tags[i].field;
+        }
+        $rootScope.universities = searchWithTagsService.query({
+            tags: JSON.stringify(tagsParam)
+        }, searchComplete);
+    }
 
     $scope.getUni = function() {
         ngDialog.open({

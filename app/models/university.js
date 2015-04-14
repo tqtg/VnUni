@@ -11,31 +11,33 @@ var uniSchema = mongoose.Schema({
     city: Number,
     type: Number,
 
-    faculties:[
+    majors: [
+        {
+            id: String,     //  major id
+            name: String,
+            divisions: {
+                division: String    // division id
+            },
+            admissionMarks: [
+                {
+                    year: Number,
+                    mark: Number
+                }
+            ]
+        }
+    ],
+
+    faculties: [
         {
             id: String,
             name : String,
             description: String,
-            majors: [
-                {
-                    id: String,     //  major id
-                    name: String,
-                    divisions: {
-                        division: String    // division id
-                    },
-                    admissionMarks: [
-                        {
-                            year: Number,
-                            mark: Number
-                        }
-                    ]
-                }
-            ]
+            majors: [String]
         }
     ]    
 })
 
-uniSchema.statics.getAll = function getAll(queryParams, cb) {
+uniSchema.statics.findWithFilter = function findWithFilter(queryParams, cb) {
     for (var key in queryParams['$and'][0]) {
         if (queryParams['$and'][0][key] == 0) {
             delete queryParams['$and'][0][key];
@@ -62,7 +64,18 @@ uniSchema.statics.getAll = function getAll(queryParams, cb) {
     }
 
 	console.log(queryParams);
-    return this.find({$query: queryParams, $orderby: { region : 1 }}, {'id': 1, 'name': 1, '_id': 0}, cb);
+    return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name -_id', cb);
+}
+
+uniSchema.statics.findWithTags = function findWithTags(queryParams, cb) {
+    for (var key in queryParams['$and'][0]) {
+        if (queryParams['$and'][0][key] == 0) {
+            delete queryParams['$and'][0][key];
+        }
+    }
+    
+    console.log(queryParams);
+    return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name -_id', cb);
 }
 
 module.exports = mongoose.model('University', uniSchema);
