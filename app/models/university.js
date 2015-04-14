@@ -38,29 +38,24 @@ var uniSchema = mongoose.Schema({
 })
 
 uniSchema.statics.findWithFilter = function findWithFilter(queryParams, cb) {
-    for (var key in queryParams['$and'][0]) {
-        if (queryParams['$and'][0][key] == 0) {
-            delete queryParams['$and'][0][key];
-        }
-    }
     var count = 0;
-    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch'].id == "D0") {
-        delete queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']['id'];
-        delete queryParams['$and'][1]['$or'][1]['majors']['$elemMatch']['id'];
-        count++;
-    } 
-    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch'].divisions == "0") {
-        delete queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']['divisions'];
-        delete queryParams['$and'][1]['$or'][1]['majors']['$elemMatch']['divisions'];
+    if (queryParams['majors']['$elemMatch'].id == 0) {
+        delete queryParams['majors']['$elemMatch'].id;
         count++;
     }
-    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']["admissionMarks"]["$elemMatch"]["mark"]["$gt"] == 0
-        &&  queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']["admissionMarks"]["$elemMatch"]["mark"]["$lt"] == 30) {
-        console.log("here");
+    if (queryParams['majors']['$elemMatch'].divisions == "0") {
+        delete queryParams['majors']['$elemMatch'].divisions;
         count++;
     }
-    if (count == 3) {
-        delete queryParams['$and'][1]['$or'];
+    if (queryParams['majors']['$elemMatch']['admissionMarks']['$elemMatch']['mark']['$gt'] == 0
+        && queryParams['majors']['$elemMatch']['admissionMarks']['$elemMatch']['mark']['$lt'] == 30) {
+        count++;
+    }
+    if (count == 3) queryParams.majors = 0;
+    for (var key in queryParams) {
+        if (queryParams[key] == 0) {
+            delete queryParams[key];
+        }
     }
 
 	console.log(queryParams);
