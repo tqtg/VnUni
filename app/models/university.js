@@ -63,9 +63,19 @@ uniSchema.statics.findWithFilter = function findWithFilter(queryParams, cb) {
 }
 
 uniSchema.statics.findWithTags = function findWithTags(queryParams, cb) {
-    for (var key in queryParams['$and'][0]) {
-        if (queryParams['$and'][0][key] == 0) {
-            delete queryParams['$and'][0][key];
+    var count = 0;
+    if (queryParams['majors']['$elemMatch'].id == 0) {
+        delete queryParams['majors']['$elemMatch'].id;
+        count++;
+    }
+    if (queryParams['majors']['$elemMatch'].divisions == 0) {
+        delete queryParams['majors']['$elemMatch'].divisions;
+        count++;
+    }
+    if (count == 2) queryParams.majors = 0;
+    for (var key in queryParams) {
+        if (queryParams[key] == 0) {
+            delete queryParams[key];
         }
     }
     

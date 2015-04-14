@@ -98,7 +98,6 @@ module.exports = function (app) {
         var majorArr = [];
         var divisionArr = [];
         for (var i = 0; i < reqTags.length; i++) {
-            console.log(reqTags[i]["field"]);
             switch(String(reqTags[i].field)) {
                 case 'R':
                     regionArr.push(Number(reqTags[i].id));
@@ -110,30 +109,27 @@ module.exports = function (app) {
                     typeArr.push(Number(reqTags[i].id));
                     break;
                 case 'M':
-                    majorArr.push(Number(reqTags[i].id));
+                    majorArr.push(String('D' + reqTags[i].id));
+                    majorArr.push(String('C' + reqTags[i].id));
                     break;
                 case 'D':
-                    divisionArr.push(Number(reqTags[i].id));
+                    divisionArr.push(String(reqTags[i].id));
                     break;
                 default:
                     break;
             }
         }
 
-        console.log(regionArr);
         var params = {
-            $and: [
-                {
-                    region: (regionArr.length != 0) ? {$in: regionArr} : 0,
-                    city: (cityArr.length != 0) ? {$in: cityArr} : 0,
-                    type: (typeArr.length != 0) ? {$in: typeArr} : 0
-                },
-                {
-                    // $or: [
-
-                    // ]
+            region: (regionArr.length != 0) ? {$in: regionArr} : 0,
+            city: (cityArr.length != 0) ? {$in: cityArr} : 0,
+            type: (typeArr.length != 0) ? {$in: typeArr} : 0,
+            majors: {
+                $elemMatch: {
+                    id: (majorArr != 0) ? {$in: majorArr} : 0,
+                    divisions: (divisionArr.length != 0) ? {$in: divisionArr} : 0
                 }
-            ]
+            }
         }
         console.log(params);
 
