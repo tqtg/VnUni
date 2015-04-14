@@ -27,6 +27,19 @@ angular.module('HomeCtrl', ['HomeService'])
         $scope.loaitruong = $scope.filter.loaitruong[0];
     });
     // console.log($scope.filter);
+    
+    $scope.loadTags = function($query) {
+        var tags = [];
+        for (var i = 0; i < $scope.filter.nganhhoc.length; i++) {
+            tags.push($scope.filter.nganhhoc[i]);
+        }
+        for (var i = 0; i < $scope.filter.khoithi.length; i++) {
+            tags.push($scope.filter.khoithi[i]);
+        }
+        return tags.filter(function(tag) {
+            return tag.name.toLowerCase().indexOf($query.toLowerCase()) != -1;
+        });
+    };
 
     //	Search university
     //	Invoke searchService
