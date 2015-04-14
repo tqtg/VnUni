@@ -112,7 +112,7 @@ angular.module('HomeCtrl', ['HomeService'])
                     nganhhoc: (typeof $scope.nganhhoc === 'undefined') ? 0 : $scope.nganhhoc.id,
                     khoithi: (typeof $scope.khoithi === 'undefined') ? 0 : $scope.khoithi.id,
                     vungmien: (typeof $scope.vungmien === 'undefined') ? 0 : $scope.vungmien.id,
-                    thanhpho: (typeof $scope.thanhpho === 'undefined') ? 0 : $scope.thanhpho.id,
+                    thanhpho: (typeof $scope.thanhpho === 'undefined' || $scope.thanhpho.region != $scope.vungmien.id) ? 0 : $scope.thanhpho.id,
                     loaitruong: (typeof $scope.loaitruong === 'undefined') ? 0 : $scope.loaitruong.id,
                     mucdiemThap: min,
                     mucdiemCao: max
