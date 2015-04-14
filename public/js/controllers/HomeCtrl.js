@@ -37,7 +37,11 @@ angular.module('HomeCtrl', ['HomeService'])
         if (typeof $scope.mucdiemThap !== 'undefined' && typeof $scope.mucdiemCao !== 'undefined') {
             if ($scope.mucdiemThap !== null && $scope.mucdiemCao !== null
                 && $scope.mucdiemThap > $scope.mucdiemCao) {
-                alert("Mức điểm bạn đã nhập chưa hợp lý!")
+                ngDialog.open({
+                    template: '<h3>Mức điểm bạn nhập chưa hợp lý!</h3>',
+                    plain: 'true',
+                    className: 'ngdialog-theme-default custom-width'
+                });
             } else {
                 if ($scope.mucdiemThap !== null) min = $scope.mucdiemThap;
                 if ($scope.mucdiemCao !== null) max = $scope.mucdiemCao;
@@ -57,7 +61,11 @@ angular.module('HomeCtrl', ['HomeService'])
                     var nUni = $rootScope.universities.length;
                     console.log(nUni + " universities found")
                     if (nUni == 0) {
-                        alert("Không tìm được trường nào phù hợp!");
+                        ngDialog.open({
+                            template: '<h3>Không tìm được trường nào phù hợp!</h3>',
+                            plain: 'true',
+                            className: 'ngdialog-theme-default custom-width'
+                        });
                         $scope.showResult = false;
                     } else {
                         $scope.showResult = true;
