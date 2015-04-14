@@ -9,6 +9,7 @@
 		"spin.js": "~2.0.0",
 		"angular-spinner": "latest",
 		"ngDialog": "latest",
-		"angucomplete-alt": "latest"
+		"angucomplete-alt": "latest",
+		"ng-tags-input": "latest"
 	}
 }
