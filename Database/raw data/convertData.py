@@ -85,22 +85,44 @@ for line in markFile:
 for uni in uniMarks:
 	if "DiemChung" in uniMarks[uni].keys() and len(uniMarks[uni].keys()) > 1:
 		del uniMarks[uni]["DiemChung"]
-		# print uniMarks[uni]
-	# for major in uniMarks[uni]:
-	# 	# print major
-	# 	if (float(uniMarks[uni][major]["mark"]) == 0):
-	# 		del uniMarks[uni][major]
-			# break
-			# print uniMarks[uni][major]
+
+uniInfor = {}
+inforFile = open('dataThongtin.txt', 'r')
+uniId = ''
+count = 0
+for line in inforFile:
+	if len(line) == 4:
+		uniId = line[0:3]
+		# print uniId
+		if uniId not in uniInfor.keys():
+			uniInfor[uniId] = {}
+			count += 1
+	elif line.find("Địa chỉ") > -1 and len(line) > 10:
+		address = line.split(': ')[1][0:len(line.split(': ')[1])-1]
+		uniInfor[uniId]['address'] = address
+		# print uniInfor[uniId]['address']
+	elif line.find("Điện thoại") > -1 and len(line) > 10:
+		phone = line.split(': ')[1][0:len(line.split(': ')[1])-1]
+		uniInfor[uniId]['phone'] = phone
+		# print uniInfor[uniId]['phone']
+	elif line.find("Email") > -1 and len(line) > 10:
+		email = line.split(': ')[1][0:len(line.split(': ')[1])-1]
+		uniInfor[uniId]['email'] = email
+		# print uniInfor[uniId]['email']
+	elif line.find("Website") > -1 and len(line) > 10:
+		website = line.split(': ')[1][0:len(line.split(': ')[1])-1]
+		uniInfor[uniId]['website'] = website
+		# print uniInfor[uniId]['website']
 
 tempFile = open('temp.txt', 'w')
-for uni in uniMarks:
+for uni in uniInfor:
 	tempFile.write(uni + "\n")
-	for major in uniMarks[uni]:
-		tempFile.write(major + "\n")
-		tempFile.write(str(uniMarks[uni][major]["divisions"]) + " - " + str(uniMarks[uni][major]["mark"]) + "\n")
+	for key in uniInfor[uni]:
+		tempFile.write(key + ": " + uniInfor[uni][key] + "\n")
+		
+count = 0
 
-
+# Main
 fieldnames = ("id", "name", "region", "city", "type")
 reader = csv.DictReader(csvfile, fieldnames)
 
@@ -109,6 +131,7 @@ for row in reader:
 	row['region'] = int(row['region'])
 	row['city'] = int(row['city'])
 	row['type'] = int(row['type'])
+	uni = row['id']
 	# print row
 	
 	jsonfile.write("\t{\n")
@@ -117,6 +140,36 @@ for row in reader:
 	jsonfile.write('\t\t"id": "' + row['id'] + '",\n')
 	# name
 	jsonfile.write('\t\t"name": "' + row['name'] + '",\n')
+	# infor
+	if uni in uniInfor.keys():
+		# address
+		if 'address' in uniInfor[uni].keys():
+			jsonfile.write('\t\t"address": "' + uniInfor[uni]['address'] + '",\n')
+		else:
+			jsonfile.write('\t\t"address": "",\n')
+		# phone
+		if 'phone' in uniInfor[uni].keys():
+			phone = uniInfor[uni]['phone']
+			jsonfile.write('\t\t"phone": "' + ''.join([x for x in phone if ord(x) < 128]) + '",\n')
+		else:
+			jsonfile.write('\t\t"phone": "",\n')
+		# email
+		if 'email' in uniInfor[uni].keys():
+			jsonfile.write('\t\t"email": "' + uniInfor[uni]['email'] + '",\n')
+		else:
+			jsonfile.write('\t\t"email": "",\n')
+		# website
+		if 'website' in uniInfor[uni].keys():
+			jsonfile.write('\t\t"website": "' + uniInfor[uni]['website'] + '",\n')
+		else:
+			jsonfile.write('\t\t"website": "",\n')
+	else:
+		jsonfile.write('\t\t"address": "",\n')
+		jsonfile.write('\t\t"email": "",\n')
+		jsonfile.write('\t\t"website": "",\n')
+		jsonfile.write('\t\t"phone": "",\n')
+	
+
 	# region
 	region = '\t\t"region": %d,\n' % row['region']
 	jsonfile.write(region)
@@ -129,8 +182,7 @@ for row in reader:
 
 	# majors
 	jsonfile.write('\t\t"majors": [\n')
-	
-	uni = row['id']
+
 	nMajors = 0
 	for major in uniMajors[uni]:
 		nMajors += 1
@@ -184,3 +236,5 @@ for row in reader:
 	# break
 
 jsonfile.write("]")
+
+print count

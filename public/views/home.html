@@ -1,6 +1,6 @@
 <div class="container-fluid" ng-controller="HomeController">
     <div class="row">
-        <div id="SearchBox" class="col-md-4 col-md-offset-2">
+        <div id="SearchBox" class="col-md-6 col-md-offset-0">
             <form role="search" style="margin-top: 20px; margin-bottom: 30px">
                 <div class="input-group">
                     <!-- <input type="text" class="form-control" placeholder="Search"> -->
@@ -25,7 +25,7 @@
     </div>
 
     <div class="row">
-        <div id="Map" class="col-md-6 col-md-offset-1">
+        <div id="Map" class="col-md-6 col-md-offset-0">
             <div class="box">
                 <div class="row">
                     <div class="col-md-6">
@@ -39,7 +39,7 @@
                             <h6 href="#" class="list-group-item disabled text-center">
                                 Danh sách kết quả
                             </h6>
-                            <ul class="list-group" style="height:550px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
+                            <ul class="list-group" style="height:520px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
                                 <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities">
                                     <a href="" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
                                 </li>
