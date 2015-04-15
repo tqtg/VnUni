@@ -3,16 +3,15 @@
         <div id="SearchBox" class="col-md-6 col-md-offset-0">
             <form role="search" style="margin-top: 20px; margin-bottom: 30px">
                 <div class="input-group">
-                    <!-- <input type="text" class="form-control" placeholder="Search"> -->
                     <tags-input ng-model="tags" 
                             placeholder="Search with tags"
                             display-property="name"
                             replace-spaces-with-dashes="false">
                         <auto-complete source="loadTags($query)"
-                             min-length="0"
-                             load-on-focus="true"
-                             load-on-empty="true"
-                             max-results-to-show="32"></auto-complete>
+                            min-length="0"
+                            load-on-focus="true"
+                            load-on-empty="true"
+                            max-results-to-show="32"></auto-complete>
                     </tags-input>
                     <div class="input-group-btn">
                         <button type="submit" ng-click="searchWithTags()" class="btn btn-default">
@@ -59,19 +58,17 @@
                 <form id="FilterForm" method="post" class="form-horizontal">
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
-                        <div class="col-md-8 selectContainer">
-                            <!-- <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
-                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select> -->
-                                <angucomplete-alt id="nganhhocInput"
-                                    placeholder="Nhập tên ngành cần tìm"
-                                    pause="100"
-                                    selected-object="nganhhocSelected"
-                                    local-data="filter.nganhhoc"
-                                    search-fields="name"
-                                    title-field="name"
-                                    minlength="0"
-                                    match-class="highlight" 
-                                    input-class="form-control form-control-small"/>
+                        <div class="col-md-8">
+                            <angucomplete-alt id="nganhhocInput"
+                                placeholder="Nhập tên ngành cần tìm"
+                                pause="100"
+                                selected-object="nganhhocSelected"
+                                local-data="filter.nganhhoc"
+                                search-fields="name"
+                                title-field="name"
+                                minlength="0"
+                                match-class="highlight" 
+                                input-class="form-control form-control-small"/>
                         </div>
                     </div>
 

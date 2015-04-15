@@ -142,8 +142,21 @@ module.exports = function (app) {
         });
     })
 
+    app.get('/mark', function (req, res, next) {     
+        Uni.getUni({}, function(err, data) {
+            res.json(data);
+        });
+    });
+
+    app.get('/mark/:id', function (req, res, next) {     
+        var uniId = req.params.id;
+        Uni.getMajors({id: uniId}, function(err, data) {
+            res.json(data);
+        });
+    });
+
     //  handle query from loadFilterService
-    app.get('/filter/:name', function(req, res) {
+    app.get('/filter/:name', function (req, res) {
         switch(req.params.name) {
             case 'nganhhoc':
                 Nganhhoc.getAll(function(err, data) { res.json(data) });
