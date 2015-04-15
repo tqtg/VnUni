@@ -1,7 +1,8 @@
 // app/routes.js
 // connect to database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://tuantq:quoctuan@ds035557.mongolab.com:35557/vnuni');
+var db = require('../config/db');
+mongoose.connect(db.url);
 
 // grab the nerd model we just created
 var Uni = require('./models/university');

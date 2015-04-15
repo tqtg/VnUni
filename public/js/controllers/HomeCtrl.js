@@ -1,6 +1,6 @@
 angular.module('HomeCtrl', ['HomeService'])
 .controller('HomeController', function($rootScope, $scope, $filter, ngDialog, usSpinnerService, loadFilterService, searchService, searchWithTagsService) {
-    $scope.showResult = false;
+    $scope.showResult = true;
     $scope.mucdiemThap = null;
     $scope.mucdiemCao = null;
     $scope.nganhhocSelected = function(selected) {
@@ -12,52 +12,51 @@ angular.module('HomeCtrl', ['HomeService'])
     }
 
     //  Load data for filter
-    $scope.filter = {};
-    $scope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {});
-    $scope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
-        $scope.khoithi = $scope.filter.khoithi[0];
+    $rootScope.filter = {};
+    $rootScope.filter.nganhhoc = loadFilterService.query({name: 'nganhhoc'}, function() {});
+    $rootScope.filter.khoithi = loadFilterService.query({name: 'khoithi'}, function() {
+        $scope.khoithi = $rootScope.filter.khoithi[0];
     });
-    $scope.filter.vungmien = loadFilterService.query({name: 'vungmien'}, function() {
-        $scope.vungmien = $scope.filter.vungmien[0];
+    $rootScope.filter.vungmien = loadFilterService.query({name: 'vungmien'}, function() {
+        $scope.vungmien = $rootScope.filter.vungmien[0];
     });
-    $scope.filter.thanhpho = loadFilterService.query({name: 'thanhpho'}, function() {
-        $scope.thanhpho = $scope.filter.thanhpho[0];
+    $rootScope.filter.thanhpho = loadFilterService.query({name: 'thanhpho'}, function() {
+        $scope.thanhpho = $rootScope.filter.thanhpho[0];
     });
-    $scope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'}, function() {
-        $scope.loaitruong = $scope.filter.loaitruong[0];
+    $rootScope.filter.loaitruong = loadFilterService.query({name: 'loaitruong'}, function() {
+        $scope.loaitruong = $rootScope.filter.loaitruong[0];
     });
-    // console.log($scope.filter);
     
     $scope.loadTags = function($query) {
         var tags = [];
-        for (var i = 0; i < $scope.filter.nganhhoc.length; i++) {
-            var tag = $scope.filter.nganhhoc[i];
+        for (var i = 0; i < $rootScope.filter.nganhhoc.length; i++) {
+            var tag = $rootScope.filter.nganhhoc[i];
             tag.field = "M";
             tags.push(tag);
         }
-        for (var i = 0; i < $scope.filter.khoithi.length; i++) {
-            var tag = $scope.filter.khoithi[i];
+        for (var i = 0; i < $rootScope.filter.khoithi.length; i++) {
+            var tag = $rootScope.filter.khoithi[i];
             if (tag.id != 0) {
                 tag.field = "D";
                 tags.push(tag);
             }
         }
-        for (var i = 0; i < $scope.filter.vungmien.length; i++) {
-            var tag = $scope.filter.vungmien[i];
+        for (var i = 0; i < $rootScope.filter.vungmien.length; i++) {
+            var tag = $rootScope.filter.vungmien[i];
             if (tag.id != 0) {
                 tag.field = "R";
                 tags.push(tag);
             }
         }
-        for (var i = 0; i < $scope.filter.thanhpho.length; i++) {
-            var tag = $scope.filter.thanhpho[i];
+        for (var i = 0; i < $rootScope.filter.thanhpho.length; i++) {
+            var tag = $rootScope.filter.thanhpho[i];
             if (tag.id != 0) {
                 tag.field = "C";
                 tags.push(tag);
             }
         }
-        for (var i = 0; i < $scope.filter.loaitruong.length; i++) {
-            var tag = $scope.filter.loaitruong[i];
+        for (var i = 0; i < $rootScope.filter.loaitruong.length; i++) {
+            var tag = $rootScope.filter.loaitruong[i];
             if (tag.id != 0) {
                 tag.field = "T";
                 tags.push(tag);
@@ -137,14 +136,17 @@ angular.module('HomeCtrl', ['HomeService'])
         }, searchComplete);
     }
 
-    $scope.getUni = function() {
+    $scope.getUni = function(uniId) {
+        $rootScope.selectedUni = $.grep($rootScope.universities, function(e){ return e.id == uniId; })[0];
+        console.log($rootScope.selectedUni);
+        // $http.get('/uni/QHI').success(function(data) {
+        //     console.log(data);
+        // });
+        
         ngDialog.open({
             template: 'views/dialog.html',
             className: 'ngdialog-theme-default custom-width'
         });
-        // $http.get('/uni/QHI').success(function(data) {
-        //     console.log(data);
-        // });
     }
 })
 .filter('thanhphoFilter', function() {
