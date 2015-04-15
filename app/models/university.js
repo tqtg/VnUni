@@ -91,4 +91,12 @@ uniSchema.statics.findWithTags = function findWithTags(queryParams, cb) {
     return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name address phone website -_id', cb);
 }
 
+uniSchema.statics.getUni = function getUni(queryParams, cb) {
+    return this.find({$query: queryParams}, 'id name -_id', cb);
+}
+
+uniSchema.statics.getMajors = function getMajors(queryParams, cb) {
+    return this.find({$query: queryParams}, 'majors -_id', cb);
+}
+
 module.exports = mongoose.model('University', uniSchema);
