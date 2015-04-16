@@ -86,9 +86,9 @@ angular.module('HomeCtrl', ['HomeService'])
         console.log(nUni + " universities found")
         if (nUni == 0) {
             ngDialog.open({
-                template: '<h3>Không tìm được trường nào phù hợp!</h3>',
+                template: '<div class="ngdialog-message"><center>Không tìm được trường nào phù hợp<center></div>',
                 plain: 'true',
-                className: 'ngdialog-theme-default custom-width'
+                className: 'ngdialog-theme-default custom-width-small'
             });
             $scope.showResult = false;
         } else {
@@ -105,9 +105,9 @@ angular.module('HomeCtrl', ['HomeService'])
             if ($scope.mucdiemThap !== null && $scope.mucdiemCao !== null
                 && $scope.mucdiemThap > $scope.mucdiemCao) {
                 ngDialog.open({
-                    template: '<h3>Mức điểm bạn nhập chưa hợp lý!</h3>',
+                    template: '<div class="ngdialog-message"><center>Mức điểm bạn nhập chưa hợp lý!<center></div>',
                     plain: 'true',
-                    className: 'ngdialog-theme-default custom-width'
+                    className: 'ngdialog-theme-default custom-width-small'
                 });
             } else {
                 if ($scope.mucdiemThap !== null) min = $scope.mucdiemThap;
@@ -163,7 +163,7 @@ angular.module('HomeCtrl', ['HomeService'])
     restrict : "EA",
     template : "<ul class='rating'>"
                    + " <li ng-repeat='star in stars' ng-class='star' ng-click='toggle($index)'>"
-                   + "  <i class='fa fa-star-o'></i>"
+                   + "  <i class='fa fa-star-o  fa-lg'></i>"
                    + " </li>"
                    + "</ul>",
     scope : {

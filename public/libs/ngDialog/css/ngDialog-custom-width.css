@@ -1,3 +1,7 @@
 .ngdialog.ngdialog-theme-default.custom-width .ngdialog-content {
 	width: 550px;
 }
+
+.ngdialog.ngdialog-theme-default.custom-width-small .ngdialog-content {
+	width: 350px;
+}
