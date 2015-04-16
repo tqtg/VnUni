@@ -7,9 +7,10 @@
 		<li>Đánh giá: 3.5/5 (<i class="fa fa-user"> 2132</i>)
 			<div star-rating ng-model="ratingChoice" max="5"></div>
 		</li>
+		<div star-rating ng-model="ratingChoice" max="5"></div>
 	</ul>
 </div>
 
 <div class="ngdialog-buttons mt">
-	<a class="btn ngdialog-button ngdialog-button-primary" href="/uni/thongtin" ng-click=closeThisDialog("Cancel")>►</a>
+	<a class="btn ngdialog-button ngdialog-button-primary" href="/infor/{{selectedUni.id}}/thongtin" ng-click="closeThisDialog('Close') && getUniInfor()">►</a>
 </div>

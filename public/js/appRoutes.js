@@ -8,32 +8,32 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'HomeController'
 		})
 
-		.when('/uni/thongtin', {
+		.when('/infor/:id/thongtin', {
 			templateUrl: 'views/uni_thongtin.html',
 			controller: 'UniController'
 		})
 
-        .when('/uni/khoadaotao', {
+        .when('/infor/:id/khoadaotao', {
 			templateUrl: 'views/uni_khoadaotao.html',
 			controller: 'UniController'	
 		})    
     
-		.when('/uni/xemdiemchuan', {
+		.when('/infor/:id/xemdiemchuan', {
 			templateUrl: 'views/uni_xemdiemchuan.html',
 			controller: 'UniController'	
 		})
     
-        .when('/uni/tuyensinh', {
+        .when('/infor/:id/tuyensinh', {
 			templateUrl: 'views/uni_tuyensinh.html',
 			controller: 'UniController'	
 		})
         
-        .when('/uni/lienhe', {
+        .when('/infor/:id/lienhe', {
 			templateUrl: 'views/uni_lienhe.html',
 			controller: 'UniController'	
 		})
     
-        .when('/uni/:id', {
+        .when('/infor/:id', {
 			templateUrl: 'views/uni_thongtin.html',
 			controller: 'UniController'	
 		})

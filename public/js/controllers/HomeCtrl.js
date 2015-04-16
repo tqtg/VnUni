@@ -145,17 +145,17 @@ angular.module('HomeCtrl', ['HomeService'])
         }, searchComplete);
     }
 
-    $scope.getUni = function(uniId) {
+    $scope.viewDialog = function(uniId) {
         $rootScope.selectedUni = $.grep($rootScope.universities, function(e){ return e.id == uniId; })[0];
         console.log($rootScope.selectedUni);
-        // $http.get('/uni/QHI').success(function(data) {
-        //     console.log(data);
-        // });
-        
         ngDialog.open({
             template: 'views/dialog.html',
             className: 'ngdialog-theme-default custom-width'
         });
+    }
+
+    $scope.getUniInfor = function() {
+        console.log($rootScope.selectedUni.id);
     }
 })
 .directive("starRating", function() {
@@ -163,7 +163,7 @@ angular.module('HomeCtrl', ['HomeService'])
     restrict : "EA",
     template : "<ul class='rating'>"
                    + " <li ng-repeat='star in stars' ng-class='star' ng-click='toggle($index)'>"
-                   + "  <i class='fa fa-star-o  fa-lg'></i>"
+                   + "  <i class='fa fa-star-o  fa-2x'></i>"
                    + " </li>"
                    + "</ul>",
     scope : {
