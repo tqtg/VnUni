@@ -5,7 +5,9 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.mucdiemCao = null;
     ////////////////////////////////////////////////////
     //FOR RATING FUNCTION
-    $scope.ratingChoice = 2;
+    $scope.ratingPoint = 3.5;
+    $scope.ratingChoice = 1;
+    $scope.userRating = 2032;
     $scope.isReadonly = true;
     // $scope.rateFunction = function(rating) {
     //     console.log("Rating selected: " + rating);
@@ -86,7 +88,7 @@ angular.module('HomeCtrl', ['HomeService'])
         console.log(nUni + " universities found")
         if (nUni == 0) {
             ngDialog.open({
-                template: '<div class="ngdialog-message"><center>Không tìm được trường nào phù hợp<center></div>',
+                template: '<div class="ngdialog-message"><center><b>Không tìm được trường nào phù hợp<b><center></div>',
                 plain: 'true',
                 className: 'ngdialog-theme-default custom-width-small'
             });
@@ -105,7 +107,7 @@ angular.module('HomeCtrl', ['HomeService'])
             if ($scope.mucdiemThap !== null && $scope.mucdiemCao !== null
                 && $scope.mucdiemThap > $scope.mucdiemCao) {
                 ngDialog.open({
-                    template: '<div class="ngdialog-message"><center>Mức điểm bạn nhập chưa hợp lý!<center></div>',
+                    template: '<div class="ngdialog-message"><center><b>Mức điểm bạn nhập chưa hợp lý!<b><center></div>',
                     plain: 'true',
                     className: 'ngdialog-theme-default custom-width-small'
                 });
@@ -145,13 +147,9 @@ angular.module('HomeCtrl', ['HomeService'])
         }, searchComplete);
     }
 
-    $scope.getUni = function(uniId) {
+    $scope.viewDialog = function(uniId) {
         $rootScope.selectedUni = $.grep($rootScope.universities, function(e){ return e.id == uniId; })[0];
         console.log($rootScope.selectedUni);
-        // $http.get('/uni/QHI').success(function(data) {
-        //     console.log(data);
-        // });
-        
         ngDialog.open({
             template: 'views/dialog.html',
             className: 'ngdialog-theme-default custom-width'
@@ -163,7 +161,7 @@ angular.module('HomeCtrl', ['HomeService'])
     restrict : "EA",
     template : "<ul class='rating'>"
                    + " <li ng-repeat='star in stars' ng-class='star' ng-click='toggle($index)'>"
-                   + "  <i class='fa fa-star-o  fa-lg'></i>"
+                   + "  <i class='fa fa-star-o  fa-2x'></i>"
                    + " </li>"
                    + "</ul>",
     scope : {

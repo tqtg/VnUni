@@ -1,4 +1,4 @@
-<div class="container-fluid" ng-controller="HomeController">
+<div class="container-fluid">
     <div class="row"  style="margin-top: 20px; margin-bottom: 30px">
         <div id="SearchBox" class="col-md-6 col-md-offset-0">
             <form role="search">
@@ -21,10 +21,10 @@
                 </div>
             </form>
         </div>
-        <div>
-            <a class="btn btn-primary col-md-1 col-md-offset-4" href="/login">Đăng nhập</a>
-            <!-- <img src='assets/images/defaultAvatar.jpg'class='img-responsive circle-image circle-image-nav col-md-1 col-md-offset-4' style="max-width: 6%" /> -->
-
+        <div class="col-md-1 col-md-offset-4">
+            <center>
+                <a class="btn btn-primary" href="/login">Đăng nhập</a>
+            </center>
         </div>
     </div>
 
@@ -45,7 +45,7 @@
                             </h6>
                             <ul class="list-group" style="height:520px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
                                 <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities">
-                                    <a href="" ng-click="getUni(uni.id)">{{uni.id}} - {{uni.name}}</a>
+                                    <a href="" ng-click="viewDialog(uni.id)">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
                         </div>

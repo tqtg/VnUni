@@ -1,15 +1,19 @@
-<div class="ngdialog-message" ng-controller="HomeController">
-	<h4 style="margin-top: 20px; margin-bottom: 20px;">{{selectedUni.name}}</h4>
-	<ul class="mt">
-		<li>Địa chỉ: {{selectedUni.address}}</li>
-		<li>Số điện thoại: {{selectedUni.phone}}</li>
-		<li>Trang chủ: <a href="{{selectedUni.website}}">{{selectedUni.website}}</a></li>
-		<li>Đánh giá: 3.5/5 (<i class="fa fa-user"> 2132</i>)
-			<div star-rating ng-model="ratingChoice" max="5"></div>
-		</li>
-	</ul>
-</div>
+<div ng-app="vnUniApp" ng-controller="HomeController">
+	<div class="ngdialog-message">
+		<center><h4 style="margin-top: 20px; margin-bottom: 20px;">{{selectedUni.name}}</h4></center>
+		<ul class="mt">
+			<li>Địa chỉ: {{selectedUni.address}}</li>
+			<li>Số điện thoại: {{selectedUni.phone}}</li>
+			<li>Trang chủ: <a href="{{selectedUni.website}}">{{selectedUni.website}}</a></li>
+			<hr>
+			<center>
+				<div star-rating ng-model="ratingChoice" max="5"></div>
+				{{ratingPoint}}/5 ( <i class="fa fa-user"> {{userRating}}</i> )
+			</center>
+		</ul>
+	</div>
 
-<div class="ngdialog-buttons mt">
-	<a class="btn ngdialog-button ngdialog-button-primary" href="/uni/thongtin" ng-click=closeThisDialog("Cancel")>►</a>
+	<div class="ngdialog-buttons mt">
+		<a class="btn ngdialog-button ngdialog-button-primary" href="/{{selectedUni.id}}/thongtin" ng-click="closeThisDialog()">►</a>
+	</div>
 </div>

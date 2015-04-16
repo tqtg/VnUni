@@ -3,4 +3,15 @@
 	<div ng-controller="HomeController" class="container">
 	  <h1>Angular Star Rating Directive</h1>
 	  <div star-rating ng-model="ratingChoice" max="5" on-rating-selected="rateFunction(rating)"></div>
+
+	  <angucomplete-alt id="nganhhocInput"
+                                placeholder="Nhập tên ngành cần tìm"
+                                pause="100"
+                                selected-object="nganhhocSelected"
+                                local-data="filter.nganhhoc"
+                                search-fields="name"
+                                title-field="name"
+                                minlength="0"
+                                match-class="highlight" 
+                                input-class="form-control form-control-small"/>
 	</div>
