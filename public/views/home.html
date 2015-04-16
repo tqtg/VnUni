@@ -1,11 +1,20 @@
 <div class="container-fluid" ng-controller="HomeController">
-    <div class="row" id="SearchBox">
-        <div class="col-md-4 col-md-offset-4">
-            <form role="search" style="margin-top: 20px; margin-bottom: 20px">
+    <div class="row">
+        <div id="SearchBox" class="col-md-6 col-md-offset-0">
+            <form role="search" style="margin-top: 20px; margin-bottom: 30px">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <tags-input ng-model="tags" 
+                            placeholder="Search with tags"
+                            display-property="name"
+                            replace-spaces-with-dashes="false">
+                        <auto-complete source="loadTags($query)"
+                            min-length="0"
+                            load-on-focus="true"
+                            load-on-empty="true"
+                            max-results-to-show="32"></auto-complete>
+                    </tags-input>
                     <div class="input-group-btn">
-                        <button type="submit" class="btn btn-default">
+                        <button type="submit" ng-click="searchWithTags()" class="btn btn-default">
                             <span class="glyphicon glyphicon-search" style="height:18px;"></span>
                         </button>
                     </div>
@@ -15,23 +24,23 @@
     </div>
 
     <div class="row">
-        <div id="Map" class="col-md-6 col-md-offset-1">
+        <div id="Map" class="col-md-6 col-md-offset-0">
             <div class="box">
                 <div class="row">
-                    <div class="col-md-7">
-                        <img class="img-responsive" style="margin-top: 0px; margin-left:20px" src="assets/images/Vietnam_Map.png">
+                    <div class="col-md-6">
+                        <img class="img-responsive" style="margin-top: 0px; margin-left:0px" src="assets/images/Vietnam_Map.png">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div ng-show="!showResult" style="padding-top:400px">
-                            <span us-spinner="{radius:20, width:8, length: 30}" spinner-key="spinner-1"></span>
+                            <span us-spinner="{radius:30, width:12, length: 20}" spinner-key="spinner-1"></span>
                         </div>
                         <div ng-show="showResult">
                             <h6 href="#" class="list-group-item disabled text-center">
                                 Danh sách kết quả
                             </h6>
-                            <ul class="list-group" style="height:500px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
+                            <ul class="list-group" style="height:520px; overflow:auto;font-family:'Open Sans'; font-size: 90%;">
                                 <li class="list-group-item" style="padding:2px 15px" ng-repeat="uni in universities">
-                                    <a href="" ng-click="getUni()">{{uni.id}} - {{uni.name}}</a>
+                                    <a href="" ng-click="getUni(uni.id)">{{uni.id}} - {{uni.name}}</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,31 +58,28 @@
                 <form id="FilterForm" method="post" class="form-horizontal">
                     <div class="form-group">
                         <label class="col-md-4 control-label">Ngành học</label>
-                        <div class="col-md-8 selectContainer">
-                            <!-- <input type="text" class="form-control" placeholder="Nhập tên ngành cần tìm" ng-model="tennganh">
-                            <select name="NganhHoc" class="form-control" ng-model="nganhhoc" ng-options="n.name for n in filter.nganhhoc | nganhhocFilter:tennganh | orderBy: 'name'"></select> -->
-                                <angucomplete-alt id="nganhhocInput"
-                                    placeholder="Nhập tên ngành cần tìm"
-                                    pause="100"
-                                    selected-object="nganhhocSelected"
-                                    local-data="filter.nganhhoc"
-                                    search-fields="name"
-                                    title-field="name"
-                                    minlength="0"
-                                    match-class="highlight" 
-                                    input-class="form-control form-control-small"/>
+                        <div class="col-md-8">
+                            <angucomplete-alt id="nganhhocInput"
+                                placeholder="Nhập tên ngành cần tìm"
+                                pause="100"
+                                selected-object="nganhhocSelected"
+                                local-data="filter.nganhhoc"
+                                search-fields="name"
+                                title-field="name"
+                                minlength="0"
+                                match-class="highlight" 
+                                input-class="form-control form-control-small"/>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-md-4 control-label">Mức điểm</label>
-                        <div class="col-md-8">
-                            <!-- <select name="MucDiem" class="form-control" ng-model="mucdiem" ng-options="m.name for m in filter.mucdiem | orderBy: 'id'"></select> -->
-                             <div class="input-group col-lg-4">
-                                <input type="number" min="0" max="30" class="form-control" ng-model="mucdiemThap" placeholder="Thấp nhất">
-                                <input type="number" min="0" max="30" class="form-control" ng-model="mucdiemCao" placeholder="Cao nhất">
-                            </div>   
-                        </div> 
+                        <div class="col-md-4">
+                            <input type="number" min="0" max="30" class="form-control" ng-model="mucdiemThap" placeholder="Thấp nhất">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="number" min="0" max="30" class="form-control" ng-model="mucdiemCao" placeholder="Cao nhất">
+                        </div>
                     </div>
 
                     <div class="form-group">

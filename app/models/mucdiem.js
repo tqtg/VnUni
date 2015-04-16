@@ -6,7 +6,7 @@ var mucdiemSchema = mongoose.Schema({
 })
 
 mucdiemSchema.statics.getAll = function getAll(cb) {
-	return this.find({}, cb);
+	return this.find({}, '-_id', cb);
 }
 
 module.exports = mongoose.model('Mucdiem', mucdiemSchema);
