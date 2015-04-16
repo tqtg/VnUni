@@ -1,6 +1,6 @@
 angular.module('DBCtrl', []).
 controller('ListUniController', function($scope, $http) {					
-	$http.get("/ds_truong").success(
+	$http.get("/list_school").success(
 		function(response){
 			$scope.ds_truong = response;
 		}		
