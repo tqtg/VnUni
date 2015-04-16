@@ -5,7 +5,9 @@ angular.module('HomeCtrl', ['HomeService'])
     $scope.mucdiemCao = null;
     ////////////////////////////////////////////////////
     //FOR RATING FUNCTION
-    $scope.ratingChoice = 2;
+    $scope.ratingPoint = 3.5;
+    $scope.ratingChoice = 1;
+    $scope.userRating = 2032;
     $scope.isReadonly = true;
     // $scope.rateFunction = function(rating) {
     //     console.log("Rating selected: " + rating);
@@ -86,7 +88,7 @@ angular.module('HomeCtrl', ['HomeService'])
         console.log(nUni + " universities found")
         if (nUni == 0) {
             ngDialog.open({
-                template: '<div class="ngdialog-message"><center>Không tìm được trường nào phù hợp<center></div>',
+                template: '<div class="ngdialog-message"><center><b>Không tìm được trường nào phù hợp<b><center></div>',
                 plain: 'true',
                 className: 'ngdialog-theme-default custom-width-small'
             });
@@ -105,7 +107,7 @@ angular.module('HomeCtrl', ['HomeService'])
             if ($scope.mucdiemThap !== null && $scope.mucdiemCao !== null
                 && $scope.mucdiemThap > $scope.mucdiemCao) {
                 ngDialog.open({
-                    template: '<div class="ngdialog-message"><center>Mức điểm bạn nhập chưa hợp lý!<center></div>',
+                    template: '<div class="ngdialog-message"><center><b>Mức điểm bạn nhập chưa hợp lý!<b><center></div>',
                     plain: 'true',
                     className: 'ngdialog-theme-default custom-width-small'
                 });
