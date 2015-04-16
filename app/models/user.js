@@ -5,7 +5,8 @@ var UserSchema = mongoose.Schema({
     password: String,
     email: String,
     type: String,
-    school: String
+    school: String,
+    session: String,
 });
 
 
