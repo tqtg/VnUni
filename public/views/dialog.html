@@ -1,12 +1,14 @@
 <div class="ngdialog-message" ng-controller="HomeController">
-	<h4 style="margin-top: 20px; margin-bottom: 20px;">{{selectedUni.name}}</h4>
+	<center><h4 style="margin-top: 20px; margin-bottom: 20px;">{{selectedUni.name}}</h4></center>
 	<ul class="mt">
 		<li>Địa chỉ: {{selectedUni.address}}</li>
 		<li>Số điện thoại: {{selectedUni.phone}}</li>
 		<li>Trang chủ: <a href="{{selectedUni.website}}">{{selectedUni.website}}</a></li>
-		<li>Đánh giá: 3.5/5 (<i class="fa fa-user"> 2132</i>)
+		<hr>
+		<center>
 			<div star-rating ng-model="ratingChoice" max="5"></div>
-		</li>
+			{{ratingPoint}}/5 ( <i class="fa fa-user"> {{userRating}}</i> )
+		</center>
 	</ul>
 </div>
 
