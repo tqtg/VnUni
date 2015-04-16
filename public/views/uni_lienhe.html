@@ -1,4 +1,4 @@
-<div ng-controller="UniController" ng-include src="'views/uni_header.html'"></div>
+<div ng-include src="'views/uni_header.html'"></div>
 
 <div class="container" ng-app="">
     <div class="row">
@@ -9,12 +9,11 @@
                 <hr>
                 <hr class="visible-xs">
                 <div class="text-center">
-                    <p>Địa chỉ: 144 Xuân Thủy - Cầu Giấy - Hà Nội</p>
-                    <p>Trang chủ: <a href="http://www2.uet.vnu.edu.vn/coltech/">http://www2.uet.vnu.edu.vn/coltech/</a>
-                        <p>Điện thoại: 84.4.37547.461</p>
-                        <p>Email: uet@vnu.edu.vn</p>
-                        <p>Fax: 84.4.37547.460</p>
-
+                    <p>Địa chỉ: {{uniInfor.address}}</p>
+                    <p>Trang chủ: <a href="{{uniInfor.website}}">{{uniInfor.website}}</a>
+                    <p>Điện thoại: {{uniInfor.phone}}</p>
+                    <p>Email: {{uniInfor.email}}</p>
+                    <p>Fax: 84.4.37547.460</p>
                 </div>
             </div>
         </div>
@@ -22,4 +21,4 @@
 </div>
 <!-- /.container -->
 
-<div ng-controller="UniController" ng-include src="'views/uni_footer.html'"></div>
+<div ng-include src="'views/uni_footer.html'"></div>

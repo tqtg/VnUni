@@ -155,10 +155,6 @@ angular.module('HomeCtrl', ['HomeService'])
             className: 'ngdialog-theme-default custom-width'
         });
     }
-
-    $scope.getUniInfor = function() {
-        console.log($rootScope.selectedUni.id);
-    }
 })
 .directive("starRating", function() {
   return {

@@ -198,8 +198,11 @@ module.exports = function (app) {
 
     //  get data for uni infor page
     app.get('/infor/:id', function(req, res, next) {
-        
-        next();
+        console.log(req.params.id);
+        Uni.find({id: String(req.params.id)}, '-_id', function(err, uni) {                        
+            // console.log(uni);
+            res.send(uni); 
+        });
     })
 
     //  DON'T DELETE !!!

@@ -8,35 +8,35 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'HomeController'
 		})
 
-		.when('/infor/:id/thongtin', {
+		.when('/:id/thongtin', {
 			templateUrl: 'views/uni_thongtin.html',
 			controller: 'UniController'
 		})
 
-        .when('/infor/:id/khoadaotao', {
+        .when('/:id/khoadaotao', {
 			templateUrl: 'views/uni_khoadaotao.html',
 			controller: 'UniController'	
 		})    
     
-		.when('/infor/:id/xemdiemchuan', {
+		.when('/:id/xemdiemchuan', {
 			templateUrl: 'views/uni_xemdiemchuan.html',
 			controller: 'UniController'	
 		})
     
-        .when('/infor/:id/tuyensinh', {
+        .when('/:id/tuyensinh', {
 			templateUrl: 'views/uni_tuyensinh.html',
 			controller: 'UniController'	
 		})
         
-        .when('/infor/:id/lienhe', {
+        .when('/:id/lienhe', {
 			templateUrl: 'views/uni_lienhe.html',
 			controller: 'UniController'	
 		})
     
-        .when('/infor/:id', {
-			templateUrl: 'views/uni_thongtin.html',
-			controller: 'UniController'	
-		})
+  //       .when('/:id', {
+		// 	templateUrl: 'views/uni_thongtin.html',
+		// 	controller: 'UniController'	
+		// })
 
         .when('/login', {
             templateUrl: 'views/login.html',

@@ -1,4 +1,4 @@
-<div ng-controller="HomeController">
+<div ng-app="vnUniApp" ng-controller="HomeController">
 	<div class="ngdialog-message">
 		<center><h4 style="margin-top: 20px; margin-bottom: 20px;">{{selectedUni.name}}</h4></center>
 		<ul class="mt">
@@ -14,6 +14,6 @@
 	</div>
 
 	<div class="ngdialog-buttons mt">
-		<a class="btn ngdialog-button ngdialog-button-primary" href="/infor/{{selectedUni.id}}/thongtin" ng-click="closeThisDialog('Close') && getUniInfor()">►</a>
+		<a class="btn ngdialog-button ngdialog-button-primary" href="/{{selectedUni.id}}/thongtin" ng-click="closeThisDialog()">►</a>
 	</div>
 </div>
