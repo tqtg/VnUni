@@ -1,16 +1,19 @@
 angular.module('UniCtrl', ['UniService'])
-.controller('UniController', function($rootScope, $scope, $routeParams, getUniInforService) {
-	console.log($routeParams.id);
+.controller('UniController', function($rootScope, $scope, $routeParams, $location, getUniInforService) {
+	var url = $location.url();
+	var needInfor = url.split('/')[2];
 	$scope.uniId = String($routeParams.id);
-	$rootScope.uniInfor = getUniInforService.query({id: $scope.uniId}, function() {
+	$scope.uniInfor = getUniInforService.query({id: $scope.uniId, need: needInfor}, function() {
 		$scope.uniInfor = $scope.uniInfor[0];
 		console.log($scope.uniInfor);
-		for (var i = 0; i < $scope.uniInfor.majors.length; i++) {
-			var division = "";
-			for (var j = 0; j < $scope.uniInfor.majors[i].divisions.length; j++) {
-				division += String($scope.uniInfor.majors[i].divisions[j] + ", ");
+		if (needInfor == 'xemdiemchuan') {
+			for (var i = 0; i < $scope.uniInfor.majors.length; i++) {
+				var division = "";
+				for (var j = 0; j < $scope.uniInfor.majors[i].divisions.length; j++) {
+					division += String($scope.uniInfor.majors[i].divisions[j] + ", ");
+				}
+				$scope.uniInfor.majors[i].divisions = division.substring(0, division.length - 2);
 			}
-			$scope.uniInfor.majors[i].divisions = division.substring(0, division.length - 2);
 		}
 	});
 });

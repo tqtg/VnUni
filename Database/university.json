@@ -1,7 +1,7 @@
 [
 	{
 		"id": "QHI",
-		"name": "Trường Đại học Công nghệ - Đại học Quốc Gia Hà Nội",
+		"name": "Đại học Công nghệ - ĐHQGHN",
 		"address": "Nhà E3, 144 đường Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.37547865",
 		"email": "TuyensinhDHCN@vnu.edu.vn",
@@ -102,7 +102,7 @@
 	},
 	{
 		"id": "QHT",
-		"name": "Trường Đại học Khoa học Tự nhiên - Đại học Quốc Gia Hà Nội",
+		"name": "Đại học Khoa học Tự nhiên - ĐHQGHN",
 		"address": "334 Ngyễn Trãi - Thanh Xuân - Hà Nội",
 		"phone": "04.38585279; 04.38583795; 04.35578117",
 		"email": "",
@@ -297,7 +297,7 @@
 	},
 	{
 		"id": "QHX",
-		"name": "Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc Gia Hà Nội",
+		"name": "Đại học Khoa học Xã hội và Nhân văn - ĐHQGHN",
 		"address": "336 Nguyễn Trãi - Thanh Xuân - Hà Nội",
 		"phone": "04.38585237; 35575892",
 		"email": "",
@@ -486,7 +486,7 @@
 	},
 	{
 		"id": "QHF",
-		"name": "Trường Đại học Ngoại ngữ - Đại học Quốc Gia Hà Nội",
+		"name": "Đại học Ngoại ngữ - ĐHQGHN",
 		"address": "Phạm Văn Đồng - Cầu Giấy - Hà Nội",
 		"phone": "04.37547269; 37548874",
 		"email": "",
@@ -616,7 +616,7 @@
 	},
 	{
 		"id": "QHE",
-		"name": "Trường Đại học Kinh tế - Đại học Quốc Gia Hà Nội",
+		"name": "Đại học Kinh tế - ĐHQGHN",
 		"address": "Nhà E4, 144 Đường Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.37547506 (305, 315, 325).",
 		"email": "",
@@ -695,7 +695,7 @@
 	},
 	{
 		"id": "QHS",
-		"name": "Trường Đại học Giáo dục - Đại học Quốc Gia Hà Nội",
+		"name": "Đại học Giáo dục - ĐHQGHN",
 		"address": "144 Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.37547969",
 		"email": "",
@@ -774,7 +774,7 @@
 	},
 	{
 		"id": "QHL",
-		"name": "Khoa Luật - Đại học Quốc Gia Hà Nội",
+		"name": "Khoa Luật - ĐHQGHN",
 		"address": "Nhà E1, 144 Xuân Thuỷ - Cầu Giấy - Hà Nội",
 		"phone": "(04) 37549714",
 		"email": "",
@@ -809,7 +809,7 @@
 	},
 	{
 		"id": "QHY",
-		"name": "Khoa Y Dược - Đại học Quốc Gia Hà Nội",
+		"name": "Khoa Y Dược - ĐHQGHN",
 		"address": "144 Đường Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.37450188 (xin s my l",
 		"email": "",
@@ -844,7 +844,7 @@
 	},
 	{
 		"id": "QHQ",
-		"name": "Khoa Quốc tế - Đại học Quốc Gia Hà Nội",
+		"name": "Khoa Quốc tế - ĐHQGHN",
 		"address": "144 Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.35553555; 04. 35577275;",
 		"email": "is@vnu.edu.vn;",
@@ -857,7 +857,7 @@
 	},
 	{
 		"id": "DTE",
-		"name": "Trường Đại học Kinh tế và Quản trị kinh doanh - Đại học Thái Nguyên",
+		"name": "Đại học Kinh tế và Quản trị kinh doanh - ĐH Thái Nguyên",
 		"address": "Phường Tân Thịnh - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3852650; 0280.3852651; 0280.3753041.; Fa",
 		"email": "",
@@ -947,7 +947,7 @@
 	},
 	{
 		"id": "DTK",
-		"name": "Trường Đại học Kỹ thuật công nghiệp - Đại học Thái Nguyên",
+		"name": "Đại học Kỹ thuật công nghiệp - ĐH Thái Nguyên",
 		"address": "Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3847145; Fa",
 		"email": "",
@@ -1112,7 +1112,7 @@
 	},
 	{
 		"id": "DTN",
-		"name": "Trường Đại học Nông Lâm - Đại học Thái Nguyên",
+		"name": "Đại học Nông Lâm - ĐH Thái Nguyên",
 		"address": "Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3852650, 0280.3852651, Fa",
 		"email": "",
@@ -1283,7 +1283,7 @@
 	},
 	{
 		"id": "DTS",
-		"name": "Trường Đại học Sư phạm - Đại học Thái Nguyên",
+		"name": "Đại học Sư phạm - ĐH Thái Nguyên",
 		"address": "Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3851013, 0280.3855731; Fa",
 		"email": "",
@@ -1421,7 +1421,7 @@
 	},
 	{
 		"id": "DTY",
-		"name": "Trường Đại học Y Dược - Đại học Thái Nguyên",
+		"name": "Đại học Y Dược - ĐH Thái Nguyên",
 		"address": "Thái Nguyên - Thái Nguyên",
 		"phone": "0280.852671, 0280.855710",
 		"email": "",
@@ -1500,7 +1500,7 @@
 	},
 	{
 		"id": "DTZ",
-		"name": "Trường Đại học Khoa học - Đại học Thái Nguyên",
+		"name": "Đại học Khoa học - ĐH Thái Nguyên",
 		"address": "Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3648181",
 		"email": "",
@@ -1667,7 +1667,7 @@
 	},
 	{
 		"id": "DTC",
-		"name": "Trường Đại học Công nghệ thông tin và Truyền thông - Đại học Thái Nguyên",
+		"name": "Đại học Công nghệ thông tin và Truyền thông - ĐH Thái Nguyên",
 		"address": "đường Z115, xã Quyết Thắng - Thái Nguyên - Thái Nguyên",
 		"phone": "(0280) 3901 828",
 		"email": "",
@@ -1832,7 +1832,7 @@
 	},
 	{
 		"id": "DTF",
-		"name": "Khoa Ngoại ngữ - Đại học Thái Nguyên",
+		"name": "Khoa Ngoại ngữ - ĐH Thái Nguyên",
 		"address": "Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3648489, Fa",
 		"email": "",
@@ -1922,7 +1922,7 @@
 	},
 	{
 		"id": "DTQ",
-		"name": "Khoa Quốc tế - Đại học Thái Nguyên",
+		"name": "Khoa Quốc tế - ĐH Thái Nguyên",
 		"address": "Phường Tân Thịnh - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3852650, 02803 549.188",
 		"email": "kqt@istnu.edu.vn",
@@ -1979,7 +1979,7 @@
 	},
 	{
 		"id": "DTU",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật - Đại học Thái Nguyên",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật - ĐH Thái Nguyên",
 		"address": "Tổ 15 - Thịnh Đán - Thái Nguyên - Thái Nguyên",
 		"phone": "02803855606",
 		"email": "",
@@ -3143,7 +3143,7 @@
 	},
 	{
 		"id": "BKA",
-		"name": "Trường Đại học Bách khoa Hà Nội",
+		"name": "Đại học Bách khoa Hà Nội",
 		"address": "Số 1 Đại Cồ Việt - Hai Bà Trưng - Hà Nội",
 		"phone": "04.38692104, 04.38692117",
 		"email": "",
@@ -3486,7 +3486,7 @@
 	},
 	{
 		"id": "LDA",
-		"name": "Trường Đại học Công đoàn",
+		"name": "Đại học Công đoàn",
 		"address": "169 Tây Sơn - Đống Đa - Hà Nội",
 		"phone": "04.3857419",
 		"email": "",
@@ -3611,7 +3611,7 @@
 	},
 	{
 		"id": "GTA",
-		"name": "Trường Đại học Công nghệ Giao thông Vận tải",
+		"name": "Đại học Công nghệ Giao thông Vận tải",
 		"address": "54 - Phố Triều Khúc - Thanh Xuân Nam - Thanh Xuân - Hà Nội",
 		"phone": "04. 35526713, 38544264",
 		"email": "",
@@ -3746,7 +3746,7 @@
 	},
 	{
 		"id": "DCN",
-		"name": "Trường Đại học Công nghiệp Hà Nội",
+		"name": "Đại học Công nghiệp Hà Nội",
 		"address": "Xã Minh Khai - Từ Liêm - Hà Nội",
 		"phone": "04.37655121 my l 224",
 		"email": "",
@@ -4049,7 +4049,7 @@
 	},
 	{
 		"id": "DDM",
-		"name": "Trường Đại học Công nghiệp Quảng Ninh",
+		"name": "Đại học Công nghiệp Quảng Ninh",
 		"address": "Yên Thọ - Đông Triều - Quảng Ninh",
 		"phone": "033.387 292",
 		"email": "",
@@ -4238,7 +4238,7 @@
 	},
 	{
 		"id": "VHD",
-		"name": "Trường Đại học Công nghiệp Việt - Hung",
+		"name": "Đại học Công nghiệp Việt - Hung",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -4397,7 +4397,7 @@
 	},
 	{
 		"id": "VUI",
-		"name": "Trường Đại học Công nghiệp Việt Trì",
+		"name": "Đại học Công nghiệp Việt Trì",
 		"address": "Số 9, đường Tiên Sơn - Tiên Cát - Việt Trì - Phú Thọ",
 		"phone": "0210 3829247",
 		"email": "cnvt@vui.edu.vn",
@@ -4536,7 +4536,7 @@
 	},
 	{
 		"id": "DKH",
-		"name": "Trường Đại học Dược Hà Nội",
+		"name": "Đại học Dược Hà Nội",
 		"address": "13 - 15 Lê Thánh Tông, Q. Hoàn Kiếm, TP. Hà Nội - Hoàn Kiếm - Hà Nội",
 		"phone": "04.38264465",
 		"email": "",
@@ -4566,7 +4566,7 @@
 	},
 	{
 		"id": "DDL",
-		"name": "Trường Đại học Điện lực",
+		"name": "Đại học Điện lực",
 		"address": "Số 235 đường Hoàng Quốc Việt, Từ Liêm, Hà Nội - Từ Liêm - Hà Nội",
 		"phone": "04.22452662",
 		"email": "",
@@ -4726,7 +4726,7 @@
 	},
 	{
 		"id": "YDD",
-		"name": "Trường Đại học Điều dưỡng Nam Định",
+		"name": "Đại học Điều dưỡng Nam Định",
 		"address": "257 Hàn Thuyên – TP. Nam Định - tỉnh Nam Định - Nam Định - Nam Định",
 		"phone": "0350.3643495",
 		"email": "",
@@ -4757,7 +4757,7 @@
 	},
 	{
 		"id": "GHA",
-		"name": "Trường Đại học Giao thông Vận tải (cơ sở 1)",
+		"name": "Đại học Giao thông Vận tải (cơ sở 1)",
 		"address": "Láng Thượng - Đống Đa - Hà Nội - Đống Đa - Hà Nội",
 		"phone": "04.37669538",
 		"email": "",
@@ -4860,7 +4860,7 @@
 	},
 	{
 		"id": "NHF",
-		"name": "Trường Đại học Hà Nội",
+		"name": "Đại học Hà Nội",
 		"address": "Km9 Đường Nguyễn Trãi - Thanh Xuân - Hà Nội",
 		"phone": "04.38547453",
 		"email": "",
@@ -5005,7 +5005,7 @@
 	},
 	{
 		"id": "HHT",
-		"name": "Trường Đại học Hà Tĩnh",
+		"name": "Đại học Hà Tĩnh",
 		"address": "Số 447 đường 26/3 - Đại Nài - Hà Tĩnh - Hà Tĩnh",
 		"phone": "039.3885284",
 		"email": "",
@@ -5252,7 +5252,7 @@
 	},
 	{
 		"id": "DKT",
-		"name": "Trường Đại học Hải Dương",
+		"name": "Đại học Hải Dương",
 		"address": "Giữa số 1002 và 1004 (vào trong 200m) Đại lộ Lê Thanh Nghị - Hải Tân - Hải Dương",
 		"phone": "04.3869.2104",
 		"email": "",
@@ -5379,7 +5379,7 @@
 	},
 	{
 		"id": "HHA",
-		"name": "Trường Đại học Hàng Hải",
+		"name": "Đại học Hàng Hải",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -5625,7 +5625,7 @@
 	},
 	{
 		"id": "THP",
-		"name": "Trường Đại học Hải Phòng",
+		"name": "Đại học Hải Phòng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -5934,7 +5934,7 @@
 	},
 	{
 		"id": "DNB",
-		"name": "Trường Đại học Hoa Lư Ninh Bình",
+		"name": "Đại học Hoa Lư Ninh Bình",
 		"address": "Kỳ Vĩ, Ninh Nhất - Ninh Bình - Ninh Bình",
 		"phone": "030.3892240; 030.3892701",
 		"email": "",
@@ -6073,7 +6073,7 @@
 	},
 	{
 		"id": "HDT",
-		"name": "Trường Đại học Hồng Đức",
+		"name": "Đại học Hồng Đức",
 		"address": "565 Quang Trung - Đông Vệ - Thanh Hóa - Thanh Hóa",
 		"phone": "0373.910.619",
 		"email": "",
@@ -6376,7 +6376,7 @@
 	},
 	{
 		"id": "THV",
-		"name": "Trường Đại học Hùng Vương",
+		"name": "Đại học Hùng Vương",
 		"address": "Phường Nông Trang - Việt Trì - Phú Thọ",
 		"phone": "0210.3820042; 0210.3821970; 0210.3710391",
 		"email": "",
@@ -6662,7 +6662,7 @@
 	},
 	{
 		"id": "KTA",
-		"name": "Trường Đại học Kiến Trúc Hà Nội",
+		"name": "Đại học Kiến Trúc Hà Nội",
 		"address": "Km10 Đường Nguyễn Trãi - Thanh Xuân - Hà Nội",
 		"phone": "04.38542390. 117/166/167; 04.38543913",
 		"email": "",
@@ -6741,7 +6741,7 @@
 	},
 	{
 		"id": "DKS",
-		"name": "Trường Đại học Kiểm sát",
+		"name": "Đại học Kiểm sát",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -6765,7 +6765,7 @@
 	},
 	{
 		"id": "DKK",
-		"name": "Trường Đại học Kinh tế Kỹ thuật Công nghiệp",
+		"name": "Đại học Kinh tế Kỹ thuật Công nghiệp",
 		"address": "456 Minh Khai - Hai Bà Trưng - Hà Nội",
 		"phone": "04.38621504, 0350.3848705",
 		"email": "",
@@ -6960,7 +6960,7 @@
 	},
 	{
 		"id": "KHA",
-		"name": "Trường Đại học Kinh tế Quốc dân",
+		"name": "Đại học Kinh tế Quốc dân",
 		"address": "207 Đường Giải Phóng - Hai Bà Trưng - Hà Nội",
 		"phone": "04.36280280, Fa",
 		"email": "",
@@ -7203,7 +7203,7 @@
 	},
 	{
 		"id": "HCB",
-		"name": "Trường Đại học Kỹ thuật - Hậu cần Công an Nhân dân",
+		"name": "Đại học Kỹ thuật - Hậu cần Công an Nhân dân",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -7228,7 +7228,7 @@
 	},
 	{
 		"id": "DKY",
-		"name": "Trường Đại học Kỹ thuật Y tế Hải Dương",
+		"name": "Đại học Kỹ thuật Y tế Hải Dương",
 		"address": "Số 1 - Phố Vũ Hựu - Thanh Bình - Hải Dương - Hải Dương",
 		"phone": "0320.3891799",
 		"email": "hmtu@vnn.vn",
@@ -7341,7 +7341,7 @@
 	},
 	{
 		"id": "DLX",
-		"name": "Trường Đại học Lao động - Xã hội",
+		"name": "Đại học Lao động - Xã hội",
 		"address": "43 Đường Trần Duy Hưng, Trung Hòa - Cầu Giấy - Hà Nội",
 		"phone": "04.35566175  04.35568795",
 		"email": "",
@@ -7552,7 +7552,7 @@
 	},
 	{
 		"id": "LNH",
-		"name": "Trường Đại học Lâm nghiệp",
+		"name": "Đại học Lâm nghiệp",
 		"address": "Xuân Mai - Ba Đình - Hà Nội",
 		"phone": "04.33840440, 04.33840707; 0613.922254; 0613.922829",
 		"email": "",
@@ -7908,7 +7908,7 @@
 	},
 	{
 		"id": "LPH",
-		"name": "Trường Đại học Luật Hà Nội",
+		"name": "Đại học Luật Hà Nội",
 		"address": "Số 87 Đường Nguyễn Chí Thanh - Đống Đa - Hà Nội",
 		"phone": "04.38351879, 04.38359803",
 		"email": "",
@@ -7960,7 +7960,7 @@
 	},
 	{
 		"id": "MDA",
-		"name": "Trường Đại học Mỏ Địa chất",
+		"name": "Đại học Mỏ Địa chất",
 		"address": "Đông Ngạc - Từ Liêm - Hà Nội",
 		"phone": "04.38386214",
 		"email": "",
@@ -8388,7 +8388,7 @@
 	},
 	{
 		"id": "MTC",
-		"name": "Trường Đại học Mỹ thuật Công nghiệp",
+		"name": "Đại học Mỹ thuật Công nghiệp",
 		"address": "360 Đê La Thành, Ô Chợ Dừa - Đống Đa - Hà Nội",
 		"phone": "04.35141588",
 		"email": "",
@@ -8478,7 +8478,7 @@
 	},
 	{
 		"id": "MTH",
-		"name": "Trường Đại học Mỹ thuật Việt Nam",
+		"name": "Đại học Mỹ thuật Việt Nam",
 		"address": "42 Yết Kiêu - Hai Bà Trưng - Hà Nội",
 		"phone": "04.38263861",
 		"email": "",
@@ -8557,7 +8557,7 @@
 	},
 	{
 		"id": "NTH",
-		"name": "Trường Đại học Ngoại thương",
+		"name": "Đại học Ngoại thương",
 		"address": "91 Dường Chùa Láng, Phường Láng Thượng - Đống Đa - Hà Nội",
 		"phone": "04.38356800",
 		"email": "",
@@ -8660,7 +8660,7 @@
 	},
 	{
 		"id": "DNV",
-		"name": "Trường Đại học Nội vụ Hà Nội",
+		"name": "Đại học Nội vụ Hà Nội",
 		"address": "số 36 Xuân La - Xuân La - Tây Hồ - Hà Nội",
 		"phone": "04.37533659; 04.37532864",
 		"email": "",
@@ -8871,7 +8871,7 @@
 	},
 	{
 		"id": "DBG",
-		"name": "Trường Đại học Nông lâm Bắc Giang",
+		"name": "Đại học Nông lâm Bắc Giang",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -9088,7 +9088,7 @@
 	},
 	{
 		"id": "NNH",
-		"name": "Trường Đại học Nông nghiệp Hà Nội",
+		"name": "Đại học Nông nghiệp Hà Nội",
 		"address": "Trâu Quỳ - Gia Lâm - Hà Nội",
 		"phone": "04.38276346 my l 104",
 		"email": "",
@@ -9101,7 +9101,7 @@
 	},
 	{
 		"id": "PCH",
-		"name": "Trường Đại học Phòng cháy Chữa cháy",
+		"name": "Đại học Phòng cháy Chữa cháy",
 		"address": "243 Khuất Duy Tiến - Thanh Xuân - Hà Nội",
 		"phone": "069.45212; 04.35533006",
 		"email": "",
@@ -9126,7 +9126,7 @@
 	},
 	{
 		"id": "SDU",
-		"name": "Trường Đại học Sao Đỏ",
+		"name": "Đại học Sao Đỏ",
 		"address": "24 Thái Học 2 - Sao Đỏ - Chí Linh - Hải Dương",
 		"phone": "0320.3 882 402",
 		"email": "sdu@saodo.edu.vn",
@@ -9303,7 +9303,7 @@
 	},
 	{
 		"id": "SKD",
-		"name": "Trường Đại học Sân khấu Điện ảnh",
+		"name": "Đại học Sân khấu Điện ảnh",
 		"address": "Khu Văn hoá nghệ thuật - Mai Dịch - Cầu Giấy - Hà Nội",
 		"phone": "04.3764.3397",
 		"email": "skd@moet.edu.vn",
@@ -9400,7 +9400,7 @@
 	},
 	{
 		"id": "SPH",
-		"name": "Trường Đại học Sư phạm Hà Nội",
+		"name": "Đại học Sư phạm Hà Nội",
 		"address": "Số 136 Đường Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.37547823 xin 216",
 		"email": "",
@@ -9695,7 +9695,7 @@
 	},
 	{
 		"id": "SPH",
-		"name": "Trường Đại học Sư phạm Hà Nội 2",
+		"name": "Đại học Sư phạm Hà Nội 2",
 		"address": "Số 136 Đường Xuân Thủy - Cầu Giấy - Hà Nội",
 		"phone": "04.37547823 xin 216",
 		"email": "",
@@ -9990,7 +9990,7 @@
 	},
 	{
 		"id": "SKH",
-		"name": "Trường Đại học Sư phạm Kỹ thuật Hưng Yên",
+		"name": "Đại học Sư phạm Kỹ thuật Hưng Yên",
 		"address": "Dân Tiến - Khoái Châu - Hưng Yên",
 		"phone": "0321.3 713.028",
 		"email": "dhspkt@utehy.edu",
@@ -10185,7 +10185,7 @@
 	},
 	{
 		"id": "SKN",
-		"name": "Trường Đại học Sư phạm Kỹ thuật Nam Định",
+		"name": "Đại học Sư phạm Kỹ thuật Nam Định",
 		"address": "Đường Phù Nghĩa - Lộc Hạ - Nam Định - Nam Định",
 		"phone": "0350.3637804",
 		"email": "",
@@ -10294,7 +10294,7 @@
 	},
 	{
 		"id": "SKV",
-		"name": "Trường Đại học Sư phạm Kỹ thuật Vinh",
+		"name": "Đại học Sư phạm Kỹ thuật Vinh",
 		"address": "Hưng Dũng - Vinh - Nghệ An",
 		"phone": "038.3833002",
 		"email": "info@vute.edu.vn",
@@ -10439,7 +10439,7 @@
 	},
 	{
 		"id": "GNT",
-		"name": "Trường Đại học Sư phạm Nghệ thuật Trung ương",
+		"name": "Đại học Sư phạm Nghệ thuật Trung ương",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -10575,7 +10575,7 @@
 	},
 	{
 		"id": "TDH",
-		"name": "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội",
+		"name": "Đại học Sư phạm Thể dục Thể thao Hà Nội",
 		"address": "Xã Phụng Châu - Chương Mỹ - Hà Nội",
 		"phone": "04.33866899",
 		"email": "",
@@ -10600,7 +10600,7 @@
 	},
 	{
 		"id": "DFA",
-		"name": "Trường Đại học Tài chính – Quản trị kinh doanh",
+		"name": "Đại học Tài chính – Quản trị kinh doanh",
 		"address": "Trưng Trắc - Văn Lâm - Hưng Yên",
 		"phone": "04.36590459",
 		"email": "",
@@ -10668,7 +10668,7 @@
 	},
 	{
 		"id": "DMT",
-		"name": "Trường Đại học Tài nguyên và Môi trường Hà Nội",
+		"name": "Đại học Tài nguyên và Môi trường Hà Nội",
 		"address": "Số 41A đường Phú Diễn, huyện Từ Liêm, Hà Nội - Từ Liêm - Hà Nội",
 		"phone": "043.8370597",
 		"email": "",
@@ -10878,7 +10878,7 @@
 	},
 	{
 		"id": "TQU",
-		"name": "Trường Đại học Tân Trào",
+		"name": "Đại học Tân Trào",
 		"address": "Km 6, xã Trung Môn, huyện Yên Sơn, tỉnh Tuyên Quang - Yên Sơn - Tuyên Quang",
 		"phone": "027.3892012",
 		"email": "",
@@ -11115,7 +11115,7 @@
 	},
 	{
 		"id": "TTB",
-		"name": "Trường Đại học Tây Bắc",
+		"name": "Đại học Tây Bắc",
 		"address": "Quyết Tâm - Sơn La - Sơn La",
 		"phone": "022.3751703",
 		"email": "",
@@ -11377,7 +11377,7 @@
 	},
 	{
 		"id": "DTB",
-		"name": "Trường Đại học Thái Bình",
+		"name": "Đại học Thái Bình",
 		"address": "Số 12 Hoàng Công Chất - Quang Trung - Thái Bình - Thái Bình",
 		"phone": "0363.644.882",
 		"email": "dhtb@tbu.edu.vn",
@@ -11519,7 +11519,7 @@
 	},
 	{
 		"id": "TDB",
-		"name": "Trường Đại học Thể dục Thể thao Bắc Ninh",
+		"name": "Đại học Thể dục Thể thao Bắc Ninh",
 		"address": "Từ Sơn - Bắc Ninh",
 		"phone": "0241.1217221",
 		"email": "",
@@ -11587,7 +11587,7 @@
 	},
 	{
 		"id": "TLA",
-		"name": "Trường Đại học Thuỷ lợi",
+		"name": "Đại học Thuỷ lợi",
 		"address": "175 Tây Sơn - Đống Đa - Hà Nội",
 		"phone": "04.35638069  04.35631537 Fa",
 		"email": "",
@@ -11831,7 +11831,7 @@
 	},
 	{
 		"id": "TMA",
-		"name": "Trường Đại học Thương mại",
+		"name": "Đại học Thương mại",
 		"address": "Đường Hồ Tùng Mậu - Mai Dịch - Cầu Giấy - Hà Nội",
 		"phone": "04.38348406 - 04.37642133",
 		"email": "",
@@ -11844,7 +11844,7 @@
 	},
 	{
 		"id": "VHH",
-		"name": "Trường Đại học Văn hoá Hà Nội",
+		"name": "Đại học Văn hoá Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12076,7 +12076,7 @@
 	},
 	{
 		"id": "DVD",
-		"name": "Trường Đại học Văn hóa, Thể thao và Du lịch Thanh Hoá",
+		"name": "Đại học Văn hóa, Thể thao và Du lịch Thanh Hoá",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12191,7 +12191,7 @@
 	},
 	{
 		"id": "TDV",
-		"name": "Trường Đại học Vinh",
+		"name": "Đại học Vinh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12512,7 +12512,7 @@
 	},
 	{
 		"id": "XDA",
-		"name": "Trường Đại học Xây dựng Hà Nội",
+		"name": "Đại học Xây dựng Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12651,7 +12651,7 @@
 	},
 	{
 		"id": "YHB",
-		"name": "Trường Đại học Y Hà Nội",
+		"name": "Đại học Y Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12753,7 +12753,7 @@
 	},
 	{
 		"id": "YPB",
-		"name": "Trường Đại học Y Hải Phòng",
+		"name": "Đại học Y Hải Phòng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12828,7 +12828,7 @@
 	},
 	{
 		"id": "YKV",
-		"name": "Trường Đại học Y khoa Vinh",
+		"name": "Đại học Y khoa Vinh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12913,7 +12913,7 @@
 	},
 	{
 		"id": "YTB",
-		"name": "Trường Đại học Y Thái Bình",
+		"name": "Đại học Y Thái Bình",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -12992,7 +12992,7 @@
 	},
 	{
 		"id": "YTC",
-		"name": "Trường Đại học Y tế Công cộng",
+		"name": "Đại học Y tế Công cộng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -13027,7 +13027,7 @@
 	},
 	{
 		"id": "DCA",
-		"name": "Trường Đại học Chu Văn An",
+		"name": "Đại học Chu Văn An",
 		"address": "Khu dô thị Đại học Phố Hiến, đường Tô Hiệu - Hiến Nam - Hưng Yên - Hưng Yên",
 		"phone": "0321.3 515 592",
 		"email": "",
@@ -13088,7 +13088,7 @@
 	},
 	{
 		"id": "DDA",
-		"name": "Trường Đại học Công nghệ Đông Á",
+		"name": "Đại học Công nghệ Đông Á",
 		"address": "Võ Cường - Bắc Ninh - Bắc Ninh",
 		"phone": "0241. 3 827.996",
 		"email": "",
@@ -13197,7 +13197,7 @@
 	},
 	{
 		"id": "DVX",
-		"name": "Trường Đại học Công nghệ Vạn Xuân",
+		"name": "Đại học Công nghệ Vạn Xuân",
 		"address": "Đại Lộ Nguyễn Sinh Cung - Cửa Lò - Nghệ An",
 		"phone": "P.o t",
 		"email": "",
@@ -13270,7 +13270,7 @@
 	},
 	{
 		"id": "DCQ",
-		"name": "Trường Đại học Công nghệ và Quản lý Hữu nghị",
+		"name": "Đại học Công nghệ và Quản lý Hữu nghị",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -13331,7 +13331,7 @@
 	},
 	{
 		"id": "DCV",
-		"name": "Trường Đại học Công nghiệp Vinh",
+		"name": "Đại học Công nghiệp Vinh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -13514,7 +13514,7 @@
 	},
 	{
 		"id": "DDN",
-		"name": "Trường Đại học Đại Nam",
+		"name": "Đại học Đại Nam",
 		"address": "56 Vũ Trọng Phụng - Thanh Xuân - Hà Nội",
 		"phone": "04.35577799. Fa",
 		"email": "tuyensinh@dainam.edu.vn",
@@ -13628,7 +13628,7 @@
 	},
 	{
 		"id": "DDD",
-		"name": "Trường Đại học Dân lập Đông Đô",
+		"name": "Đại học Dân lập Đông Đô",
 		"address": "Số 170 Phạm Văn Đồng - Cầu Giấy - Hà Nội",
 		"phone": "04 3574 6215",
 		"email": "tuyensinh@hdiu.vn",
@@ -13695,7 +13695,7 @@
 	},
 	{
 		"id": "DHP",
-		"name": "Trường Đại học Dân lập Hải Phòng",
+		"name": "Đại học Dân lập Hải Phòng",
 		"address": "Dư Hàng Kênh - Lê Chân - Hải Phòng",
 		"phone": "031.3740577",
 		"email": "",
@@ -13852,7 +13852,7 @@
 	},
 	{
 		"id": "DTV",
-		"name": "Trường Đại học Dân lập Lương Thế Vinh",
+		"name": "Đại học Dân lập Lương Thế Vinh",
 		"address": "Lộc Vượng - Nam Định - Nam Định",
 		"phone": "0350.3680042",
 		"email": "",
@@ -13943,7 +13943,7 @@
 	},
 	{
 		"id": "DPD",
-		"name": "Trường Đại học Dân lập Phương Đông",
+		"name": "Đại học Dân lập Phương Đông",
 		"address": "171 Trung Kính - Yên Hòa - Cầu Giấy - Hà Nội",
 		"phone": "04.37847110",
 		"email": "",
@@ -14100,7 +14100,7 @@
 	},
 	{
 		"id": "FPT",
-		"name": "Trường Đại học FPT",
+		"name": "Đại học FPT",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -14167,7 +14167,7 @@
 	},
 	{
 		"id": "DHH",
-		"name": "Trường Đại học Hà Hoa Tiên",
+		"name": "Đại học Hà Hoa Tiên",
 		"address": "Xã Hoàng Đông - Duy Tiên - Hà Nam",
 		"phone": "(03512)243.083",
 		"email": "",
@@ -14282,7 +14282,7 @@
 	},
 	{
 		"id": "HBU",
-		"name": "Trường Đại học Hoà Bình",
+		"name": "Đại học Hoà Bình",
 		"address": "Lô CC2 - Khu Đô thị Mỹ Đình II - Từ Liêm - Hà Nội",
 		"phone": "(04) 37871904",
 		"email": "hbu@moet.edu.vn",
@@ -14397,7 +14397,7 @@
 	},
 	{
 		"id": "DQK",
-		"name": "Trường Đại học Kinh doanh và Công nghệ Hà Nội",
+		"name": "Đại học Kinh doanh và Công nghệ Hà Nội",
 		"address": "Số 29A, ngõ 124, phố Vĩnh Tuy, - Hai Bà Trưng - Hà Nội",
 		"phone": "04.36336507/ My l 108 hoc 04.36339113; T CS",
 		"email": "",
@@ -14566,7 +14566,7 @@
 	},
 	{
 		"id": "UKB",
-		"name": "Trường Đại học Kinh Bắc",
+		"name": "Đại học Kinh Bắc",
 		"address": "Phố Phúc Sơn - Vũ Ninh - Bắc Ninh - Bắc Ninh",
 		"phone": "(0241) 3872893",
 		"email": "",
@@ -14657,7 +14657,7 @@
 	},
 	{
 		"id": "NTU",
-		"name": "Trường Đại học Nguyễn Trãi",
+		"name": "Đại học Nguyễn Trãi",
 		"address": "266 phố Đội Cấn - Ba Đình - Hà Nội",
 		"phone": "04.32734720, 04.32734757; Fa",
 		"email": "",
@@ -14760,7 +14760,7 @@
 	},
 	{
 		"id": "MTC",
-		"name": "Trường Đại học Mỹ thuật Công nghiệp Á Châu",
+		"name": "Đại học Mỹ thuật Công nghiệp Á Châu",
 		"address": "360 Đê La Thành, Ô Chợ Dừa - Đống Đa - Hà Nội",
 		"phone": "04.35141588",
 		"email": "",
@@ -14850,7 +14850,7 @@
 	},
 	{
 		"id": "DBH",
-		"name": "Trường Đại học Quốc tế Bắc Hà",
+		"name": "Đại học Quốc tế Bắc Hà",
 		"address": "Nhà C, Trường Quốc tế Việt –Úc - Mỹ Đình I - Thanh Xuân - Hà Nội",
 		"phone": "04.62690558",
 		"email": "info@bhiu.edu.vn",
@@ -14941,7 +14941,7 @@
 	},
 	{
 		"id": "FBU",
-		"name": "Trường Đại học Tài chính - Ngân hàng Hà Nội",
+		"name": "Đại học Tài chính - Ngân hàng Hà Nội",
 		"address": "Số 136, Phạm Văn Đồng - Xuân Đinh - Từ Liêm - Hà Nội",
 		"phone": "(04) 37931340",
 		"email": "",
@@ -15004,7 +15004,7 @@
 	},
 	{
 		"id": "TDD",
-		"name": "Trường Đại học Thành Đô",
+		"name": "Đại học Thành Đô",
 		"address": "Xã Kim Chung - Hoài Đức - Hà Nội",
 		"phone": "04. 33861791; 0972583333; 0934598777, Fa",
 		"email": "tdu@thanhdo.edu.vn",
@@ -15284,7 +15284,7 @@
 	},
 	{
 		"id": "TDD",
-		"name": "Trường Đại học Thành Đông",
+		"name": "Đại học Thành Đông",
 		"address": "Xã Kim Chung - Hoài Đức - Hà Nội",
 		"phone": "04. 33861791; 0972583333; 0934598777, Fa",
 		"email": "tdu@thanhdo.edu.vn",
@@ -15564,7 +15564,7 @@
 	},
 	{
 		"id": "DTA",
-		"name": "Trường Đại học Thành Tây",
+		"name": "Đại học Thành Tây",
 		"address": "Km 15 - Yên Nghĩa - Hà Đông - Hà Nội",
 		"phone": "04.22122769; 0912.543465; 0988.642084; 0906.185348",
 		"email": "",
@@ -15691,7 +15691,7 @@
 	},
 	{
 		"id": "DTL",
-		"name": "Trường Đại học Thăng Long",
+		"name": "Đại học Thăng Long",
 		"address": "Đại Kim - Hoàng Mai - Hà Nội",
 		"phone": "04.38587346, 04.35636426",
 		"email": "",
@@ -15844,7 +15844,7 @@
 	},
 	{
 		"id": "DVP",
-		"name": "Trường Đại học Trưng Vương",
+		"name": "Đại học Trưng Vương",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -15893,7 +15893,7 @@
 	},
 	{
 		"id": "DVB",
-		"name": "Trường Đại học Việt Bắc",
+		"name": "Đại học Việt Bắc",
 		"address": "1B Đồng Bẩm - Đại Từ - Thái Nguyên",
 		"phone": "(0280)3755878",
 		"email": "",
@@ -15960,7 +15960,7 @@
 	},
 	{
 		"id": "AD1",
-		"name": "Trường Cao đẳng An ninh nhân dân I",
+		"name": "Cao đẳng An ninh nhân dân I",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -15973,7 +15973,7 @@
 	},
 	{
 		"id": "CD1",
-		"name": "Trường Cao đẳng Cảnh sát nhân dân I",
+		"name": "Cao đẳng Cảnh sát nhân dân I",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -15986,7 +15986,7 @@
 	},
 	{
 		"id": "CCM",
-		"name": "Trường Cao đẳng Công nghệ Dệt may Thời trang Hà Nội",
+		"name": "Cao đẳng Công nghệ Dệt may Thời trang Hà Nội",
 		"address": "Lệ Chi, Gia lâm, TP. Hà Nội - Gia Lâm - Hà Nội",
 		"phone": "04.36922552",
 		"email": "phongdaotao.ccm@moet.edu.vn",
@@ -16065,7 +16065,7 @@
 	},
 	{
 		"id": "CVT",
-		"name": "Trường Cao đẳng Công nghệ Viettronics",
+		"name": "Cao đẳng Công nghệ Viettronics",
 		"address": "118 Cát Bi, quận Hải An, Hải Phòng - Hải An - Hải Phòng",
 		"phone": "0313.726.972 - 0316.265.198 - 0313.726.899",
 		"email": "vanphong@viettronics.edu.vn",
@@ -16132,7 +16132,7 @@
 	},
 	{
 		"id": "CXD",
-		"name": "Trường Cao đẳng Công nghệ và Kinh tế Công nghiệp",
+		"name": "Cao đẳng Công nghệ và Kinh tế Công nghiệp",
 		"address": "Xã Trung Thành, huyện Phổ Yên, tỉnh Thái Nguyên - Phổ Yên - Thái Nguyên",
 		"phone": "02803.866.125; D",
 		"email": "ttts.ietc@gmail.com",
@@ -16193,7 +16193,7 @@
 	},
 	{
 		"id": "CHK",
-		"name": "Trường Cao đẳng Công nghệ và Kinh tế Hà Nội",
+		"name": "Cao đẳng Công nghệ và Kinh tế Hà Nội",
 		"address": "Xã Đông Xuân - Sóc Sơn - Hà Nội",
 		"phone": "04.38843325; Fa",
 		"email": "hncte@hncte.edu.vn",
@@ -16236,7 +16236,7 @@
 	},
 	{
 		"id": "CCC",
-		"name": "Trường Cao đẳng Công nghiệp Cẩm Phả",
+		"name": "Cao đẳng Công nghiệp Cẩm Phả",
 		"address": "Số 78, đường Nguyễn văn Trỗi - Cẩm Thủy - Cẩm Phả - Quảng Ninh",
 		"phone": "0333 711329; 0333 969661",
 		"email": "bants.ccc@moet.edu.vn",
@@ -16249,7 +16249,7 @@
 	},
 	{
 		"id": "CCY",
-		"name": "Trường Cao đẳng Công nghiệp Hưng Yên",
+		"name": "Cao đẳng Công nghiệp Hưng Yên",
 		"address": "Giai Phạm - Yên Mỹ - Hưng Yên",
 		"phone": "0321. 3.587898",
 		"email": "pts.hic@gmail.com",
@@ -16304,7 +16304,7 @@
 	},
 	{
 		"id": "CCI",
-		"name": "Trường Cao đẳng Công nghiệp In",
+		"name": "Cao đẳng Công nghiệp In",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -16329,7 +16329,7 @@
 	},
 	{
 		"id": "CND",
-		"name": "Trường Cao đẳng Công nghiệp Nam Định",
+		"name": "Cao đẳng Công nghiệp Nam Định",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -16444,7 +16444,7 @@
 	},
 	{
 		"id": "CPY",
-		"name": "Trường Cao đẳng Công nghiệp Phúc Yên",
+		"name": "Cao đẳng Công nghiệp Phúc Yên",
 		"address": "Số 1 Chùa Cấm - Trưng Nhị - Phúc Yên - Vĩnh Phúc",
 		"phone": "0211.3511836",
 		"email": "tuyensinh@pci.edu.vn",
@@ -16579,7 +16579,7 @@
 	},
 	{
 		"id": "CCA",
-		"name": "Trường Cao đẳng Công nghiệp Hoá chất",
+		"name": "Cao đẳng Công nghiệp Hoá chất",
 		"address": "Thị trấn Hùng Sơn – Lâm Thao – Phú Thọ - Lâm Thao - Phú Thọ",
 		"phone": "0210.3787568; 0210.3786218; Fa",
 		"email": "",
@@ -16610,7 +16610,7 @@
 	},
 	{
 		"id": "CCB",
-		"name": "Trường Cao đẳng Công nghiệp Thái Nguyên",
+		"name": "Cao đẳng Công nghiệp Thái Nguyên",
 		"address": "Xã Sơn Cẩm, H.Phú Lương - Phú Lương - Thái Nguyên",
 		"phone": "0280 3844 142; (0280) 3643861",
 		"email": "www.cdcntn.edu.vn",
@@ -16647,7 +16647,7 @@
 	},
 	{
 		"id": "CTP",
-		"name": "Trường Cao đẳng Công nghiệp Thực phẩm",
+		"name": "Cao đẳng Công nghiệp Thực phẩm",
 		"address": "Đường Nguyễn Tất Thành - Tân Dân - Việt Trì - Phú Thọ",
 		"phone": "0210.3849674",
 		"email": "",
@@ -16720,7 +16720,7 @@
 	},
 	{
 		"id": "CCX",
-		"name": "Trường Cao đẳng Công nghiệp và Xây dựng",
+		"name": "Cao đẳng Công nghiệp và Xây dựng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -16811,7 +16811,7 @@
 	},
 	{
 		"id": "CCV",
-		"name": "Trường Cao đẳng Công nghiệp Việt Đức",
+		"name": "Cao đẳng Công nghiệp Việt Đức",
 		"address": "Phường Thắng Lợi, thị xã Sông Công, Thái Nguyên - Sông Công - Thái Nguyên",
 		"phone": "0280.3862077",
 		"email": "bants.ccv@moet.edu.vn",
@@ -16866,7 +16866,7 @@
 	},
 	{
 		"id": "CKL",
-		"name": "Trường Cao đẳng Cơ khí luyện kim",
+		"name": "Cao đẳng Cơ khí luyện kim",
 		"address": "Lương Sơn - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3845.092; Fax",
 		"email": "cklk2000@hn.vnn.vn",
@@ -16921,7 +16921,7 @@
 	},
 	{
 		"id": "C11",
-		"name": "Trường Cao đẳng Cộng đồng Bắc Kạn",
+		"name": "Cao đẳng Cộng đồng Bắc Kạn",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -16982,7 +16982,7 @@
 	},
 	{
 		"id": "CHN",
-		"name": "Trường Cao đẳng Cộng đồng Hà Nội",
+		"name": "Cao đẳng Cộng đồng Hà Nội",
 		"address": "18, Trung Kính, Yên Hòa - Cầu Giấy - Hà Nội",
 		"phone": "04.37849979; 04.37845153",
 		"email": "",
@@ -17037,7 +17037,7 @@
 	},
 	{
 		"id": "D20",
-		"name": "Trường Cao đẳng Cộng đồng Hà Tây",
+		"name": "Cao đẳng Cộng đồng Hà Tây",
 		"address": "Thủy Xuân Tiên - Chương Mỹ - Hà Nội - Chương Mỹ - Hà Nội",
 		"phone": "04.33721213",
 		"email": "phongdt.d20@moet.edu.vn",
@@ -17170,7 +17170,7 @@
 	},
 	{
 		"id": "D03",
-		"name": "Trường Cao đẳng Cộng đồng Hải Phòng",
+		"name": "Cao đẳng Cộng đồng Hải Phòng",
 		"address": "264 Trần Nhân Tông - Phường Nam Sơn - Kiến An - Hải Phòng",
 		"phone": "031.3735130; 031.3677734",
 		"email": "caodang@hpcc.edu.vn",
@@ -17249,7 +17249,7 @@
 	},
 	{
 		"id": "CLC",
-		"name": "Trường Cao đẳng Cộng đồng Lai Châu",
+		"name": "Cao đẳng Cộng đồng Lai Châu",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -17310,7 +17310,7 @@
 	},
 	{
 		"id": "CLA",
-		"name": "Trường Cao đẳng Cộng đồng Lào Cai",
+		"name": "Cao đẳng Cộng đồng Lào Cai",
 		"address": "Tổ 1 - Nam Cường - Bắc Hà - Lào Cai",
 		"phone": "0203.840643",
 		"email": "",
@@ -17347,7 +17347,7 @@
 	},
 	{
 		"id": "CDH",
-		"name": "Trường Cao đẳng Du lịch Hà Nội",
+		"name": "Cao đẳng Du lịch Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -17408,7 +17408,7 @@
 	},
 	{
 		"id": "CYS",
-		"name": "Trường Cao đẳng Dược Trung ương",
+		"name": "Cao đẳng Dược Trung ương",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -17427,7 +17427,7 @@
 	},
 	{
 		"id": "CLH",
-		"name": "Trường Cao đẳng Điện tử - Điện lạnh Hà Nội",
+		"name": "Cao đẳng Điện tử - Điện lạnh Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -17501,7 +17501,7 @@
 	},
 	{
 		"id": "CGN",
-		"name": "Trường Cao đẳng Giao thông vận tải Miền Trung",
+		"name": "Cao đẳng Giao thông vận tải Miền Trung",
 		"address": "Xã Nghi Liên - TP. Vinh - Tỉnh Nghệ An - Nghi Liên - Nghệ An",
 		"phone": "038.3851270; 038.3852810",
 		"email": "",
@@ -17544,7 +17544,7 @@
 	},
 	{
 		"id": "C21",
-		"name": "Trường Cao đẳng Hải Dương",
+		"name": "Cao đẳng Hải Dương",
 		"address": "Đường Nguyễn Thị Duệ, phường Thanh Bình,TP HảI Dương, tỉnh Hải Dương - Hải Dương - Hải Dương",
 		"phone": "0320.3890025",
 		"email": "",
@@ -17755,7 +17755,7 @@
 	},
 	{
 		"id": "CHH",
-		"name": "Trường Cao đẳng Hàng Hải 1",
+		"name": "Cao đẳng Hàng Hải 1",
 		"address": "498, Đà Nẵng, phường Đông Hải I, quận Hải An, TP. Hải Phòng - Hải An - Hải Phòng",
 		"phone": "031.3766739; 031.3766425",
 		"email": "",
@@ -17856,7 +17856,7 @@
 	},
 	{
 		"id": "CCK",
-		"name": "Trường Cao đẳng Kinh tế Công nghiệp Hà Nội",
+		"name": "Cao đẳng Kinh tế Công nghiệp Hà Nội",
 		"address": "143 Nguyễn Ngọc Vũ, Trung Hoà, Cầu Giấy, Hà Nội. - Cầu Giấy - Hà Nội",
 		"phone": "04.22180985, 04.36884211",
 		"email": "",
@@ -17899,7 +17899,7 @@
 	},
 	{
 		"id": "CDB",
-		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Điện Biên",
+		"name": "Cao đẳng Kinh tế Kỹ thuật Điện Biên",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -17936,7 +17936,7 @@
 	},
 	{
 		"id": "CEA",
-		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Nghệ An",
+		"name": "Cao đẳng Kinh tế Kỹ thuật Nghệ An",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -18069,7 +18069,7 @@
 	},
 	{
 		"id": "CPP",
-		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Phú Thọ",
+		"name": "Cao đẳng Kinh tế Kỹ thuật Phú Thọ",
 		"address": "Phường Thọ Sơn, TP. Việt Trì, tỉnh Phú Thọ - Việt Trì - Phú Thọ",
 		"phone": "0210.3863801; 0210.3863839",
 		"email": "",
@@ -18082,7 +18082,7 @@
 	},
 	{
 		"id": "CTH",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật thương mại",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật thương mại",
 		"address": "Phường Phú Lãm - quận Hà Đông - Hà Nội - Hà Đông - Hà Nội",
 		"phone": "04.33531324",
 		"email": "",
@@ -18143,7 +18143,7 @@
 	},
 	{
 		"id": "LM01",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Trung ương",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Trung ương",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -18156,7 +18156,7 @@
 	},
 	{
 		"id": "CKA",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Vĩnh Phúc",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Vĩnh Phúc",
 		"address": "Phường Hội hợp - TP Vĩnh Yên - Vĩnh Phúc - Vĩnh Yên - Vĩnh Phúc",
 		"phone": "0211.3867994, 0211.3861938",
 		"email": "",
@@ -18223,7 +18223,7 @@
 	},
 	{
 		"id": "CKT",
-		"name": "Trường Cao đẳng Kinh tế - Tài chính Thái Nguyên",
+		"name": "Cao đẳng Kinh tế - Tài chính Thái Nguyên",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -18266,7 +18266,7 @@
 	},
 	{
 		"id": "CCE",
-		"name": "Trường Cao đẳng Kỹ thuật Công nghiệp (Bắc Giang)",
+		"name": "Cao đẳng Kỹ thuật Công nghiệp (Bắc Giang)",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -18395,7 +18395,7 @@
 	},
 	{
 		"id": "CT31",
-		"name": "Trường Cao đẳng Du lịch và Thương mại",
+		"name": "Cao đẳng Du lịch và Thương mại",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -18408,7 +18408,7 @@
 	},
 	{
 		"id": "CMH",
-		"name": "Trường Cao đẳng Múa Việt Nam",
+		"name": "Cao đẳng Múa Việt Nam",
 		"address": "Khu văn hóa nghệ thuật, P. Mai Dịch, đường Hồ Tùng Mậu, Q. Cầu Giấy, TP. Hà Nội. - Cầu Giấy - Hà Nội",
 		"phone": "04.37649781",
 		"email": "",
@@ -18439,7 +18439,7 @@
 	},
 	{
 		"id": "CNT",
-		"name": "Trường Cao đẳng Nghệ thuật Hà Nội",
+		"name": "Cao đẳng Nghệ thuật Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -18524,7 +18524,7 @@
 	},
 	{
 		"id": "C18",
-		"name": "Trường Cao đẳng Ngô Gia Tự",
+		"name": "Cao đẳng Ngô Gia Tự",
 		"address": "Xã Quế Nham, huyện Tân Yên, tỉnh Bắc Giang - Tân Yên - Bắc Giang",
 		"phone": "0240.3520662, 0240 3854.230.",
 		"email": "",
@@ -18633,7 +18633,7 @@
 	},
 	{
 		"id": "CDP",
-		"name": "Trường Cao đẳng Nông Lâm Đông Bắc",
+		"name": "Cao đẳng Nông Lâm Đông Bắc",
 		"address": "Xã Minh Thành, Yên Hưng, Quảng Ninh - Yên Hưng - Quảng Ninh",
 		"phone": "033.3873393; Fa",
 		"email": "",
@@ -18706,7 +18706,7 @@
 	},
 	{
 		"id": "CNP",
-		"name": "Trường Cao đẳng Nông nghiệp và Phát triển Nông thôn Bắc Bộ",
+		"name": "Cao đẳng Nông nghiệp và Phát triển Nông thôn Bắc Bộ",
 		"address": "Km 38, Quốc lộ 6, Thị trấn Xuân Mai, Chương Mỹ, Hà Nội - Chương Mỹ - Hà Nội",
 		"phone": "0433840164",
 		"email": "",
@@ -18841,7 +18841,7 @@
 	},
 	{
 		"id": "CPT",
-		"name": "Trường Cao đẳng Phát thanh Truyền hình I",
+		"name": "Cao đẳng Phát thanh Truyền hình I",
 		"address": "Số 136, đường Quy Lưu, P Minh Khai, TP Phủ lí, Hà Nam. - Phủ Lý - Hà Nam",
 		"phone": "",
 		"email": "",
@@ -18890,7 +18890,7 @@
 	},
 	{
 		"id": "C14",
-		"name": "Trường Cao đẳng Sơn La",
+		"name": "Cao đẳng Sơn La",
 		"address": "Tô 2, Phường Chiềng Sinh, Thành phố Sơn La - Sơn La - Sơn La",
 		"phone": "022.3874298, 0223874544.",
 		"email": "",
@@ -19126,7 +19126,7 @@
 	},
 	{
 		"id": "C19",
-		"name": "Trường Cao đẳng Sư phạm Bắc Ninh",
+		"name": "Cao đẳng Sư phạm Bắc Ninh",
 		"address": "Khu 10, P. Đại Phúc, TP. Bắc Ninh, T. Bắc Ninh - Bắc Ninh - Bắc Ninh",
 		"phone": "T:02413.856.413; 02413.855.329",
 		"email": "",
@@ -19265,7 +19265,7 @@
 	},
 	{
 		"id": "C06",
-		"name": "Trường Cao đẳng Sư phạm Cao Bằng",
+		"name": "Cao đẳng Sư phạm Cao Bằng",
 		"address": "Km4, Đề Thám, thị xã Cao Bằng, tỉnh Cao Bằng - Cao Bằng - Cao Bằng",
 		"phone": "026.3750210",
 		"email": "",
@@ -19344,7 +19344,7 @@
 	},
 	{
 		"id": "C62",
-		"name": "Trường Cao đẳng Sư phạm Điện Biên",
+		"name": "Cao đẳng Sư phạm Điện Biên",
 		"address": "Tổ dân phố 30, P. Mường Thanh, TP. Điện Biên Phủ, tỉnh Điện Biên - TP.Điện Biên - Điện Biên",
 		"phone": "0230.3828.702",
 		"email": "",
@@ -19451,7 +19451,7 @@
 	},
 	{
 		"id": "C05",
-		"name": "Trường Cao đẳng Sư phạm Hà Giang",
+		"name": "Cao đẳng Sư phạm Hà Giang",
 		"address": "Tổ 16, phường Nguyễn Trãi, thị xã Hà Giang, tỉnh Hà Giang. - Hà Giang - Hà Giang",
 		"phone": "0219.3606.868",
 		"email": "",
@@ -19494,7 +19494,7 @@
 	},
 	{
 		"id": "C24",
-		"name": "Trường Cao đẳng Sư phạm Hà Nam",
+		"name": "Cao đẳng Sư phạm Hà Nam",
 		"address": "Phường Lê Hồng Phong, TP. Phủ Lý, Hà Nam. - Phủ Lý - Hà Nam",
 		"phone": "0351.3854533, 0351.3851018",
 		"email": "",
@@ -19616,7 +19616,7 @@
 	},
 	{
 		"id": "C01",
-		"name": "Trường Cao đẳng Sư phạm Hà Nội",
+		"name": "Cao đẳng Sư phạm Hà Nội",
 		"address": "Số 98 phố Dương Quảng Hàm, Hà Nội - Quan Hoa, quận Cầu Giấy - Sở Giáo dục và Đào tạo - Hà Nội",
 		"phone": "",
 		"email": "",
@@ -19993,7 +19993,7 @@
 	},
 	{
 		"id": "C20",
-		"name": "Trường Cao đẳng Sư phạm Hà Tây",
+		"name": "Cao đẳng Sư phạm Hà Tây",
 		"address": "Thị trấn Thường Tín, huyện Thường Tín, Hà Nội - Thường Tín - Hà Nội",
 		"phone": "04.33853218",
 		"email": "",
@@ -20101,7 +20101,7 @@
 	},
 	{
 		"id": "C22",
-		"name": "Trường Cao đẳng Sư phạm Hưng Yên",
+		"name": "Cao đẳng Sư phạm Hưng Yên",
 		"address": "Đường Chu Văn An - An Hảo - Hưng Yên - Hưng Yên",
 		"phone": "0321.3.862297",
 		"email": "",
@@ -20203,7 +20203,7 @@
 	},
 	{
 		"id": "C23",
-		"name": "Trường Cao đẳng Sư phạm Hoà Bình",
+		"name": "Cao đẳng Sư phạm Hoà Bình",
 		"address": "Đường Võ Thị Sáu, phường Chăm Mát, Thành phố Hòa Bình, tỉnh Hòa Bình. - Hoà Bình - Hòa Bình",
 		"phone": "",
 		"email": "phongdaotao.c23@gmail.com",
@@ -20306,7 +20306,7 @@
 	},
 	{
 		"id": "C08",
-		"name": "Trường Cao đẳng Sư phạm Lào Cai",
+		"name": "Cao đẳng Sư phạm Lào Cai",
 		"address": "Tổ 13 - Phường Bình Minh - Thành phố Lào Cai - Tỉnh Lào Cai. - Lào Cai - Lào Cai",
 		"phone": "020.3844881",
 		"email": "",
@@ -20413,7 +20413,7 @@
 	},
 	{
 		"id": "C10",
-		"name": "Trường Cao đẳng Sư phạm Lạng Sơn",
+		"name": "Cao đẳng Sư phạm Lạng Sơn",
 		"address": "Khối Đèo Giang, phường Chi Lăng, Thành phố Lạng Sơn, tỉnh Lạng Sơn - Lạng Sơn - Lạng Sơn",
 		"phone": "025.3812367",
 		"email": "",
@@ -20522,7 +20522,7 @@
 	},
 	{
 		"id": "C25",
-		"name": "Trường Cao đẳng Sư phạm Nam Định",
+		"name": "Cao đẳng Sư phạm Nam Định",
 		"address": "813 đường Trường Chinh, TP. Nam Định. - Nam Định - Nam Định",
 		"phone": "0350.3648 351",
 		"email": "",
@@ -20589,7 +20589,7 @@
 	},
 	{
 		"id": "C29",
-		"name": "Trường Cao đẳng Sư phạm Nghệ An",
+		"name": "Cao đẳng Sư phạm Nghệ An",
 		"address": "Đường Lê Viết Thuật, Xã Hưng Lộc - Vinh - Nghệ An",
 		"phone": "038.3857009, 038.3857070",
 		"email": "",
@@ -20674,7 +20674,7 @@
 	},
 	{
 		"id": "C17",
-		"name": "Trường Cao đẳng Sư phạm Quảng Ninh",
+		"name": "Cao đẳng Sư phạm Quảng Ninh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -20786,7 +20786,7 @@
 	},
 	{
 		"id": "C26",
-		"name": "Trường Cao đẳng Sư phạm Thái Bình",
+		"name": "Cao đẳng Sư phạm Thái Bình",
 		"address": "Đường Chu Văn An - Phường Quang Trung, TP. Thái Bình - Thái Bình - Thái Bình",
 		"phone": "036.3839.901; 036.3844833, 0363.831.144",
 		"email": "",
@@ -21027,7 +21027,7 @@
 	},
 	{
 		"id": "C12",
-		"name": "Trường Cao đẳng Sư phạm Thái Nguyên",
+		"name": "Cao đẳng Sư phạm Thái Nguyên",
 		"address": "Đường Quang Trung, phường Thịnh Đán, TP. Thái Nguyên. - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3846106",
 		"email": "",
@@ -21135,7 +21135,7 @@
 	},
 	{
 		"id": "CM1",
-		"name": "Trường Cao đẳng Sư phạm Trung ương",
+		"name": "Cao đẳng Sư phạm Trung ương",
 		"address": "387 đường Hoàng Quốc Việt, Q. Cầu Giấy, Hà Nội - Cầu Giấy - Hà Nội",
 		"phone": "04.37565209; 04.37562670",
 		"email": "",
@@ -21268,7 +21268,7 @@
 	},
 	{
 		"id": "C13",
-		"name": "Trường Cao đẳng Sư phạm Yên Bái",
+		"name": "Cao đẳng Sư phạm Yên Bái",
 		"address": "Phường Đồng Tâm - TP Yên Bái - Yên Bái - Yên Bái",
 		"phone": "029 3854710, 3852.218.",
 		"email": "",
@@ -21336,7 +21336,7 @@
 	},
 	{
 		"id": "CMM",
-		"name": "Trường Cao đẳng Tài nguyên và Môi trường Miền trung",
+		"name": "Cao đẳng Tài nguyên và Môi trường Miền trung",
 		"address": "04 Trần Phú, - Phường Ba Đình - Bỉm Sơn - Thanh Hóa",
 		"phone": "(0373) 824175, (0373) 824.252",
 		"email": "",
@@ -21459,7 +21459,7 @@
 	},
 	{
 		"id": "CTO",
-		"name": "Trường Cao đẳng Thể dục thể thao Thanh Hoá",
+		"name": "Cao đẳng Thể dục thể thao Thanh Hoá",
 		"address": "24 Hoàng Văn Thụ, Phường Ngọc Trạo, TP. Thanh Hoá. - Thanh Hóa - Thanh Hóa",
 		"phone": "037.3851382; 037.3726392",
 		"email": "",
@@ -21490,7 +21490,7 @@
 	},
 	{
 		"id": "CTE",
-		"name": "Trường Cao đẳng Thống kê",
+		"name": "Cao đẳng Thống kê",
 		"address": "Đường Thành Cổ - Phường Vệ An , TP Bắc Ninh, tỉnh Bắc Ninh - Bắc Ninh - Bắc Ninh",
 		"phone": "0241.3821713",
 		"email": "",
@@ -21545,7 +21545,7 @@
 	},
 	{
 		"id": "CTL",
-		"name": "Trường Cao đẳng Thuỷ lợi Bắc bộ",
+		"name": "Cao đẳng Thuỷ lợi Bắc bộ",
 		"address": "Km số 2, đường Trần Thị Phúc, TP. Phủ Lí, Hà Nam. - Phủ Lý - Hà Nam",
 		"phone": "0351.3840246",
 		"email": "cdtlbb@gmail.com",
@@ -21564,7 +21564,7 @@
 	},
 	{
 		"id": "CSB",
-		"name": "Trường Cao đẳng Thuỷ sản",
+		"name": "Cao đẳng Thuỷ sản",
 		"address": "Phường Đình Bảng, thị xã Từ Sơn, tỉnh Bắc Ninh. - Từ Sơn - Bắc Ninh",
 		"phone": "0241.3840240",
 		"email": "bts@ cdts.edu.vn",
@@ -21613,7 +21613,7 @@
 	},
 	{
 		"id": "CTM",
-		"name": "Trường Cao đẳng Thương mại và Du lịch",
+		"name": "Cao đẳng Thương mại và Du lịch",
 		"address": "478 đường Thống Nhất, phường Tân Thịnh, Thành phố Thái Nguyên - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3851989",
 		"email": "",
@@ -21656,7 +21656,7 @@
 	},
 	{
 		"id": "CTM",
-		"name": "Trường Cao đẳng Thương Mại và Du lịch Hà Nội",
+		"name": "Cao đẳng Thương Mại và Du lịch Hà Nội",
 		"address": "478 đường Thống Nhất, phường Tân Thịnh, Thành phố Thái Nguyên - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3851989",
 		"email": "",
@@ -21699,7 +21699,7 @@
 	},
 	{
 		"id": "CTV",
-		"name": "Trường Cao đẳng Truyền hình",
+		"name": "Cao đẳng Truyền hình",
 		"address": "Thị trấn Thường Tín, huyện Thường Tín, Hà nội - Thường Tín - Hà Nội",
 		"phone": "04.33853048",
 		"email": "",
@@ -21748,7 +21748,7 @@
 	},
 	{
 		"id": "CDT",
-		"name": "Trường Cao đẳng Xây dựng Công trình đô thị",
+		"name": "Cao đẳng Xây dựng Công trình đô thị",
 		"address": "Xã Yên Thường - Gia Lâm - Hà Nội; - Gia Lâm - Hà Nội",
 		"phone": "04.38780401, 04.38271305",
 		"email": "cdxdctdothi@vnn.vn",
@@ -21838,7 +21838,7 @@
 	},
 	{
 		"id": "CXN",
-		"name": "Trường Cao đẳng Xây dựng Nam Định",
+		"name": "Cao đẳng Xây dựng Nam Định",
 		"address": "Quốc lộ 10 – P. Lộc Vượng – TP Nam Định. - Nam Định - Nam Định",
 		"phone": "0350.3682177",
 		"email": "",
@@ -21863,7 +21863,7 @@
 	},
 	{
 		"id": "CXH",
-		"name": "Trường Cao đẳng Xây dựng Số 1",
+		"name": "Cao đẳng Xây dựng Số 1",
 		"address": "Trung Văn. - Từ Liêm - Hà Nội",
 		"phone": "04 6265263604/62652636",
 		"email": "phongdaotao@ctc1.edu.vn",
@@ -21959,7 +21959,7 @@
 	},
 	{
 		"id": "CVV",
-		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Nghệ An",
+		"name": "Cao đẳng Văn hoá Nghệ thuật Nghệ An",
 		"address": "Số 35 đường Phùng Chí Kiên - Vinh - Nghệ An",
 		"phone": "038.3565882",
 		"email": "",
@@ -22032,7 +22032,7 @@
 	},
 	{
 		"id": "CVB",
-		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Tây Bắc",
+		"name": "Cao đẳng Văn hoá Nghệ thuật Tây Bắc",
 		"address": "P. Thịnh Lang. - Hoà Bình - Hòa Bình",
 		"phone": "02183.858.026",
 		"email": "",
@@ -22099,7 +22099,7 @@
 	},
 	{
 		"id": "CNB",
-		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Thái Bình",
+		"name": "Cao đẳng Văn hoá Nghệ thuật Thái Bình",
 		"address": "Số 117, phố Hoàng Công Chất, phường Quang Trung, TP. Thái Bình, tỉnh Thái Bình. - Thái Bình - Thái Bình",
 		"phone": "036.3842405",
 		"email": "",
@@ -22112,7 +22112,7 @@
 	},
 	{
 		"id": "CVH",
-		"name": "Trường Cao đẳng Văn hóa, thể thao và Du lịch Nguyễn Du",
+		"name": "Cao đẳng Văn hóa, thể thao và Du lịch Nguyễn Du",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -22155,7 +22155,7 @@
 	},
 	{
 		"id": "CVD",
-		"name": "Trường Cao đẳng Văn hoá Nghệ thuật và Du lịch Hạ Long",
+		"name": "Cao đẳng Văn hoá Nghệ thuật và Du lịch Hạ Long",
 		"address": "Phường Hồng Hải, TP. Hạ Long, tỉnh Quảng Ninh - Hạ Long - Quảng Ninh",
 		"phone": "033.3659232",
 		"email": "",
@@ -22279,7 +22279,7 @@
 	},
 	{
 		"id": "CNV",
-		"name": "Trường Cao đẳng Văn hoá nghệ thuật Việt Bắc",
+		"name": "Cao đẳng Văn hoá nghệ thuật Việt Bắc",
 		"address": "Phường Đồng Quang, Tp. Thái Nguyên - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.2857193",
 		"email": "",
@@ -22340,7 +22340,7 @@
 	},
 	{
 		"id": "CVY",
-		"name": "Trường Cao đẳng Văn Hoá Nghệ thuật Du lịch Yên Bái",
+		"name": "Cao đẳng Văn Hoá Nghệ thuật Du lịch Yên Bái",
 		"address": "Km6, đường Đinh Tiên Hoàng - Yên Bái - Yên Bái",
 		"phone": "029.3851815",
 		"email": "",
@@ -22365,7 +22365,7 @@
 	},
 	{
 		"id": "C16",
-		"name": "Trường Cao đẳng Vĩnh Phúc",
+		"name": "Cao đẳng Vĩnh Phúc",
 		"address": "Thị xã Phúc Yên - Trưng Nhị - Phúc Yên - Vĩnh Phúc",
 		"phone": "0211.3868247, 0211.3868188",
 		"email": "",
@@ -22495,7 +22495,7 @@
 	},
 	{
 		"id": "CBM",
-		"name": "Trường Cao đẳng Y tế Bạch Mai",
+		"name": "Cao đẳng Y tế Bạch Mai",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -22532,7 +22532,7 @@
 	},
 	{
 		"id": "CDY",
-		"name": "Trường Cao đẳng Y tế Điện Biên",
+		"name": "Cao đẳng Y tế Điện Biên",
 		"address": "Phố 6 - Noong Bua - Điện Biên Phủ - Điện Biên",
 		"phone": "0230.3824.906",
 		"email": "",
@@ -22551,7 +22551,7 @@
 	},
 	{
 		"id": "CYH",
-		"name": "Trường Cao đẳng Y tế Hà Nam",
+		"name": "Cao đẳng Y tế Hà Nam",
 		"address": "Đường Nguyễn Hữu Tiến, phường Lê Hồng Phong, thành phố Phủ Lí - Tỉnh Hà Nam. - Lê Hồng Phong - Phủ Lý - Hà Nam",
 		"phone": "03513.851.189",
 		"email": "",
@@ -22570,7 +22570,7 @@
 	},
 	{
 		"id": "CYZ",
-		"name": "Trường Cao đẳng Y tế Hà Nội",
+		"name": "Cao đẳng Y tế Hà Nội",
 		"address": "35, Đoàn Thị Điểm, quận Đống Đa, Hà Nội - Đống Đa - Hà Nội",
 		"phone": "04.37326303",
 		"email": "",
@@ -22638,7 +22638,7 @@
 	},
 	{
 		"id": "CYF",
-		"name": "Trường Cao đẳng Y tế Hải Phòng",
+		"name": "Cao đẳng Y tế Hải Phòng",
 		"address": "169 Trần Nguyễn Hãn, Quận Lê Chân, TP. Hải Phòng - Lê Chân - Hải Phòng",
 		"phone": "031.3781412",
 		"email": "",
@@ -22657,7 +22657,7 @@
 	},
 	{
 		"id": "CYM",
-		"name": "Trường Cao đẳng Y tế Hà Đông",
+		"name": "Cao đẳng Y tế Hà Đông",
 		"address": "39 Nguyễn Viết Xuân - Quang Trung - Hà Đông - Hà Nội",
 		"phone": "04.33515244",
 		"email": "",
@@ -22694,7 +22694,7 @@
 	},
 	{
 		"id": "CYN",
-		"name": "Trường Cao đẳng Y tế Hà Tĩnh",
+		"name": "Cao đẳng Y tế Hà Tĩnh",
 		"address": "đường Lê Hồng Phong - Thạch Linh - Hà Tĩnh - Hà Tĩnh",
 		"phone": "039.3859012",
 		"email": "",
@@ -22719,7 +22719,7 @@
 	},
 	{
 		"id": "CHY",
-		"name": "Trường Cao đẳng Y tế Hưng Yên",
+		"name": "Cao đẳng Y tế Hưng Yên",
 		"address": "Đường Tuệ Tĩnh - An Tảo - Hưng Yên - Hưng Yên",
 		"phone": "0321, 3865502",
 		"email": "",
@@ -22743,7 +22743,7 @@
 	},
 	{
 		"id": "CYL",
-		"name": "Trường Cao đẳng Y tế Lạng Sơn",
+		"name": "Cao đẳng Y tế Lạng Sơn",
 		"address": "Số 11 - Hoàng Văn Thụ - Chi Lăng - Lạng Sơn - Lạng Sơn",
 		"phone": "025.3812580",
 		"email": "",
@@ -22762,7 +22762,7 @@
 	},
 	{
 		"id": "CNY",
-		"name": "Trường Cao đẳng Y tế Ninh Bình",
+		"name": "Cao đẳng Y tế Ninh Bình",
 		"address": "Số 236, Hoàng Quốc Việt - Cầu Giấy - Hà Nội",
 		"phone": "069 698 262",
 		"email": "",
@@ -22781,7 +22781,7 @@
 	},
 	{
 		"id": "CYP",
-		"name": "Trường Cao đẳng Y tế Phú Thọ",
+		"name": "Cao đẳng Y tế Phú Thọ",
 		"address": "Phố Cao Bang - Trường Thịnh - Phú Thọ - Phú Thọ",
 		"phone": "0210.3822749",
 		"email": "",
@@ -22849,7 +22849,7 @@
 	},
 	{
 		"id": "CYQ",
-		"name": "Trường Cao đẳng Y tế Quảng Ninh",
+		"name": "Cao đẳng Y tế Quảng Ninh",
 		"address": "Số 5, Phố Hải Sơn, P. Hồng Hải, TP. Hạ long, tỉnh Quảng Ninh - Hạ Long - Quảng Ninh",
 		"phone": "033.3837980, 033.3837956, 033.3837978",
 		"email": "",
@@ -22874,7 +22874,7 @@
 	},
 	{
 		"id": "YSL",
-		"name": "Trường Cao đẳng Y tế Sơn La",
+		"name": "Cao đẳng Y tế Sơn La",
 		"address": "Tổ 04 - Chiềng Lề - Bắc Yên - Sơn La",
 		"phone": "0223 857961",
 		"email": "",
@@ -22905,7 +22905,7 @@
 	},
 	{
 		"id": "CYE",
-		"name": "Trường Cao đẳng Y tế Thái Bình",
+		"name": "Cao đẳng Y tế Thái Bình",
 		"address": "Số 290, Phan Bá Vành - Phường Quang Trung - Thái Bình - Thái Bình",
 		"phone": "036.3844966",
 		"email": "",
@@ -22918,7 +22918,7 @@
 	},
 	{
 		"id": "CYT",
-		"name": "Trường Cao đẳng Y tế Thanh Hoá",
+		"name": "Cao đẳng Y tế Thanh Hoá",
 		"address": "177 Phố Hải Thượng Lãn Ông - Phường Đông Vệ - Bá Thước - Thanh Hóa",
 		"phone": "0373.951081",
 		"email": "",
@@ -22955,7 +22955,7 @@
 	},
 	{
 		"id": "CYI",
-		"name": "Trường Cao đẳng Y tế Thái Nguyên",
+		"name": "Cao đẳng Y tế Thái Nguyên",
 		"address": "Phường Thịnh Đán - Thái Nguyên - Thái Nguyên",
 		"phone": "0280.3846630",
 		"email": "",
@@ -23001,7 +23001,7 @@
 	},
 	{
 		"id": "YYB",
-		"name": "Trường Cao đẳng Y tế Yên Bái",
+		"name": "Cao đẳng Y tế Yên Bái",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -23014,7 +23014,7 @@
 	},
 	{
 		"id": "CSA",
-		"name": "Trường Cao đẳng ASEAN",
+		"name": "Cao đẳng ASEAN",
 		"address": "Km 15+150, Quốc Lộ 5 Hà Nội Đi Hải Phòng - Trưng Trắc - Văn Lâm - Hưng Yên",
 		"phone": "0321.6259555",
 		"email": "caodangasean@gmail.com",
@@ -23045,7 +23045,7 @@
 	},
 	{
 		"id": "CBK",
-		"name": "Trường Cao đẳng Bách Khoa Hưng Yên",
+		"name": "Cao đẳng Bách Khoa Hưng Yên",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -23100,7 +23100,7 @@
 	},
 	{
 		"id": "CBT",
-		"name": "Trường Cao đẳng Công nghệ và Thương mại Hà Nội",
+		"name": "Cao đẳng Công nghệ và Thương mại Hà Nội",
 		"address": "Tân Lập (Cách trường Đại học Công nghiệp 02 km) - Đan Phượng - Ba Đình - Hà Nội",
 		"phone": "04.33664949 - 33630245",
 		"email": "tuyensinh@htt.edu.vn",
@@ -23241,7 +23241,7 @@
 	},
 	{
 		"id": "CBH",
-		"name": "Trường Cao đẳng Công nghệ Bắc Hà",
+		"name": "Cao đẳng Công nghệ Bắc Hà",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -23344,7 +23344,7 @@
 	},
 	{
 		"id": "CNH",
-		"name": "Trường Cao đẳng Công nghệ Hà Nội",
+		"name": "Cao đẳng Công nghệ Hà Nội",
 		"address": "Km12, Quốc lộ 32 - Xã Phú Diễn - Từ Liêm - Hà Nội",
 		"phone": "04.62952832 , 04.37637574, Fa",
 		"email": "tuyensinh@hitech.edu.vn",
@@ -23405,7 +23405,7 @@
 	},
 	{
 		"id": "CDU",
-		"name": "Trường Cao đẳng Dược Phú Thọ",
+		"name": "Cao đẳng Dược Phú Thọ",
 		"address": "Số nhà 2201, Đại lộ Hùng Vương - Phường Gia Cẩm - Việt Trì - Phú Thọ",
 		"phone": "0466 809 983 _ 0988817748",
 		"email": "",
@@ -23436,7 +23436,7 @@
 	},
 	{
 		"id": "CEO",
-		"name": "Trường Cao đẳng Đại Việt",
+		"name": "Cao đẳng Đại Việt",
 		"address": "Lô 2B.X3, Khu đô thị mới Mỹ Đình 1 - Từ Liêm - Hà Nội",
 		"phone": "04.6287.2316, 04.6287.2426; Fa",
 		"email": "daivietsaigon@daivietsaigon.edu.vn",
@@ -23467,7 +23467,7 @@
 	},
 	{
 		"id": "CNA",
-		"name": "Trường Cao đẳng Hoan Châu",
+		"name": "Cao đẳng Hoan Châu",
 		"address": "Xã Diễn Thành - Diễn Châu - Nghệ An",
 		"phone": "(038)-8.934.242, 0913.215.152",
 		"email": "",
@@ -23504,7 +23504,7 @@
 	},
 	{
 		"id": "CKN",
-		"name": "Trường Cao đẳng Kinh tế Kỹ thuật Hà Nội",
+		"name": "Cao đẳng Kinh tế Kỹ thuật Hà Nội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -23547,7 +23547,7 @@
 	},
 	{
 		"id": "CNC",
-		"name": "Trường Cao đẳng Ngoại ngữ - Công nghệ Việt Nhật",
+		"name": "Cao đẳng Ngoại ngữ - Công nghệ Việt Nhật",
 		"address": "E6 - Khu Công nghiệp Quế Võ - Bắc Ninh - Bắc Ninh",
 		"phone": "Te",
 		"email": "tuyensinh@cnc.edu.vn",
@@ -23659,7 +23659,7 @@
 	},
 	{
 		"id": "QSB",
-		"name": "Trường Đại học Bách khoa Tp.Hồ Chí Minh",
+		"name": "Đại học Bách khoa Tp.Hồ Chí Minh",
 		"address": "268 Lý Thường Kiệt - Quận 10 - Hồ Chí Minh",
 		"phone": "08.38654087; Fa",
 		"email": "",
@@ -23876,7 +23876,7 @@
 	},
 	{
 		"id": "QSC",
-		"name": "Trường Đại học Công nghệ thông tin - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Đại học Công nghệ thông tin - ĐHQG-HCM",
 		"address": "Km 20 xa lộ Hà Nội - Linh Trung - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.37252002",
 		"email": "",
@@ -23931,7 +23931,7 @@
 	},
 	{
 		"id": "QSK",
-		"name": "Trường Đại học Kinh tế - Luật - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Đại học Kinh tế - Luật - ĐHQG-HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -24034,7 +24034,7 @@
 	},
 	{
 		"id": "QSQ",
-		"name": "Trường Đại học Quốc Tế - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Đại học Quốc Tế - ĐHQG-HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -24344,7 +24344,7 @@
 	},
 	{
 		"id": "QST",
-		"name": "Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Đại học Khoa học Tự nhiên - ĐHQG-HCM",
 		"address": "227 Nguyễn Văn Cừ - P4 - Quận 5 - Hồ Chí Minh",
 		"phone": "08.38354394",
 		"email": "",
@@ -24486,7 +24486,7 @@
 	},
 	{
 		"id": "QSX",
-		"name": "Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Đại học Khoa học Xã hội và Nhân văn - ĐHQG-HCM",
 		"address": "12 Đinh Tiên Hoàng - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.38221909, 08.38293828",
 		"email": "",
@@ -24701,7 +24701,7 @@
 	},
 	{
 		"id": "QSY",
-		"name": "Khoa Y - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Khoa Y - ĐHQG-HCM",
 		"address": "Khu phố 6 - P. Linh Trung - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.37242160",
 		"email": "",
@@ -24724,8 +24724,21 @@
 		]
 	},
 	{
+		"id": "",
+		"name": "Viện Đào tạo quốc tế (IEI) - ĐHQG-HCM",
+		"address": "",
+		"email": "",
+		"website": "",
+		"phone": "",
+		"region": 3,
+		"city": 2,
+		"type": 1,
+		"majors": [
+		]
+	},
+	{
 		"id": "QSF",
-		"name": "Trung tâm Đại học Pháp tại TP HCM - Đại học Quốc gia TP.Hồ Chí Minh",
+		"name": "Trung tâm Đại học Pháp tại TP HCM - ĐHQG-HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -24738,7 +24751,7 @@
 	},
 	{
 		"id": "DHA",
-		"name": "Khoa Luật - Đại học Huế",
+		"name": "Khoa Luật - ĐH Huế",
 		"address": "Số 3 Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "(054) 3946 996",
 		"email": "law@hueuni.edu.vn",
@@ -24773,7 +24786,7 @@
 	},
 	{
 		"id": "DHC",
-		"name": "Khoa giáo dục thể chất - Đại học Huế",
+		"name": "Khoa giáo dục thể chất - ĐH Huế",
 		"address": "Số 3 - Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "(054) 3833 185 Fa",
 		"email": "",
@@ -24797,7 +24810,7 @@
 	},
 	{
 		"id": "DHD",
-		"name": "Khoa Du lịch - Đại học Huế",
+		"name": "Khoa Du lịch - ĐH Huế",
 		"address": "Số 3 - Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "054.3897744, 054.3897755; Fa",
 		"email": "",
@@ -24843,7 +24856,7 @@
 	},
 	{
 		"id": "DHF",
-		"name": "Trường Đại học Ngoại ngữ - Đại học Huế",
+		"name": "Đại học Ngoại ngữ - ĐH Huế",
 		"address": "Số 3 - Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "054.3834777, Fa",
 		"email": "",
@@ -24978,7 +24991,7 @@
 	},
 	{
 		"id": "DHK",
-		"name": "Trường Đại học Kinh tế - Đại học Huế",
+		"name": "Đại học Kinh tế - ĐH Huế",
 		"address": "Số 100 Phùng Hưng - Thuận Thành - Huế - Thừa Thiên - Huế",
 		"phone": "054.3529.139",
 		"email": "",
@@ -25129,7 +25142,7 @@
 	},
 	{
 		"id": "DHL",
-		"name": "Trường Đại học Nông Lâm - Đại học Huế",
+		"name": "Đại học Nông Lâm - ĐH Huế",
 		"address": "Số 3 - Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "054.3522535; Fa",
 		"email": "",
@@ -25393,7 +25406,7 @@
 	},
 	{
 		"id": "DHN",
-		"name": "Trường Đại học Nghệ thuật - Đại học Huế",
+		"name": "Đại học Nghệ thuật - ĐH Huế",
 		"address": "Số 3 - Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "054.3522315, 054.3511824",
 		"email": "",
@@ -25483,7 +25496,7 @@
 	},
 	{
 		"id": "DHQ",
-		"name": "Phân hiệu Đại học Huế tại Quảng Trị",
+		"name": "Phân hiệu ĐH Huế tại Quảng Trị",
 		"address": "133 Lý Thường Kiệt - Đông Hà - Quảng Trị",
 		"phone": "(053) 3560 661",
 		"email": "",
@@ -25535,7 +25548,7 @@
 	},
 	{
 		"id": "DHS",
-		"name": "Trường Đại học Sư Phạm - Đại học Huế",
+		"name": "Đại học Sư Phạm - ĐH Huế",
 		"address": "Số 3 - Lê Lợi - Huế - Thừa Thiên - Huế",
 		"phone": "054.3822132",
 		"email": "",
@@ -25689,7 +25702,7 @@
 	},
 	{
 		"id": "DHT",
-		"name": "Trường Đại học Khoa học - Đại học Huế",
+		"name": "Đại học Khoa học - ĐH Huế",
 		"address": "Số 77 Nguyễn Huệ - Phú Nhuận - Huế - Thừa Thiên - Huế",
 		"phone": "054.3823.290",
 		"email": "",
@@ -25896,7 +25909,7 @@
 	},
 	{
 		"id": "DHY",
-		"name": "Trường Đại học Y Dược - Đại học Huế",
+		"name": "Đại học Y Dược - ĐH Huế",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -26041,7 +26054,7 @@
 	},
 	{
 		"id": "DDK",
-		"name": "Trường Đại học Bách khoa - Đại học Đà Nẵng",
+		"name": "Đại học Bách khoa - ĐH Đà Nẵng",
 		"address": "54 Nguyễn Lương Bằng - Liên Chiểu - Đà Nẵng",
 		"phone": "0511.3842308",
 		"email": "hcth.dhbk@dut.udn.vn",
@@ -26238,7 +26251,7 @@
 	},
 	{
 		"id": "DDQ",
-		"name": "Trường Đại học Kinh tế - Đại học Đà Nẵng",
+		"name": "Đại học Kinh tế - ĐH Đà Nẵng",
 		"address": "71 Ngũ Hành Sơn - Ngũ Hành Sơn - Đà Nẵng",
 		"phone": "05113952904",
 		"email": "",
@@ -26382,7 +26395,7 @@
 	},
 	{
 		"id": "DDF",
-		"name": "Trường Đại học Ngoại ngữ - Đại học Đà Nẵng",
+		"name": "Đại học Ngoại ngữ - ĐH Đà Nẵng",
 		"address": "131 Lương Nhữ Hộc - Hải Châu - Đà Nẵng",
 		"phone": "0511.3699324",
 		"email": "",
@@ -26486,7 +26499,7 @@
 	},
 	{
 		"id": "DDS",
-		"name": "Trường Đại học Sư phạm - Đại học Đà Nẵng",
+		"name": "Đại học Sư phạm - ĐH Đà Nẵng",
 		"address": "459 Tôn Đức Thắng - Liên Chiểu - Đà Nẵng",
 		"phone": "0511.3841323, 0511.3841513; Fa",
 		"email": "",
@@ -26712,7 +26725,7 @@
 	},
 	{
 		"id": "DDP",
-		"name": "Phân hiệu Đại học Đà Nẵng tại KomTum",
+		"name": "Phân hiệu ĐH Đà Nẵng tại KomTum",
 		"address": "129 Phan Đình Phùng - Kon Tum - Kon Tum",
 		"phone": "060.3913029",
 		"email": "",
@@ -26946,7 +26959,7 @@
 	},
 	{
 		"id": "DDY",
-		"name": "Khoa Y dược - Đại học Đà Nẵng",
+		"name": "Khoa Y dược - ĐH Đà Nẵng",
 		"address": "48B Cao Thắng - Hải Châu - Đà Nẵng",
 		"phone": "0511.3840775; Fax",
 		"email": "",
@@ -26976,7 +26989,7 @@
 	},
 	{
 		"id": "DDC",
-		"name": "Trường Cao đẳng Công nghệ - Đại học Đà Nẵng",
+		"name": "Cao đẳng Công nghệ - ĐH Đà Nẵng",
 		"address": "48 Cao Thắng - Hải Châu - Đà Nẵng",
 		"phone": "0511 3835705",
 		"email": "iutnd@dng.vnn.vn",
@@ -27091,7 +27104,7 @@
 	},
 	{
 		"id": "DDI",
-		"name": "Trường Cao đẳng Công nghệ thông tin - Đại học Đà Nẵng",
+		"name": "Cao đẳng Công nghệ thông tin - ĐH Đà Nẵng",
 		"address": "Làng Đại Học Đà Nẵng - Phường Hòa Quý - Ngũ Hành Sơn - Đà Nẵng",
 		"phone": "05113.667113 * Fa",
 		"email": "",
@@ -27307,7 +27320,7 @@
 	},
 	{
 		"id": "TAG",
-		"name": "Trường Đại học An Giang",
+		"name": "Đại học An Giang",
 		"address": "Số 18, đường Ung Văn Khiêm - Đông Xuyên - Thành phố Long Xuyên - An Giang",
 		"phone": "076.3846074, 076.3847567",
 		"email": "",
@@ -27618,7 +27631,7 @@
 	},
 	{
 		"id": "ANS",
-		"name": "Trường Đại học An Ninh nhân dân",
+		"name": "Đại học An Ninh nhân dân",
 		"address": "Km18 Xa lộ Hà Nội - Linh Trung - Thủ Đức - Hồ Chí Minh",
 		"phone": "083.8963884",
 		"email": "",
@@ -27643,7 +27656,7 @@
 	},
 	{
 		"id": "DBL",
-		"name": "Trường Đại học Bạc Liêu",
+		"name": "Đại học Bạc Liêu",
 		"address": "178, đường Võ Thị Sáu - 8 - Bạc Liêu - Bạc Liêu",
 		"phone": "0781.3821107",
 		"email": "",
@@ -27857,7 +27870,7 @@
 	},
 	{
 		"id": "TCT",
-		"name": "Trường Đại học Cần Thơ",
+		"name": "Đại học Cần Thơ",
 		"address": "Đường 3/2 - Ninh Kiều - Cần Thơ",
 		"phone": "0710 3600433",
 		"email": "",
@@ -28218,7 +28231,7 @@
 	},
 	{
 		"id": "CSS",
-		"name": "Trường Đại học Cảnh sát nhân dân",
+		"name": "Đại học Cảnh sát nhân dân",
 		"address": "Khu phố 1, đường Nguyễn Hữu Thọ - Tân Phong - Quận 7 - Hồ Chí Minh",
 		"phone": "08.37203008",
 		"email": "",
@@ -28267,7 +28280,7 @@
 	},
 	{
 		"id": "HUI",
-		"name": "Trường Đại học Công nghiệp Tp. HCM",
+		"name": "Đại học Công nghiệp Tp. HCM",
 		"address": "Số 12, đường Nguyễn Văn Bảo - Gò Vấp - Hồ Chí Minh",
 		"phone": "083.9850578; 8955858",
 		"email": "",
@@ -28421,7 +28434,7 @@
 	},
 	{
 		"id": "DCT",
-		"name": "Trường Đại học Công nghiệp thực phẩm Tp.HCM",
+		"name": "Đại học Công nghiệp thực phẩm Tp.HCM",
 		"address": "140 Lê Trọng Tấn - Tây thạnh - Tân Phú - Hồ Chí Minh",
 		"phone": "(08) 54083612",
 		"email": "",
@@ -28646,7 +28659,7 @@
 	},
 	{
 		"id": "PVU",
-		"name": "Trường Đại học Dầu khí Việt Nam",
+		"name": "Đại học Dầu khí Việt Nam",
 		"address": "Tầng 7, tòa nhà PVMTC, số 762 Cách Mạng Tháng 8 - Long Toàn - Thị xã Bà Rịa - Bà Rịa - Vũng Tàu",
 		"phone": "064.3738.879",
 		"email": "",
@@ -28677,7 +28690,7 @@
 	},
 	{
 		"id": "TDL",
-		"name": "Trường Đại học Đà Lạt",
+		"name": "Đại học Đà Lạt",
 		"address": "Số 1 Phù Đổng Thiên Vương - TP.Đà Lạt - Lâm Đồng",
 		"phone": "063.3822246",
 		"email": "",
@@ -28956,7 +28969,7 @@
 	},
 	{
 		"id": "DNU",
-		"name": "Trường Đại học Đồng Nai",
+		"name": "Đại học Đồng Nai",
 		"address": "Số 4, Lê Quý Đôn, P.Tân Hiệp, TP Biên Hòa, Đồng Nai - Tân hiệp - Thành phố Biên Hòa - Đồng Nai",
 		"phone": "061.3824662",
 		"email": "",
@@ -29212,7 +29225,7 @@
 	},
 	{
 		"id": "SPD",
-		"name": "Trường Đại học Đồng Tháp",
+		"name": "Đại học Đồng Tháp",
 		"address": "783 Phạm Hữu Lầu - Phường 6 - Thành phố Cao Lãnh - Đồng Tháp",
 		"phone": "067.3881619, 067.3882258",
 		"email": "",
@@ -29563,7 +29576,7 @@
 	},
 	{
 		"id": "GHA",
-		"name": "Trường Đại học Giao thông Vận tải (Cơ sở 2 phía Nam)",
+		"name": "Đại học Giao thông Vận tải (Cơ sở 2 phía Nam)",
 		"address": "Láng Thượng - Đống Đa - Hà Nội - Đống Đa - Hà Nội",
 		"phone": "04.37669538",
 		"email": "",
@@ -29666,7 +29679,7 @@
 	},
 	{
 		"id": "GHA",
-		"name": "Trường Đại học Giao thông Vận tải Tp.HCM",
+		"name": "Đại học Giao thông Vận tải Tp.HCM",
 		"address": "Láng Thượng - Đống Đa - Hà Nội - Đống Đa - Hà Nội",
 		"phone": "04.37669538",
 		"email": "",
@@ -29769,7 +29782,7 @@
 	},
 	{
 		"id": "KTS",
-		"name": "Trường Đại học Kiến trúc Tp.HCM",
+		"name": "Đại học Kiến trúc Tp.HCM",
 		"address": "196 Pasteur - Phường 6 - Quận 3 - Hồ Chí Minh",
 		"phone": "08.38228451 xin s ni b 158; 08.38232571",
 		"email": "",
@@ -29922,7 +29935,7 @@
 	},
 	{
 		"id": "KSA",
-		"name": "Trường Đại học Kinh tế Tp.HCM",
+		"name": "Đại học Kinh tế Tp.HCM",
 		"address": "59C đường Nguyễn Đình Chiểu - P. 6 - Quận 3 - Hồ Chí Minh",
 		"phone": "08.38230082",
 		"email": "",
@@ -30029,7 +30042,7 @@
 	},
 	{
 		"id": "KCC",
-		"name": "Trường Đại học Kỹ thuật – Công nghệ Cần Thơ",
+		"name": "Đại học Kỹ thuật – Công nghệ Cần Thơ",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -30104,7 +30117,7 @@
 	},
 	{
 		"id": "YDN",
-		"name": "Trường Đại học Kỹ thuật Y – Dược Đà Nẵng",
+		"name": "Đại học Kỹ thuật Y – Dược Đà Nẵng",
 		"address": "99 Hùng Vương - P. Hải Châu - Hải Châu - Đà Nẵng",
 		"phone": "(0511)3892.062",
 		"email": "dhktyd@dhktyduocdn.edu.vn",
@@ -30204,7 +30217,7 @@
 	},
 	{
 		"id": "LPS",
-		"name": "Trường Đại học Luật Tp.HCM",
+		"name": "Đại học Luật Tp.HCM",
 		"address": "02 Nguyễn Tất Thành - Phường 12 - Quận 4 - Hồ Chí Minh",
 		"phone": "08.38262208; Fa",
 		"email": "",
@@ -30261,7 +30274,7 @@
 	},
 	{
 		"id": "MTS",
-		"name": "Trường Đại học Mỹ thuật Tp.HCM",
+		"name": "Đại học Mỹ thuật Tp.HCM",
 		"address": "05 Phan Đăng Lưu - P3 - Bình Thạnh - Hồ Chí Minh",
 		"phone": "08.38416010",
 		"email": "office@hcmufa.edu.vn",
@@ -30310,7 +30323,7 @@
 	},
 	{
 		"id": "NHS",
-		"name": "Trường Đại học Ngân hàng Tp.HCM",
+		"name": "Đại học Ngân hàng Tp.HCM",
 		"address": "02 Nguyễn Đình Chiểu - TP.Nha Trang - Khánh Hòa",
 		"phone": "058.3831148",
 		"email": "",
@@ -30356,7 +30369,7 @@
 	},
 	{
 		"id": "TSN",
-		"name": "Trường Đại học Nha Trang",
+		"name": "Đại học Nha Trang",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -30677,7 +30690,7 @@
 	},
 	{
 		"id": "NLS",
-		"name": "Trường Đại học Nông Lâm Tp.HCM",
+		"name": "Đại học Nông Lâm Tp.HCM",
 		"address": "Khu phố 6 - Linh Trung - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.38963350 38974716",
 		"email": "pdaotao@hcmuaf.edu.vn",
@@ -31027,7 +31040,7 @@
 	},
 	{
 		"id": "DPY",
-		"name": "Trường Đại học Phú Yên",
+		"name": "Đại học Phú Yên",
 		"address": "18 Trần Phú - Tuy Hòa - Phú Yên",
 		"phone": "057.3843119",
 		"email": "",
@@ -31154,7 +31167,7 @@
 	},
 	{
 		"id": "DPQ",
-		"name": "Trường Đại học Phạm Văn Đồng",
+		"name": "Đại học Phạm Văn Đồng",
 		"address": "986 Quang Trung - Quảng Ngãi - Quảng Ngãi",
 		"phone": "055.3821313, Fa",
 		"email": "",
@@ -31356,7 +31369,7 @@
 	},
 	{
 		"id": "DQB",
-		"name": "Trường Đại học Quảng Bình",
+		"name": "Đại học Quảng Bình",
 		"address": "312 Lý Thường Kiệt - Đồng Hới - Quảng Bình",
 		"phone": "052.3824052",
 		"email": "",
@@ -31677,7 +31690,7 @@
 	},
 	{
 		"id": "DQU",
-		"name": "Trường Đại học Quảng Nam",
+		"name": "Đại học Quảng Nam",
 		"address": "102 Hùng Vương - Tam Kỳ - Quảng Nam",
 		"phone": "0510.3812834, Fa",
 		"email": "tuyensinh@qnamuni.edu.vn",
@@ -31839,7 +31852,7 @@
 	},
 	{
 		"id": "DQN",
-		"name": "Trường Đại học Quy Nhơn",
+		"name": "Đại học Quy Nhơn",
 		"address": "Số 170 An Dương Vương, TP. Quy Nhơn - Qui Nhơn - Bình Định",
 		"phone": "056.3646071",
 		"email": "",
@@ -32172,7 +32185,7 @@
 	},
 	{
 		"id": "SGD",
-		"name": "Trường Đại học Sài Gòn",
+		"name": "Đại học Sài Gòn",
 		"address": "273 An Dương Vương - 3 - Quận 5 - Hồ Chí Minh",
 		"phone": "08.38352309",
 		"email": "",
@@ -32523,7 +32536,7 @@
 	},
 	{
 		"id": "DSD",
-		"name": "Trường Đại học Sân khấu, Điện ảnh Tp.HCM",
+		"name": "Đại học Sân khấu, Điện ảnh Tp.HCM",
 		"address": "125 Cống Quỳnh - Quận 1 - Hồ Chí Minh",
 		"phone": "08.38393658",
 		"email": "",
@@ -32572,7 +32585,7 @@
 	},
 	{
 		"id": "SPK",
-		"name": "Trường Đại học Sư phạm Kỹ thuật Tp.HCM",
+		"name": "Đại học Sư phạm Kỹ thuật Tp.HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -32797,7 +32810,7 @@
 	},
 	{
 		"id": "VLU",
-		"name": "Trường Đại học Sư phạm Kỹ thuật Vĩnh Long",
+		"name": "Đại học Sư phạm Kỹ thuật Vĩnh Long",
 		"address": "73 Nguyễn Huệ - 2 - Thành phố Vĩnh Long - Vĩnh Long",
 		"phone": "070.3862456",
 		"email": "",
@@ -32906,7 +32919,7 @@
 	},
 	{
 		"id": "SPS",
-		"name": "Trường Đại học Sư phạm Tp.HCM",
+		"name": "Đại học Sư phạm Tp.HCM",
 		"address": "280 An Dương Vương, - Quận 5 - Hồ Chí Minh",
 		"phone": "08.38300440",
 		"email": "",
@@ -33105,7 +33118,7 @@
 	},
 	{
 		"id": "STS",
-		"name": "Trường Đại học Sư phạm Thể dục Thể thao Tp.HCM",
+		"name": "Đại học Sư phạm Thể dục Thể thao Tp.HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -33130,7 +33143,7 @@
 	},
 	{
 		"id": "CTQ",
-		"name": "Trường Đại học Tài chính Kế toán",
+		"name": "Đại học Tài chính Kế toán",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -33143,7 +33156,7 @@
 	},
 	{
 		"id": "DMS",
-		"name": "Trường Đại học Tài chính Marketing",
+		"name": "Đại học Tài chính Marketing",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -33234,7 +33247,7 @@
 	},
 	{
 		"id": "DTM",
-		"name": "Trường Đại học Tài nguyên và Môi trường Tp.HCM",
+		"name": "Đại học Tài nguyên và Môi trường Tp.HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -33406,7 +33419,7 @@
 	},
 	{
 		"id": "TTN",
-		"name": "Trường Đại học Tây Nguyên",
+		"name": "Đại học Tây Nguyên",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -33732,7 +33745,7 @@
 	},
 	{
 		"id": "TTG",
-		"name": "Trường Đại học Tiền Giang",
+		"name": "Đại học Tiền Giang",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -34023,7 +34036,7 @@
 	},
 	{
 		"id": "TDS",
-		"name": "Trường Đại học Thể dục thể thao thành phố Hồ Chí Minh",
+		"name": "Đại học Thể dục thể thao Tp. HCM",
 		"address": "Khu phố 6 - Linh Trung - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.38961884; Fa",
 		"email": "",
@@ -34060,7 +34073,7 @@
 	},
 	{
 		"id": "TTD",
-		"name": "Trường Đại học Thể dục Thể thao Đà Nẵng",
+		"name": "Đại học Thể dục Thể thao Đà Nẵng",
 		"address": "Số 44 đường Dũng Sĩ Thanh Khê - Thanh Khê - Đà Nẵng",
 		"phone": "0511.3759918, 0511.3746631",
 		"email": "",
@@ -34091,7 +34104,7 @@
 	},
 	{
 		"id": "TDM",
-		"name": "Trường Đại học Thủ Dầu Một",
+		"name": "Đại học Thủ Dầu Một",
 		"address": "Số 6, đường Trần Văn Ơn - Phú Hòa - An Phú - Bình Dương",
 		"phone": "0650.835677",
 		"email": "",
@@ -34322,7 +34335,7 @@
 	},
 	{
 		"id": "DTT",
-		"name": "Trường Đại học Tôn Đức Thắng",
+		"name": "Đại học Tôn Đức Thắng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -34602,7 +34615,7 @@
 	},
 	{
 		"id": "DVT",
-		"name": "Trường Đại học Trà Vinh",
+		"name": "Đại học Trà Vinh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -34995,7 +35008,7 @@
 	},
 	{
 		"id": "VHS",
-		"name": "Trường Đại học Văn hoá Tp.HCM",
+		"name": "Đại học Văn hoá Tp.HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -35056,7 +35069,7 @@
 	},
 	{
 		"id": "MTU",
-		"name": "Trường Đại học Xây dựng Miền Tây",
+		"name": "Đại học Xây dựng Miền Tây",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -35150,7 +35163,7 @@
 	},
 	{
 		"id": "XDT",
-		"name": "Trường Đại học Xây dựng Miền Trung",
+		"name": "Đại học Xây dựng Miền Trung",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -35325,7 +35338,7 @@
 	},
 	{
 		"id": "YCT",
-		"name": "Trường Đại học Y dược Cần Thơ",
+		"name": "Đại học Y dược Cần Thơ",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -35426,7 +35439,7 @@
 	},
 	{
 		"id": "YDS",
-		"name": "Trường Đại học Y Dược Tp.HCM",
+		"name": "Đại học Y Dược Tp.HCM",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -35561,7 +35574,7 @@
 	},
 	{
 		"id": "TYS",
-		"name": "Trường Đại học Y khoa Phạm Ngọc Thạch",
+		"name": "Đại học Y khoa Phạm Ngọc Thạch",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -35624,7 +35637,7 @@
 	},
 	{
 		"id": "MBS",
-		"name": "Trường Đại học Mở Tp.HCM",
+		"name": "Đại học Mở Tp.HCM",
 		"address": "97 Võ Văn Tần - 6 - Quận 3 - Hồ Chí Minh",
 		"phone": "08.39300072, 08.393000210 - 123",
 		"email": "",
@@ -35778,7 +35791,7 @@
 	},
 	{
 		"id": "DBV",
-		"name": "Trường Đại học Bà Rịa - Vũng Tàu",
+		"name": "Đại học Bà Rịa - Vũng Tàu",
 		"address": "80 Trương Công Định - Phường 3 - Thành phố Vũng Tàu - Bà Rịa - Vũng Tàu",
 		"phone": "064.3533114; 3532222 Ext 109; 3532235; 3533512",
 		"email": "",
@@ -35876,7 +35889,7 @@
 	},
 	{
 		"id": "DBD",
-		"name": "Trường Đại học Bình Dương",
+		"name": "Đại học Bình Dương",
 		"address": "504 Đại lộ đại lộ Bình Dương - Hiệp Thành - An Phú - Bình Dương",
 		"phone": "0650.3822058",
 		"email": "",
@@ -36065,7 +36078,7 @@
 	},
 	{
 		"id": "DCD",
-		"name": "Trường Đại học Công nghệ Đồng Nai",
+		"name": "Đại học Công nghệ Đồng Nai",
 		"address": "Đường Bùi Trọng Nghĩa - Trảng Dài - Thành phố Biên Hòa - Đồng Nai",
 		"phone": "(84 - 061) 3 998 285",
 		"email": "tuyensinh@dntu.edu.vn",
@@ -36292,7 +36305,7 @@
 	},
 	{
 		"id": "DMD",
-		"name": "Trường Đại học Công nghệ Miền Đông",
+		"name": "Đại học Công nghệ Miền Đông",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -36353,7 +36366,7 @@
 	},
 	{
 		"id": "DSG",
-		"name": "Trường Đại học Công nghệ Sài Gòn",
+		"name": "Đại học Công nghệ Sài Gòn",
 		"address": "180 Cao lỗ - 4 - Quận 8 - Hồ Chí Minh",
 		"phone": "08.38.505.520",
 		"email": "",
@@ -36462,7 +36475,7 @@
 	},
 	{
 		"id": "DCG",
-		"name": "Trường Đại học Công nghệ Thông tin Gia Định",
+		"name": "Đại học Công nghệ Thông tin Gia Định",
 		"address": "A15 – A19 Nguyễn Hữu Thọ - Tân Phong - Quận 7 - Hồ Chí Minh",
 		"phone": "08.62622980 - 18",
 		"email": "",
@@ -36529,7 +36542,7 @@
 	},
 	{
 		"id": "DCL",
-		"name": "Trường Đại học Dân lập Cửu Long",
+		"name": "Đại học Dân lập Cửu Long",
 		"address": "Quốc lộ 1A - - Long Hồ - Vĩnh Long",
 		"phone": "0703.821655",
 		"email": "mekonguniversity@mku.edu.vn",
@@ -36692,7 +36705,7 @@
 	},
 	{
 		"id": "DDT",
-		"name": "Trường Đại học Dân lập Duy Tân",
+		"name": "Đại học Dân lập Duy Tân",
 		"address": "182 Nguyễn Văn Linh - Thanh Khê - Đà Nẵng",
 		"phone": "0511.3653561, 0511.3650403, 05113.827111. Hotlin",
 		"email": "dtu@dtu.edu.vn",
@@ -36879,7 +36892,7 @@
 	},
 	{
 		"id": "DLH",
-		"name": "Trường Đại học Dân lập Lạc Hồng",
+		"name": "Đại học Dân lập Lạc Hồng",
 		"address": "Số 10 đường Huỳnh Văn Nghệ - Bửu Long - Thành phố Biên Hòa - Đồng Nai",
 		"phone": "061.3952778",
 		"email": "",
@@ -37012,7 +37025,7 @@
 	},
 	{
 		"id": "DPX",
-		"name": "Trường Đại học Dân lập Phú Xuân",
+		"name": "Đại học Dân lập Phú Xuân",
 		"address": "176 Trần Phú - Huế - Thừa Thiên - Huế",
 		"phone": "054.3829770; 3845885",
 		"email": "",
@@ -37139,7 +37152,7 @@
 	},
 	{
 		"id": "DVL",
-		"name": "Trường Đại học Dân lập Văn Lang",
+		"name": "Đại học Dân lập Văn Lang",
 		"address": "45 Nguyễn Khắc Nhu - Cô Giang - Quận 1 - Hồ Chí Minh",
 		"phone": "08.38364954, 38369640, 38369838",
 		"email": "",
@@ -37260,7 +37273,7 @@
 	},
 	{
 		"id": "DAD",
-		"name": "Trường Đại học Đông Á",
+		"name": "Đại học Đông Á",
 		"address": "63 đường Lê Văn Long, (Lí Tự Trọng nối dài) - Thanh Bình - Hải Châu - Đà Nẵng",
 		"phone": "0511.3519.991 - 3519.929",
 		"email": "",
@@ -37399,7 +37412,7 @@
 	},
 	{
 		"id": "DTH",
-		"name": "Trường Đại học Hoa Sen",
+		"name": "Đại học Hoa Sen",
 		"address": "Số 93 Cao Thắng - Quận 3 - Hồ Chí Minh",
 		"phone": "08.38301877, 08.34370086",
 		"email": "tuyensinh@hoasen.com.vn",
@@ -37618,7 +37631,7 @@
 	},
 	{
 		"id": "KTD",
-		"name": "Trường Đại học Kiến trúc Đà Nẵng",
+		"name": "Đại học Kiến trúc Đà Nẵng",
 		"address": "Số 566 đường Núi Thành - Hải Châu - Đà Nẵng",
 		"phone": "0511.3210031, 0511.3210032, 0511.3212256",
 		"email": "",
@@ -37727,7 +37740,7 @@
 	},
 	{
 		"id": "DLA",
-		"name": "Trường Đại học Kinh tế Công nghiệp Long An",
+		"name": "Đại học Kinh tế Công nghiệp Long An",
 		"address": "Quốc lộ 1 - Khánh Hậu - Tân An - Long An",
 		"phone": "072.3512826",
 		"email": "",
@@ -37818,7 +37831,7 @@
 	},
 	{
 		"id": "DKB",
-		"name": "Trường Đại học Kinh tế Kỹ thuật Bình Dương",
+		"name": "Đại học Kinh tế Kỹ thuật Bình Dương",
 		"address": "530 Đại lộ Bình Dương, - Hiệp Thành - An Phú - Bình Dương",
 		"phone": "0650.3822847, 0650.3870795",
 		"email": "",
@@ -37921,7 +37934,7 @@
 	},
 	{
 		"id": "KTC",
-		"name": "Trường Đại học Kinh tế - Tài chính Tp.HCM",
+		"name": "Đại học Kinh tế - Tài chính Tp.HCM",
 		"address": "92 Nguyễn Đình Chiểu - Đa Kao - Quận 1 - Hồ Chí Minh",
 		"phone": "(08) 39102254",
 		"email": "tuvantuyensinh@uef.edu.vn",
@@ -37994,7 +38007,7 @@
 	},
 	{
 		"id": "DKC",
-		"name": "Trường Đại học Kỹ thuật-Công nghệ Tp.HCM",
+		"name": "Đại học Kỹ thuật-Công nghệ Tp.HCM",
 		"address": "475A Điện Biên Phủ - 25 - Bình Thạnh - Hồ Chí Minh",
 		"phone": "08.35120782",
 		"email": "",
@@ -38333,7 +38346,7 @@
 	},
 	{
 		"id": "DNC",
-		"name": "Trường Đại học Nam Cần Thơ",
+		"name": "Đại học Nam Cần Thơ",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -38515,7 +38528,7 @@
 	},
 	{
 		"id": "NTT",
-		"name": "Trường Đại học Nguyễn Tất Thành",
+		"name": "Đại học Nguyễn Tất Thành",
 		"address": "P.13 - Quận 4 - Hồ Chí Minh",
 		"phone": "(08) 62619423",
 		"email": "",
@@ -38836,7 +38849,7 @@
 	},
 	{
 		"id": "DNT",
-		"name": "Trường Đại học Ngoại ngữ - Tin học Tp.HCM",
+		"name": "Đại học Ngoại ngữ - Tin học Tp.HCM",
 		"address": "Số 155 Sư Vạn Hạnh - 13 - Quận 10 - Hồ Chí Minh",
 		"phone": "08.38629232",
 		"email": "",
@@ -38927,7 +38940,7 @@
 	},
 	{
 		"id": "DPC",
-		"name": "Trường Đại học Phan Châu Trinh",
+		"name": "Đại học Phan Châu Trinh",
 		"address": "Số 2, Trần Hưng Đạo - Hội An - Quảng Nam",
 		"phone": "0510.6260006my l 15.; Fa",
 		"email": "tuyensinh@pctu.edu.vn",
@@ -39012,7 +39025,7 @@
 	},
 	{
 		"id": "DPT",
-		"name": "Trường Đại học Phan Thiết",
+		"name": "Đại học Phan Thiết",
 		"address": "268 Nguyễn Thông - Phú Hải - Phan Thiết - Bình Thuận",
 		"phone": "062.2461372",
 		"email": "dhphanthiet@upt.edu.vn.",
@@ -39109,7 +39122,7 @@
 	},
 	{
 		"id": "DQT",
-		"name": "Trường Đại học Quang Trung",
+		"name": "Đại học Quang Trung",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -39240,7 +39253,7 @@
 	},
 	{
 		"id": "DHB",
-		"name": "Trường Đại học Quốc tế Hồng Bàng",
+		"name": "Đại học Quốc tế Hồng Bàng",
 		"address": "215 Điện Biên Phủ - 15 - Bình Thạnh - Hồ Chí Minh",
 		"phone": "08. 3512 9885",
 		"email": "bantuyensinh@hbu.edu.vn",
@@ -39537,7 +39550,7 @@
 	},
 	{
 		"id": "EIU",
-		"name": "Trường Đại học Quốc tế Miền Đông",
+		"name": "Đại học Quốc tế Miền Đông",
 		"address": "Đường Nam Kỳ Khởi Nghĩa, Phường Hòa Phú, Thành phố mới Bình Dương - Thị xã Thủ Dầu Một - Bình Dương",
 		"phone": "0650.2220341",
 		"email": "",
@@ -39628,7 +39641,7 @@
 	},
 	{
 		"id": "TTQ",
-		"name": "Trường Đại học Tư thục Quốc tế Sài Gòn",
+		"name": "Đại học Tư thục Quốc tế Sài Gòn",
 		"address": "3A Xa lộ Hà Nội - phường Hiệp Phú - Quận 9 - Hồ Chí Minh",
 		"phone": "08.54093929, 08.54093930; Fa",
 		"email": "admission@siu.edu.vn",
@@ -39671,7 +39684,7 @@
 	},
 	{
 		"id": "TTU",
-		"name": "Trường Đại học Tân tạo",
+		"name": "Đại học Tân tạo",
 		"address": "Đại lộ Đại học Tân Tạo, TP. Tân Đức E.Cty - Đức Hòa - Long An",
 		"phone": "0723769216",
 		"email": "",
@@ -39750,7 +39763,7 @@
 	},
 	{
 		"id": "DTD",
-		"name": "Trường Đại học Tây Đô",
+		"name": "Đại học Tây Đô",
 		"address": "Lô Hậu Thạnh Mỹ, khu vực Thạnh Mỹ - Lê Bình - Cái Răng - Cần Thơ",
 		"phone": "0710.3840222, 0710.3840666",
 		"email": "",
@@ -39911,7 +39924,7 @@
 	},
 	{
 		"id": "DTB",
-		"name": "Trường Đại học Thái Bình Dương",
+		"name": "Đại học Thái Bình Dương",
 		"address": "Số 12 Hoàng Công Chất - Quang Trung - Thái Bình - Thái Bình",
 		"phone": "0363.644.882",
 		"email": "dhtb@tbu.edu.vn",
@@ -40053,7 +40066,7 @@
 	},
 	{
 		"id": "DVH",
-		"name": "Trường Đại học Văn hiến",
+		"name": "Đại học Văn hiến",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -40168,7 +40181,7 @@
 	},
 	{
 		"id": "VTT",
-		"name": "Trường Đại học Võ Trường Toản",
+		"name": "Đại học Võ Trường Toản",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -40259,7 +40272,7 @@
 	},
 	{
 		"id": "DYD",
-		"name": "Trường Đại học Yersin Đà Lạt",
+		"name": "Đại học Yersin Đà Lạt",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -40332,7 +40345,7 @@
 	},
 	{
 		"id": "AD2",
-		"name": "Trường Cao đẳng An ninh nhân dân II",
+		"name": "Cao đẳng An ninh nhân dân II",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -40345,7 +40358,7 @@
 	},
 	{
 		"id": "CBC",
-		"name": "Trường Cao đẳng Bán công Công nghệ và Quản trị doanh nghiệp",
+		"name": "Cao đẳng Bán công Công nghệ và Quản trị doanh nghiệp",
 		"address": "Số 15, Đường Trần Văn Trà, Khu Đô Thị Mới Nam Thành Phố - Phường Tân Phú - Quận 7 - Hồ Chí Minh",
 		"phone": "08.54135008, 08.54135026",
 		"email": "tuyensinh@ctim.edu.vn",
@@ -40492,7 +40505,7 @@
 	},
 	{
 		"id": "C56",
-		"name": "Trường Cao đẳng Bến Tre",
+		"name": "Cao đẳng Bến Tre",
 		"address": "Ấp 1, Xã Sơn Đông - Tp Bến Tre - Bến Tre",
 		"phone": "(075)3822294",
 		"email": "tuyensinhbtr@yahoo.com.vn",
@@ -40577,7 +40590,7 @@
 	},
 	{
 		"id": "CD2",
-		"name": "Trường Cao đẳng Cảnh sát nhân dân II",
+		"name": "Cao đẳng Cảnh sát nhân dân II",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -40590,7 +40603,7 @@
 	},
 	{
 		"id": "C55",
-		"name": "Trường Cao đẳng Cần Thơ",
+		"name": "Cao đẳng Cần Thơ",
 		"address": "Số 413 đường 30 - 4 - Phường Hưng Lợi - Ninh Kiều - Cần Thơ",
 		"phone": "0710.3740182",
 		"email": "bants.c55@moet.edu.vn",
@@ -40723,7 +40736,7 @@
 	},
 	{
 		"id": "CEN",
-		"name": "Trường Cao đẳng Cơ điện và Nông nghiệp Nam Bộ",
+		"name": "Cao đẳng Cơ điện và Nông nghiệp Nam Bộ",
 		"address": "Phường Phước Thới - Ô Môn - Cần Thơ",
 		"phone": "0710. 3 661 804; Fa",
 		"email": "cen@moet.edu.vn",
@@ -40766,7 +40779,7 @@
 	},
 	{
 		"id": "CSC",
-		"name": "Trường Cao đẳng Công nghiệp Cao su",
+		"name": "Cao đẳng Công nghiệp Cao su",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -40815,7 +40828,7 @@
 	},
 	{
 		"id": "CCO",
-		"name": "Trường Cao đẳng công nghệ Thủ Đức",
+		"name": "Cao đẳng công nghệ Thủ Đức",
 		"address": "53 Võ Văn Ngân - Phường Linh Chiểu - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.38970023, 08.38966825; Fa",
 		"email": "pdt@mail.tdc.edu.vn",
@@ -40922,7 +40935,7 @@
 	},
 	{
 		"id": "CDS",
-		"name": "Trường Cao đẳng Công nghệ và Quản trị Sonadezi",
+		"name": "Cao đẳng Công nghệ và Quản trị Sonadezi",
 		"address": "Số 1 đường 6A, Khu Công nghiệp Biên Hòa 2 - Thành phố Biên Hòa - Đồng Nai",
 		"phone": "061.3994.013, 061.3994012; Fa",
 		"email": "",
@@ -40989,7 +41002,7 @@
 	},
 	{
 		"id": "CHV",
-		"name": "Trường Cao đẳng Công nghệ Thông tin Hữu Nghị Việt Hàn",
+		"name": "Cao đẳng Công nghệ Thông tin Hữu Nghị Việt Hàn",
 		"address": "Phường Hòa Quý - Ngũ Hành Sơn - Đà Nẵng",
 		"phone": "0511.3962888; Fa",
 		"email": "",
@@ -41038,7 +41051,7 @@
 	},
 	{
 		"id": "CCH",
-		"name": "Trường Cao đẳng Công nghiệp Huế",
+		"name": "Cao đẳng Công nghiệp Huế",
 		"address": "70 Nguyễn Huệ - Huế - Thừa Thiên - Huế",
 		"phone": "(054) 3837077; 3837677; Fa",
 		"email": "cnhue@hueic.edu.vn",
@@ -41215,7 +41228,7 @@
 	},
 	{
 		"id": "CCP",
-		"name": "Trường Cao đẳng Công nghiệp Tuy Hoà",
+		"name": "Cao đẳng Công nghiệp Tuy Hoà",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -41398,7 +41411,7 @@
 	},
 	{
 		"id": "CEM",
-		"name": "Trường Cao đẳng Công nghệ Kinh tế và Thuỷ lợi Miền trung",
+		"name": "Cao đẳng Công nghệ Kinh tế và Thuỷ lợi Miền trung",
 		"address": "14 Nguyễn Tất Thành - Hội An - Quảng Nam",
 		"phone": "0510.3863366",
 		"email": "daotaockt@gmail.com",
@@ -41455,7 +41468,7 @@
 	},
 	{
 		"id": "CBL",
-		"name": "Trường Cao đẳng Công nghệ và Kinh tế Bảo Lộc",
+		"name": "Cao đẳng Công nghệ và Kinh tế Bảo Lộc",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -41498,7 +41511,7 @@
 	},
 	{
 		"id": "CES",
-		"name": "Trường Cao đẳng Công thương Tp.HCM",
+		"name": "Cao đẳng Công thương Tp.HCM",
 		"address": "Số 20 Tăng Nhơn Phú - Phường Phước Long B - Quận 9 - Hồ Chí Minh",
 		"phone": "08.37312370",
 		"email": "phongdaotao.CES@moet.edu.vn",
@@ -41681,7 +41694,7 @@
 	},
 	{
 		"id": "D52",
-		"name": "Trường Cao đẳng Cộng đồng Bà Rịa - Vũng Tàu",
+		"name": "Cao đẳng Cộng đồng Bà Rịa - Vũng Tàu",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -41742,7 +41755,7 @@
 	},
 	{
 		"id": "C47",
-		"name": "Trường Cao đẳng Cộng đồng Bình Thuận",
+		"name": "Cao đẳng Cộng đồng Bình Thuận",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -41815,7 +41828,7 @@
 	},
 	{
 		"id": "D61",
-		"name": "Trường Cao đẳng Cộng đồng Cà Mau",
+		"name": "Cao đẳng Cộng đồng Cà Mau",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -41858,7 +41871,7 @@
 	},
 	{
 		"id": "D50",
-		"name": "Trường Cao đẳng Cộng đồng Đồng Tháp",
+		"name": "Cao đẳng Cộng đồng Đồng Tháp",
 		"address": "259 Thiên Hộ Dương - Phường Hoà Thuận - Thành phố Cao Lãnh - Đồng Tháp",
 		"phone": "067.3851274",
 		"email": "",
@@ -41913,7 +41926,7 @@
 	},
 	{
 		"id": "D64",
-		"name": "Trường Cao đẳng Cộng đồng Hậu Giang",
+		"name": "Cao đẳng Cộng đồng Hậu Giang",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -41980,7 +41993,7 @@
 	},
 	{
 		"id": "D54",
-		"name": "Trường Cao đẳng Cộng đồng Kiên Giang",
+		"name": "Cao đẳng Cộng đồng Kiên Giang",
 		"address": "217 Chu Văn An - An Hòa - Thành phố Rạch Giá - Kiên Giang",
 		"phone": "077.3811840",
 		"email": "",
@@ -42053,7 +42066,7 @@
 	},
 	{
 		"id": "CST",
-		"name": "Trường Cao đẳng Cộng đồng Sóc Trăng",
+		"name": "Cao đẳng Cộng đồng Sóc Trăng",
 		"address": "Số 400, đường Lê Hồng Phong - P. 3 - Sóc Trăng - Sóc Trăng",
 		"phone": "079.3610422; Fax",
 		"email": "phongdaotao.cst@moet.edu.vn",
@@ -42102,7 +42115,7 @@
 	},
 	{
 		"id": "D57",
-		"name": "Trường Cao đẳng Cộng đồng Vĩnh Long",
+		"name": "Cao đẳng Cộng đồng Vĩnh Long",
 		"address": "112A Đinh Tiên Hoàng - Phường 8 - Thành phố Vĩnh Long - Vĩnh Long",
 		"phone": "070.3823492",
 		"email": "vlcc@vlcc.edu.vn",
@@ -42187,7 +42200,7 @@
 	},
 	{
 		"id": "CLD",
-		"name": "Trường Cao đẳng Điện lực Miền trung",
+		"name": "Cao đẳng Điện lực Miền trung",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -42266,7 +42279,7 @@
 	},
 	{
 		"id": "CDE",
-		"name": "Trường Cao đẳng Điện lực Tp.HCM",
+		"name": "Cao đẳng Điện lực Tp.HCM",
 		"address": "554 Hà Huy Giáp - P. Thạnh Lộc - Quận 12 - Hồ Chí Minh",
 		"phone": "08.22155661, 08.38919461",
 		"email": "",
@@ -42315,7 +42328,7 @@
 	},
 	{
 		"id": "CGD",
-		"name": "Trường Cao đẳng Giao thông Vận tải II",
+		"name": "Cao đẳng Giao thông Vận tải II",
 		"address": "28 Ngô Xuân Thu - Phường Hòa Hiệp Bắc - Liên Chiểu - Đà Nẵng",
 		"phone": "0511.3770363 - 0511.3842086",
 		"email": "",
@@ -42372,7 +42385,7 @@
 	},
 	{
 		"id": "CGD",
-		"name": "Trường Cao đẳng Giao thông Vận tải III",
+		"name": "Cao đẳng Giao thông Vận tải III",
 		"address": "28 Ngô Xuân Thu - Phường Hòa Hiệp Bắc - Liên Chiểu - Đà Nẵng",
 		"phone": "0511.3770363 - 0511.3842086",
 		"email": "",
@@ -42429,7 +42442,7 @@
 	},
 	{
 		"id": "CGT",
-		"name": "Trường Cao đẳng Giao thông Vận tải Tp.HCM",
+		"name": "Cao đẳng Giao thông Vận tải Tp.HCM",
 		"address": "Số 252 Lí Chính Thắng - phường 9 - Quận 3 - Hồ Chí Minh",
 		"phone": "08.38439775",
 		"email": "",
@@ -42541,7 +42554,7 @@
 	},
 	{
 		"id": "CEP",
-		"name": "Trường Cao đẳng Kinh tế Tp.HCM",
+		"name": "Cao đẳng Kinh tế Tp.HCM",
 		"address": "33 Vĩnh Viễn - Phường 2 - Quận 10 - Hồ Chí Minh",
 		"phone": "08.38322825",
 		"email": "",
@@ -42584,7 +42597,7 @@
 	},
 	{
 		"id": "CKD",
-		"name": "Trường Cao đẳng Kinh tế Đối ngoại",
+		"name": "Cao đẳng Kinh tế Đối ngoại",
 		"address": "Số 287, đường Phan Đình Phùng - 15 - Phú Nhuận - Hồ Chí Minh",
 		"phone": "08.38446320",
 		"email": "",
@@ -42663,7 +42676,7 @@
 	},
 	{
 		"id": "CKK",
-		"name": "Trường Cao đẳng Kinh tế - Kế hoạch Đà Nẵng",
+		"name": "Cao đẳng Kinh tế - Kế hoạch Đà Nẵng",
 		"address": "143 Nguyễn Lương Bằng - phường Hòa Khánh Bắc - Liên Chiểu - Đà Nẵng",
 		"phone": "0511.3734867",
 		"email": "",
@@ -42742,7 +42755,7 @@
 	},
 	{
 		"id": "CEC",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Cần Thơ",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Cần Thơ",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -42851,7 +42864,7 @@
 	},
 	{
 		"id": "CPL",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Phú Lâm",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Phú Lâm",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -42948,7 +42961,7 @@
 	},
 	{
 		"id": "CKG",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Kiên Giang",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Kiên Giang",
 		"address": "425 Mạc Cửu - Vĩnh Thanh - Thành phố Rạch Giá - Kiên Giang",
 		"phone": "077.3863530; 077.3872086",
 		"email": "",
@@ -43033,7 +43046,7 @@
 	},
 	{
 		"id": "CKO",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Kon Tum",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Kon Tum",
 		"address": "Tổ 3 - Ngô Mây - Kon Tum - Kon Tum",
 		"phone": "060.3864029; Fa",
 		"email": "",
@@ -43123,7 +43136,7 @@
 	},
 	{
 		"id": "CKQ",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Quảng Nam",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Quảng Nam",
 		"address": "431 Hùng Vương - Tam Kỳ - Quảng Nam",
 		"phone": "0510.3834972; 3851852",
 		"email": "ktkt_qnam@yahoo.com",
@@ -43232,7 +43245,7 @@
 	},
 	{
 		"id": "CKZ",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Lâm Đồng",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Lâm Đồng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -43281,7 +43294,7 @@
 	},
 	{
 		"id": "CCS",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Vinatex TP.HCM",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Vinatex TP.HCM",
 		"address": "586 Kha Vạn Cân - phường Linh Đông - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.38970160, 08.38966927",
 		"email": "",
@@ -43404,7 +43417,7 @@
 	},
 	{
 		"id": "CKV",
-		"name": "Trường Cao đẳng Kinh tế - Tài chính Vĩnh Long",
+		"name": "Cao đẳng Kinh tế - Tài chính Vĩnh Long",
 		"address": "01B, Nguyễn Trung Trực - phường 8 - Thành phố Vĩnh Long - Vĩnh Long",
 		"phone": "070.3823443",
 		"email": "daotao@vcef.edu.vn",
@@ -43467,7 +43480,7 @@
 	},
 	{
 		"id": "CKC",
-		"name": "Trường Cao đẳng Kỹ thuật Cao Thắng",
+		"name": "Cao đẳng Kỹ thuật Cao Thắng",
 		"address": "65 Huỳnh Thúc Kháng - Quận 1 - Hồ Chí Minh",
 		"phone": "08.38212868",
 		"email": "",
@@ -43579,7 +43592,7 @@
 	},
 	{
 		"id": "CKP",
-		"name": "Trường Cao đẳng Kỹ thuật Lý Tự Trọng Tp.HCM",
+		"name": "Cao đẳng Kỹ thuật Lý Tự Trọng Tp.HCM",
 		"address": "390 Hoàng Văn Thụ - phường 4 - Tân Bình - Hồ Chí Minh",
 		"phone": "08. 38457475, 08.38110521",
 		"email": "tuyensinh@lytc.edu.vn",
@@ -43628,7 +43641,7 @@
 	},
 	{
 		"id": "CLT",
-		"name": "Trường Cao đẳng Lương thực Thực phẩm",
+		"name": "Cao đẳng Lương thực Thực phẩm",
 		"address": "101B Lê Hữu Trác - Sơn Trà - Đà Nẵng",
 		"phone": "0511.3831228",
 		"email": "tuyensinh@cfi.edu.vn",
@@ -43740,7 +43753,7 @@
 	},
 	{
 		"id": "CDN",
-		"name": "Trường Cao đẳng Mỹ thuật Trang trí Đồng Nai",
+		"name": "Cao đẳng Mỹ thuật Trang trí Đồng Nai",
 		"address": "368 đường 30/4 - Trung Dũng - Thành phố Biên Hòa - Đồng Nai",
 		"phone": "061.3816820",
 		"email": "",
@@ -43830,7 +43843,7 @@
 	},
 	{
 		"id": "CNN",
-		"name": "Trường Cao đẳng Nông nghiệp Nam Bộ",
+		"name": "Cao đẳng Nông nghiệp Nam Bộ",
 		"address": "Xã Tân Mĩ Chánh - Thành phố Mỹ Tho - Tiền Giang",
 		"phone": "073.3850136, 073.3850139",
 		"email": "",
@@ -43867,7 +43880,7 @@
 	},
 	{
 		"id": "CPS",
-		"name": "Trường Cao đẳng Phát thanh Truyền hình II",
+		"name": "Cao đẳng Phát thanh Truyền hình II",
 		"address": "75 Trần Nhân Tôn - phường 9 - Quận 5 - Hồ Chí Minh",
 		"phone": "08.38304318",
 		"email": "",
@@ -43898,7 +43911,7 @@
 	},
 	{
 		"id": "C61",
-		"name": "Trường Cao đẳng Sư phạm Cà Mau",
+		"name": "Cao đẳng Sư phạm Cà Mau",
 		"address": "155 đường Nguyễn Tất Thành - Thành phố Cà Mau - Cà Mau",
 		"phone": "0780.3837505",
 		"email": "",
@@ -43929,7 +43942,7 @@
 	},
 	{
 		"id": "C37",
-		"name": "Trường Cao đẳng Bình Định",
+		"name": "Cao đẳng Bình Định",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -44014,7 +44027,7 @@
 	},
 	{
 		"id": "C43",
-		"name": "Trường Cao đẳng Sư phạm Bình Phước",
+		"name": "Cao đẳng Sư phạm Bình Phước",
 		"address": "Quốc lộ 14 - Tân Bình - Thị xã Đồng Xoài - Bình Phước",
 		"phone": "0651.3881236",
 		"email": "",
@@ -44075,7 +44088,7 @@
 	},
 	{
 		"id": "C52",
-		"name": "Trường Cao đẳng Sư phạm Bà Rịa-Vũng Tàu",
+		"name": "Cao đẳng Sư phạm Bà Rịa-Vũng Tàu",
 		"address": "689 Cách mạng tháng 8 - Thị xã Bà Rịa - Bà Rịa - Vũng Tàu",
 		"phone": "064.3825275, 064.3826644",
 		"email": "",
@@ -44160,7 +44173,7 @@
 	},
 	{
 		"id": "C42",
-		"name": "Trường Cao đẳng Sư phạm Đà Lạt",
+		"name": "Cao đẳng Sư phạm Đà Lạt",
 		"address": "29 Yersin - TP.Đà Lạt - Lâm Đồng",
 		"phone": "063.3822487",
 		"email": "",
@@ -44233,7 +44246,7 @@
 	},
 	{
 		"id": "C40",
-		"name": "Trường Cao đẳng Sư phạm Đăk Lăk",
+		"name": "Cao đẳng Sư phạm Đăk Lăk",
 		"address": "349 Lê Duẩn - Buôn Ma Thuột - Đăk Lăk",
 		"phone": "0500. 3852678",
 		"email": "",
@@ -44366,7 +44379,7 @@
 	},
 	{
 		"id": "C38",
-		"name": "Trường Cao đẳng Sư phạm Gia lai",
+		"name": "Cao đẳng Sư phạm Gia lai",
 		"address": "126 Lê Thánh Tôn - Pleiku - Gia Lai",
 		"phone": "059.3877365",
 		"email": "",
@@ -44481,7 +44494,7 @@
 	},
 	{
 		"id": "C54",
-		"name": "Trường Cao đẳng Sư phạm Kiên Giang",
+		"name": "Cao đẳng Sư phạm Kiên Giang",
 		"address": "Số 449, Nguyễn Chí Thanh, Khu phố 6 - Rạch Sỏi - Thành phố Rạch Giá - Kiên Giang",
 		"phone": "077.3865498",
 		"email": "",
@@ -44548,7 +44561,7 @@
 	},
 	{
 		"id": "C36",
-		"name": "Trường Cao đẳng Sư phạm Kon Tum",
+		"name": "Cao đẳng Sư phạm Kon Tum",
 		"address": "413 Nguyễn Huệ - Kon Tum - Kon Tum",
 		"phone": "060.3863592, 060.3861021",
 		"email": "",
@@ -44656,7 +44669,7 @@
 	},
 	{
 		"id": "C49",
-		"name": "Trường Cao đẳng Sư phạm Long An",
+		"name": "Cao đẳng Sư phạm Long An",
 		"address": "934 Quốc lộ 1A - xã Khánh Hậu - Tân An - Long An",
 		"phone": "072.3550408",
 		"email": "",
@@ -44705,7 +44718,7 @@
 	},
 	{
 		"id": "C41",
-		"name": "Trường Cao đẳng Sư phạm Nha Trang",
+		"name": "Cao đẳng Sư phạm Nha Trang",
 		"address": "01 Nguyễn Chánh - TP.Nha Trang - Khánh Hòa",
 		"phone": "(058) 3525840,(058)352381.",
 		"email": "",
@@ -44838,7 +44851,7 @@
 	},
 	{
 		"id": "C45",
-		"name": "Trường Cao đẳng Sư phạm Ninh Thuận",
+		"name": "Cao đẳng Sư phạm Ninh Thuận",
 		"address": "Thị trấn Khánh Hải - Ninh Hải - Ninh Thuận",
 		"phone": "068.3873169, (068) 3824600 - Fa",
 		"email": "Emai",
@@ -44887,7 +44900,7 @@
 	},
 	{
 		"id": "C32",
-		"name": "Trường Cao đẳng Sư phạm Quảng Trị",
+		"name": "Cao đẳng Sư phạm Quảng Trị",
 		"address": "Km3, Quốc lộ 9 - Đông Hà - Quảng Trị",
 		"phone": "053.3580793",
 		"email": "",
@@ -44972,7 +44985,7 @@
 	},
 	{
 		"id": "C59",
-		"name": "Trường Cao đẳng Sư phạm Sóc Trăng",
+		"name": "Cao đẳng Sư phạm Sóc Trăng",
 		"address": "Số 139 Tỉnh lộ 934 - thị trấn Mỹ Xuyên - Mỹ Xuyên - Sóc Trăng",
 		"phone": "079.3852597",
 		"email": "",
@@ -45025,7 +45038,7 @@
 	},
 	{
 		"id": "C46",
-		"name": "Trường Cao đẳng Sư phạm Tây Ninh",
+		"name": "Cao đẳng Sư phạm Tây Ninh",
 		"address": "Xã Ninh Sơn - Tây Ninh - Tây Ninh",
 		"phone": "066.3826478, 066.3624360",
 		"email": "",
@@ -45068,7 +45081,7 @@
 	},
 	{
 		"id": "C33",
-		"name": "Trường Cao đẳng Sư phạm Thừa Thiên Huế",
+		"name": "Cao đẳng Sư phạm Thừa Thiên Huế",
 		"address": "123 Nguyễn Huệ - Huế - Thừa Thiên - Huế",
 		"phone": "054.3822179",
 		"email": "",
@@ -45270,7 +45283,7 @@
 	},
 	{
 		"id": "CM1",
-		"name": "Trường Cao đẳng Sư phạm Trung ương Tp.HCM",
+		"name": "Cao đẳng Sư phạm Trung ương Tp.HCM",
 		"address": "387 đường Hoàng Quốc Việt, Q. Cầu Giấy, Hà Nội - Cầu Giấy - Hà Nội",
 		"phone": "04.37565209; 04.37562670",
 		"email": "",
@@ -45403,7 +45416,7 @@
 	},
 	{
 		"id": "CM1",
-		"name": "Trường Cao đẳng Sư phạm Trung ương Nha Trang",
+		"name": "Cao đẳng Sư phạm Trung ương Nha Trang",
 		"address": "387 đường Hoàng Quốc Việt, Q. Cầu Giấy, Hà Nội - Cầu Giấy - Hà Nội",
 		"phone": "04.37565209; 04.37562670",
 		"email": "",
@@ -45536,7 +45549,7 @@
 	},
 	{
 		"id": "C57",
-		"name": "Trường Cao đẳng Sư phạm Vĩnh Long",
+		"name": "Cao đẳng Sư phạm Vĩnh Long",
 		"address": "75 Nguyễn Huệ - Phường 2 - Thành phố Vĩnh Long - Vĩnh Long",
 		"phone": "0703823310",
 		"email": "",
@@ -45579,7 +45592,7 @@
 	},
 	{
 		"id": "CTS",
-		"name": "Trường Cao đẳng Tài chính Hải quan",
+		"name": "Cao đẳng Tài chính Hải quan",
 		"address": "Cơ sở ",
 		"phone": "(08) 37307574",
 		"email": "",
@@ -45647,7 +45660,7 @@
 	},
 	{
 		"id": "CMS",
-		"name": "Trường Cao đẳng Thương Mại",
+		"name": "Cao đẳng Thương Mại",
 		"address": "45 Dũng Sĩ Thanh Khê - Hải Châu - Đà Nẵng",
 		"phone": "0511.3759580, Fa",
 		"email": "thuongmaitw2@dng.vnn.vn",
@@ -45770,7 +45783,7 @@
 	},
 	{
 		"id": "CXS",
-		"name": "Trường Cao đẳng Xây dựng số 2",
+		"name": "Cao đẳng Xây dựng số 2",
 		"address": "Số 190 Võ Văn Ngân - Thủ Đức - Hồ Chí Minh",
 		"phone": "08.38960607",
 		"email": "",
@@ -45860,7 +45873,7 @@
 	},
 	{
 		"id": "CVN",
-		"name": "Trường Cao đẳng Văn hoá nghệ thuật Tp.HCM",
+		"name": "Cao đẳng Văn hoá nghệ thuật Tp.HCM",
 		"address": "5 Nam Quốc Cang - Phạm Ngũ Lão - Quận 1 - Hồ Chí Minh",
 		"phone": "08.39250992",
 		"email": "",
@@ -46001,7 +46014,7 @@
 	},
 	{
 		"id": "CVL",
-		"name": "Trường Cao đẳng Văn hoá Nghệ thuật Đăk Lăk",
+		"name": "Cao đẳng Văn hoá Nghệ thuật Đăk Lăk",
 		"address": "05 Nguyễn Chí Thanh - Buôn Ma Thuột - Đăk Lăk",
 		"phone": "0500.3952636",
 		"email": "",
@@ -46038,7 +46051,7 @@
 	},
 	{
 		"id": "CDK",
-		"name": "Trường Cao đẳng Văn hoá Nghệ thuật và Du lịch Nha Trang",
+		"name": "Cao đẳng Văn hoá Nghệ thuật và Du lịch Nha Trang",
 		"address": "52 Phạm Văn Đồng - Vĩnh Hải - TP.Nha Trang - Khánh Hòa",
 		"phone": "058.3831170",
 		"email": "",
@@ -46203,7 +46216,7 @@
 	},
 	{
 		"id": "CMY",
-		"name": "Trường Cao đẳng Y tế Cà Mau",
+		"name": "Cao đẳng Y tế Cà Mau",
 		"address": "Nguyễn Đình Chiểu, Khóm 1 - Phường 8 - Thành phố Cà Mau - Cà Mau",
 		"phone": "0780.3828304",
 		"email": "",
@@ -46228,7 +46241,7 @@
 	},
 	{
 		"id": "CRY",
-		"name": "Trường Cao đẳng Y tế Bình Định",
+		"name": "Cao đẳng Y tế Bình Định",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -46241,7 +46254,7 @@
 	},
 	{
 		"id": "CBY",
-		"name": "Trường Cao đẳng Y tế Bình Dương",
+		"name": "Cao đẳng Y tế Bình Dương",
 		"address": "Số 529 Lê Hồng Phong - Phú Hòa - Thuận An - Bình Dương",
 		"phone": "(0650) 3822727",
 		"email": "",
@@ -46272,7 +46285,7 @@
 	},
 	{
 		"id": "CYX",
-		"name": "Trường Cao đẳng Y tế Bình Thuận",
+		"name": "Cao đẳng Y tế Bình Thuận",
 		"address": "274 Nguyễn Hội - Phan Thiết - Bình Thuận",
 		"phone": "062.3825740",
 		"email": "",
@@ -46291,7 +46304,7 @@
 	},
 	{
 		"id": "CYB",
-		"name": "Trường Cao đẳng Y tế Bạc Liêu",
+		"name": "Cao đẳng Y tế Bạc Liêu",
 		"address": "Số 1 đoàn Thị Điểm - Phường 3 - Bạc Liêu - Bạc Liêu",
 		"phone": "0781.3826265",
 		"email": "",
@@ -46334,7 +46347,7 @@
 	},
 	{
 		"id": "CYC",
-		"name": "Trường Cao đẳng Y tế Cần Thơ",
+		"name": "Cao đẳng Y tế Cần Thơ",
 		"address": "340 Nguyễn Văn Cừ, - An Hoà - Ninh Kiều - Cần Thơ",
 		"phone": "0710.3890550",
 		"email": "",
@@ -46359,7 +46372,7 @@
 	},
 	{
 		"id": "CYD",
-		"name": "Trường Cao đẳng Y tế Đồng Nai",
+		"name": "Cao đẳng Y tế Đồng Nai",
 		"address": "Khu phố 9 - Tân Biên - Thành phố Biên Hòa - Đồng Nai",
 		"phone": "0613.211154",
 		"email": "",
@@ -46402,7 +46415,7 @@
 	},
 	{
 		"id": "CYA",
-		"name": "Trường Cao đẳng Y tế Đồng Tháp",
+		"name": "Cao đẳng Y tế Đồng Tháp",
 		"address": "312 Nguyễn Thái Học - 4 - Thành phố Cao Lãnh - Đồng Tháp",
 		"phone": "067 3 859 113",
 		"email": "",
@@ -46433,7 +46446,7 @@
 	},
 	{
 		"id": "CYY",
-		"name": "Trường Cao đẳng Y tế Huế",
+		"name": "Cao đẳng Y tế Huế",
 		"address": "01 Nguyễn Trường Tộ - Huế - Thừa Thiên - Huế",
 		"phone": "054.3840042",
 		"email": "cdythue@cdythue.edu.vn",
@@ -46470,7 +46483,7 @@
 	},
 	{
 		"id": "CYK",
-		"name": "Trường Cao đẳng Y tế Khánh Hoà",
+		"name": "Cao đẳng Y tế Khánh Hoà",
 		"address": "84 Quang Trung - TP.Nha Trang - Khánh Hòa",
 		"phone": "058.3522318",
 		"email": "",
@@ -46513,7 +46526,7 @@
 	},
 	{
 		"id": "CYG",
-		"name": "Trường Cao đẳng Y tế Kiên Giang",
+		"name": "Cao đẳng Y tế Kiên Giang",
 		"address": "Số 14, Phạm Ngọc Thạch - Vĩnh Thanh - Thành phố Rạch Giá - Kiên Giang",
 		"phone": "077.3946721",
 		"email": "",
@@ -46544,7 +46557,7 @@
 	},
 	{
 		"id": "CLY",
-		"name": "Trường Cao đẳng Y tế Lâm đồng",
+		"name": "Cao đẳng Y tế Lâm đồng",
 		"address": "6B Ngô Quyền - Phường 6 - TP.Đà Lạt - Lâm Đồng",
 		"phone": "063.3822153",
 		"email": "",
@@ -46563,7 +46576,7 @@
 	},
 	{
 		"id": "CYU",
-		"name": "Trường Cao đẳng Y tế Quảng Nam",
+		"name": "Cao đẳng Y tế Quảng Nam",
 		"address": "03 Nguyễn Du - Tam Kỳ - Quảng Nam",
 		"phone": "0510.3851705",
 		"email": "",
@@ -46631,7 +46644,7 @@
 	},
 	{
 		"id": "CYV",
-		"name": "Trường Cao đẳng Y tế Tiền Giang",
+		"name": "Cao đẳng Y tế Tiền Giang",
 		"address": "Số 83, Thái Sanh Hạnh - Phường 9 - Thành phố Mỹ Tho - Tiền Giang",
 		"phone": "073.3951464",
 		"email": "",
@@ -46662,7 +46675,7 @@
 	},
 	{
 		"id": "YTV",
-		"name": "Trường Cao đẳng Y tế Trà Vinh",
+		"name": "Cao đẳng Y tế Trà Vinh",
 		"address": "Số 7, Quốc lộ 53, Khóm 4 - P5 - TP.Trà Vinh - Trà Vinh",
 		"phone": "0743855815",
 		"email": "",
@@ -46693,7 +46706,7 @@
 	},
 	{
 		"id": "CKB",
-		"name": "Trường Cao đẳng Bách khoa Đà Nẵng",
+		"name": "Cao đẳng Bách khoa Đà Nẵng",
 		"address": "125, Phan Đăng Lưu - Hòa Cường Nam - Hải Châu - Đà Nẵng",
 		"phone": "0511.3640666 - 3640676",
 		"email": "",
@@ -46748,7 +46761,7 @@
 	},
 	{
 		"id": "CBV",
-		"name": "Trường Cao đẳng Bách Việt TP. HCM",
+		"name": "Cao đẳng Bách Việt TP. HCM",
 		"address": "778/B1 Nguyễn Kiệm - Phường 4 - Phú Nhuận - Hồ Chí Minh",
 		"phone": "0934 160 770 - 0934 180 770",
 		"email": "",
@@ -46913,7 +46926,7 @@
 	},
 	{
 		"id": "CDQ",
-		"name": "Trường Cao đẳng Công Kỹ nghệ Đông Á",
+		"name": "Cao đẳng Công Kỹ nghệ Đông Á",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -46956,7 +46969,7 @@
 	},
 	{
 		"id": "CDC",
-		"name": "Trường Cao đẳng Công nghệ thông tin TP.HCM",
+		"name": "Cao đẳng Công nghệ thông tin TP.HCM",
 		"address": "12 Trịnh Đình Thảo - Hòa Thạnh - Tân Phú - Hồ Chí Minh",
 		"phone": "08.38605003, 08.38605004; Fax:(083)9733537",
 		"email": "tuyensinh@itc.edu.vn",
@@ -47068,7 +47081,7 @@
 	},
 	{
 		"id": "CDD",
-		"name": "Trường Cao đẳng Dân lập Kinh tế kỹ thuật Đông du Đà Nẵng",
+		"name": "Cao đẳng Dân lập Kinh tế kỹ thuật Đông du Đà Nẵng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -47123,7 +47136,7 @@
 	},
 	{
 		"id": "CKM",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Miền Nam",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Miền Nam",
 		"address": "64/2B Cây Trâm - 9 - Gò Vấp - Hồ Chí Minh",
 		"phone": "08.39893968, 08.39893967; T CS",
 		"email": "",
@@ -47202,7 +47215,7 @@
 	},
 	{
 		"id": "CKE",
-		"name": "Trường Cao đẳng Kinh tế - Kỹ thuật Sài Gòn",
+		"name": "Cao đẳng Kinh tế - Kỹ thuật Sài Gòn",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -47215,7 +47228,7 @@
 	},
 	{
 		"id": "CET",
-		"name": "Trường Cao đẳng Kinh tế - Công nghệ Tp.HCM",
+		"name": "Cao đẳng Kinh tế - Công nghệ Tp.HCM",
 		"address": "Số 08 Đường số 3, Cư xá Lữ Gia - P. 15 - Quận 11 - Hồ Chí Minh",
 		"phone": "08.62648952, 08.62933744",
 		"email": "Emai",
@@ -47334,7 +47347,7 @@
 	},
 	{
 		"id": "CCQ",
-		"name": "Trường Cao đẳng Kỹ thuật Công nghiệp Quảng Ngãi",
+		"name": "Cao đẳng Kỹ thuật Công nghiệp Quảng Ngãi",
 		"address": "Km 1051 + 400 QL 1 A - Thị trấn Sơn Tịnh - Sơn Tịnh - Quảng Ngãi",
 		"phone": "055.2217077; Fa",
 		"email": "",
@@ -47371,7 +47384,7 @@
 	},
 	{
 		"id": "CVX",
-		"name": "Trường Cao đẳng Kỹ thuật - Công nghệ Vạn Xuân",
+		"name": "Cao đẳng Kỹ thuật - Công nghệ Vạn Xuân",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -47414,7 +47427,7 @@
 	},
 	{
 		"id": "CLV",
-		"name": "Trường Cao đẳng Lạc Việt",
+		"name": "Cao đẳng Lạc Việt",
 		"address": "42 - 46 Phan Chu Trinh - Hải Châu 1 - Hải Châu - Đà Nẵng",
 		"phone": "(0511) 3553 444; 3553 445; 3553 447",
 		"email": "lacviet.edu@vnn.vn",
@@ -47451,7 +47464,7 @@
 	},
 	{
 		"id": "CPN",
-		"name": "Trường Cao đẳng Phương Đông - Đà Nẵng",
+		"name": "Cao đẳng Phương Đông - Đà Nẵng",
 		"address": "30 - 32 Phan Đăng Lưu - Hải Châu - Đà Nẵng",
 		"phone": "(0511)3642712 - 3641681 2712",
 		"email": "",
@@ -47512,7 +47525,7 @@
 	},
 	{
 		"id": "CPD",
-		"name": "Trường Cao đẳng Phương Đông - Quảng Nam",
+		"name": "Cao đẳng Phương Đông - Quảng Nam",
 		"address": "03 Hùng Vương - Tam Kỳ - Quảng Nam",
 		"phone": "0510.3811325, 0510.3810718, 0510.2211670",
 		"email": "",
@@ -47573,7 +47586,7 @@
 	},
 	{
 		"id": "CDA",
-		"name": "Trường Cao đẳng Tư thục Đức Trí",
+		"name": "Cao đẳng Tư thục Đức Trí",
 		"address": "Số 116 Nguyễn Huy Tưởng - Hòa Minh - Liên Chiểu - Đà Nẵng",
 		"phone": "0511.3767216, 0511.6265255",
 		"email": "",
@@ -47640,7 +47653,7 @@
 	},
 	{
 		"id": "CVS",
-		"name": "Trường Cao đẳng Văn hoá Nghệ Thuật và Du lịch Sài Gòn",
+		"name": "Cao đẳng Văn hoá Nghệ Thuật và Du lịch Sài Gòn",
 		"address": "83/1 Phan Văn Hớn - P. Tân Thới Nhất - Quận 12 - Hồ Chí Minh",
 		"phone": "08.66826819;",
 		"email": "",
@@ -47817,7 +47830,7 @@
 	},
 	{
 		"id": "CDV",
-		"name": "Trường Cao đẳng Viễn Đông",
+		"name": "Cao đẳng Viễn Đông",
 		"address": "Cổng 3 đường Biệt thự - xã tân Lập - TP.Nha Trang - Khánh Hòa",
 		"phone": "069697941",
 		"email": "",
@@ -47908,7 +47921,7 @@
 	},
 	{
 		"id": "RMI",
-		"name": "Trường Đại học quốc tế Rmit Việt Nam",
+		"name": "Đại học quốc tế Rmit Việt Nam",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -47921,13 +47934,26 @@
 	},
 	{
 		"id": "VGU",
-		"name": "Trường Đại học Việt Đức",
+		"name": "Đại học Việt Đức",
 		"address": "",
 		"email": "",
 		"website": "",
 		"phone": "",
 		"region": 3,
 		"city": 2,
+		"type": 1,
+		"majors": [
+		]
+	},
+	{
+		"id": "",
+		"name": "Đại học Anh quốc Việt Nam",
+		"address": "",
+		"email": "",
+		"website": "",
+		"phone": "",
+		"region": 1,
+		"city": 1,
 		"type": 1,
 		"majors": [
 		]
@@ -48319,7 +48345,7 @@
 	},
 	{
 		"id": "LCH",
-		"name": "Trường Đại học Chính trị",
+		"name": "Đại học Chính trị",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48350,7 +48376,7 @@
 	},
 	{
 		"id": "LAH",
-		"name": "Trường Đại học Trần Quốc Tuấn",
+		"name": "Đại học Trần Quốc Tuấn",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48399,7 +48425,7 @@
 	},
 	{
 		"id": "LBH",
-		"name": "Trường Đại học Nguyễn Huệ",
+		"name": "Đại học Nguyễn Huệ",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48448,7 +48474,7 @@
 	},
 	{
 		"id": "PBH",
-		"name": "Trường Sĩ quan Pháo binh",
+		"name": "Sĩ quan Pháo binh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48467,7 +48493,7 @@
 	},
 	{
 		"id": "SNH",
-		"name": "Trường Sĩ quan Công binh",
+		"name": "Sĩ quan Công binh",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48522,7 +48548,7 @@
 	},
 	{
 		"id": "ZTH",
-		"name": "Trường Sĩ quan Thông tin",
+		"name": "Sĩ quan Thông tin",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48535,7 +48561,7 @@
 	},
 	{
 		"id": "KGH",
-		"name": "Trường Sĩ quan Không quân",
+		"name": "Sĩ quan Không quân",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48560,7 +48586,7 @@
 	},
 	{
 		"id": "ZNH",
-		"name": "Trường Đại học Văn hoá - Nghệ thuật quân đội",
+		"name": "Đại học Văn hoá - Nghệ thuật quân đội",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48753,7 +48779,7 @@
 	},
 	{
 		"id": "ZPH",
-		"name": "Trường Đại học Trần Đại Nghĩa",
+		"name": "Đại học Trần Đại Nghĩa",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48766,7 +48792,7 @@
 	},
 	{
 		"id": "TGH",
-		"name": "Trường Sĩ quan Tăng-Thiết giáp",
+		"name": "Sĩ quan Tăng-Thiết giáp",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48785,7 +48811,7 @@
 	},
 	{
 		"id": "DCH",
-		"name": "Trường Sĩ quan Đặc công",
+		"name": "Sĩ quan Đặc công",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48810,7 +48836,7 @@
 	},
 	{
 		"id": "HGH",
-		"name": "Trường Sĩ quan Phòng hoá",
+		"name": "Sĩ quan Phòng hoá",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48835,7 +48861,7 @@
 	},
 	{
 		"id": "QPH",
-		"name": "Trường CĐ Công nghiệp Quốc phòng",
+		"name": "CĐ Công nghiệp Quốc phòng",
 		"address": "",
 		"email": "",
 		"website": "",
@@ -48878,7 +48904,7 @@
 	},
 	{
 		"id": "COT",
-		"name": "Trường CĐ Công nghệ và kỹ thuật ô tô",
+		"name": "CĐ Công nghệ và kỹ thuật ô tô",
 		"address": "Phường Xuân khanh, Thị xã Sơn Tây - Thị xã Sơn Tây - Sóc Sơn - Hà Nội",
 		"phone": "046 325 8761",
 		"email": "tuyensinhcdcnoto@gmail.com",

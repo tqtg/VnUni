@@ -235,12 +235,28 @@ module.exports = function (app) {
     })
         
     //  get data for uni infor page
-    app.get('/infor/:id', function(req, res, next) {
-        console.log(req.params.id);
-        Uni.find({id: String(req.params.id)}, '-_id', function(err, uni) {                        
-            // console.log(uni);
-            res.send(uni); 
-        });
+    app.get('/infor/:id/:need', function(req, res, next) {
+        var uniId = String(req.params.id);
+        var need = String(req.params.need);
+        switch (need) {
+        case 'thongtin':
+            Uni.find({id: uniId}, 'name -_id', function(err, uni) { res.json(uni); });
+            break;
+        case 'khoadaotao':
+            Uni.find({id: uniId}, 'name -_id', function(err, uni) { res.json(uni); });
+            break;
+        case 'xemdiemchuan':
+            Uni.find({id: uniId}, 'name majors -_id', function(err, uni) { res.json(uni); });
+            break;
+        case 'tuyensinh':
+            Uni.find({id: uniId}, 'name -_id', function(err, uni) { res.json(uni); });
+            break;
+        case 'lienhe':
+            Uni.find({id: uniId}, 'name address phone email website -_id', function(err, uni) { res.json(uni); });
+            break;
+        default:
+            break;
+        }
     })
 
     //  DON'T DELETE !!!
