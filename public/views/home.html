@@ -1,7 +1,7 @@
 <div class="container-fluid" ng-controller="HomeController">
-    <div class="row">
+    <div class="row"  style="margin-top: 20px; margin-bottom: 30px">
         <div id="SearchBox" class="col-md-6 col-md-offset-0">
-            <form role="search" style="margin-top: 20px; margin-bottom: 30px">
+            <form role="search">
                 <div class="input-group">
                     <tags-input ng-model="tags" 
                             placeholder="Search with tags"
@@ -16,10 +16,15 @@
                     <div class="input-group-btn">
                         <button type="submit" ng-click="searchWithTags()" class="btn btn-default">
                             <span class="glyphicon glyphicon-search" style="height:18px;"></span>
-                        </button>
+                    </button>
                     </div>
                 </div>
             </form>
+        </div>
+        <div>
+            <a class="btn btn-primary col-md-1 col-md-offset-4" href="/login">Đăng nhập</a>
+            <!-- <img src='assets/images/defaultAvatar.jpg'class='img-responsive circle-image circle-image-nav col-md-1 col-md-offset-4' style="max-width: 6%" /> -->
+
         </div>
     </div>
 
