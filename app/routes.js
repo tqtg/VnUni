@@ -20,10 +20,11 @@ module.exports = function (app) {
     // handle things like api calls
     // authentication routes
     app.get('/uni/:id', function(req, res, next) {        
-        Uni.find({"id": String(req.params.id)}, function(err, unis){                        
+        Uni.find({"id": String(req.params.id)}, '-_id', function(err, unis){                        
             res.send(unis);            
-        });                        
+        });
     })
+
     app.get("/school_type", function(req, res, next){
         Loaitruong.find({},"id name",function(err, loaitruong){
             res.send(loaitruong);
@@ -192,6 +193,12 @@ module.exports = function (app) {
 
     //  View admission marks
     app.get('/diemchuan', function (req, res, next) {
+        next();
+    })
+
+    //  get data for uni infor page
+    app.get('/infor/:id', function(req, res, next) {
+        
         next();
     })
 
