@@ -4074,7 +4074,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
 }
 .navbar-collapse.in {
-  overflow-y: auto;
+  /*overflow-y: auto;*/
 }
 @media (min-width: 768px) {
   .navbar-collapse {
@@ -6564,6 +6564,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
 .container > .row > .box > .col-md-12 {
     float: none;
   }
