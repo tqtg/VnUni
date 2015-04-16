@@ -1,7 +1,8 @@
 // app/routes.js
 // connect to database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://tuantq:quoctuan@ds035557.mongolab.com:35557/vnuni');
+var db = require('../config/db');
+mongoose.connect(db.url);
 
 // grab the nerd model we just created
 var Uni = require('./models/university');
@@ -44,75 +45,118 @@ module.exports = function (app) {
         });        
     })
     app.post('/authenticate',function(req, res, next){                        
-        User.find({'username': req.body.username, 'password': req.body.password},'type school', function(err, users){                        
+        User.find({'username': req.body.username, 'password': req.body.password},'type school -_id', function(err, users){                        
             if ( !users || users.lenght ==0 )
             res.send({'status' : 'NO'});
-                 else res.send({'status': 'YES', 'user_type': users[0].type, 'school': users[0].school});
-    }        
-    ); 
+                 else res.send({'status': 'YES', 'user_type': users[0].type, 'school -_id': users[0].school});
+        }); 
     })
 
+    //  Search with filter system
     app.get('/search', function(req, res, next) {
-        console.log("Searching request with parameters:");
+        console.log("Searching request from filter system");
         console.log(Number(req.query.mucdiemThap));
         console.log(Number(req.query.mucdiemCao));
         var queryParams = {
-            $and: [
-                {
-                    region: Number(req.query.vungmien),
-                    city: Number(req.query.thanhpho),
-                    type: Number(req.query.loaitruong)
-                },
-                {
-                    $or: [
-                        {
-                            majors: {
-                                $elemMatch: {
-                                    id: String("D" + String(req.query.nganhhoc)),
-                                    divisions: String(req.query.khoithi),
-                                    admissionMarks: {
-                                        $elemMatch: {
-                                            year: 2014,
-                                            mark: {
-                                                $gt: Number(req.query.mucdiemThap),
-                                                $lt: Number(req.query.mucdiemCao)
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        },
-                        {
-                            majors: {
-                                $elemMatch: {
-                                    id: String("C" + String(req.query.nganhhoc)),
-                                    divisions: String(req.query.khoithi),
-                                    admissionMarks: {
-                                        $elemMatch: {
-                                            year: 2014,
-                                            mark: {
-                                                $gt: Number(req.query.mucdiemThap),
-                                                $lt: Number(req.query.mucdiemCao)
-                                            }
-                                        }
-                                    }
-                                }
+            region: Number(req.query.vungmien),
+            city: Number(req.query.thanhpho),
+            type: Number(req.query.loaitruong),
+            majors: {
+                $elemMatch: {
+                    id: (String(req.query.nganhhoc) == "0") ? 0 : {$in: [
+                        String("D" + String(req.query.nganhhoc)),
+                        String("C" + String(req.query.nganhhoc))
+                    ]},
+                    divisions: String(req.query.khoithi),
+                    admissionMarks: {
+                        $elemMatch: {
+                            year: 2014,
+                            mark: {
+                                $gt: Number(req.query.mucdiemThap),
+                                $lt: Number(req.query.mucdiemCao)
                             }
                         }
-                    ]
+                    }
                 }
-            ]
+            }
         }
         console.log(queryParams);
 
-        Uni.getAll(queryParams, function(err, data) {
+        Uni.findWithFilter(queryParams, function(err, data) {
             console.log(data.length + " Found!");
             res.json(data);
         });
     })
 
+    //  Search with tags in search bar
+    app.get('/searchwithtags', function(req, res) {
+        console.log("Searching request with tags from search bar");
+        console.log(req.query.tags);
+        var reqTags = JSON.parse(req.query.tags);
+        var regionArr = [];
+        var cityArr = [];
+        var typeArr = [];
+        var majorArr = [];
+        var divisionArr = [];
+        for (var i = 0; i < reqTags.length; i++) {
+            switch(String(reqTags[i].field)) {
+                case 'R':
+                    regionArr.push(Number(reqTags[i].id));
+                    break;
+                case 'C':
+                    cityArr.push(Number(reqTags[i].id));
+                    break;
+                case 'T':
+                    typeArr.push(Number(reqTags[i].id));
+                    break;
+                case 'M':
+                    majorArr.push(String('D' + reqTags[i].id));
+                    majorArr.push(String('C' + reqTags[i].id));
+                    break;
+                case 'D':
+                    divisionArr.push(String(reqTags[i].id));
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        var params = {
+            $or: [
+                { region: (regionArr.length != 0) ? {$in: regionArr} : 0 },
+                { city: (cityArr.length != 0) ? {$in: cityArr} : 0 }
+            ],
+            type: (typeArr.length != 0) ? {$in: typeArr} : 0,
+            majors: {
+                $elemMatch: {
+                    id: (majorArr != 0) ? {$in: majorArr} : 0,
+                    divisions: (divisionArr.length != 0) ? {$in: divisionArr} : 0
+                }
+            }
+        }
+        console.log(params);
+
+        Uni.findWithTags(params, function(err, data) {
+            // console.log(data.length + " Found!");
+            res.json(data);
+        });
+    })
+
+    app.get('/mark', function (req, res, next) {     
+        Uni.getUni({}, function(err, data) {
+            res.json(data);
+        });
+    });
+
+    app.get('/mark/:id', function (req, res, next) {     
+        var uniId = req.params.id;
+        Uni.getMajors({id: uniId}, function(err, data) {
+            res.json(data);
+        });
+    });
+
     //  handle query from loadFilterService
-    app.get('/filter/:name', function(req, res) {
+    app.get('/filter/:name', function (req, res) {
         switch(req.params.name) {
             case 'nganhhoc':
                 Nganhhoc.getAll(function(err, data) { res.json(data) });

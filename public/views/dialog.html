@@ -1,10 +1,12 @@
-<div class="ngdialog-message">
-	<h4 style="margin-top: 20px; margin-bottom: 20px;">Trường Đại Học Công Nghệ - ĐHQGHN</h4>
+<div class="ngdialog-message" ng-controller="HomeController">
+	<h4 style="margin-top: 20px; margin-bottom: 20px;">{{selectedUni.name}}</h4>
 	<ul class="mt">
-		<li>Địa chỉ: 144 Xuân Thủy - Cầu Giấy - Hà Nội</li>
-		<li>Điểm chuẩn năm gần nhất: 18-22</li>
-		<li>Chỉ tiêu tuyển sinh: 300-500</li>
-		<li>Trang chủ: <a href="http://www2.uet.vnu.edu.vn/coltech/">http://www2.uet.vnu.edu.vn/coltech/</li>
+		<li>Địa chỉ: {{selectedUni.address}}</li>
+		<li>Số điện thoại: {{selectedUni.phone}}</li>
+		<li>Trang chủ: <a href="{{selectedUni.website}}">{{selectedUni.website}}</a></li>
+		<li>Đánh giá: 3.5/5
+			<div star-rating ng-model="ratingChoice" max="5" on-rating-selected="rateFunction(rating)"></div>
+		</li>
 	</ul>
 </div>
 

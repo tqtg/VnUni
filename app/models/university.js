@@ -11,59 +11,92 @@ var uniSchema = mongoose.Schema({
     city: Number,
     type: Number,
 
-    faculties:[
+    majors: [
+        {
+            id: String,     //  major id
+            name: String,
+            divisions: {
+                division: String    // division id
+            },
+            admissionMarks: [
+                {
+                    year: Number,
+                    mark: Number
+                }
+            ]
+        }
+    ],
+
+    faculties: [
         {
             id: String,
             name : String,
             description: String,
-            majors: [
-                {
-                    id: String,     //  major id
-                    name: String,
-                    divisions: {
-                        division: String    // division id
-                    },
-                    admissionMarks: [
-                        {
-                            year: Number,
-                            mark: Number
-                        }
-                    ]
-                }
-            ]
-
+            majors: [String]
         }
     ]    
 })
 
-uniSchema.statics.getAll = function getAll(queryParams, cb) {
-    for (var key in queryParams['$and'][0]) {
-        if (queryParams['$and'][0][key] == 0) {
-            delete queryParams['$and'][0][key];
-        }
-    }
+uniSchema.statics.findWithFilter = function findWithFilter(queryParams, cb) {
     var count = 0;
-    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch'].id == "D0") {
-        delete queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']['id'];
-        delete queryParams['$and'][1]['$or'][1]['majors']['$elemMatch']['id'];
-        count++;
-    } 
-    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch'].divisions == "0") {
-        delete queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']['divisions'];
-        delete queryParams['$and'][1]['$or'][1]['majors']['$elemMatch']['divisions'];
+    if (queryParams['majors']['$elemMatch'].id == 0) {
+        delete queryParams['majors']['$elemMatch'].id;
         count++;
     }
-    if (queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']["admissionMarks"]["$elemMatch"]["mark"]["$gt"] == 0
-        &&  queryParams['$and'][1]['$or'][0]['majors']['$elemMatch']["admissionMarks"]["$elemMatch"]["mark"]["$lt"] == 30) {
-        console.log("here");
+    if (queryParams['majors']['$elemMatch'].divisions == "0") {
+        delete queryParams['majors']['$elemMatch'].divisions;
         count++;
     }
-    if (count == 3) {
-        delete queryParams['$and'][1]['$or'];
+    if (queryParams['majors']['$elemMatch']['admissionMarks']['$elemMatch']['mark']['$gt'] == 0
+        && queryParams['majors']['$elemMatch']['admissionMarks']['$elemMatch']['mark']['$lt'] == 30) {
+        count++;
+    }
+    if (count == 3) queryParams.majors = 0;
+    for (var key in queryParams) {
+        if (queryParams[key] == 0) {
+            delete queryParams[key];
+        }
     }
 
 	console.log(queryParams);
-    return this.find({$query: queryParams, $orderby: { region : 1 }}, {'id': 1, 'name': 1, '_id': 0}, cb);
+    return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name address phone website -_id', cb);
+}
+
+uniSchema.statics.findWithTags = function findWithTags(queryParams, cb) {
+    if (queryParams['$or'][0]['region'] == 0) {
+        queryParams['$or'].splice(0,1);
+    }
+    if (queryParams['$or'].length == 2 && queryParams['$or'][1]['city'] == 0) {
+        queryParams['$or'].splice(1,2);
+    } else if (queryParams['$or'].length == 1 && queryParams['$or'][0]['city'] == 0) {
+        queryParams['$or'].splice(0,1);
+    }
+    var count = 0;
+    if (queryParams['majors']['$elemMatch'].id == 0) {
+        delete queryParams['majors']['$elemMatch'].id;
+        count++;
+    }
+    if (queryParams['majors']['$elemMatch'].divisions == 0) {
+        delete queryParams['majors']['$elemMatch'].divisions;
+        count++;
+    }
+    if (count == 2) queryParams.majors = 0;
+    for (var key in queryParams) {
+        if (queryParams[key] == 0) {
+            delete queryParams[key];
+        }
+    }
+    
+    console.log(queryParams);
+    return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name address phone website -_id', cb);
+}
+
+uniSchema.statics.getUni = function getUni(queryParams, cb) {
+    return this.find({$query: queryParams}, 'id name -_id', cb);
+}
+
+uniSchema.statics.getMajors = function getMajors(queryParams, cb) {
+    return this.find({$query: queryParams}, 'majors -_id', cb);
 }
 
 module.exports = mongoose.model('University', uniSchema);
