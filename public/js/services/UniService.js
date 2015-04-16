@@ -1,3 +1,6 @@
-angular.module('UniService', []).factory('Uni', ['$http', function($http) {
-
-}]);
+angular.module('UniService', ['ngResource'])
+.factory('getUniInforService', function($resource) {
+	return $resource('/infor/:id', {}, {
+		query: {method: 'GET', isArray: true}
+	})
+});
