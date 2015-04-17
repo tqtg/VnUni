@@ -5,7 +5,9 @@ angular.module('UniCtrl', ['UniService'])
 	$scope.uniId = String($routeParams.id);
 	$scope.uniInfor = getUniInforService.query({id: $scope.uniId, need: needInfor}, function() {
 		$scope.uniInfor = $scope.uniInfor[0];
-		console.log($scope.uniInfor);
+		if ($rootScope.uniName != $scope.uniInfor.name) {
+			$rootScope.uniName = $scope.uniInfor.name;
+		}
 		if (needInfor == 'xemdiemchuan') {
 			for (var i = 0; i < $scope.uniInfor.majors.length; i++) {
 				var division = "";

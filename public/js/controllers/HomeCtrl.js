@@ -132,8 +132,6 @@ angular.module('HomeCtrl', ['HomeService'])
     };
 
     $scope.searchWithTags = function() {
-        console.log($scope.tags);
-
         $scope.showResult = false;
         usSpinnerService.spin('spinner-1');
         var tagsParam = [];
@@ -149,7 +147,6 @@ angular.module('HomeCtrl', ['HomeService'])
 
     $scope.viewDialog = function(uniId) {
         $rootScope.selectedUni = $.grep($rootScope.universities, function(e){ return e.id == uniId; })[0];
-        console.log($rootScope.selectedUni);
         ngDialog.open({
             template: 'views/dialog.html',
             className: 'ngdialog-theme-default custom-width'
