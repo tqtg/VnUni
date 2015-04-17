@@ -25,7 +25,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('clean', function (cb) {
-  return del(['public/libs/build'], cb);
+  return del(['public/build'], cb);
 });
 
  // Concatenate JS Files
@@ -34,7 +34,7 @@ gulp.task('scripts', function() {
         .pipe(concat('main.js'))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify({mangle: false}))
-        .pipe(gulp.dest('public/libs/build'));
+        .pipe(gulp.dest('public/build'));
 });
 
 // The default task (called when you run `gulp` from cli)
