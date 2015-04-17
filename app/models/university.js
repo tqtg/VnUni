@@ -58,7 +58,6 @@ uniSchema.statics.findWithFilter = function findWithFilter(queryParams, cb) {
         }
     }
 
-	console.log(queryParams);
     return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name address phone website -_id', cb);
 }
 
@@ -87,7 +86,6 @@ uniSchema.statics.findWithTags = function findWithTags(queryParams, cb) {
         }
     }
     
-    console.log(queryParams);
     return this.find({$query: queryParams, $orderby: { region : 1 }}, 'id name address phone website -_id', cb);
 }
 
