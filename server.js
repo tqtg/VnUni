@@ -5,12 +5,14 @@ var path = require('path');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
+var session = require('express-session');
+var MongoStore = require('connect-mongo')(session);
 
 // configuration ===========================================
 
 // config files
 var db = require('./config/db');
-
+var sessionStore = new MongoStore({url: db.url});
 var port = process.env.PORT || 3000; // set our port
 // mongoose.connect(db.url); // connect to our mongoDB database (commented out after you enter in your own credentials)
 
@@ -19,8 +21,13 @@ app.set('views', path.join(__dirname, '/public'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
-
 // get all data/stuff of the body (POST) parameters
+app.use(session({
+	secret: 'VnUni-TuanTQ-GiapLV-ThongNT',
+	resave : false,
+	store: sessionStore,
+	saveUninitialized: false
+}));
 app.use(bodyParser.json()); // parse application/json 
 app.use(bodyParser.json({
     type: 'application/vnd.api+json'

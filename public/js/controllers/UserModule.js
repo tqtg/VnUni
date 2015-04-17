@@ -3,17 +3,10 @@ controller('LoginController', function($scope, $http, $window) {
 	$scope.login = function(username, password){
 		$http.post("/authenticate",{'username': username, 'password': password}).
 		success(function(response){			
-			if (response.status == 'NO'){
-				$window.location.href="/login"
-			} else 
-			if (response.status == 'YES' && response.user_type == 'admin'){
-				$window.location.href="/dbpanel"
-			} else {
-				$window.location.href="/edit_db/"+response.school;
-			}
+			console.log(response);
+			$window.location.href=response;
 		}).
-		error(function(response){
-			alert(response);
+		error(function(response){						
 		});		
 	}	
 });

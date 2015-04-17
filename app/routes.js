@@ -15,43 +15,95 @@ var Loaitruong = require('./models/loaitruong');
 var User = require('./models/user');
 
 module.exports = function (app) {
-
     // server routes ===========================================================
     // handle things like api calls
     // authentication routes
-    app.get('/uni/:id', function(req, res, next) {        
-        Uni.find({"id": String(req.params.id)}, '-_id', function(err, unis){                        
-            res.send(unis);            
-        });
+    app.get('/uni/:id', function(req, res, next) { 
+        if (!req.session.username || !req.session.password)  {
+            res.redirect('/login');
+        } else {
+            Uni.find({"id": String(req.params.id)}, '-_id', function(err, unis){                        
+                res.send(unis);            
+            });
+        }
     })
 
     app.get("/school_type", function(req, res, next){
-        Loaitruong.find({},"id name",function(err, loaitruong){
-            res.send(loaitruong);
-        });
+        if (!req.session.username || !req.session.password)  {
+            res.redirect('/login');
+        }  else {
+            Loaitruong.find({},"id name",function(err, loaitruong){
+                res.send(loaitruong);
+            });
+        }
     });
     app.get("/region", function(req, res, next){
-        Vungmien.find({},"id name",function(err, region){
-            res.send(region);
-        });
+        if (!req.session.username || !req.session.password)  {
+            res.redirect('/login');
+        }   else {
+            Vungmien.find({},"id name",function(err, region){
+                res.send(region);
+            });
+        }     
     });    
     app.get("/city", function(req, res, next){
-        Thanhpho.find({},"id name",function(err, city){
-            res.send(city);
-        });
+        if (!req.session.username || !req.session.password)  {
+            res.redirect('/login');
+        } else {
+            Thanhpho.find({},"id name",function(err, city){
+                res.send(city);
+            });            
+        }
+
     });        
-    app.get('/ds_truong', function(req, res, next){
-        Uni.find({},'id name', function(err, unis){
-            res.send(unis);
-        });        
+    app.get('/list_school', function(req, res, next){
+        if (!req.session.username || !req.session.password)  {
+            res.redirect('/login');
+        }  else {
+            Uni.find({},'id name', function(err, unis){
+                res.send(unis);
+            });     
+        }            
     })
-    app.post('/authenticate',function(req, res, next){                        
-        User.find({'username': req.body.username, 'password': req.body.password},'type school -_id', function(err, users){                        
-            if ( !users || users.lenght ==0 )
-            res.send({'status' : 'NO'});
-                 else res.send({'status': 'YES', 'user_type': users[0].type, 'school -_id': users[0].school});
-        }); 
+    app.get('/admin', function(req, res, next){
+
+        if (!req.session.username || !req.session.password)  {
+            res.redirect('/login');
+        } else 
+            res.render('index');
+        
+    });
+    app.get('/login', function(req, res, next){
+        console.log(req.session.username + " " + req.session.password);        
+        if (!req.session.username || !req.session.password)  {
+            res.render("index");
+        } else {
+            res.redirect('/');
+        }            
+        
+    });        
+    app.post('/authenticate',function(req, res, next){                                                        
+        User.find({'username': req.body.username, 'password': req.body.password},'type school', function(err, users){                        
+            console.log(users);            
+            if ( !users || users.length == 0 ){                                
+                res.send('/login');         
+            }                
+            else {                
+                req.session.username = req.body.username;
+                req.session.password = req.body.password;                                
+                if (users[0].type == 'admin'){                    
+                    res.send('/admin');                    ;
+                }                                     
+                else {
+                    res.send('/school_db/'+users[0].school);                    ;                    
+                }                    
+            }
+        });                 
     })
+    app.get("/logout",function(req, res, next){
+        req.session.destroy();
+        res.redirect('/login');
+    });
 
     //  Search with filter system
     app.get('/search', function(req, res, next) {
@@ -181,21 +233,7 @@ module.exports = function (app) {
                 res.send('Please give the right filter name!');
         };
     })
-
-    app.get('/edit_db/:id', function (req, res, next) {        
-        next();
-    });
- 
-    // frontend routes =========================================================
-    app.get('/dbpanel', function (req, res, next) {
-        next();
-    });
-
-    //  View admission marks
-    app.get('/diemchuan', function (req, res, next) {
-        next();
-    })
-
+        
     //  get data for uni infor page
     app.get('/infor/:id/:need', function(req, res, next) {
         var uniId = String(req.params.id);
@@ -223,8 +261,7 @@ module.exports = function (app) {
 
     //  DON'T DELETE !!!
     //  This code handle all request from client
-    app.use('/', function (req, res) {
-        console.log('Request to home page!');
+    app.use('/', function (req, res) {        
         res.render('index');    // load our public/index.html file
     })
 };
