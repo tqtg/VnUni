@@ -108,8 +108,6 @@ module.exports = function (app) {
     //  Search with filter system
     app.get('/search', function(req, res, next) {
         console.log("Searching request from filter system");
-        console.log(Number(req.query.mucdiemThap));
-        console.log(Number(req.query.mucdiemCao));
         var queryParams = {
             region: Number(req.query.vungmien),
             city: Number(req.query.thanhpho),
@@ -133,8 +131,7 @@ module.exports = function (app) {
                 }
             }
         }
-        console.log(queryParams);
-
+        
         Uni.findWithFilter(queryParams, function(err, data) {
             console.log(data.length + " Found!");
             res.json(data);
@@ -144,7 +141,6 @@ module.exports = function (app) {
     //  Search with tags in search bar
     app.get('/searchwithtags', function(req, res) {
         console.log("Searching request with tags from search bar");
-        console.log(req.query.tags);
         var reqTags = JSON.parse(req.query.tags);
         var regionArr = [];
         var cityArr = [];
@@ -187,10 +183,9 @@ module.exports = function (app) {
                 }
             }
         }
-        console.log(params);
-
+        
         Uni.findWithTags(params, function(err, data) {
-            // console.log(data.length + " Found!");
+            console.log(data.length + " Found!");
             res.json(data);
         });
     })
