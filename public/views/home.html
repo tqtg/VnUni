@@ -1,6 +1,7 @@
 <div class="container-fluid">
-    <div class="row"  style="margin-top: 20px; margin-bottom: 30px">
-        <div id="SearchBox" class="col-md-6 col-md-offset-1">
+    <!-- <div class="row"  style="margin-top: 20px; margin-bottom: 30px"> -->
+    <div class="row"  style="margin-top: 5px; margin-bottom: 5px"> 
+        <div id="SearchBox" class="col-md-6 col-md-offset-1" style="margin-top:13px;">
             <form role="search">
                 <div class="input-group">
                     <tags-input ng-model="tags" 
@@ -21,15 +22,20 @@
                 </div>
             </form>
         </div>
-        <div class="col-md-2 col-md-offset-0">
-            <center>
-                <a class="btn btn-info" href="/diemchuan">Xem điểm chuẩn</a>
-            </center>
-        </div>
-        <div class="col-md-1 col-md-offset-1">
-            <center>
-                <a class="btn btn-primary" href="/login">Đăng nhập</a>
-            </center>
+        <div id="header icon" style="">
+            <div class="col-md-2 col-md-offset-1 social-icons icon-circle icon-zoom">
+                <center>
+                    <!-- <a class="btn btn-info" href="/diemchuan">Xem điểm chuẩn</a> -->
+                    <a href="/diemchuan"><i class="fa fa-bar-chart fa-2x" style=""></i></a>
+                    <p style="color: rgba(255, 255, 255, 0.9); font-size: 13px;">Xem điểm chuẩn</p>
+                </center>
+            </div>
+            <div class="col-md-1 col-md-offset-0 social-icons icon-circle icon-rotate">
+                <center>
+                    <a href="/login"><i class="fa fa-sign-in fa-2x" style=""></i></a>
+                    <p style="color: rgba(255, 255, 255, 0.9); font-size: 13px;">Đăng nhập</p>
+                </center>
+            </div>
         </div>
     </div>
 
