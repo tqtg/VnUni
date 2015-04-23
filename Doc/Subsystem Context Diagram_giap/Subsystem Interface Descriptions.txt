@@ -4,4 +4,4 @@ Subsystem Interface Descriptions:
 	createFaculty: make a new faculty for a school with given id.
 	deleteFaculty: remove a faculty of a school with given id.
 	createMajor: make a new major for a faculty of a school with given id.
-	deleteMajor: remove a major of a faculty of a schol with given id.
+	deleteMajor: remove a major of a faculty of a school with given id.
