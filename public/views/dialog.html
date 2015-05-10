@@ -8,7 +8,7 @@
 			<li>Trang chủ: <a href="{{selectedUni.website}}">{{selectedUni.website}}</a></li>
 			<hr>
 			<center>
-				<div star-rating ng-model="ratingChoice" max="5"></div>
+				<div star-rating ng-model="ratingChoice" max="5" ng-click="userRating=userRating+1"></div>
 				{{ratingPoint}}/5 ( <i class="fa fa-user"> {{userRating}}</i> )
 			</center>
 		</ul>
