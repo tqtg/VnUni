@@ -6,7 +6,7 @@ angular.module('HomeCtrl', ['HomeService'])
     ////////////////////////////////////////////////////
     //FOR RATING FUNCTION
     $scope.ratingPoint = 3.5;
-    $scope.ratingChoice = 1;
+    $scope.ratingChoice = 3;
     $scope.userRating = 2032;
     $scope.isReadonly = true;
     // $scope.rateFunction = function(rating) {
