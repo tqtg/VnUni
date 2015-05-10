@@ -100,7 +100,7 @@ angular.module('HomeCtrl', ['HomeService'])
     }
 
     $scope.search = function() {
-        // console.log($scope.mucdiemThap)
+        console.log("in function search")
         var min = 0;
         var max = 30;
         if (typeof $scope.mucdiemThap !== 'undefined' && typeof $scope.mucdiemCao !== 'undefined') {

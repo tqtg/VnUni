@@ -61,6 +61,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
             controller: 'HomeController'
         })
 
+        .when('/:id/tuyensinh/news/:nid/', {
+            templateUrl: 'views/uni_news.html',
+            controller: 'UniController' 
+        })
+
         .when('/test', {
             templateUrl: 'views/test.html',			 
             controller: 'HomeController'
